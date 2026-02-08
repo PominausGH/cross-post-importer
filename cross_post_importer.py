@@ -162,7 +162,8 @@ def check_sessions(headless: bool = True) -> bool:
         page = context.new_page()
         try:
             page.goto(SUBSTACK_IMPORT_URL, timeout=NAV_TIMEOUT, wait_until="networkidle")
-            if "sign" in page.url.lower() and "publish" not in page.url.lower():
+            landed = page.url.lower()
+            if "sign-in" in landed or "sign_in" in landed or "signin" in landed:
                 log("Substack: ✗ Not logged in.")
             else:
                 log(f"Substack: ✓ Session valid (landed on {page.url})")
@@ -253,7 +254,8 @@ def import_to_substack(context, url: str) -> bool:
         time.sleep(2)
 
         # Check if logged in
-        if "sign" in page.url.lower() and "publish" not in page.url.lower():
+        landed = page.url.lower()
+        if "sign-in" in landed or "sign_in" in landed or "signin" in landed:
             log("  Substack: ✗ Not logged in. Run with --login first.")
             return False
 

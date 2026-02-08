@@ -4,3 +4,4 @@ import_log.txt
 *_debug.png
 __pycache__/
 *.pyc
+.venv/
