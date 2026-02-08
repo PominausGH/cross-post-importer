@@ -26,14 +26,15 @@ import json
 import os
 import sys
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 import feedparser
+from email.utils import parsedate_to_datetime
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeout
 
 # ── Config ──────────────────────────────────────────────────────────────
-RSS_FEED_URL = "https://signalreads.com/feed/"
+RSS_FEED_URL = "https://ghost.daintytrading.com/feed-today.xml"
 SUBSTACK_FEED_URL = "https://ghost.daintytrading.com/feed-today.xml"
 MEDIUM_IMPORT_URL = "https://medium.com/p/import"
 SUBSTACK_IMPORT_URL = "https://pominaus.substack.com/publish/import"
@@ -68,14 +69,24 @@ def save_imported(data: dict):
 
 
 def get_new_posts() -> list[dict]:
-    """Fetch RSS feed and return list of {title, url}."""
+    """Fetch RSS feed and return posts from the last 24 hours."""
     feed = feedparser.parse(RSS_FEED_URL)
+    cutoff = datetime.now().astimezone() - timedelta(hours=24)
     posts = []
     for entry in feed.entries:
+        published_str = entry.get("published", "")
+        # Filter to last 24 hours
+        if published_str:
+            try:
+                pub_date = parsedate_to_datetime(published_str)
+                if pub_date < cutoff:
+                    continue
+            except (ValueError, TypeError):
+                pass  # If we can't parse the date, include the post
         posts.append({
             "title": entry.get("title", "Untitled"),
             "url": entry.get("link", ""),
-            "published": entry.get("published", ""),
+            "published": published_str,
         })
     return posts
 
@@ -220,38 +231,35 @@ def import_to_medium(context, url: str) -> bool:
             import_btn.click()
             log("  Medium: Clicked import button. Waiting for import...")
 
-            # Wait for "See your story" button/link to confirm import succeeded
+            # Wait for "See your story" button to confirm import succeeded
+            time.sleep(10)  # Medium needs time to process the import
             try:
-                see_story = page.wait_for_selector(':has-text("See your story")', timeout=IMPORT_TIMEOUT)
-                time.sleep(2)
-                # Click the actual link/button (may be nested)
-                link = page.query_selector('a:has-text("See your story"), button:has-text("See your story")')
-                if link:
-                    link.click()
-                else:
-                    see_story.click()
+                see_story = page.wait_for_selector('button:has-text("See your story")', timeout=IMPORT_TIMEOUT)
+                see_story.click()
                 log("  Medium: Clicked 'See your story'.")
-                time.sleep(5)
+                time.sleep(8)
             except PlaywrightTimeout:
                 log("  Medium: 'See your story' not found — import may still be processing.")
                 page.screenshot(path=str(BASE_DIR / "medium_debug.png"))
                 return True
 
-            # Now on the draft editor — add topics and publish
-            # Click the "..." or publish area to open publish settings
+            # Close any remaining overlay
+            page.keyboard.press("Escape")
+            time.sleep(2)
+
+            # Now on the draft editor — click Publish to open publish dialog
             try:
-                # Medium has a "Publish" button in the top bar
                 publish_btn = page.wait_for_selector('button:has-text("Publish")', timeout=10_000)
                 publish_btn.click()
-                log("  Medium: Clicked 'Publish'.")
-                time.sleep(2)
+                log("  Medium: Opened publish dialog.")
+                time.sleep(3)
 
-                # Add topics — Medium shows "Add a topic..." input on the publish dialog
-                tag_input = page.query_selector('input[placeholder*="topic"], input[placeholder*="Topic"], input[placeholder*="tag"], input[placeholder*="Tag"]')
+                # Add topics — Medium uses a contenteditable div with class js-tagInput
+                tag_input = page.query_selector('.js-tagInput, [data-testid="publishTopicsInput"]')
                 if tag_input:
                     for topic in ["Technology", "AI", "Software Development"]:
                         tag_input.click()
-                        tag_input.fill(topic)
+                        page.keyboard.type(topic)
                         time.sleep(1)
                         page.keyboard.press("Enter")
                         time.sleep(0.5)
@@ -402,7 +410,8 @@ def import_to_substack(context) -> bool:
 
 
 # ── Main Flows ──────────────────────────────────────────────────────────
-def run_import(force_url: str = None, dry_run: bool = False, headless: bool = True) -> bool:
+def run_import(force_url: str = None, dry_run: bool = False, headless: bool = True,
+               medium: bool = True, substack: bool = False) -> bool:
     """Main import flow: check RSS, import new posts. Returns True if all imports succeeded."""
     imported = load_imported()
     failures = 0
@@ -414,7 +423,7 @@ def run_import(force_url: str = None, dry_run: bool = False, headless: bool = Tr
         posts = get_new_posts()
         log(f"Found {len(posts)} posts in feed.")
 
-    # Filter to unimported posts
+    # Filter to unimported posts (only check enabled platforms)
     new_posts = []
     for post in posts:
         url = post["url"]
@@ -422,7 +431,9 @@ def run_import(force_url: str = None, dry_run: bool = False, headless: bool = Tr
             continue
         medium_done = url in imported.get("medium", [])
         substack_done = url in imported.get("substack", [])
-        if not medium_done or not substack_done or force_url:
+        needs_medium = medium and not medium_done
+        needs_substack = substack and not substack_done
+        if needs_medium or needs_substack or force_url:
             new_posts.append({**post, "medium_done": medium_done, "substack_done": substack_done})
 
     if not new_posts:
@@ -438,41 +449,51 @@ def run_import(force_url: str = None, dry_run: bool = False, headless: bool = Tr
             log(f"  [{status_m}/{status_s}] {p['title']} — {p['url']}")
         return True
 
-    with sync_playwright() as pw:
-        BROWSER_DATA_DIR.mkdir(parents=True, exist_ok=True)
-        context = pw.chromium.launch_persistent_context(
-            user_data_dir=str(BROWSER_DATA_DIR),
-            headless=headless,
-            args=["--disable-blink-features=AutomationControlled"],
-            viewport={"width": 1280, "height": 900},
-        )
+    BROWSER_DATA_DIR.mkdir(parents=True, exist_ok=True)
 
-        # Import each post to Medium individually
-        for post in new_posts:
-            url = post["url"]
-            log(f"Processing: {post['title']}")
-            log(f"  URL: {url}")
+    # Import each post to Medium individually
+    if medium:
+        medium_pending = [p for p in new_posts if not p.get("medium_done") or force_url]
+        if medium_pending:
+            log(f"Medium: {len(medium_pending)} post(s) to import.")
+            with sync_playwright() as pw:
+                context = pw.chromium.launch_persistent_context(
+                    user_data_dir=str(BROWSER_DATA_DIR),
+                    headless=headless,
+                    args=["--disable-blink-features=AutomationControlled"],
+                    viewport={"width": 1280, "height": 900},
+                )
+                for post in medium_pending:
+                    url = post["url"]
+                    log(f"Processing: {post['title']}")
+                    log(f"  URL: {url}")
+                    if import_to_medium(context, url):
+                        imported.setdefault("medium", []).append(url)
+                        save_imported(imported)
+                    else:
+                        failures += 1
+                    time.sleep(3)
+                context.close()
 
-            if not post.get("medium_done") or force_url:
-                if import_to_medium(context, url):
-                    imported.setdefault("medium", []).append(url)
-                    save_imported(imported)
-                else:
-                    failures += 1
-                time.sleep(3)
-
-        # Import to Substack once via RSS feed (Substack imports all posts at once)
+    # Import to Substack once via RSS feed (separate browser context)
+    if substack:
         substack_pending = [p for p in new_posts if not p.get("substack_done") or force_url]
         if substack_pending:
             log(f"Substack: Importing {len(substack_pending)} post(s) via RSS feed...")
-            if import_to_substack(context):
-                for p in substack_pending:
-                    imported.setdefault("substack", []).append(p["url"])
-                save_imported(imported)
-            else:
-                failures += 1
-
-        context.close()
+            with sync_playwright() as pw:
+                context = pw.chromium.launch_persistent_context(
+                    user_data_dir=str(BROWSER_DATA_DIR),
+                    headless=headless,
+                    args=["--disable-blink-features=AutomationControlled"],
+                    viewport={"width": 1280, "height": 900},
+                )
+                if import_to_substack(context):
+                    for p in substack_pending:
+                        imported.setdefault("substack", []).append(p["url"])
+                    save_imported(imported)
+                else:
+                    failures += 1
+                context.close()
 
     if failures:
         log(f"Done with {failures} failure(s).")
@@ -489,7 +510,17 @@ def main():
     parser.add_argument("--force", type=str, help="Force import a specific URL")
     parser.add_argument("--dry-run", action="store_true", help="Check feed without importing")
     parser.add_argument("--headless", action="store_true", help="Run browser headless (for cron/server)")
+    parser.add_argument("--medium-only", action="store_true", help="Only import to Medium")
+    parser.add_argument("--substack-only", action="store_true", help="Only import to Substack")
     args = parser.parse_args()
+
+    # Default: both platforms. Use --medium-only or --substack-only to restrict.
+    if args.medium_only:
+        do_medium, do_substack = True, False
+    elif args.substack_only:
+        do_medium, do_substack = False, True
+    else:
+        do_medium, do_substack = True, True
 
     if args.login:
         with sync_playwright() as pw:
@@ -502,6 +533,8 @@ def main():
             force_url=args.force,
             dry_run=args.dry_run,
             headless=args.headless,
+            medium=do_medium,
+            substack=do_substack,
         )
         sys.exit(0 if ok else 1)
 
