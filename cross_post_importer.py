@@ -34,7 +34,7 @@ from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeo
 
 # ── Config ──────────────────────────────────────────────────────────────
 RSS_FEED_URL = "https://signalreads.com/feed/"
-SUBSTACK_FEED_URL = "https://signalreads.com/feed.xml"
+SUBSTACK_FEED_URL = "https://ghost.daintytrading.com/feed-today.xml"
 MEDIUM_IMPORT_URL = "https://medium.com/p/import"
 SUBSTACK_IMPORT_URL = "https://pominaus.substack.com/publish/import"
 
