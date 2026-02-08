@@ -34,6 +34,7 @@ from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeo
 
 # ── Config ──────────────────────────────────────────────────────────────
 RSS_FEED_URL = "https://signalreads.com/feed/"
+SUBSTACK_FEED_URL = "https://signalreads.com/feed.xml"
 MEDIUM_IMPORT_URL = "https://medium.com/p/import"
 SUBSTACK_IMPORT_URL = "https://pominaus.substack.com/publish/import"
 
@@ -195,39 +196,83 @@ def import_to_medium(context, url: str) -> bool:
             log("  Medium: ✗ Not logged in. Run with --login first.")
             return False
 
-        # Find the URL input field and paste the link
-        # Medium's import page has an input field for the URL
-        input_selector = 'input[type="url"], input[type="text"], input[placeholder*="URL"], input[placeholder*="url"], input[placeholder*="link"]'
+        # Find the URL input — Medium uses a contenteditable div, not a regular input
+        input_selector = '.js-importUrl, [contenteditable][data-default-value*="yoursite"]'
         try:
             input_el = page.wait_for_selector(input_selector, timeout=10_000)
             input_el.click()
-            input_el.fill(url)
-            log(f"  Medium: Pasted URL: {url}")
+            # Clear default text and type the URL (fill() doesn't work on contenteditable)
+            page.keyboard.press("Control+a")
+            page.keyboard.type(url)
+            log(f"  Medium: Typed URL: {url}")
         except PlaywrightTimeout:
-            # Try broader selector
-            log("  Medium: Trying alternative input detection...")
-            inputs = page.query_selector_all("input")
-            if inputs:
-                inputs[0].click()
-                inputs[0].fill(url)
-                log(f"  Medium: Pasted URL via fallback: {url}")
-            else:
-                log("  Medium: ✗ Could not find URL input field.")
-                page.screenshot(path=str(BASE_DIR / "medium_debug.png"))
-                return False
+            log("  Medium: ✗ Could not find URL input field.")
+            page.screenshot(path=str(BASE_DIR / "medium_debug.png"))
+            return False
 
         # Click the import button
         time.sleep(1)
-        import_btn = page.query_selector('button:has-text("Import"), button:has-text("import")')
+        import_btn = page.query_selector('button[data-action="import-url"], button:has-text("Import")')
         if not import_btn:
-            # Try finding any submit-like button
             import_btn = page.query_selector('button[type="submit"], form button')
 
         if import_btn:
             import_btn.click()
-            log("  Medium: Clicked import button.")
-            time.sleep(5)  # Wait for import to process
-            log("  Medium: ✓ Import initiated.")
+            log("  Medium: Clicked import button. Waiting for import...")
+
+            # Wait for "See your story" button/link to confirm import succeeded
+            try:
+                see_story = page.wait_for_selector(':has-text("See your story")', timeout=IMPORT_TIMEOUT)
+                time.sleep(2)
+                # Click the actual link/button (may be nested)
+                link = page.query_selector('a:has-text("See your story"), button:has-text("See your story")')
+                if link:
+                    link.click()
+                else:
+                    see_story.click()
+                log("  Medium: Clicked 'See your story'.")
+                time.sleep(5)
+            except PlaywrightTimeout:
+                log("  Medium: 'See your story' not found — import may still be processing.")
+                page.screenshot(path=str(BASE_DIR / "medium_debug.png"))
+                return True
+
+            # Now on the draft editor — add topics and publish
+            # Click the "..." or publish area to open publish settings
+            try:
+                # Medium has a "Publish" button in the top bar
+                publish_btn = page.wait_for_selector('button:has-text("Publish")', timeout=10_000)
+                publish_btn.click()
+                log("  Medium: Clicked 'Publish'.")
+                time.sleep(2)
+
+                # Add topics — Medium shows "Add a topic..." input on the publish dialog
+                tag_input = page.query_selector('input[placeholder*="topic"], input[placeholder*="Topic"], input[placeholder*="tag"], input[placeholder*="Tag"]')
+                if tag_input:
+                    for topic in ["Technology", "AI", "Software Development"]:
+                        tag_input.click()
+                        tag_input.fill(topic)
+                        time.sleep(1)
+                        page.keyboard.press("Enter")
+                        time.sleep(0.5)
+                    log("  Medium: Added topics.")
+                else:
+                    log("  Medium: Could not find topic input — skipping topics.")
+
+                # Click "Publish and send now" or "Publish now"
+                time.sleep(1)
+                confirm_btn = page.query_selector('button:has-text("Publish and send now"), button:has-text("Publish now")')
+                if confirm_btn:
+                    confirm_btn.click()
+                    log("  Medium: Published!")
+                    time.sleep(5)
+                else:
+                    log("  Medium: Could not find final publish button.")
+            except PlaywrightTimeout:
+                log("  Medium: Could not find publish button on draft page.")
+
+            page.screenshot(path=str(BASE_DIR / "medium_debug.png"))
+            log("  Medium: ✓ Import complete (screenshot saved for verification).")
             return True
         else:
             log("  Medium: ✗ Could not find import button.")
@@ -245,8 +290,8 @@ def import_to_medium(context, url: str) -> bool:
         page.close()
 
 
-def import_to_substack(context, url: str) -> bool:
-    """Import a URL to Substack via their import tool."""
+def import_to_substack(context) -> bool:
+    """Import RSS feed to Substack via their import tool (imports all posts at once)."""
     page = context.new_page()
     try:
         log(f"  Substack: Navigating to import page...")
@@ -259,41 +304,91 @@ def import_to_substack(context, url: str) -> bool:
             log("  Substack: ✗ Not logged in. Run with --login first.")
             return False
 
-        # Find URL input field
+        # Find URL input field and paste the RSS feed URL
         input_selector = 'input[type="url"], input[type="text"], input[placeholder*="URL"], input[placeholder*="url"], input[placeholder*="link"], input[placeholder*="paste"]'
         try:
             input_el = page.wait_for_selector(input_selector, timeout=10_000)
             input_el.click()
-            input_el.fill(url)
-            log(f"  Substack: Pasted URL: {url}")
+            input_el.fill(SUBSTACK_FEED_URL)
+            log(f"  Substack: Pasted site URL: {SUBSTACK_FEED_URL}")
         except PlaywrightTimeout:
             log("  Substack: Trying alternative input detection...")
             inputs = page.query_selector_all("input")
             if inputs:
                 inputs[0].click()
-                inputs[0].fill(url)
-                log(f"  Substack: Pasted URL via fallback: {url}")
+                inputs[0].fill(SUBSTACK_FEED_URL)
+                log(f"  Substack: Pasted site URL via fallback: {SUBSTACK_FEED_URL}")
             else:
                 log("  Substack: ✗ Could not find URL input field.")
                 page.screenshot(path=str(BASE_DIR / "substack_debug.png"))
                 return False
 
-        # Click import button
+        # Step 1: Wait for "Get started" button to enable, then click it
         time.sleep(1)
-        import_btn = page.query_selector('button:has-text("Import"), button:has-text("import"), button:has-text("Upload")')
-        if not import_btn:
-            import_btn = page.query_selector('button[type="submit"], form button')
+        get_started_btn = page.query_selector('button:has-text("Get started")')
+        if not get_started_btn:
+            get_started_btn = page.query_selector('button[type="submit"], form button')
 
-        if import_btn:
-            import_btn.click()
-            log("  Substack: Clicked import button.")
-            time.sleep(5)
-            log("  Substack: ✓ Import initiated.")
-            return True
-        else:
-            log("  Substack: ✗ Could not find import button.")
+        if not get_started_btn:
+            log("  Substack: ✗ Could not find 'Get started' button.")
             page.screenshot(path=str(BASE_DIR / "substack_debug.png"))
             return False
+
+        # Wait for button to become enabled (Substack validates URL async)
+        for _ in range(10):
+            time.sleep(1)
+            if not page.evaluate('(el) => el.disabled', get_started_btn):
+                break
+        else:
+            log("  Substack: ✗ 'Get started' button never enabled — URL may be invalid.")
+            page.screenshot(path=str(BASE_DIR / "substack_debug.png"))
+            return False
+
+        get_started_btn.click()
+        log("  Substack: Clicked 'Get started' — waiting for feed to load...")
+
+        # Step 2: Wait for the "Import" button to appear (Substack parses the feed)
+        try:
+            import_btn = page.wait_for_selector('button:has-text("Import")', timeout=30_000)
+        except PlaywrightTimeout:
+            log("  Substack: ✗ Feed loaded but 'Import' button never appeared.")
+            page.screenshot(path=str(BASE_DIR / "substack_debug.png"))
+            return False
+
+        import_btn.click()
+        log("  Substack: Clicked 'Import' button.")
+
+        # Step 3: Handle "Confirm Ownership" dialog if it appears
+        try:
+            page.wait_for_selector('text="Confirm Ownership"', timeout=10_000)
+            log("  Substack: Ownership dialog appeared.")
+            # Substack uses a custom <button role="checkbox"> element
+            checkbox = page.query_selector('button[role="checkbox"][aria-label*="Yes, this is my publication"]')
+            if not checkbox:
+                checkbox = page.query_selector('button[role="checkbox"]')
+            if checkbox:
+                checkbox.click()
+                log("  Substack: Ticked ownership checkbox.")
+            else:
+                log("  Substack: ✗ Could not find ownership checkbox.")
+            time.sleep(1)
+            # Wait for Next button to enable and click it
+            next_btn = page.query_selector('button:has-text("Next")')
+            if next_btn:
+                for _ in range(5):
+                    time.sleep(1)
+                    if not page.evaluate('(el) => el.disabled', next_btn):
+                        break
+                next_btn.click()
+                log("  Substack: Clicked 'Next'.")
+                time.sleep(10)  # Wait for import to process
+        except PlaywrightTimeout:
+            log("  Substack: No ownership dialog — continuing.")
+
+        time.sleep(10)
+        page.screenshot(path=str(BASE_DIR / "substack_debug.png"))
+        log("  Substack: ✓ Import initiated (screenshot saved for verification).")
+        return True
 
     except Exception as e:
         log(f"  Substack: ✗ Error: {e}")
@@ -352,12 +447,12 @@ def run_import(force_url: str = None, dry_run: bool = False, headless: bool = Tr
             viewport={"width": 1280, "height": 900},
         )
 
+        # Import each post to Medium individually
         for post in new_posts:
             url = post["url"]
             log(f"Processing: {post['title']}")
             log(f"  URL: {url}")
 
-            # Import to Medium
             if not post.get("medium_done") or force_url:
                 if import_to_medium(context, url):
                     imported.setdefault("medium", []).append(url)
@@ -366,14 +461,16 @@ def run_import(force_url: str = None, dry_run: bool = False, headless: bool = Tr
                     failures += 1
                 time.sleep(3)
 
-            # Import to Substack
-            if not post.get("substack_done") or force_url:
-                if import_to_substack(context, url):
-                    imported.setdefault("substack", []).append(url)
-                    save_imported(imported)
-                else:
-                    failures += 1
-                time.sleep(3)
+        # Import to Substack once via RSS feed (Substack imports all posts at once)
+        substack_pending = [p for p in new_posts if not p.get("substack_done") or force_url]
+        if substack_pending:
+            log(f"Substack: Importing {len(substack_pending)} post(s) via RSS feed...")
+            if import_to_substack(context):
+                for p in substack_pending:
+                    imported.setdefault("substack", []).append(p["url"])
+                save_imported(imported)
+            else:
+                failures += 1
 
         context.close()
 
