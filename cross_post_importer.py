@@ -18,6 +18,7 @@ Usage:
   python cross_post_importer.py               # Run import for new posts
   python cross_post_importer.py --force URL   # Force import a specific URL
   python cross_post_importer.py --dry-run     # Check RSS without importing
+  python cross_post_importer.py --check       # Check if sessions are still valid
 """
 
 import argparse
@@ -127,6 +128,57 @@ def login_flow(playwright):
     log("Press ENTER to close browser...")
     input()
     context.close()
+
+
+def check_sessions(headless: bool = True) -> bool:
+    """Check if Medium and Substack sessions are still valid. Returns True if both are OK."""
+    BROWSER_DATA_DIR.mkdir(parents=True, exist_ok=True)
+    medium_ok = False
+    substack_ok = False
+
+    with sync_playwright() as pw:
+        context = pw.chromium.launch_persistent_context(
+            user_data_dir=str(BROWSER_DATA_DIR),
+            headless=headless,
+            args=["--disable-blink-features=AutomationControlled"],
+            viewport={"width": 1280, "height": 900},
+        )
+
+        # Check Medium
+        page = context.new_page()
+        try:
+            page.goto(MEDIUM_IMPORT_URL, timeout=NAV_TIMEOUT, wait_until="networkidle")
+            if "sign" in page.url.lower():
+                log("Medium: ✗ Not logged in.")
+            else:
+                log(f"Medium: ✓ Session valid (landed on {page.url})")
+                medium_ok = True
+        except Exception as e:
+            log(f"Medium: ✗ Error checking session: {e}")
+        finally:
+            page.close()
+
+        # Check Substack
+        page = context.new_page()
+        try:
+            page.goto(SUBSTACK_IMPORT_URL, timeout=NAV_TIMEOUT, wait_until="networkidle")
+            if "sign" in page.url.lower() and "publish" not in page.url.lower():
+                log("Substack: ✗ Not logged in.")
+            else:
+                log(f"Substack: ✓ Session valid (landed on {page.url})")
+                substack_ok = True
+        except Exception as e:
+            log(f"Substack: ✗ Error checking session: {e}")
+        finally:
+            page.close()
+
+        context.close()
+
+    if medium_ok and substack_ok:
+        log("All sessions valid.")
+    else:
+        log("One or more sessions expired. Run with --login to re-authenticate.")
+    return medium_ok and substack_ok
 
 
 def import_to_medium(context, url: str) -> bool:
@@ -253,9 +305,10 @@ def import_to_substack(context, url: str) -> bool:
 
 
 # ── Main Flows ──────────────────────────────────────────────────────────
-def run_import(force_url: str = None, dry_run: bool = False, headless: bool = True):
-    """Main import flow: check RSS, import new posts."""
+def run_import(force_url: str = None, dry_run: bool = False, headless: bool = True) -> bool:
+    """Main import flow: check RSS, import new posts. Returns True if all imports succeeded."""
     imported = load_imported()
+    failures = 0
 
     if force_url:
         posts = [{"title": "Manual Import", "url": force_url, "published": ""}]
@@ -277,7 +330,7 @@ def run_import(force_url: str = None, dry_run: bool = False, headless: bool = Tr
 
     if not new_posts:
         log("No new posts to import.")
-        return
+        return True
 
     log(f"{len(new_posts)} post(s) to process.")
 
@@ -286,7 +339,7 @@ def run_import(force_url: str = None, dry_run: bool = False, headless: bool = Tr
             status_m = "✓" if p["medium_done"] else "pending"
             status_s = "✓" if p["substack_done"] else "pending"
             log(f"  [{status_m}/{status_s}] {p['title']} — {p['url']}")
-        return
+        return True
 
     with sync_playwright() as pw:
         BROWSER_DATA_DIR.mkdir(parents=True, exist_ok=True)
@@ -307,6 +360,8 @@ def run_import(force_url: str = None, dry_run: bool = False, headless: bool = Tr
                 if import_to_medium(context, url):
                     imported.setdefault("medium", []).append(url)
                     save_imported(imported)
+                else:
+                    failures += 1
                 time.sleep(3)
 
             # Import to Substack
@@ -314,16 +369,24 @@ def run_import(force_url: str = None, dry_run: bool = False, headless: bool = Tr
                 if import_to_substack(context, url):
                     imported.setdefault("substack", []).append(url)
                     save_imported(imported)
+                else:
+                    failures += 1
                 time.sleep(3)
 
         context.close()
 
+    if failures:
+        log(f"Done with {failures} failure(s).")
+        return False
+
     log("Done.")
+    return True
 
 
 def main():
     parser = argparse.ArgumentParser(description="RSS Cross-Post Importer")
     parser.add_argument("--login", action="store_true", help="Interactive login flow")
+    parser.add_argument("--check", action="store_true", help="Check if sessions are still valid")
     parser.add_argument("--force", type=str, help="Force import a specific URL")
     parser.add_argument("--dry-run", action="store_true", help="Check feed without importing")
     parser.add_argument("--headless", action="store_true", help="Run browser headless (for cron/server)")
@@ -332,12 +395,16 @@ def main():
     if args.login:
         with sync_playwright() as pw:
             login_flow(pw)
+    elif args.check:
+        ok = check_sessions(headless=args.headless)
+        sys.exit(0 if ok else 1)
     else:
-        run_import(
+        ok = run_import(
             force_url=args.force,
             dry_run=args.dry_run,
             headless=args.headless,
         )
+        sys.exit(0 if ok else 1)
 
 
 if __name__ == "__main__":

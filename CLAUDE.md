@@ -17,7 +17,11 @@ python cross_post_importer.py --dry-run            # Check RSS feed without impo
 python cross_post_importer.py                      # Import new posts (headed browser)
 python cross_post_importer.py --headless           # Import new posts (headless, for cron)
 python cross_post_importer.py --force "URL"        # Force-import a specific URL
+python cross_post_importer.py --check              # Verify sessions are still valid (exit 0=ok, 1=expired)
+python cross_post_importer.py --check --headless   # Same, headless
 ```
+
+Exit codes: 0 on success, 1 on any import failure or expired session. Cron can use this to detect problems.
 
 No tests or linting configured.
 
