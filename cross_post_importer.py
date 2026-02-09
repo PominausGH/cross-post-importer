@@ -24,6 +24,8 @@ Usage:
 import argparse
 import json
 import os
+import random
+import re
 import sys
 import time
 from datetime import datetime, timedelta
@@ -34,8 +36,11 @@ from email.utils import parsedate_to_datetime
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeout
 
 # ── Config ──────────────────────────────────────────────────────────────
-RSS_FEED_URL = "https://ghost.daintytrading.com/feed-today.xml"
-SUBSTACK_FEED_URL = "https://ghost.daintytrading.com/feed-today.xml"
+RSS_FEED_URLS = [
+    "https://ghost.daintytrading.com/feed-today.xml",
+    "https://ghost.daintytrading.com/feed.xml",
+]
+SUBSTACK_FEED_URL = "https://ghost.daintytrading.com/feed.xml"
 MEDIUM_IMPORT_URL = "https://medium.com/p/import"
 SUBSTACK_IMPORT_URL = "https://pominaus.substack.com/publish/import"
 
@@ -69,26 +74,104 @@ def save_imported(data: dict):
 
 
 def get_new_posts() -> list[dict]:
-    """Fetch RSS feed and return posts from the last 24 hours."""
-    feed = feedparser.parse(RSS_FEED_URL)
-    cutoff = datetime.now().astimezone() - timedelta(hours=24)
+    """Fetch all RSS feeds and return combined posts (deduplicated by URL)."""
+    seen_urls = set()
     posts = []
-    for entry in feed.entries:
-        published_str = entry.get("published", "")
-        # Filter to last 24 hours
-        if published_str:
-            try:
-                pub_date = parsedate_to_datetime(published_str)
-                if pub_date < cutoff:
-                    continue
-            except (ValueError, TypeError):
-                pass  # If we can't parse the date, include the post
-        posts.append({
-            "title": entry.get("title", "Untitled"),
-            "url": entry.get("link", ""),
-            "published": published_str,
-        })
+    for feed_url in RSS_FEED_URLS:
+        feed = feedparser.parse(feed_url)
+        for entry in feed.entries:
+            url = entry.get("link", "")
+            if not url or url in seen_urls:
+                continue
+            seen_urls.add(url)
+            posts.append({
+                "title": entry.get("title", "Untitled"),
+                "url": url,
+                "published": entry.get("published", ""),
+            })
     return posts
+
+
+def normalize_title(title: str) -> str:
+    """Normalize title for comparison: lowercase, strip suffix, remove punctuation."""
+    t = title.lower().replace("\u200a", " ")
+    t = t.replace(" - a developer's story", "").replace("— a developer's story", "")
+    t = t.replace("-", " ")  # hyphens to spaces before stripping punctuation
+    t = re.sub(r"[^a-z0-9\s]", "", t)
+    return re.sub(r"\s+", " ", t).strip()
+
+
+def get_medium_published_titles(context) -> set:
+    """Scrape Medium published stories page to get existing titles for dedup."""
+    page = context.new_page()
+    titles = set()
+    try:
+        page.goto("https://medium.com/me/stories?tab=posts-published", timeout=NAV_TIMEOUT, wait_until="networkidle")
+        time.sleep(3)
+        # Scroll to load all stories (Medium uses infinite scroll)
+        prev_count = 0
+        for _ in range(20):
+            page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+            time.sleep(2)
+            count = page.evaluate("() => document.querySelectorAll('h2, h3').length")
+            if count == prev_count:
+                break
+            prev_count = count
+        raw_titles = page.evaluate("""() => {
+            const headings = document.querySelectorAll("h2, h3");
+            return Array.from(headings).map(h => h.textContent.trim().toLowerCase());
+        }""")
+        titles = set(normalize_title(t) for t in raw_titles if t)
+        log(f"  Medium: Found {len(titles)} published stories for dedup.")
+    except Exception as e:
+        log(f"  Medium: Could not fetch published stories for dedup: {e}")
+    finally:
+        page.close()
+    return titles
+
+
+def get_substack_published_titles(context) -> set:
+    """Scrape all pages of Substack published posts for dedup."""
+    page = context.new_page()
+    titles = set()
+    try:
+        page.goto("https://pominaus.substack.com/publish/posts/published", timeout=NAV_TIMEOUT, wait_until="networkidle")
+        time.sleep(5)
+
+        while True:
+            # Scrape titles from post links only (filter by href pattern)
+            raw_titles = page.evaluate("""() => {
+                const links = document.querySelectorAll('a[href*="/publish/posts/detail/"]');
+                return Array.from(links)
+                    .map(a => a.textContent.trim())
+                    .filter(t => t.length > 5)
+                    .map(t => {
+                        const match = t.match(/^(.+?)\\d{1,2}\\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\\s+\u2022/);
+                        return match ? match[1].trim() : t;
+                    });
+            }""")
+            for t in raw_titles:
+                if t:
+                    titles.add(normalize_title(t))
+
+            # Check if "Chevron Right" (next page) button exists and is enabled
+            next_disabled = page.evaluate("""() => {
+                const btn = document.querySelector('button[aria-label="Chevron Right"]');
+                return !btn || btn.disabled;
+            }""")
+            if next_disabled:
+                break
+
+            # Click next page and wait for content to load
+            page.click('button[aria-label="Chevron Right"]')
+            time.sleep(3)
+
+        log(f"  Substack: Found {len(titles)} published posts for dedup.")
+    except Exception as e:
+        log(f"  Substack: Could not fetch published posts for dedup: {e}")
+    finally:
+        page.close()
+    return titles
 
 
 # ── Browser Automation ──────────────────────────────────────────────────
@@ -194,7 +277,409 @@ def check_sessions(headless: bool = True) -> bool:
     return medium_ok and substack_ok
 
 
-def import_to_medium(context, url: str) -> bool:
+def get_article_topics(url: str) -> list[str]:
+    """Fetch meta keywords from article page via HTTP (no browser needed). Max 5 topics."""
+    import urllib.request
+    import html.parser
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            # Read just the head section (first 10KB is enough for meta tags)
+            raw = resp.read(10240).decode("utf-8", errors="ignore")
+        # Parse out meta keywords
+        import re
+        match = re.search(r'<meta\s+name=["\']keywords["\']\s+content=["\']([^"\']+)["\']', raw, re.IGNORECASE)
+        if not match:
+            match = re.search(r'<meta\s+content=["\']([^"\']+)["\']\s+name=["\']keywords["\']', raw, re.IGNORECASE)
+        if match:
+            topics = [k.strip() for k in match.group(1).split(",") if k.strip()]
+            return topics[:5]
+    except Exception as e:
+        log(f"  Could not fetch topics from {url}: {e}")
+    return []
+
+
+def generate_share_text(title: str, topics: list[str], short: bool = False) -> str:
+    """Generate a witty sharing note for social media based on article title and topics.
+
+    Args:
+        short: If True, keep under 200 chars (for Twitter/X where URL eats into 280 limit).
+    """
+    clean = re.sub(r"\s*[-—]\s*A Developer'?s Story\s*$", "", title).strip()
+    topic_str = topics[0] if topics else "tech"
+
+    if short:
+        # Keep very short for Twitter/X (280 char limit, URL takes ~23)
+        max_title = 50
+        if len(clean) > max_title:
+            clean = clean[:max_title].rsplit(" ", 1)[0] + "..."
+        templates = [
+            f'{clean}',
+            f'New: {clean}',
+            f'{clean} — thoughts?',
+            f'{clean} — worth a read',
+        ]
+    else:
+        templates = [
+            f'New read: "{clean}" — a deep dive into {topic_str}. Worth your time.',
+            f'Just published: "{clean}" — thoughts welcome!',
+            f'If {topic_str} is your thing, this one\'s for you: "{clean}"',
+            f'New article dropped: "{clean}" — let me know what you think',
+            f'"{clean}" — fresh take on {topic_str}. Give it a read.',
+            f'"{clean}" just went live. Worth checking out.',
+            f'Hot off the press: "{clean}" — {topic_str} and then some.',
+            f'Wrote about {topic_str}: "{clean}" — check it out!',
+        ]
+    return random.choice(templates)
+
+
+def share_to_social(page, title: str, topics: list[str], article_url: str = "") -> None:
+    """Click social share buttons on current page and post witty notes in popups.
+
+    Works on both Medium and Substack post-publish/share pages.
+    Finds Twitter/X, LinkedIn, and Facebook share buttons, opens each
+    popup, fills a witty note, and clicks share.
+    """
+    share_text = generate_share_text(title, topics)
+    log(f"    Share text: {share_text[:80]}...")
+    time.sleep(2)
+
+    social_buttons = {
+        "Twitter/X": [
+            'a[href*="twitter.com/intent"]', 'a[href*="x.com/intent"]',
+            'button[aria-label*="Twitter" i]', 'button[aria-label*="tweet" i]',
+            'button:has-text("Twitter")', 'button:has-text("Tweet")',
+            'button:has-text("𝕏")', '[data-testid*="twitter" i]',
+        ],
+        "LinkedIn": [
+            'a[href*="linkedin.com/share"]', 'a[href*="linkedin.com/sharing"]',
+            'button[aria-label*="LinkedIn" i]', 'button:has-text("LinkedIn")',
+            '[data-testid*="linkedin" i]',
+        ],
+        "Facebook": [
+            'a[href*="facebook.com/sharer"]', 'a[href*="facebook.com/share"]',
+            'button[aria-label*="Facebook" i]', 'button:has-text("Facebook")',
+            '[data-testid*="facebook" i]',
+        ],
+    }
+
+    for platform, selectors in social_buttons.items():
+        btn = None
+        for sel in selectors:
+            btn = page.query_selector(sel)
+            if btn:
+                break
+        if not btn:
+            log(f"    Share: {platform} button not found — skipping.")
+            continue
+
+        try:
+            # Click share button — expect a popup/new tab to open
+            with page.context.expect_page(timeout=10_000) as popup_info:
+                btn.click()
+            popup = popup_info.value
+            popup.wait_for_load_state("domcontentloaded")
+            time.sleep(3)
+
+            is_twitter = "x.com" in popup.url or "twitter.com" in popup.url
+            is_linkedin = "linkedin.com" in popup.url
+
+            platform_text = (
+                generate_share_text(title, topics, short=True)
+                if is_twitter else share_text
+            )
+            # LinkedIn uses a contenteditable div with role="textbox"
+            if is_linkedin:
+                text_area = popup.query_selector('[role="textbox"][contenteditable="true"]')
+            else:
+                text_area = (
+                    popup.query_selector('textarea') or
+                    popup.query_selector('[role="textbox"]') or
+                    popup.query_selector('[contenteditable="true"]')
+                )
+            if text_area:
+                if is_twitter:
+                    # Clear pre-filled intent text and type short text + URL
+                    text_area.click()
+                    popup.keyboard.press("Control+a")
+                    tweet = platform_text + ("\n" + article_url if article_url else "")
+                    popup.keyboard.type(tweet, delay=10)
+                else:
+                    text_area.click()
+                    popup.keyboard.type(platform_text)
+                log(f"    Share: Set text for {platform}")
+
+            # Find and click the post/share/tweet button
+            time.sleep(1)
+            submit = None
+            for sel in [
+                'button[data-testid="tweetButton"]',
+                'input[type="submit"]',
+                'button:has-text("Post")',
+                'button:has-text("Tweet")',
+                'button:has-text("Share")',
+                'button[type="submit"]',
+            ]:
+                submit = popup.query_selector(sel)
+                if submit:
+                    break
+
+            if submit:
+                disabled = submit.evaluate(
+                    "el => el.disabled || el.getAttribute('aria-disabled') === 'true'"
+                )
+                if disabled:
+                    log(f"    Share: {platform} submit disabled (text may be too long)")
+                else:
+                    submit.evaluate("el => el.click()")
+                    time.sleep(3)
+                    log(f"    Share: ✓ Shared to {platform}")
+            else:
+                log(f"    Share: No submit button found for {platform}")
+                try:
+                    popup.screenshot(path=str(BASE_DIR / f"share_{platform.lower().replace('/', '_')}_debug.png"))
+                except Exception:
+                    pass
+
+            if not popup.is_closed():
+                popup.close()
+
+        except PlaywrightTimeout:
+            log(f"    Share: {platform} popup didn't open — may need login.")
+        except Exception as e:
+            log(f"    Share: {platform} error: {e}")
+
+
+def share_substack_posts(context, posts: list[dict]) -> None:
+    """Share Substack posts via the post-publish share page.
+
+    Flow per post: editor → Continue → Update now → share page
+    Share page has: Substack Note, Twitter, Facebook, LinkedIn, Instagram buttons.
+    """
+    if not posts:
+        return
+
+    log(f"  Substack: Sharing {len(posts)} post(s) to social platforms...")
+    page = context.new_page()
+    try:
+        # Get all post IDs from dashboard (with pagination)
+        page.goto("https://pominaus.substack.com/publish/posts/published",
+                   timeout=NAV_TIMEOUT, wait_until="networkidle")
+        time.sleep(3)
+
+        all_dashboard_posts = []
+        while True:
+            post_data = page.evaluate("""() => {
+                const links = document.querySelectorAll('a[href*="/publish/posts/detail/"]');
+                return Array.from(links).map(a => ({
+                    id: (a.href.match(/detail\\/(\\d+)/) || [])[1] || '',
+                    title: a.textContent.trim(),
+                })).filter(p => p.id);
+            }""")
+            all_dashboard_posts.extend(post_data)
+
+            next_disabled = page.evaluate("""() => {
+                const btn = document.querySelector('button[aria-label="Chevron Right"]');
+                return !btn || btn.disabled;
+            }""")
+            if next_disabled:
+                break
+            page.click('button[aria-label="Chevron Right"]')
+            time.sleep(3)
+
+        log(f"  Substack: Found {len(all_dashboard_posts)} posts in dashboard.")
+
+        for post in posts:
+            norm = normalize_title(post["title"])
+            norm_prefix = " ".join(norm.split()[:5])
+
+            matched = None
+            for dp in all_dashboard_posts:
+                dp_norm = normalize_title(dp["title"])
+                if dp_norm.startswith(norm_prefix) or norm in dp_norm or dp_norm in norm:
+                    matched = dp
+                    break
+
+            if not matched:
+                log(f"    Share: Could not find post: {post['title'][:60]}")
+                continue
+
+            log(f"    Share: {post['title'][:60]}...")
+            topics = get_article_topics(post["url"])
+            share_text = generate_share_text(post["title"], topics)
+            log(f"    Share text: {share_text[:80]}...")
+
+            # Navigate to editor → Continue → Update now to reach share page
+            page.goto(f"https://pominaus.substack.com/publish/post/{matched['id']}",
+                       timeout=NAV_TIMEOUT, wait_until="networkidle")
+            time.sleep(3)
+
+            try:
+                page.click('button:has-text("Continue")', timeout=5_000)
+                time.sleep(3)
+            except PlaywrightTimeout:
+                log(f"    Share: No Continue button — skipping.")
+                continue
+
+            try:
+                page.click('button:has-text("Update now")', timeout=5_000)
+                time.sleep(5)
+            except PlaywrightTimeout:
+                log(f"    Share: No Update button — skipping.")
+                continue
+
+            # -- Share page: "Your post is live!" --
+
+            # 1) Click social share buttons FIRST (Note navigates away)
+            #    Buttons: Twitter, Facebook, LinkedIn
+            page.evaluate('window.scrollTo(0, 500)')
+            time.sleep(1)
+
+            for platform in ["Twitter", "Facebook", "LinkedIn"]:
+                # Close any leftover popups from previous platform
+                for p in page.context.pages:
+                    if p != page and not p.is_closed():
+                        try:
+                            p.close()
+                        except Exception:
+                            pass
+                time.sleep(1)
+                try:
+                    with page.expect_popup(timeout=10_000) as popup_info:
+                        page.evaluate(f"""() => {{
+                            const btns = document.querySelectorAll('button');
+                            for (const b of btns) {{
+                                if (b.textContent.trim() === '{platform}') {{
+                                    b.click();
+                                    return true;
+                                }}
+                            }}
+                            return false;
+                        }}""")
+                    popup = popup_info.value
+                    popup.wait_for_load_state("domcontentloaded")
+                    time.sleep(3)
+
+                    is_twitter = "x.com" in popup.url or "twitter.com" in popup.url
+                    is_linkedin = "linkedin.com" in popup.url
+
+                    platform_text = (
+                        generate_share_text(post["title"], topics, short=True)
+                        if is_twitter else share_text
+                    )
+                    # LinkedIn uses a contenteditable div with role="textbox"
+                    if is_linkedin:
+                        text_area = popup.query_selector('[role="textbox"][contenteditable="true"]')
+                    else:
+                        text_area = (
+                            popup.query_selector('textarea') or
+                            popup.query_selector('[role="textbox"]') or
+                            popup.query_selector('[contenteditable="true"]')
+                        )
+                    if text_area:
+                        if is_twitter:
+                            # Clear pre-filled intent text (title + tracking URL)
+                            # and type short text + clean article URL
+                            text_area.click()
+                            popup.keyboard.press("Control+a")
+                            tweet = platform_text + "\n" + post["url"]
+                            popup.keyboard.type(tweet, delay=10)
+                        else:
+                            text_area.click()
+                            popup.keyboard.type(platform_text)
+                        log(f"    Share: Set text for {platform} ({len(platform_text)} chars)")
+
+                    # Click submit/post button
+                    time.sleep(2)
+                    submit = None
+                    for sel in [
+                        'button[data-testid="tweetButton"]',
+                        'input[type="submit"]',
+                        'button:has-text("Post")',
+                        'button:has-text("Tweet")',
+                        'button:has-text("Share")',
+                        'button[type="submit"]',
+                    ]:
+                        submit = popup.query_selector(sel)
+                        if submit:
+                            break
+                    if submit:
+                        # Check if button is disabled (e.g. tweet too long)
+                        disabled = submit.evaluate(
+                            "el => el.disabled || el.getAttribute('aria-disabled') === 'true'"
+                        )
+                        if disabled:
+                            log(f"    Share: {platform} submit disabled (text may be too long)")
+                            try:
+                                popup.screenshot(path=str(
+                                    BASE_DIR / f"share_{platform.lower()}_debug.png"))
+                            except Exception:
+                                pass
+                        else:
+                            submit.evaluate("el => el.click()")
+                            time.sleep(3)
+                            log(f"    Share: ✓ Shared to {platform}")
+                    else:
+                        log(f"    Share: {platform} — no submit button (may need login)")
+                        try:
+                            popup.screenshot(path=str(
+                                BASE_DIR / f"share_{platform.lower()}_debug.png"))
+                        except Exception:
+                            pass
+
+                    if not popup.is_closed():
+                        popup.close()
+
+                except PlaywrightTimeout:
+                    log(f"    Share: {platform} popup didn't open")
+                except Exception as e:
+                    log(f"    Share: {platform} error: {e}")
+
+            # 2) Write a Substack Note LAST (clicking Create navigates away)
+            page.evaluate('window.scrollTo(0, 0)')
+            time.sleep(1)
+            page.evaluate("""() => {
+                const btns = document.querySelectorAll('button');
+                for (const b of btns) {
+                    if (b.textContent.includes('Share something about this post')) {
+                        b.click();
+                        return true;
+                    }
+                }
+                return false;
+            }""")
+            time.sleep(2)
+            note_editor = page.query_selector(
+                '[contenteditable="true"].ProseMirror, [contenteditable="true"].tiptap'
+            )
+            if note_editor:
+                note_editor.click()
+                page.keyboard.type(share_text)
+                time.sleep(1)
+                page.evaluate("""() => {
+                    const btns = document.querySelectorAll('button');
+                    for (const b of btns) {
+                        if (b.textContent.trim() === 'Create') {
+                            b.click();
+                            return true;
+                        }
+                    }
+                    return false;
+                }""")
+                time.sleep(3)
+                log(f"    Share: ✓ Posted Substack Note")
+            else:
+                log(f"    Share: Could not find Note editor")
+
+            time.sleep(2)
+
+    except Exception as e:
+        log(f"  Substack share error: {e}")
+    finally:
+        page.close()
+
+
+def import_to_medium(context, url: str, title: str = "", share: bool = True) -> bool:
     """Import a URL to Medium via their import tool."""
     page = context.new_page()
     try:
@@ -254,16 +739,19 @@ def import_to_medium(context, url: str) -> bool:
                 log("  Medium: Opened publish dialog.")
                 time.sleep(3)
 
-                # Add topics — Medium uses a contenteditable div with class js-tagInput
+                # Add topics scraped from article page
+                topics = get_article_topics(url)
+                if not topics:
+                    topics = ["Technology", "Software Development"]
                 tag_input = page.query_selector('.js-tagInput, [data-testid="publishTopicsInput"]')
                 if tag_input:
-                    for topic in ["Technology", "AI", "Software Development"]:
+                    for topic in topics:
                         tag_input.click()
                         page.keyboard.type(topic)
                         time.sleep(1)
                         page.keyboard.press("Enter")
                         time.sleep(0.5)
-                    log("  Medium: Added topics.")
+                    log(f"  Medium: Added topics: {topics}")
                 else:
                     log("  Medium: Could not find topic input — skipping topics.")
 
@@ -274,6 +762,10 @@ def import_to_medium(context, url: str) -> bool:
                     confirm_btn.click()
                     log("  Medium: Published!")
                     time.sleep(5)
+
+                    # Share to social platforms after publishing
+                    if share:
+                        share_to_social(page, title or "New article", topics, article_url=url)
                 else:
                     log("  Medium: Could not find final publish button.")
             except PlaywrightTimeout:
@@ -411,7 +903,7 @@ def import_to_substack(context) -> bool:
 
 # ── Main Flows ──────────────────────────────────────────────────────────
 def run_import(force_url: str = None, dry_run: bool = False, headless: bool = True,
-               medium: bool = True, substack: bool = False) -> bool:
+               medium: bool = True, substack: bool = False, share: bool = True) -> bool:
     """Main import flow: check RSS, import new posts. Returns True if all imports succeeded."""
     imported = load_imported()
     failures = 0
@@ -419,7 +911,7 @@ def run_import(force_url: str = None, dry_run: bool = False, headless: bool = Tr
     if force_url:
         posts = [{"title": "Manual Import", "url": force_url, "published": ""}]
     else:
-        log(f"Fetching RSS feed: {RSS_FEED_URL}")
+        log(f"Fetching RSS feeds: {len(RSS_FEED_URLS)} source(s)")
         posts = get_new_posts()
         log(f"Found {len(posts)} posts in feed.")
 
@@ -463,11 +955,24 @@ def run_import(force_url: str = None, dry_run: bool = False, headless: bool = Tr
                     args=["--disable-blink-features=AutomationControlled"],
                     viewport={"width": 1280, "height": 900},
                 )
+                # Check already-published titles on Medium to avoid duplicates
+                published_titles = get_medium_published_titles(context)
+
                 for post in medium_pending:
                     url = post["url"]
+                    # Skip if title already published on Medium (fuzzy: first 5 words match)
+                    norm_title = normalize_title(post["title"])
+                    norm_words = norm_title.split()[:5]
+                    prefix = " ".join(norm_words)
+                    if any(pt.startswith(prefix) or norm_title in pt or pt in norm_title for pt in published_titles):
+                        log(f"Skipping (already on Medium): {post['title']}")
+                        imported.setdefault("medium", []).append(url)
+                        save_imported(imported)
+                        continue
+
                     log(f"Processing: {post['title']}")
                     log(f"  URL: {url}")
-                    if import_to_medium(context, url):
+                    if import_to_medium(context, url, title=post["title"], share=share):
                         imported.setdefault("medium", []).append(url)
                         save_imported(imported)
                     else:
@@ -479,7 +984,7 @@ def run_import(force_url: str = None, dry_run: bool = False, headless: bool = Tr
     if substack:
         substack_pending = [p for p in new_posts if not p.get("substack_done") or force_url]
         if substack_pending:
-            log(f"Substack: Importing {len(substack_pending)} post(s) via RSS feed...")
+            log(f"Substack: {len(substack_pending)} post(s) in feed — checking for duplicates...")
             with sync_playwright() as pw:
                 context = pw.chromium.launch_persistent_context(
                     user_data_dir=str(BROWSER_DATA_DIR),
@@ -487,12 +992,32 @@ def run_import(force_url: str = None, dry_run: bool = False, headless: bool = Tr
                     args=["--disable-blink-features=AutomationControlled"],
                     viewport={"width": 1280, "height": 900},
                 )
-                if import_to_substack(context):
-                    for p in substack_pending:
+                # Check already-published titles on Substack to avoid duplicates
+                sub_published = get_substack_published_titles(context)
+                actually_new = []
+                for p in substack_pending:
+                    norm = normalize_title(p["title"])
+                    norm_words = norm.split()[:5]
+                    prefix = " ".join(norm_words)
+                    if any(pt.startswith(prefix) or norm in pt or pt in norm for pt in sub_published):
+                        log(f"  Skipping (already on Substack): {p['title']}")
                         imported.setdefault("substack", []).append(p["url"])
-                    save_imported(imported)
+                    else:
+                        actually_new.append(p)
+
+                if actually_new:
+                    log(f"  Substack: {len(actually_new)} genuinely new post(s) — importing via RSS...")
+                    if import_to_substack(context):
+                        for p in actually_new:
+                            imported.setdefault("substack", []).append(p["url"])
+                        # Share newly imported posts to social platforms
+                        if share:
+                            share_substack_posts(context, actually_new)
+                    else:
+                        failures += 1
                 else:
-                    failures += 1
+                    log("  Substack: All posts already published — skipping import.")
+                save_imported(imported)
                 context.close()
 
     if failures:
@@ -512,6 +1037,9 @@ def main():
     parser.add_argument("--headless", action="store_true", help="Run browser headless (for cron/server)")
     parser.add_argument("--medium-only", action="store_true", help="Only import to Medium")
     parser.add_argument("--substack-only", action="store_true", help="Only import to Substack")
+    parser.add_argument("--no-share", action="store_true", help="Skip social sharing after publish")
+    parser.add_argument("--share-only", type=int, nargs="?", const=1, metavar="N",
+                        help="Only share existing posts (no import). N = number of posts to share (default 1)")
     args = parser.parse_args()
 
     # Default: both platforms. Use --medium-only or --substack-only to restrict.
@@ -528,6 +1056,25 @@ def main():
     elif args.check:
         ok = check_sessions(headless=args.headless)
         sys.exit(0 if ok else 1)
+    elif args.share_only is not None:
+        # Share existing posts without importing
+        n = args.share_only
+        posts = get_new_posts()
+        to_share = posts[:n]
+        log(f"Share-only mode: sharing {len(to_share)} post(s)...")
+        BROWSER_DATA_DIR.mkdir(parents=True, exist_ok=True)
+        if do_substack:
+            with sync_playwright() as pw:
+                context = pw.chromium.launch_persistent_context(
+                    user_data_dir=str(BROWSER_DATA_DIR),
+                    headless=args.headless,
+                    args=["--disable-blink-features=AutomationControlled"],
+                    viewport={"width": 1280, "height": 900},
+                )
+                share_substack_posts(context, to_share)
+                context.close()
+        if do_medium:
+            log("Medium share-only not yet implemented — share happens during import.")
     else:
         ok = run_import(
             force_url=args.force,
@@ -535,6 +1082,7 @@ def main():
             headless=args.headless,
             medium=do_medium,
             substack=do_substack,
+            share=not args.no_share,
         )
         sys.exit(0 if ok else 1)
 
