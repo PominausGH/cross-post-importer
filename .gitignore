@@ -1,7 +1,7 @@
 browser_data/
 imported.json
 import_log.txt
-*_debug.png
+*.png
 __pycache__/
 *.pyc
 .venv/
