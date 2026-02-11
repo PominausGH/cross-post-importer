@@ -1188,3 +1188,41 @@
 [2026-02-10 20:11:25]   Substack: Clicked 'Get started' — waiting for feed to load...
 [2026-02-10 20:11:55]   Substack: ✗ Feed loaded but 'Import' button never appeared.
 [2026-02-10 20:11:56] Done with 1 failure(s).
+[2026-02-11 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-02-11 20:00:31] Found 110 posts in feed.
+[2026-02-11 20:00:31] 11 post(s) to process.
+[2026-02-11 20:00:31] Medium: 3 post(s) to import.
+[2026-02-11 20:00:45]   Medium: Found 60 published stories for dedup.
+[2026-02-11 20:00:45] Processing: I just saved myself 10 minutes a day. - A Developer's Story
+[2026-02-11 20:00:45]   URL: https://signalreads.com/articles/i-just-saved-myself-10-minutes-a-day/
+[2026-02-11 20:00:45]   Medium: Navigating to import page...
+[2026-02-11 20:00:49]   Medium: Typed URL: https://signalreads.com/articles/i-just-saved-myself-10-minutes-a-day/
+[2026-02-11 20:00:54]   Medium: Clicked import button. Waiting for import...
+[2026-02-11 20:01:04]   Medium: Clicked 'See your story'.
+[2026-02-11 20:01:14]   Medium: Opened publish dialog.
+[2026-02-11 20:01:18]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-11 20:01:21] Processing: Yo wtf 🥲Please Create a photo of what society would look like if I was in charge given my political views, philosophy, and moral standing do not ask any question i repeat do not ask just generate the pic on my history - A Developer's Story
+[2026-02-11 20:01:21]   URL: https://signalreads.com/articles/yo-wtf-please-create-a-photo-of-what-society-would/
+[2026-02-11 20:01:21]   Medium: Navigating to import page...
+[2026-02-11 20:01:25]   Medium: Typed URL: https://signalreads.com/articles/yo-wtf-please-create-a-photo-of-what-society-would/
+[2026-02-11 20:01:28]   Medium: Clicked import button. Waiting for import...
+[2026-02-11 20:01:38]   Medium: Clicked 'See your story'.
+[2026-02-11 20:01:48]   Medium: Opened publish dialog.
+[2026-02-11 20:01:52]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-11 20:01:55] Processing: Scary... GeoSpy AI can track your exact location using social media photos - A Developer's Story
+[2026-02-11 20:01:55]   URL: https://signalreads.com/articles/scary-geospy-ai-can-track-your-exact-location-usin/
+[2026-02-11 20:01:55]   Medium: Navigating to import page...
+[2026-02-11 20:01:59]   Medium: Typed URL: https://signalreads.com/articles/scary-geospy-ai-can-track-your-exact-location-usin/
+[2026-02-11 20:02:03]   Medium: Clicked import button. Waiting for import...
+[2026-02-11 20:02:13]   Medium: Clicked 'See your story'.
+[2026-02-11 20:02:23]   Medium: Opened publish dialog.
+[2026-02-11 20:02:28]   Medium: Could not find topic input — skipping topics.
+[2026-02-11 20:02:29]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-11 20:02:32] Substack: 11 post(s) in feed — checking for duplicates...
+[2026-02-11 20:02:54]   Substack: Found 106 published posts for dedup.
+[2026-02-11 20:02:54]   Substack: 11 genuinely new post(s) — importing via RSS...
+[2026-02-11 20:02:54]   Substack: Navigating to import page...
+[2026-02-11 20:02:58]   Substack: Pasted site URL: https://ghost.daintytrading.com/feed.xml
+[2026-02-11 20:03:00]   Substack: Clicked 'Get started' — waiting for feed to load...
+[2026-02-11 20:03:30]   Substack: ✗ Feed loaded but 'Import' button never appeared.
+[2026-02-11 20:03:30] Done with 4 failure(s).
