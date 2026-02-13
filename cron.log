@@ -1226,3 +1226,107 @@
 [2026-02-11 20:03:00]   Substack: Clicked 'Get started' — waiting for feed to load...
 [2026-02-11 20:03:30]   Substack: ✗ Feed loaded but 'Import' button never appeared.
 [2026-02-11 20:03:30] Done with 4 failure(s).
+[2026-02-12 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-02-12 20:00:24] Found 117 posts in feed.
+[2026-02-12 20:00:24] 18 post(s) to process.
+[2026-02-12 20:00:24] Medium: 10 post(s) to import.
+[2026-02-12 20:00:39]   Medium: Found 60 published stories for dedup.
+[2026-02-12 20:00:39] Processing: What's going on with the FAA closing down air space in El Paso, Texas for 10 days? - A Developer's Story
+[2026-02-12 20:00:39]   URL: https://signalreads.com/articles/whats-going-on-with-the-faa-closing-down-air-space-selfhelp_wellness/
+[2026-02-12 20:00:39]   Medium: Navigating to import page...
+[2026-02-12 20:00:43]   Medium: Typed URL: https://signalreads.com/articles/whats-going-on-with-the-faa-closing-down-air-space-selfhelp_wellness/
+[2026-02-12 20:00:46]   Medium: Clicked import button. Waiting for import...
+[2026-02-12 20:00:57]   Medium: Clicked 'See your story'.
+[2026-02-12 20:01:07]   Medium: Opened publish dialog.
+[2026-02-12 20:01:11]   Medium: Could not find topic input — skipping topics.
+[2026-02-12 20:01:12]   Medium: Could not find final publish button.
+[2026-02-12 20:01:12]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-12 20:01:15] Processing: I Meditated Wrong for 5 Years. Then Reddit's r/Mindfulness Changed Everything. - A Developer's Story
+[2026-02-12 20:01:15]   URL: https://signalreads.com/articles/i-meditated-wrong-for-5-years-then-reddits-rmindfu-selfhelp_wellness/
+[2026-02-12 20:01:15]   Medium: Navigating to import page...
+[2026-02-12 20:01:19]   Medium: Typed URL: https://signalreads.com/articles/i-meditated-wrong-for-5-years-then-reddits-rmindfu-selfhelp_wellness/
+[2026-02-12 20:01:24]   Medium: Clicked import button. Waiting for import...
+[2026-02-12 20:01:34]   Medium: Clicked 'See your story'.
+[2026-02-12 20:01:44]   Medium: Opened publish dialog.
+[2026-02-12 20:01:47]   Medium: Could not find topic input — skipping topics.
+[2026-02-12 20:01:48]   Medium: Could not find final publish button.
+[2026-02-12 20:01:49]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-12 20:01:52] Processing: I stopped trying to wake up early. I fixed my evenings instead. - A Developer's Story
+[2026-02-12 20:01:52]   URL: https://signalreads.com/articles/i-stopped-trying-to-wake-up-early-i-fixed-my-eveni-selfhelp_wellness/
+[2026-02-12 20:01:52]   Medium: Navigating to import page...
+[2026-02-12 20:01:55]   Medium: Typed URL: https://signalreads.com/articles/i-stopped-trying-to-wake-up-early-i-fixed-my-eveni-selfhelp_wellness/
+[2026-02-12 20:02:00]   Medium: Clicked import button. Waiting for import...
+[2026-02-12 20:02:10]   Medium: Clicked 'See your story'.
+[2026-02-12 20:02:20]   Medium: Opened publish dialog.
+[2026-02-12 20:02:24]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-12 20:02:27] Processing: GPT-5 outperforms federal judges in legal reasoning experiment - A Developer's Story
+[2026-02-12 20:02:27]   URL: https://signalreads.com/articles/gpt-5-outperforms-federal-judges-in-legal-reasonin-viral_medium_ai/
+[2026-02-12 20:02:27]   Medium: Navigating to import page...
+[2026-02-12 20:02:31]   Medium: Typed URL: https://signalreads.com/articles/gpt-5-outperforms-federal-judges-in-legal-reasonin-viral_medium_ai/
+[2026-02-12 20:02:35]   Medium: Clicked import button. Waiting for import...
+[2026-02-12 20:02:45]   Medium: Clicked 'See your story'.
+[2026-02-12 20:02:55]   Medium: Opened publish dialog.
+[2026-02-12 20:03:00]   Medium: Could not find topic input — skipping topics.
+[2026-02-12 20:03:01]   Medium: Could not find final publish button.
+[2026-02-12 20:03:01]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-12 20:03:04] Processing: ChatGPT Lost 15 Million Users in 7 Days. The Reason Changes Everything. - A Developer's Story
+[2026-02-12 20:03:04]   URL: https://signalreads.com/articles/chatgpt-lost-15-million-users-in-7-days-the-reason/
+[2026-02-12 20:03:04]   Medium: Navigating to import page...
+[2026-02-12 20:03:07]   Medium: Typed URL: https://signalreads.com/articles/chatgpt-lost-15-million-users-in-7-days-the-reason/
+[2026-02-12 20:03:12]   Medium: Clicked import button. Waiting for import...
+[2026-02-12 20:03:22]   Medium: Clicked 'See your story'.
+[2026-02-12 20:03:32]   Medium: Opened publish dialog.
+[2026-02-12 20:03:38]   Medium: Could not find topic input — skipping topics.
+[2026-02-12 20:03:39]   Medium: Could not find final publish button.
+[2026-02-12 20:03:39]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-12 20:03:42] Processing: Z.ai Just Admitted What Every AI Startup Won't Say Out Loud - A Developer's Story
+[2026-02-12 20:03:42]   URL: https://signalreads.com/articles/zai-just-admitted-what-every-ai-startup-wont-say-o/
+[2026-02-12 20:03:42]   Medium: Navigating to import page...
+[2026-02-12 20:03:46]   Medium: Typed URL: https://signalreads.com/articles/zai-just-admitted-what-every-ai-startup-wont-say-o/
+[2026-02-12 20:03:51]   Medium: Clicked import button. Waiting for import...
+[2026-02-12 20:04:01]   Medium: Clicked 'See your story'.
+[2026-02-12 20:04:11]   Medium: Opened publish dialog.
+[2026-02-12 20:04:15]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-12 20:04:18] Processing: People in your 30s, 40s, and 50s what surprised you most about life at your age? - A Developer's Story
+[2026-02-12 20:04:18]   URL: https://signalreads.com/articles/people-in-your-30s-40s-and-50s-what-surprised-you--selfhelp_wellness/
+[2026-02-12 20:04:18]   Medium: Navigating to import page...
+[2026-02-12 20:04:22]   Medium: Typed URL: https://signalreads.com/articles/people-in-your-30s-40s-and-50s-what-surprised-you--selfhelp_wellness/
+[2026-02-12 20:04:25]   Medium: Clicked import button. Waiting for import...
+[2026-02-12 20:04:35]   Medium: Clicked 'See your story'.
+[2026-02-12 20:04:45]   Medium: Opened publish dialog.
+[2026-02-12 20:04:49]   Medium: Could not find topic input — skipping topics.
+[2026-02-12 20:04:51]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-12 20:04:54] Processing: I just saved myself 10 minutes a day. - A Developer's Story
+[2026-02-12 20:04:54]   URL: https://signalreads.com/articles/i-just-saved-myself-10-minutes-a-day/
+[2026-02-12 20:04:54]   Medium: Navigating to import page...
+[2026-02-12 20:04:58]   Medium: Typed URL: https://signalreads.com/articles/i-just-saved-myself-10-minutes-a-day/
+[2026-02-12 20:05:02]   Medium: Clicked import button. Waiting for import...
+[2026-02-12 20:05:12]   Medium: Clicked 'See your story'.
+[2026-02-12 20:05:22]   Medium: Opened publish dialog.
+[2026-02-12 20:05:26]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-12 20:05:29] Processing: Yo wtf 🥲Please Create a photo of what society would look like if I was in charge given my political views, philosophy, and moral standing do not ask any question i repeat do not ask just generate the pic on my history - A Developer's Story
+[2026-02-12 20:05:29]   URL: https://signalreads.com/articles/yo-wtf-please-create-a-photo-of-what-society-would/
+[2026-02-12 20:05:29]   Medium: Navigating to import page...
+[2026-02-12 20:05:33]   Medium: Typed URL: https://signalreads.com/articles/yo-wtf-please-create-a-photo-of-what-society-would/
+[2026-02-12 20:05:37]   Medium: Clicked import button. Waiting for import...
+[2026-02-12 20:05:47]   Medium: Clicked 'See your story'.
+[2026-02-12 20:05:57]   Medium: Opened publish dialog.
+[2026-02-12 20:06:01]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-12 20:06:04] Processing: Scary... GeoSpy AI can track your exact location using social media photos - A Developer's Story
+[2026-02-12 20:06:04]   URL: https://signalreads.com/articles/scary-geospy-ai-can-track-your-exact-location-usin/
+[2026-02-12 20:06:04]   Medium: Navigating to import page...
+[2026-02-12 20:06:08]   Medium: Typed URL: https://signalreads.com/articles/scary-geospy-ai-can-track-your-exact-location-usin/
+[2026-02-12 20:06:12]   Medium: Clicked import button. Waiting for import...
+[2026-02-12 20:06:22]   Medium: Clicked 'See your story'.
+[2026-02-12 20:06:32]   Medium: Opened publish dialog.
+[2026-02-12 20:06:35]   Medium: Could not find topic input — skipping topics.
+[2026-02-12 20:06:36]   Medium: Could not find final publish button.
+[2026-02-12 20:06:36]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-12 20:06:39] Substack: 18 post(s) in feed — checking for duplicates...
+[2026-02-12 20:07:00]   Substack: Found 106 published posts for dedup.
+[2026-02-12 20:07:00]   Substack: 18 genuinely new post(s) — importing via RSS...
+[2026-02-12 20:07:00]   Substack: Navigating to import page...
+[2026-02-12 20:07:03]   Substack: Pasted site URL: https://ghost.daintytrading.com/feed.xml
+[2026-02-12 20:07:06]   Substack: Clicked 'Get started' — waiting for feed to load...
+[2026-02-12 20:07:36]   Substack: ✗ Feed loaded but 'Import' button never appeared.
+[2026-02-12 20:07:36] Done with 6 failure(s).
