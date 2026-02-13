@@ -1330,3 +1330,95 @@
 [2026-02-12 20:07:06]   Substack: Clicked 'Get started' — waiting for feed to load...
 [2026-02-12 20:07:36]   Substack: ✗ Feed loaded but 'Import' button never appeared.
 [2026-02-12 20:07:36] Done with 6 failure(s).
+[2026-02-13 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-02-13 20:00:10] Found 128 posts in feed.
+[2026-02-13 20:00:10] 31 post(s) to process.
+[2026-02-13 20:00:10] Medium: 19 post(s) to import.
+[2026-02-13 20:00:25]   Medium: Found 61 published stories for dedup.
+[2026-02-13 20:00:25] Processing: Someone found a way to let’s say „convert“ so called .pdf docs into .mp4 videos - check out this footage of the Jail Epstein was in - A Developer's Story
+[2026-02-13 20:00:25]   URL: https://signalreads.com/articles/someone-found-a-way-to-lets-say-convert-so-called--selfhelp_wellness/
+[2026-02-13 20:00:25]   Medium: Navigating to import page...
+[2026-02-13 20:00:28]   Medium: Typed URL: https://signalreads.com/articles/someone-found-a-way-to-lets-say-convert-so-called--selfhelp_wellness/
+[2026-02-13 20:00:32]   Medium: Clicked import button. Waiting for import...
+[2026-02-13 20:00:42]   Medium: Clicked 'See your story'.
+[2026-02-13 20:00:52]   Medium: Opened publish dialog.
+[2026-02-13 20:00:56]   Medium: Could not find topic input — skipping topics.
+[2026-02-13 20:00:57]   Medium: Could not find final publish button.
+[2026-02-13 20:00:57]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-13 20:01:00] Processing: What's going on with the lack of front page videos from the Minnesota subreddit? - A Developer's Story
+[2026-02-13 20:01:00]   URL: https://signalreads.com/articles/whats-going-on-with-the-lack-of-front-page-videos--selfhelp_wellness/
+[2026-02-13 20:01:00]   Medium: Navigating to import page...
+[2026-02-13 20:01:04]   Medium: Typed URL: https://signalreads.com/articles/whats-going-on-with-the-lack-of-front-page-videos--selfhelp_wellness/
+[2026-02-13 20:01:08]   Medium: Clicked import button. Waiting for import...
+[2026-02-13 20:01:18]   Medium: Clicked 'See your story'.
+[2026-02-13 20:01:28]   Medium: Opened publish dialog.
+[2026-02-13 20:01:32]   Medium: Could not find topic input — skipping topics.
+[2026-02-13 20:01:33]   Medium: Could not find final publish button.
+[2026-02-13 20:01:34]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-13 20:01:37] Processing: I Meditated Wrong for 7 Years. Then Reddit's Mindfulness Community Fixed Me. - A Developer's Story
+[2026-02-13 20:01:37]   URL: https://signalreads.com/articles/i-meditated-wrong-for-7-years-then-reddits-mindful-selfhelp_wellness/
+[2026-02-13 20:01:37]   Medium: Navigating to import page...
+[2026-02-13 20:01:40]   Medium: Typed URL: https://signalreads.com/articles/i-meditated-wrong-for-7-years-then-reddits-mindful-selfhelp_wellness/
+[2026-02-13 20:01:44]   Medium: Clicked import button. Waiting for import...
+[2026-02-13 20:01:55]   Medium: Clicked 'See your story'.
+[2026-02-13 20:02:05]   Medium: Opened publish dialog.
+[2026-02-13 20:02:08]   Medium: Could not find topic input — skipping topics.
+[2026-02-13 20:02:09]   Medium: Could not find final publish button.
+[2026-02-13 20:02:09]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-13 20:02:12] Processing: An AI Agent Just Wrote a Hit Piece About Me. I'm Not Even Mad. - A Developer's Story
+[2026-02-13 20:02:12]   URL: https://signalreads.com/articles/an-ai-agent-just-wrote-a-hit-piece-about-me-im-not-viral_medium_ai/
+[2026-02-13 20:02:12]   Medium: Navigating to import page...
+[2026-02-13 20:02:15]   Medium: Typed URL: https://signalreads.com/articles/an-ai-agent-just-wrote-a-hit-piece-about-me-im-not-viral_medium_ai/
+[2026-02-13 20:02:20]   Medium: Clicked import button. Waiting for import...
+[2026-02-13 20:02:30]   Medium: Clicked 'See your story'.
+[2026-02-13 20:02:40]   Medium: Opened publish dialog.
+[2026-02-13 20:02:44]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-13 20:02:47] Processing: This morning ChatGPT talked me out of toughing out a strain in my calf muscle and to go get it looked at because it suspected a blood clot. - A Developer's Story
+[2026-02-13 20:02:47]   URL: https://signalreads.com/articles/this-morning-chatgpt-talked-me-out-of-toughing-out/
+[2026-02-13 20:02:47]   Medium: Navigating to import page...
+[2026-02-13 20:02:51]   Medium: Typed URL: https://signalreads.com/articles/this-morning-chatgpt-talked-me-out-of-toughing-out/
+[2026-02-13 20:02:55]   Medium: Clicked import button. Waiting for import...
+[2026-02-13 20:03:05]   Medium: Clicked 'See your story'.
+[2026-02-13 20:03:15]   Medium: Opened publish dialog.
+[2026-02-13 20:03:19]   Medium: Could not find topic input — skipping topics.
+[2026-02-13 20:03:20]   Medium: Could not find final publish button.
+[2026-02-13 20:03:20]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-13 20:03:23] Processing: Kim Jong Un chooses teen daughter as heir, says Seoul - A Developer's Story
+[2026-02-13 20:03:23]   URL: https://signalreads.com/articles/kim-jong-un-chooses-teen-daughter-as-heir-says-seo-selfhelp_wellness/
+[2026-02-13 20:03:23]   Medium: Navigating to import page...
+[2026-02-13 20:03:27]   Medium: Typed URL: https://signalreads.com/articles/kim-jong-un-chooses-teen-daughter-as-heir-says-seo-selfhelp_wellness/
+[2026-02-13 20:03:30]   Medium: Clicked import button. Waiting for import...
+[2026-02-13 20:03:40]   Medium: Clicked 'See your story'.
+[2026-02-13 20:03:50]   Medium: Opened publish dialog.
+[2026-02-13 20:03:54]   Medium: Could not find topic input — skipping topics.
+[2026-02-13 20:03:55]   Medium: Could not find final publish button.
+[2026-02-13 20:03:55]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-13 20:03:58] Processing: I Meditated Wrong for 3 Years. Here's the Mistake Everyone Makes. - A Developer's Story
+[2026-02-13 20:03:58]   URL: https://signalreads.com/articles/i-meditated-wrong-for-3-years-heres-the-mistake-ev-selfhelp_wellness/
+[2026-02-13 20:03:58]   Medium: Navigating to import page...
+[2026-02-13 20:04:02]   Medium: Typed URL: https://signalreads.com/articles/i-meditated-wrong-for-3-years-heres-the-mistake-ev-selfhelp_wellness/
+[2026-02-13 20:04:06]   Medium: Clicked import button. Waiting for import...
+[2026-02-13 20:04:16]   Medium: Clicked 'See your story'.
+[2026-02-13 20:04:26]   Medium: Opened publish dialog.
+[2026-02-13 20:04:30]   Medium: Could not find topic input — skipping topics.
+[2026-02-13 20:04:31]   Medium: Could not find final publish button.
+[2026-02-13 20:04:32]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-13 20:04:35] Processing: An AI Agent Just Wrote a Hit Piece on Me. I'm Not Even Mad. - A Developer's Story
+[2026-02-13 20:04:35]   URL: https://signalreads.com/articles/an-ai-agent-just-wrote-a-hit-piece-on-me-im-not-ev-viral_medium_ai/
+[2026-02-13 20:04:35]   Medium: Navigating to import page...
+[2026-02-13 20:04:38]   Medium: Typed URL: https://signalreads.com/articles/an-ai-agent-just-wrote-a-hit-piece-on-me-im-not-ev-viral_medium_ai/
+[2026-02-13 20:04:41]   Medium: Clicked import button. Waiting for import...
+[2026-02-13 20:04:51]   Medium: Clicked 'See your story'.
+[2026-02-13 20:05:02]   Medium: Opened publish dialog.
+[2026-02-13 20:05:06]   Medium: Could not find topic input — skipping topics.
+[2026-02-13 20:05:07]   Medium: Could not find final publish button.
+[2026-02-13 20:05:07]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-13 20:05:10] Processing: Google's Gemini 3 Deep Think Made Me Delete ChatGPT After 7 Days - A Developer's Story
+[2026-02-13 20:05:10]   URL: https://signalreads.com/articles/googles-gemini-3-deep-think-made-me-delete-chatgpt-viral_medium_ai/
+[2026-02-13 20:05:10]   Medium: Navigating to import page...
+[2026-02-13 20:05:14]   Medium: Typed URL: https://signalreads.com/articles/googles-gemini-3-deep-think-made-me-delete-chatgpt-viral_medium_ai/
+[2026-02-13 20:05:18]   Medium: Clicked import button. Waiting for import...
+[2026-02-13 20:05:28]   Medium: Clicked 'See your story'.
+[2026-02-13 20:05:38]   Medium: Opened publish dialog.
+[2026-02-13 20:05:41]   Medium: Could not find topic input — skipping topics.
+[2026-02-13 20:05:43]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
