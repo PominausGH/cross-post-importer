@@ -1422,3 +1422,92 @@
 [2026-02-13 20:05:38]   Medium: Opened publish dialog.
 [2026-02-13 20:05:41]   Medium: Could not find topic input — skipping topics.
 [2026-02-13 20:05:43]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-13 20:05:46] Processing: Slop pull request is rejected, so slop author instructs slop AI agent to write a slop blog post criticising it as unfair - A Developer's Story
+[2026-02-13 20:05:46]   URL: https://signalreads.com/articles/slop-pull-request-is-rejected-so-slop-author-instr/
+[2026-02-13 20:05:46]   Medium: Navigating to import page...
+[2026-02-13 20:05:50]   Medium: Typed URL: https://signalreads.com/articles/slop-pull-request-is-rejected-so-slop-author-instr/
+[2026-02-13 20:05:55]   Medium: Clicked import button. Waiting for import...
+[2026-02-13 20:06:05]   Medium: Clicked 'See your story'.
+[2026-02-13 20:06:15]   Medium: Opened publish dialog.
+[2026-02-13 20:06:20]   Medium: Could not find topic input — skipping topics.
+[2026-02-13 20:06:21]   Medium: Could not find final publish button.
+[2026-02-13 20:06:21]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-13 20:06:24] Processing: You eventually start to realize, no job is safe. - A Developer's Story
+[2026-02-13 20:06:24]   URL: https://signalreads.com/articles/you-eventually-start-to-realize-no-job-is-safe-selfhelp_wellness/
+[2026-02-13 20:06:24]   Medium: Navigating to import page...
+[2026-02-13 20:06:27]   Medium: Typed URL: https://signalreads.com/articles/you-eventually-start-to-realize-no-job-is-safe-selfhelp_wellness/
+[2026-02-13 20:06:30]   Medium: Clicked import button. Waiting for import...
+[2026-02-13 20:06:40]   Medium: Clicked 'See your story'.
+[2026-02-13 20:06:50]   Medium: Opened publish dialog.
+[2026-02-13 20:06:55]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-13 20:06:58] Processing: Warcraft III Peon Voice Notifications for Claude Code - A Developer's Story
+[2026-02-13 20:06:58]   URL: https://signalreads.com/articles/warcraft-iii-peon-voice-notifications-for-claude-c-viral_medium_ai/
+[2026-02-13 20:06:58]   Medium: Navigating to import page...
+[2026-02-13 20:07:01]   Medium: Typed URL: https://signalreads.com/articles/warcraft-iii-peon-voice-notifications-for-claude-c-viral_medium_ai/
+[2026-02-13 20:07:05]   Medium: Clicked import button. Waiting for import...
+[2026-02-13 20:07:16]   Medium: Clicked 'See your story'.
+[2026-02-13 20:07:26]   Medium: Opened publish dialog.
+[2026-02-13 20:07:30]   Medium: Could not find topic input — skipping topics.
+[2026-02-13 20:07:31]   Medium: Could not find final publish button.
+[2026-02-13 20:07:31]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-13 20:07:34] Processing: I Watched Claude Code Get Dumber in Real-Time. Here's What's Happening. - A Developer's Story
+[2026-02-13 20:07:34]   URL: https://signalreads.com/articles/i-watched-claude-code-get-dumber-in-real-time-here-viral_medium_ai/
+[2026-02-13 20:07:34]   Medium: Navigating to import page...
+[2026-02-13 20:07:38]   Medium: Typed URL: https://signalreads.com/articles/i-watched-claude-code-get-dumber-in-real-time-here-viral_medium_ai/
+[2026-02-13 20:07:40]   Medium: Clicked import button. Waiting for import...
+[2026-02-13 20:07:50]   Medium: Clicked 'See your story'.
+[2026-02-13 20:08:01]   Medium: Opened publish dialog.
+[2026-02-13 20:08:05]   Medium: Could not find topic input — skipping topics.
+[2026-02-13 20:08:06]   Medium: Could not find final publish button.
+[2026-02-13 20:08:06]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-13 20:08:09] Processing: Discord/Twitch/Snapchat age verification bypass - A Developer's Story
+[2026-02-13 20:08:09]   URL: https://signalreads.com/articles/discordtwitchsnapchat-age-verification-bypass/
+[2026-02-13 20:08:09]   Medium: Navigating to import page...
+[2026-02-13 20:08:13]   Medium: Typed URL: https://signalreads.com/articles/discordtwitchsnapchat-age-verification-bypass/
+[2026-02-13 20:08:16]   Medium: Clicked import button. Waiting for import...
+[2026-02-13 20:08:26]   Medium: Clicked 'See your story'.
+[2026-02-13 20:08:36]   Medium: Opened publish dialog.
+[2026-02-13 20:08:40]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-13 20:08:43] Processing: I stopped trying to wake up early. I fixed my evenings instead. - A Developer's Story
+[2026-02-13 20:08:43]   URL: https://signalreads.com/articles/i-stopped-trying-to-wake-up-early-i-fixed-my-eveni-selfhelp_wellness/
+[2026-02-13 20:08:43]   Medium: Navigating to import page...
+[2026-02-13 20:08:47]   Medium: Typed URL: https://signalreads.com/articles/i-stopped-trying-to-wake-up-early-i-fixed-my-eveni-selfhelp_wellness/
+[2026-02-13 20:08:50]   Medium: Clicked import button. Waiting for import...
+[2026-02-13 20:09:00]   Medium: Clicked 'See your story'.
+[2026-02-13 20:09:10]   Medium: Opened publish dialog.
+[2026-02-13 20:09:14]   Medium: Could not find topic input — skipping topics.
+[2026-02-13 20:09:15]   Medium: Could not find final publish button.
+[2026-02-13 20:09:15]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-13 20:09:18] Processing: Z.ai Just Admitted What Every AI Startup Won't Say Out Loud - A Developer's Story
+[2026-02-13 20:09:18]   URL: https://signalreads.com/articles/zai-just-admitted-what-every-ai-startup-wont-say-o/
+[2026-02-13 20:09:19]   Medium: Navigating to import page...
+[2026-02-13 20:09:22]   Medium: Typed URL: https://signalreads.com/articles/zai-just-admitted-what-every-ai-startup-wont-say-o/
+[2026-02-13 20:09:25]   Medium: Clicked import button. Waiting for import...
+[2026-02-13 20:09:35]   Medium: Clicked 'See your story'.
+[2026-02-13 20:09:45]   Medium: Opened publish dialog.
+[2026-02-13 20:09:48]   Medium: Could not find topic input — skipping topics.
+[2026-02-13 20:09:50]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-13 20:09:53] Processing: People in your 30s, 40s, and 50s what surprised you most about life at your age? - A Developer's Story
+[2026-02-13 20:09:53]   URL: https://signalreads.com/articles/people-in-your-30s-40s-and-50s-what-surprised-you--selfhelp_wellness/
+[2026-02-13 20:09:53]   Medium: Navigating to import page...
+[2026-02-13 20:09:56]   Medium: Typed URL: https://signalreads.com/articles/people-in-your-30s-40s-and-50s-what-surprised-you--selfhelp_wellness/
+[2026-02-13 20:09:59]   Medium: Clicked import button. Waiting for import...
+[2026-02-13 20:10:09]   Medium: Clicked 'See your story'.
+[2026-02-13 20:10:20]   Medium: Opened publish dialog.
+[2026-02-13 20:10:24]   Medium: Could not find topic input — skipping topics.
+[2026-02-13 20:10:26]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-13 20:10:29] Processing: I just saved myself 10 minutes a day. - A Developer's Story
+[2026-02-13 20:10:29]   URL: https://signalreads.com/articles/i-just-saved-myself-10-minutes-a-day/
+[2026-02-13 20:10:29]   Medium: Navigating to import page...
+[2026-02-13 20:10:32]   Medium: Typed URL: https://signalreads.com/articles/i-just-saved-myself-10-minutes-a-day/
+[2026-02-13 20:10:35]   Medium: Clicked import button. Waiting for import...
+[2026-02-13 20:10:45]   Medium: Clicked 'See your story'.
+[2026-02-13 20:10:55]   Medium: Opened publish dialog.
+[2026-02-13 20:10:59]   Medium: Could not find topic input — skipping topics.
+[2026-02-13 20:11:00]   Medium: Could not find final publish button.
+[2026-02-13 20:11:01]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-13 20:11:04] Processing: Yo wtf 🥲Please Create a photo of what society would look like if I was in charge given my political views, philosophy, and moral standing do not ask any question i repeat do not ask just generate the pic on my history - A Developer's Story
+[2026-02-13 20:11:04]   URL: https://signalreads.com/articles/yo-wtf-please-create-a-photo-of-what-society-would/
+[2026-02-13 20:11:04]   Medium: Navigating to import page...
+[2026-02-13 20:11:07]   Medium: Typed URL: https://signalreads.com/articles/yo-wtf-please-create-a-photo-of-what-society-would/
+[2026-02-13 20:11:11]   Medium: Clicked import button. Waiting for import...
