@@ -1524,3 +1524,93 @@
 [2026-02-13 20:12:06]   Substack: Clicked 'Get started' — waiting for feed to load...
 [2026-02-13 20:12:36]   Substack: ✗ Feed loaded but 'Import' button never appeared.
 [2026-02-13 20:12:36] Done with 7 failure(s).
+[2026-02-14 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-02-14 20:00:11] Found 115 posts in feed.
+[2026-02-14 20:00:11] 115 post(s) to process.
+[2026-02-14 20:00:11] Medium: 115 post(s) to import.
+[2026-02-14 20:00:26]   Medium: Found 61 published stories for dedup.
+[2026-02-14 20:00:26] Processing: What's going on with the lack of front page videos from the Minnesota subreddit? - A Developer's Story
+[2026-02-14 20:00:26]   URL: https://ghost.daintytrading.com/articles/whats-going-on-with-the-lack-of-front-page-videos--selfhelp_wellness/
+[2026-02-14 20:00:26]   Medium: Navigating to import page...
+[2026-02-14 20:00:29]   Medium: Typed URL: https://ghost.daintytrading.com/articles/whats-going-on-with-the-lack-of-front-page-videos--selfhelp_wellness/
+[2026-02-14 20:00:33]   Medium: Clicked import button. Waiting for import...
+[2026-02-14 20:00:43]   Medium: Clicked 'See your story'.
+[2026-02-14 20:00:53]   Medium: Opened publish dialog.
+[2026-02-14 20:00:58]   Medium: Could not find topic input — skipping topics.
+[2026-02-14 20:00:59]   Medium: Could not find final publish button.
+[2026-02-14 20:00:59]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-14 20:01:02] Processing: I Meditated Wrong for 7 Years. Then Reddit's Mindfulness Community Fixed Me. - A Developer's Story
+[2026-02-14 20:01:02]   URL: https://ghost.daintytrading.com/articles/i-meditated-wrong-for-7-years-then-reddits-mindful-selfhelp_wellness/
+[2026-02-14 20:01:02]   Medium: Navigating to import page...
+[2026-02-14 20:01:05]   Medium: Typed URL: https://ghost.daintytrading.com/articles/i-meditated-wrong-for-7-years-then-reddits-mindful-selfhelp_wellness/
+[2026-02-14 20:01:07]   Medium: Clicked import button. Waiting for import...
+[2026-02-14 20:01:17]   Medium: Clicked 'See your story'.
+[2026-02-14 20:01:27]   Medium: Opened publish dialog.
+[2026-02-14 20:01:31]   Medium: Could not find topic input — skipping topics.
+[2026-02-14 20:01:32]   Medium: Could not find final publish button.
+[2026-02-14 20:01:32]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-14 20:01:35] Processing: An AI Agent Just Wrote a Hit Piece About Me. I'm Not Even Mad. - A Developer's Story
+[2026-02-14 20:01:35]   URL: https://ghost.daintytrading.com/articles/an-ai-agent-just-wrote-a-hit-piece-about-me-im-not-viral_medium_ai/
+[2026-02-14 20:01:35]   Medium: Navigating to import page...
+[2026-02-14 20:01:39]   Medium: Typed URL: https://ghost.daintytrading.com/articles/an-ai-agent-just-wrote-a-hit-piece-about-me-im-not-viral_medium_ai/
+[2026-02-14 20:01:41]   Medium: Clicked import button. Waiting for import...
+[2026-02-14 20:01:51]   Medium: Clicked 'See your story'.
+[2026-02-14 20:02:01]   Medium: Opened publish dialog.
+[2026-02-14 20:02:06]   Medium: Could not find topic input — skipping topics.
+[2026-02-14 20:02:07]   Medium: Could not find final publish button.
+[2026-02-14 20:02:07]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-14 20:02:10] Processing: Kim Jong Un chooses teen daughter as heir, says Seoul - A Developer's Story
+[2026-02-14 20:02:10]   URL: https://ghost.daintytrading.com/articles/kim-jong-un-chooses-teen-daughter-as-heir-says-seo-selfhelp_wellness/
+[2026-02-14 20:02:10]   Medium: Navigating to import page...
+[2026-02-14 20:02:13]   Medium: Typed URL: https://ghost.daintytrading.com/articles/kim-jong-un-chooses-teen-daughter-as-heir-says-seo-selfhelp_wellness/
+[2026-02-14 20:02:15]   Medium: Clicked import button. Waiting for import...
+[2026-02-14 20:02:26]   Medium: Clicked 'See your story'.
+[2026-02-14 20:02:36]   Medium: Opened publish dialog.
+[2026-02-14 20:02:40]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-14 20:02:43] Processing: What's going on with the FAA closing down air space in El Paso, Texas for 10 days? - A Developer's Story
+[2026-02-14 20:02:43]   URL: https://ghost.daintytrading.com/articles/whats-going-on-with-the-faa-closing-down-air-space-selfhelp_wellness/
+[2026-02-14 20:02:43]   Medium: Navigating to import page...
+[2026-02-14 20:02:46]   Medium: Typed URL: https://ghost.daintytrading.com/articles/whats-going-on-with-the-faa-closing-down-air-space-selfhelp_wellness/
+[2026-02-14 20:02:50]   Medium: Clicked import button. Waiting for import...
+[2026-02-14 20:03:00]   Medium: Clicked 'See your story'.
+[2026-02-14 20:03:10]   Medium: Opened publish dialog.
+[2026-02-14 20:03:15]   Medium: Could not find topic input — skipping topics.
+[2026-02-14 20:03:16]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-14 20:03:20] Processing: Slop pull request is rejected, so slop author instructs slop AI agent to write a slop blog post criticising it as unfair - A Developer's Story
+[2026-02-14 20:03:20]   URL: https://ghost.daintytrading.com/articles/slop-pull-request-is-rejected-so-slop-author-instr/
+[2026-02-14 20:03:20]   Medium: Navigating to import page...
+[2026-02-14 20:03:23]   Medium: Typed URL: https://ghost.daintytrading.com/articles/slop-pull-request-is-rejected-so-slop-author-instr/
+[2026-02-14 20:03:26]   Medium: Clicked import button. Waiting for import...
+[2026-02-14 20:03:36]   Medium: Clicked 'See your story'.
+[2026-02-14 20:03:46]   Medium: Opened publish dialog.
+[2026-02-14 20:03:49]   Medium: Could not find topic input — skipping topics.
+[2026-02-14 20:03:50]   Medium: Could not find final publish button.
+[2026-02-14 20:03:51]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-14 20:03:54] Processing: You eventually start to realize, no job is safe. - A Developer's Story
+[2026-02-14 20:03:54]   URL: https://ghost.daintytrading.com/articles/you-eventually-start-to-realize-no-job-is-safe-selfhelp_wellness/
+[2026-02-14 20:03:54]   Medium: Navigating to import page...
+[2026-02-14 20:03:57]   Medium: Typed URL: https://ghost.daintytrading.com/articles/you-eventually-start-to-realize-no-job-is-safe-selfhelp_wellness/
+[2026-02-14 20:04:00]   Medium: Clicked import button. Waiting for import...
+[2026-02-14 20:04:10]   Medium: Clicked 'See your story'.
+[2026-02-14 20:04:20]   Medium: Opened publish dialog.
+[2026-02-14 20:04:24]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-14 20:04:28] Processing: Warcraft III Peon Voice Notifications for Claude Code - A Developer's Story
+[2026-02-14 20:04:28]   URL: https://ghost.daintytrading.com/articles/warcraft-iii-peon-voice-notifications-for-claude-c-viral_medium_ai/
+[2026-02-14 20:04:28]   Medium: Navigating to import page...
+[2026-02-14 20:04:31]   Medium: Typed URL: https://ghost.daintytrading.com/articles/warcraft-iii-peon-voice-notifications-for-claude-c-viral_medium_ai/
+[2026-02-14 20:04:33]   Medium: Clicked import button. Waiting for import...
+[2026-02-14 20:04:43]   Medium: Clicked 'See your story'.
+[2026-02-14 20:04:53]   Medium: Opened publish dialog.
+[2026-02-14 20:04:57]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-14 20:05:01] Processing: I Watched Claude Code Get Dumber in Real-Time. Here's What's Happening. - A Developer's Story
+[2026-02-14 20:05:01]   URL: https://ghost.daintytrading.com/articles/i-watched-claude-code-get-dumber-in-real-time-here-viral_medium_ai/
+[2026-02-14 20:05:01]   Medium: Navigating to import page...
+[2026-02-14 20:05:04]   Medium: Typed URL: https://ghost.daintytrading.com/articles/i-watched-claude-code-get-dumber-in-real-time-here-viral_medium_ai/
+[2026-02-14 20:05:07]   Medium: Clicked import button. Waiting for import...
+[2026-02-14 20:05:17]   Medium: Clicked 'See your story'.
+[2026-02-14 20:05:27]   Medium: Opened publish dialog.
+[2026-02-14 20:05:32]   Medium: Could not find topic input — skipping topics.
+[2026-02-14 20:05:33]   Medium: Could not find final publish button.
+[2026-02-14 20:05:33]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-14 20:05:36] Processing: Discord/Twitch/Snapchat age verification bypass - A Developer's Story
+[2026-02-14 20:05:36]   URL: https://ghost.daintytrading.com/articles/discordtwitchsnapchat-age-verification-bypass/
