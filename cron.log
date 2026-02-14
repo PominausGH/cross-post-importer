@@ -1978,3 +1978,95 @@
 [2026-02-14 20:27:44]   Medium: ✓ Import complete (screenshot saved for verification).
 [2026-02-14 20:27:47] Processing: Why am I paying premium to be mocked? - A Developer's Story
 [2026-02-14 20:27:47]   URL: https://ghost.daintytrading.com/articles/why-am-i-paying-premium-to-be-mocked/
+[2026-02-14 20:27:47]   Medium: Navigating to import page...
+[2026-02-14 20:27:51]   Medium: Typed URL: https://ghost.daintytrading.com/articles/why-am-i-paying-premium-to-be-mocked/
+[2026-02-14 20:27:55]   Medium: Clicked import button. Waiting for import...
+[2026-02-14 20:28:05]   Medium: Clicked 'See your story'.
+[2026-02-14 20:28:15]   Medium: Opened publish dialog.
+[2026-02-14 20:28:20]   Medium: Could not find topic input — skipping topics.
+[2026-02-14 20:28:21]   Medium: Could not find final publish button.
+[2026-02-14 20:28:21]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-14 20:28:24] Processing: Netbird – Open Source Zero Trust Networking - A Developer's Story
+[2026-02-14 20:28:24]   URL: https://ghost.daintytrading.com/articles/netbird--open-source-zero-trust-networking/
+[2026-02-14 20:28:24]   Medium: Navigating to import page...
+[2026-02-14 20:28:27]   Medium: Typed URL: https://ghost.daintytrading.com/articles/netbird--open-source-zero-trust-networking/
+[2026-02-14 20:28:30]   Medium: Clicked import button. Waiting for import...
+[2026-02-14 20:28:40]   Medium: Clicked 'See your story'.
+[2026-02-14 20:28:50]   Medium: Opened publish dialog.
+[2026-02-14 20:28:54]   Medium: Could not find topic input — skipping topics.
+[2026-02-14 20:28:55]   Medium: Could not find final publish button.
+[2026-02-14 20:28:55]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-14 20:28:58] Skipping (already on Medium): Logging Mastery: Debug Like Your Life Depends On It
+[2026-02-14 20:28:58] Skipping (already on Medium): France dumps Zoom and Teams as Europe seeks digital autonomy from the US - A Developer's Story
+[2026-02-14 20:28:58] Skipping (already on Medium): Beyond Keep-Alive: Building Systems That Work While You Sleep
+[2026-02-14 20:28:58] Skipping (already on Medium): BirdyChat becomes first European chat app that is interoperable with WhatsApp - A Developer's Story
+[2026-02-14 20:28:58] Skipping (already on Medium): Whatsapp rewrote its media handler to rust (160k c++ to 90k rust) - A Developer's Story
+[2026-02-14 20:28:58] Processing: FBI is investigating Minnesota Signal chats tracking ICE - A Developer's Story
+[2026-02-14 20:28:58]   URL: https://ghost.daintytrading.com/articles/fbi-is-investigating-minnesota-signal-chats-tracki/
+[2026-02-14 20:28:58]   Medium: Navigating to import page...
+[2026-02-14 20:29:01]   Medium: Typed URL: https://ghost.daintytrading.com/articles/fbi-is-investigating-minnesota-signal-chats-tracki/
+[2026-02-14 20:29:06]   Medium: Clicked import button. Waiting for import...
+[2026-02-14 20:29:16]   Medium: Clicked 'See your story'.
+[2026-02-14 20:29:26]   Medium: Opened publish dialog.
+[2026-02-14 20:29:29]   Medium: Could not find topic input — skipping topics.
+[2026-02-14 20:29:30]   Medium: Could not find final publish button.
+[2026-02-14 20:29:30]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-14 20:29:33] Skipping (already on Medium): Microsoft gave FBI a set of BitLocker encryption keys to unlock suspects' laptops: Reports - A Developer's Story
+[2026-02-14 20:29:33] Processing: New rule: AI generated posts and comments are not allowed - A Developer's Story
+[2026-02-14 20:29:33]   URL: https://ghost.daintytrading.com/articles/new-rule-ai-generated-posts-and-comments-are-not-a-selfhelp_wellness/
+[2026-02-14 20:29:34]   Medium: Navigating to import page...
+[2026-02-14 20:29:37]   Medium: Typed URL: https://ghost.daintytrading.com/articles/new-rule-ai-generated-posts-and-comments-are-not-a-selfhelp_wellness/
+[2026-02-14 20:29:41]   Medium: Clicked import button. Waiting for import...
+[2026-02-14 20:29:51]   Medium: Clicked 'See your story'.
+[2026-02-14 20:30:01]   Medium: Opened publish dialog.
+[2026-02-14 20:30:06]   Medium: Could not find topic input — skipping topics.
+[2026-02-14 20:30:07]   Medium: Could not find final publish button.
+[2026-02-14 20:30:07]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-14 20:30:10] Processing: I now assume that all ads on Apple news are scams - A Developer's Story
+[2026-02-14 20:30:10]   URL: https://ghost.daintytrading.com/articles/i-now-assume-that-all-ads-on-apple-news-are-scams/
+[2026-02-14 20:30:10]   Medium: Navigating to import page...
+[2026-02-14 20:30:13]   Medium: Typed URL: https://ghost.daintytrading.com/articles/i-now-assume-that-all-ads-on-apple-news-are-scams/
+[2026-02-14 20:30:17]   Medium: Clicked import button. Waiting for import...
+[2026-02-14 20:30:27]   Medium: Clicked 'See your story'.
+[2026-02-14 20:30:37]   Medium: Opened publish dialog.
+[2026-02-14 20:30:42]   Medium: Could not find topic input — skipping topics.
+[2026-02-14 20:30:43]   Medium: Could not find final publish button.
+[2026-02-14 20:30:43]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-14 20:30:46] Processing: The Waymo World Model - A Developer's Story
+[2026-02-14 20:30:46]   URL: https://ghost.daintytrading.com/articles/the-waymo-world-model/
+[2026-02-14 20:30:46]   Medium: Navigating to import page...
+[2026-02-14 20:30:50]   Medium: Typed URL: https://ghost.daintytrading.com/articles/the-waymo-world-model/
+[2026-02-14 20:30:53]   Medium: Clicked import button. Waiting for import...
+[2026-02-14 20:31:03]   Medium: Clicked 'See your story'.
+[2026-02-14 20:31:13]   Medium: Opened publish dialog.
+[2026-02-14 20:31:18]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-14 20:31:21] Skipping (already on Medium): Official: Anthropic declared a plan for Claude to remain ad-free - A Developer's Story
+[2026-02-14 20:31:21] Processing: The world will see the truth soon - A Developer's Story
+[2026-02-14 20:31:21]   URL: https://ghost.daintytrading.com/articles/the-world-will-see-the-truth-soon/
+[2026-02-14 20:31:21]   Medium: Navigating to import page...
+[2026-02-14 20:31:24]   Medium: Typed URL: https://ghost.daintytrading.com/articles/the-world-will-see-the-truth-soon/
+[2026-02-14 20:31:28]   Medium: Clicked import button. Waiting for import...
+[2026-02-14 20:31:38]   Medium: Clicked 'See your story'.
+[2026-02-14 20:31:48]   Medium: Opened publish dialog.
+[2026-02-14 20:31:53]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-14 20:31:56] Skipping (already on Medium): you're absolutely right - A Developer's Story
+[2026-02-14 20:31:56] Skipping (already on Medium): Voxtral Transcribe 2 - A Developer's Story
+[2026-02-14 20:31:56] Skipping (already on Medium): I miss thinking hard - A Developer's Story
+[2026-02-14 20:31:56] Skipping (already on Medium): I removed Epstein’s name and asks ChatGPT what this guy likely died of - A Developer's Story
+[2026-02-14 20:31:56] Processing: Definitely I used em dashes — no human would do that accidentally - A Developer's Story
+[2026-02-14 20:31:56]   URL: https://ghost.daintytrading.com/articles/definitely-i-used-em-dashes--no-human-would-do-tha/
+[2026-02-14 20:31:56]   Medium: Navigating to import page...
+[2026-02-14 20:31:59]   Medium: Typed URL: https://ghost.daintytrading.com/articles/definitely-i-used-em-dashes--no-human-would-do-tha/
+[2026-02-14 20:32:03]   Medium: Clicked import button. Waiting for import...
+[2026-02-14 20:32:13]   Medium: Clicked 'See your story'.
+[2026-02-14 20:32:23]   Medium: Opened publish dialog.
+[2026-02-14 20:32:27]   Medium: Could not find topic input — skipping topics.
+[2026-02-14 20:32:28]   Medium: Could not find final publish button.
+[2026-02-14 20:32:28]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-14 20:32:31] Processing: I’m quite proud of my work - A Developer's Story
+[2026-02-14 20:32:31]   URL: https://ghost.daintytrading.com/articles/im-quite-proud-of-my-work/
+[2026-02-14 20:32:31]   Medium: Navigating to import page...
+[2026-02-14 20:32:34]   Medium: Typed URL: https://ghost.daintytrading.com/articles/im-quite-proud-of-my-work/
+[2026-02-14 20:32:39]   Medium: Clicked import button. Waiting for import...
+[2026-02-14 20:32:49]   Medium: Clicked 'See your story'.
+[2026-02-14 20:32:59]   Medium: Opened publish dialog.
