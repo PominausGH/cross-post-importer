@@ -1614,3 +1614,93 @@
 [2026-02-14 20:05:33]   Medium: ✓ Import complete (screenshot saved for verification).
 [2026-02-14 20:05:36] Processing: Discord/Twitch/Snapchat age verification bypass - A Developer's Story
 [2026-02-14 20:05:36]   URL: https://ghost.daintytrading.com/articles/discordtwitchsnapchat-age-verification-bypass/
+[2026-02-14 20:05:36]   Medium: Navigating to import page...
+[2026-02-14 20:05:39]   Medium: Typed URL: https://ghost.daintytrading.com/articles/discordtwitchsnapchat-age-verification-bypass/
+[2026-02-14 20:05:42]   Medium: Clicked import button. Waiting for import...
+[2026-02-14 20:05:52]   Medium: Clicked 'See your story'.
+[2026-02-14 20:06:02]   Medium: Opened publish dialog.
+[2026-02-14 20:06:06]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-14 20:06:09] Skipping (already on Medium): What's going on with Cuba having food and fuel shortages? - A Developer's Story
+[2026-02-14 20:06:09] Processing: I stopped trying to wake up early. I fixed my evenings instead. - A Developer's Story
+[2026-02-14 20:06:09]   URL: https://ghost.daintytrading.com/articles/i-stopped-trying-to-wake-up-early-i-fixed-my-eveni-selfhelp_wellness/
+[2026-02-14 20:06:09]   Medium: Navigating to import page...
+[2026-02-14 20:06:12]   Medium: Typed URL: https://ghost.daintytrading.com/articles/i-stopped-trying-to-wake-up-early-i-fixed-my-eveni-selfhelp_wellness/
+[2026-02-14 20:06:14]   Medium: Clicked import button. Waiting for import...
+[2026-02-14 20:06:24]   Medium: Clicked 'See your story'.
+[2026-02-14 20:06:34]   Medium: Opened publish dialog.
+[2026-02-14 20:06:38]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-14 20:06:41] Processing: GPT-5 outperforms federal judges in legal reasoning experiment - A Developer's Story
+[2026-02-14 20:06:41]   URL: https://ghost.daintytrading.com/articles/gpt-5-outperforms-federal-judges-in-legal-reasonin-viral_medium_ai/
+[2026-02-14 20:06:41]   Medium: Navigating to import page...
+[2026-02-14 20:06:45]   Medium: Typed URL: https://ghost.daintytrading.com/articles/gpt-5-outperforms-federal-judges-in-legal-reasonin-viral_medium_ai/
+[2026-02-14 20:06:49]   Medium: Clicked import button. Waiting for import...
+[2026-02-14 20:06:59]   Medium: Clicked 'See your story'.
+[2026-02-14 20:07:09]   Medium: Opened publish dialog.
+[2026-02-14 20:07:13]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-14 20:07:16] Processing: Z.ai Just Admitted What Every AI Startup Won't Say Out Loud - A Developer's Story
+[2026-02-14 20:07:16]   URL: https://ghost.daintytrading.com/articles/zai-just-admitted-what-every-ai-startup-wont-say-o/
+[2026-02-14 20:07:16]   Medium: Navigating to import page...
+[2026-02-14 20:07:20]   Medium: Typed URL: https://ghost.daintytrading.com/articles/zai-just-admitted-what-every-ai-startup-wont-say-o/
+[2026-02-14 20:07:22]   Medium: Clicked import button. Waiting for import...
+[2026-02-14 20:07:32]   Medium: Clicked 'See your story'.
+[2026-02-14 20:07:42]   Medium: Opened publish dialog.
+[2026-02-14 20:07:47]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-14 20:07:50] Skipping (already on Medium): Welcome to r/Mindfulness! - A Developer's Story
+[2026-02-14 20:07:50] Processing: People in your 30s, 40s, and 50s what surprised you most about life at your age? - A Developer's Story
+[2026-02-14 20:07:50]   URL: https://ghost.daintytrading.com/articles/people-in-your-30s-40s-and-50s-what-surprised-you--selfhelp_wellness/
+[2026-02-14 20:07:50]   Medium: Navigating to import page...
+[2026-02-14 20:07:53]   Medium: Typed URL: https://ghost.daintytrading.com/articles/people-in-your-30s-40s-and-50s-what-surprised-you--selfhelp_wellness/
+[2026-02-14 20:07:56]   Medium: Clicked import button. Waiting for import...
+[2026-02-14 20:08:06]   Medium: Clicked 'See your story'.
+[2026-02-14 20:08:16]   Medium: Opened publish dialog.
+[2026-02-14 20:08:21]   Medium: Could not find topic input — skipping topics.
+[2026-02-14 20:08:22]   Medium: Could not find final publish button.
+[2026-02-14 20:08:23]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-14 20:08:26] Skipping (already on Medium): What's the deal with the DOJ press release on Epstein's death being dated the day before he died?" - A Developer's Story
+[2026-02-14 20:08:26] Processing: I just saved myself 10 minutes a day. - A Developer's Story
+[2026-02-14 20:08:26]   URL: https://ghost.daintytrading.com/articles/i-just-saved-myself-10-minutes-a-day/
+[2026-02-14 20:08:26]   Medium: Navigating to import page...
+[2026-02-14 20:08:29]   Medium: Typed URL: https://ghost.daintytrading.com/articles/i-just-saved-myself-10-minutes-a-day/
+[2026-02-14 20:08:32]   Medium: Clicked import button. Waiting for import...
+[2026-02-14 20:08:42]   Medium: Clicked 'See your story'.
+[2026-02-14 20:08:52]   Medium: Opened publish dialog.
+[2026-02-14 20:08:56]   Medium: Could not find topic input — skipping topics.
+[2026-02-14 20:08:57]   Medium: Could not find final publish button.
+[2026-02-14 20:08:58]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-14 20:09:01] Skipping (already on Medium): Meta's crawler made 11 MILLION requests to my site in 30 days. Vercel charged me for every single one. - A Developer's Story
+[2026-02-14 20:09:01] Processing: Prism - A Developer's Story
+[2026-02-14 20:09:01]   URL: https://ghost.daintytrading.com/articles/prism/
+[2026-02-14 20:09:01]   Medium: Navigating to import page...
+[2026-02-14 20:09:04]   Medium: Typed URL: https://ghost.daintytrading.com/articles/prism/
+[2026-02-14 20:09:07]   Medium: Clicked import button. Waiting for import...
+[2026-02-14 20:09:17]   Medium: Clicked 'See your story'.
+[2026-02-14 20:09:27]   Medium: Opened publish dialog.
+[2026-02-14 20:09:32]   Medium: Could not find topic input — skipping topics.
+[2026-02-14 20:09:33]   Medium: Could not find final publish button.
+[2026-02-14 20:09:33]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-14 20:09:36] Processing: Apple to soon take up to 30% cut from all Patreon creators in iOS app - A Developer's Story
+[2026-02-14 20:09:36]   URL: https://ghost.daintytrading.com/articles/apple-to-soon-take-up-to-30-cut-from-all-patreon-c/
+[2026-02-14 20:09:36]   Medium: Navigating to import page...
+[2026-02-14 20:09:40]   Medium: Typed URL: https://ghost.daintytrading.com/articles/apple-to-soon-take-up-to-30-cut-from-all-patreon-c/
+[2026-02-14 20:09:46]   Medium: Clicked import button. Waiting for import...
+[2026-02-14 20:10:56]   Medium: 'See your story' not found — import may still be processing.
+[2026-02-14 20:10:59] Processing: Test Article 2 - A Developer's Story
+[2026-02-14 20:10:59]   URL: https://ghost.daintytrading.com/articles/the-rise-of-synthetic-testing-manual-qa-comeback/
+[2026-02-14 20:10:59]   Medium: Navigating to import page...
+[2026-02-14 20:11:03]   Medium: Typed URL: https://ghost.daintytrading.com/articles/the-rise-of-synthetic-testing-manual-qa-comeback/
+[2026-02-14 20:11:07]   Medium: Clicked import button. Waiting for import...
+[2026-02-14 20:11:17]   Medium: Clicked 'See your story'.
+[2026-02-14 20:11:27]   Medium: Opened publish dialog.
+[2026-02-14 20:11:32]   Medium: Could not find topic input — skipping topics.
+[2026-02-14 20:11:33]   Medium: Could not find final publish button.
+[2026-02-14 20:11:33]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-14 20:11:36] Processing: GPT-5.3 Codex vs Opus 4.6: We benchmarked both on our production Rails codebase — the results are brutal - A Developer's Story
+[2026-02-14 20:11:36]   URL: https://ghost.daintytrading.com/articles/gpt-53-codex-vs-opus-46-we-benchmarked-both-on-our/
+[2026-02-14 20:11:36]   Medium: Navigating to import page...
+[2026-02-14 20:11:40]   Medium: Typed URL: https://ghost.daintytrading.com/articles/gpt-53-codex-vs-opus-46-we-benchmarked-both-on-our/
+[2026-02-14 20:11:45]   Medium: Clicked import button. Waiting for import...
+[2026-02-14 20:11:55]   Medium: Clicked 'See your story'.
+[2026-02-14 20:12:05]   Medium: Opened publish dialog.
+[2026-02-14 20:12:09]   Medium: Could not find topic input — skipping topics.
+[2026-02-14 20:12:10]   Medium: Could not find final publish button.
+[2026-02-14 20:12:11]   Medium: ✓ Import complete (screenshot saved for verification).
