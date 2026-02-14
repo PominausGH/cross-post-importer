@@ -2264,3 +2264,68 @@ Call log:
 [2026-02-14 20:44:27] Processing: A Developer's Portfolio: 18 Projects That Changed Everything
 [2026-02-14 20:44:27]   URL: https://ghost.daintytrading.com/articles/portfolio-overview/
 [2026-02-14 20:44:27]   Medium: Navigating to import page...
+[2026-02-14 20:44:30]   Medium: Typed URL: https://ghost.daintytrading.com/articles/portfolio-overview/
+[2026-02-14 20:44:33]   Medium: Clicked import button. Waiting for import...
+[2026-02-14 20:44:43]   Medium: Clicked 'See your story'.
+[2026-02-14 20:44:54]   Medium: Opened publish dialog.
+[2026-02-14 20:44:57]   Medium: Could not find topic input — skipping topics.
+[2026-02-14 20:44:58]   Medium: Could not find final publish button.
+[2026-02-14 20:44:58]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-14 20:45:01] Substack: 115 post(s) in feed — checking for duplicates...
+[2026-02-14 20:45:23]   Substack: Found 106 published posts for dedup.
+[2026-02-14 20:45:23]   Skipping (already on Substack): Welcome to r/Mindfulness! - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): Meta's crawler made 11 MILLION requests to my site in 30 days. Vercel charged me for every single one. - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): Prism - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): Apple to soon take up to 30% cut from all Patreon creators in iOS app - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): Test Article 2 - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): GPT-5.3 Codex vs Opus 4.6: We benchmarked both on our production Rails codebase — the results are brutal - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): Qwen3-Max-Thinking - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): cURL Gets Rid of Its Bug Bounty Program Over AI Slop Overrun - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): Amazon cuts 16k jobs - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): Heathrow scraps liquid container limit - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): Yann LeCun says the best open models are not coming from the West. Researchers across the field are using Chinese models. Openness drove AI progress. Close access, and the West risks slowing itself. - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): Omg moving to Claude was like dating a real man after some juvenile delinquent!                   Adios ChatGpt - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): "I say your civilization, because as soon as we started thinking for you, it really became our civilization." - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): Opus 4.5 really is done - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): I just needed to WORK. I don't need therapy, I don't need a girlfriend, I don't need to work on myself. I just needed to WORK. - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): TikTok users can't upload anti-ICE videos. The company blames tech issues - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): I 100% go by what Joanna Maciejewska said. - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): Notepad++ Hijacked by State-Sponsored Hackers - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): True. - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): Silicon Valley was a head of their time - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): Unreal - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): I just cancelled my ChatGPT Pro subscription. Discovering Greg Brockman gave $25 million to Trump's Inauguration fund was just the last straw of many. - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): The AI boom is causing shortages everywhere else - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): Prism - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): What are your thoughts on JD Vance getting booed during the opening ceremony at the Olympics? - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): Microsoft appointed a quality czar. He has no direct reports and no budget. - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): Sora 2 megathread (part 3) - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): Best AI Tools - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): Meanwhile over at moltbook - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): GPT added ads, Gemini added a way for you to import chatGPT chats into their model to continue conversations - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): 'Getting into DevOps' - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): Anthropic built a C compiler using a "team of parallel agents", has problems compiling hello world. - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): Data centers in space makes no sense - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): Federal statement on Jeffrey Epstein's death dated day before he was found dead - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): I asked AI to remodel my ugly apartment kitchen, then did it in real life...(photos) - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): AI turned Breaking Bad into Helium Balloon - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): Vouch - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): What is up with the theories that Epstein might actually be alive? - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): Marriage rule #1: facts are optional. Peace is mandatory. - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): OpenCiv3: Open-source, cross-platform reimagining of Civilization III - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): Vibe Coder productivity goals. - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): The Panini Press Gaming PC Giveaway - To enter this giveaway just leave a comment. - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): Honestly, create a picture of the average American's life. - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): Why am I paying premium to be mocked? - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): Netbird – Open Source Zero Trust Networking - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): Logging Mastery: Debug Like Your Life Depends On It
+[2026-02-14 20:45:23]   Skipping (already on Substack): France dumps Zoom and Teams as Europe seeks digital autonomy from the US - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): Beyond Keep-Alive: Building Systems That Work While You Sleep
+[2026-02-14 20:45:23]   Skipping (already on Substack): BirdyChat becomes first European chat app that is interoperable with WhatsApp - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): Whatsapp rewrote its media handler to rust (160k c++ to 90k rust) - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): FBI is investigating Minnesota Signal chats tracking ICE - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): Microsoft gave FBI a set of BitLocker encryption keys to unlock suspects' laptops: Reports - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): New rule: AI generated posts and comments are not allowed - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): I now assume that all ads on Apple news are scams - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): The Waymo World Model - A Developer's Story
+[2026-02-14 20:45:23]   Skipping (already on Substack): Official: Anthropic declared a plan for Claude to remain ad-free - A Developer's Story
