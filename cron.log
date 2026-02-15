@@ -2619,3 +2619,64 @@ Call log:
 [2026-02-15 20:07:31]   URL: https://ghost.daintytrading.com/articles/marriage-rule-1-facts-are-optional-peace-is-mandat/
 [2026-02-15 20:07:31]   Medium: Navigating to import page...
 [2026-02-15 20:07:34]   Medium: Typed URL: https://ghost.daintytrading.com/articles/marriage-rule-1-facts-are-optional-peace-is-mandat/
+[2026-02-15 20:07:35]   Medium: Clicked import button. Waiting for import...
+[2026-02-15 20:07:45]   Medium: Clicked 'See your story'.
+[2026-02-15 20:07:55]   Medium: Opened publish dialog.
+[2026-02-15 20:08:00]   Medium: Could not find topic input — skipping topics.
+[2026-02-15 20:08:01]   Medium: Could not find final publish button.
+[2026-02-15 20:08:01]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-15 20:08:04] Processing: The Waymo World Model - A Developer's Story
+[2026-02-15 20:08:04]   URL: https://ghost.daintytrading.com/articles/the-waymo-world-model/
+[2026-02-15 20:08:04]   Medium: Navigating to import page...
+[2026-02-15 20:08:08]   Medium: Typed URL: https://ghost.daintytrading.com/articles/the-waymo-world-model/
+[2026-02-15 20:08:09]   Medium: Clicked import button. Waiting for import...
+[2026-02-15 20:08:19]   Medium: Clicked 'See your story'.
+[2026-02-15 20:08:29]   Medium: Opened publish dialog.
+[2026-02-15 20:08:33]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-15 20:08:36] Processing: The world will see the truth soon - A Developer's Story
+[2026-02-15 20:08:36]   URL: https://ghost.daintytrading.com/articles/the-world-will-see-the-truth-soon/
+[2026-02-15 20:08:36]   Medium: Navigating to import page...
+[2026-02-15 20:08:41]   Medium: Typed URL: https://ghost.daintytrading.com/articles/the-world-will-see-the-truth-soon/
+[2026-02-15 20:08:42]   Medium: Clicked import button. Waiting for import...
+[2026-02-15 20:08:52]   Medium: Clicked 'See your story'.
+[2026-02-15 20:09:03]   Medium: Opened publish dialog.
+[2026-02-15 20:09:07]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-15 20:09:10] Processing: Informant told FBI that Jeffrey Epstein had a ‘personal hacker’ - A Developer's Story
+[2026-02-15 20:09:10]   URL: https://ghost.daintytrading.com/articles/informant-told-fbi-that-jeffrey-epstein-had-a-pers/
+[2026-02-15 20:09:10]   Medium: Navigating to import page...
+[2026-02-15 20:09:13]   Medium: Typed URL: https://ghost.daintytrading.com/articles/informant-told-fbi-that-jeffrey-epstein-had-a-pers/
+[2026-02-15 20:09:15]   Medium: Clicked import button. Waiting for import...
+[2026-02-15 20:09:25]   Medium: Clicked 'See your story'.
+[2026-02-15 20:09:35]   Medium: Opened publish dialog.
+[2026-02-15 20:09:39]   Medium: Could not find topic input — skipping topics.
+[2026-02-15 20:09:40]   Medium: Could not find final publish button.
+[2026-02-15 20:09:41]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-15 20:09:44] Processing: Euro firms must ditch Uncle Sam's clouds and go EU-native - A Developer's Story
+[2026-02-15 20:09:44]   URL: https://ghost.daintytrading.com/articles/euro-firms-must-ditch-uncle-sams-clouds-and-go-eu-/
+[2026-02-15 20:09:44]   Medium: Navigating to import page...
+[2026-02-15 20:09:47]   Medium: Typed URL: https://ghost.daintytrading.com/articles/euro-firms-must-ditch-uncle-sams-clouds-and-go-eu-/
+[2026-02-15 20:09:48]   Medium: Clicked import button. Waiting for import...
+[2026-02-15 20:09:58]   Medium: Clicked 'See your story'.
+[2026-02-15 20:10:08]   Medium: Opened publish dialog.
+[2026-02-15 20:10:12]   Medium: Could not find topic input — skipping topics.
+[2026-02-15 20:10:13]   Medium: Could not find final publish button.
+[2026-02-15 20:10:13]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-15 20:10:16] Processing: ICE using Palantir tool that feeds on Medicaid data - A Developer's Story
+[2026-02-15 20:10:16]   URL: https://ghost.daintytrading.com/articles/ice-using-palantir-tool-that-feeds-on-medicaid-dat/
+[2026-02-15 20:10:16]   Medium: Navigating to import page...
+[2026-02-15 20:10:19]   Medium: Typed URL: https://ghost.daintytrading.com/articles/ice-using-palantir-tool-that-feeds-on-medicaid-dat/
+[2026-02-15 20:10:23]   Medium: Clicked import button. Waiting for import...
+[2026-02-15 20:10:33]   Medium: Clicked 'See your story'.
+[2026-02-15 20:10:43]   Medium: Opened publish dialog.
+[2026-02-15 20:10:47]   Medium: Could not find topic input — skipping topics.
+[2026-02-15 20:10:48]   Medium: Could not find final publish button.
+[2026-02-15 20:10:48]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-15 20:10:51] Processing: Overrun with AI slop, cURL scraps bug bounties to ensure "intact mental health" - A Developer's Story
+[2026-02-15 20:10:51]   URL: https://ghost.daintytrading.com/articles/overrun-with-ai-slop-curl-scraps-bug-bounties-to-e/
+[2026-02-15 20:10:51]   Medium: Navigating to import page...
+[2026-02-15 20:10:54]   Medium: Typed URL: https://ghost.daintytrading.com/articles/overrun-with-ai-slop-curl-scraps-bug-bounties-to-e/
+[2026-02-15 20:10:56]   Medium: Clicked import button. Waiting for import...
+[2026-02-15 20:11:06]   Medium: Clicked 'See your story'.
+[2026-02-15 20:11:16]   Medium: Opened publish dialog.
+[2026-02-15 20:11:20]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-15 20:11:23] Done with 6 failure(s).
