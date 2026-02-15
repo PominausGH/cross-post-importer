@@ -2526,3 +2526,96 @@ Call log:
 [2026-02-14 21:04:47]     Share: Could not find post: 96% Engineers Don’t Fully Trust AI Output, Yet Only 48% Veri
 [2026-02-14 21:04:47]     Share: Could not find post: Researchers told Opus 4.6 to make money at all costs, so, na
 [2026-02-14 21:04:48] Done with 18 failure(s).
+[2026-02-15 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-02-15 20:00:13] Found 115 posts in feed.
+[2026-02-15 20:00:13] 18 post(s) to process.
+[2026-02-15 20:00:13] Medium: 18 post(s) to import.
+[2026-02-15 20:00:32]   Medium: Found 1 published stories for dedup.
+[2026-02-15 20:00:32] Processing: Kim Jong Un chooses teen daughter as heir, says Seoul - A Developer's Story
+[2026-02-15 20:00:32]   URL: https://ghost.daintytrading.com/articles/kim-jong-un-chooses-teen-daughter-as-heir-says-seo-selfhelp_wellness/
+[2026-02-15 20:00:32]   Medium: Navigating to import page...
+[2026-02-15 20:00:36]   Medium: Typed URL: https://ghost.daintytrading.com/articles/kim-jong-un-chooses-teen-daughter-as-heir-says-seo-selfhelp_wellness/
+[2026-02-15 20:00:37]   Medium: Clicked import button. Waiting for import...
+[2026-02-15 20:00:47]   Medium: Clicked 'See your story'.
+[2026-02-15 20:00:57]   Medium: Opened publish dialog.
+[2026-02-15 20:01:02]   Medium: Could not find topic input — skipping topics.
+[2026-02-15 20:01:03]   Medium: Could not find final publish button.
+[2026-02-15 20:01:03]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-15 20:01:06] Processing: What's going on with the FAA closing down air space in El Paso, Texas for 10 days? - A Developer's Story
+[2026-02-15 20:01:06]   URL: https://ghost.daintytrading.com/articles/whats-going-on-with-the-faa-closing-down-air-space-selfhelp_wellness/
+[2026-02-15 20:01:06]   Medium: Navigating to import page...
+[2026-02-15 20:01:19]   Medium: ✗ Could not find URL input field.
+[2026-02-15 20:01:22] Processing: You eventually start to realize, no job is safe. - A Developer's Story
+[2026-02-15 20:01:22]   URL: https://ghost.daintytrading.com/articles/you-eventually-start-to-realize-no-job-is-safe-selfhelp_wellness/
+[2026-02-15 20:01:22]   Medium: Navigating to import page...
+[2026-02-15 20:01:26]   Medium: Typed URL: https://ghost.daintytrading.com/articles/you-eventually-start-to-realize-no-job-is-safe-selfhelp_wellness/
+[2026-02-15 20:01:27]   Medium: Clicked import button. Waiting for import...
+[2026-02-15 20:01:37]   Medium: Clicked 'See your story'.
+[2026-02-15 20:01:47]   Medium: Opened publish dialog.
+[2026-02-15 20:01:52]   Medium: Could not find topic input — skipping topics.
+[2026-02-15 20:01:53]   Medium: Could not find final publish button.
+[2026-02-15 20:01:53]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-15 20:01:56] Processing: Warcraft III Peon Voice Notifications for Claude Code - A Developer's Story
+[2026-02-15 20:01:56]   URL: https://ghost.daintytrading.com/articles/warcraft-iii-peon-voice-notifications-for-claude-c-viral_medium_ai/
+[2026-02-15 20:01:56]   Medium: Navigating to import page...
+[2026-02-15 20:02:01]   Medium: Typed URL: https://ghost.daintytrading.com/articles/warcraft-iii-peon-voice-notifications-for-claude-c-viral_medium_ai/
+[2026-02-15 20:02:02]   Medium: Clicked import button. Waiting for import...
+[2026-02-15 20:02:12]   Medium: Clicked 'See your story'.
+[2026-02-15 20:02:22]   Medium: Opened publish dialog.
+[2026-02-15 20:02:27]   Medium: Could not find topic input — skipping topics.
+[2026-02-15 20:02:28]   Medium: Could not find final publish button.
+[2026-02-15 20:02:28]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-15 20:02:31] Processing: Discord/Twitch/Snapchat age verification bypass - A Developer's Story
+[2026-02-15 20:02:31]   URL: https://ghost.daintytrading.com/articles/discordtwitchsnapchat-age-verification-bypass/
+[2026-02-15 20:02:31]   Medium: Navigating to import page...
+[2026-02-15 20:02:34]   Medium: Typed URL: https://ghost.daintytrading.com/articles/discordtwitchsnapchat-age-verification-bypass/
+[2026-02-15 20:02:36]   Medium: Clicked import button. Waiting for import...
+[2026-02-15 20:03:46]   Medium: 'See your story' not found — import may still be processing.
+[2026-02-15 20:03:49] Processing: I stopped trying to wake up early. I fixed my evenings instead. - A Developer's Story
+[2026-02-15 20:03:49]   URL: https://ghost.daintytrading.com/articles/i-stopped-trying-to-wake-up-early-i-fixed-my-eveni-selfhelp_wellness/
+[2026-02-15 20:03:49]   Medium: Navigating to import page...
+[2026-02-15 20:03:52]   Medium: Typed URL: https://ghost.daintytrading.com/articles/i-stopped-trying-to-wake-up-early-i-fixed-my-eveni-selfhelp_wellness/
+[2026-02-15 20:03:54]   Medium: Clicked import button. Waiting for import...
+[2026-02-15 20:04:04]   Medium: Clicked 'See your story'.
+[2026-02-15 20:04:14]   Medium: Opened publish dialog.
+[2026-02-15 20:04:19]   Medium: Could not find topic input — skipping topics.
+[2026-02-15 20:04:20]   Medium: Could not find final publish button.
+[2026-02-15 20:04:20]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-15 20:04:23] Processing: GPT-5 outperforms federal judges in legal reasoning experiment - A Developer's Story
+[2026-02-15 20:04:23]   URL: https://ghost.daintytrading.com/articles/gpt-5-outperforms-federal-judges-in-legal-reasonin-viral_medium_ai/
+[2026-02-15 20:04:23]   Medium: Navigating to import page...
+[2026-02-15 20:04:26]   Medium: Typed URL: https://ghost.daintytrading.com/articles/gpt-5-outperforms-federal-judges-in-legal-reasonin-viral_medium_ai/
+[2026-02-15 20:04:28]   Medium: Clicked import button. Waiting for import...
+[2026-02-15 20:04:38]   Medium: Clicked 'See your story'.
+[2026-02-15 20:04:48]   Medium: Opened publish dialog.
+[2026-02-15 20:04:52]   Medium: Could not find topic input — skipping topics.
+[2026-02-15 20:04:53]   Medium: Could not find final publish button.
+[2026-02-15 20:04:54]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-15 20:04:57] Processing: Z.ai Just Admitted What Every AI Startup Won't Say Out Loud - A Developer's Story
+[2026-02-15 20:04:57]   URL: https://ghost.daintytrading.com/articles/zai-just-admitted-what-every-ai-startup-wont-say-o/
+[2026-02-15 20:04:57]   Medium: Navigating to import page...
+[2026-02-15 20:05:00]   Medium: Typed URL: https://ghost.daintytrading.com/articles/zai-just-admitted-what-every-ai-startup-wont-say-o/
+[2026-02-15 20:05:01]   Medium: Clicked import button. Waiting for import...
+[2026-02-15 20:06:11]   Medium: 'See your story' not found — import may still be processing.
+[2026-02-15 20:06:14] Processing: Sonnet 5 release on Feb 3 - A Developer's Story
+[2026-02-15 20:06:14]   URL: https://ghost.daintytrading.com/articles/sonnet-5-release-on-feb-3/
+[2026-02-15 20:06:14]   Medium: Navigating to import page...
+[2026-02-15 20:06:27]   Medium: ✗ Could not find URL input field.
+[2026-02-15 20:06:30] Processing: Best AI Tools - A Developer's Story
+[2026-02-15 20:06:30]   URL: https://ghost.daintytrading.com/articles/best-ai-tools/
+[2026-02-15 20:06:30]   Medium: Navigating to import page...
+[2026-02-15 20:06:53]   Medium: ✗ Could not find URL input field.
+[2026-02-15 20:06:56] Processing: Federal statement on Jeffrey Epstein's death dated day before he was found dead - A Developer's Story
+[2026-02-15 20:06:56]   URL: https://ghost.daintytrading.com/articles/federal-statement-on-jeffrey-epsteins-death-dated--selfhelp_wellness/
+[2026-02-15 20:06:56]   Medium: Navigating to import page...
+[2026-02-15 20:07:00]   Medium: Typed URL: https://ghost.daintytrading.com/articles/federal-statement-on-jeffrey-epsteins-death-dated--selfhelp_wellness/
+[2026-02-15 20:07:01]   Medium: Clicked import button. Waiting for import...
+[2026-02-15 20:07:11]   Medium: Clicked 'See your story'.
+[2026-02-15 20:07:21]   Medium: Opened publish dialog.
+[2026-02-15 20:07:26]   Medium: Could not find topic input — skipping topics.
+[2026-02-15 20:07:27]   Medium: Could not find final publish button.
+[2026-02-15 20:07:28]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-15 20:07:31] Processing: Marriage rule #1: facts are optional. Peace is mandatory. - A Developer's Story
+[2026-02-15 20:07:31]   URL: https://ghost.daintytrading.com/articles/marriage-rule-1-facts-are-optional-peace-is-mandat/
+[2026-02-15 20:07:31]   Medium: Navigating to import page...
+[2026-02-15 20:07:34]   Medium: Typed URL: https://ghost.daintytrading.com/articles/marriage-rule-1-facts-are-optional-peace-is-mandat/
