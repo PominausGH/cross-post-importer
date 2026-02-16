@@ -2680,3 +2680,54 @@ Call log:
 [2026-02-15 20:11:16]   Medium: Opened publish dialog.
 [2026-02-15 20:11:20]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
 [2026-02-15 20:11:23] Done with 6 failure(s).
+[2026-02-16 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-02-16 20:00:09] Found 115 posts in feed.
+[2026-02-16 20:00:09] 6 post(s) to process.
+[2026-02-16 20:00:09] Medium: 6 post(s) to import.
+[2026-02-16 20:00:34]   Medium: Found 65 published stories for dedup.
+[2026-02-16 20:00:34] Processing: What's going on with the FAA closing down air space in El Paso, Texas for 10 days? - A Developer's Story
+[2026-02-16 20:00:34]   URL: https://ghost.daintytrading.com/articles/whats-going-on-with-the-faa-closing-down-air-space-selfhelp_wellness/
+[2026-02-16 20:00:34]   Medium: Navigating to import page...
+[2026-02-16 20:00:39]   Medium: Typed URL: https://ghost.daintytrading.com/articles/whats-going-on-with-the-faa-closing-down-air-space-selfhelp_wellness/
+[2026-02-16 20:00:44]   Medium: Clicked import button. Waiting for import...
+[2026-02-16 20:00:54]   Medium: Clicked 'See your story'.
+[2026-02-16 20:01:04]   Medium: Opened publish dialog.
+[2026-02-16 20:01:09]   Medium: Could not find topic input — skipping topics.
+[2026-02-16 20:01:10]   Medium: Could not find final publish button.
+[2026-02-16 20:01:11]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-16 20:01:14] Processing: Sonnet 5 release on Feb 3 - A Developer's Story
+[2026-02-16 20:01:14]   URL: https://ghost.daintytrading.com/articles/sonnet-5-release-on-feb-3/
+[2026-02-16 20:01:14]   Medium: Navigating to import page...
+[2026-02-16 20:01:17]   Medium: Typed URL: https://ghost.daintytrading.com/articles/sonnet-5-release-on-feb-3/
+[2026-02-16 20:01:20]   Medium: Clicked import button. Waiting for import...
+[2026-02-16 20:01:30]   Medium: Clicked 'See your story'.
+[2026-02-16 20:01:40]   Medium: Opened publish dialog.
+[2026-02-16 20:01:46]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-16 20:01:49] Processing: Best AI Tools - A Developer's Story
+[2026-02-16 20:01:49]   URL: https://ghost.daintytrading.com/articles/best-ai-tools/
+[2026-02-16 20:01:49]   Medium: Navigating to import page...
+[2026-02-16 20:01:52]   Medium: Typed URL: https://ghost.daintytrading.com/articles/best-ai-tools/
+[2026-02-16 20:01:56]   Medium: Clicked import button. Waiting for import...
+[2026-02-16 20:02:06]   Medium: Clicked 'See your story'.
+[2026-02-16 20:02:16]   Medium: Opened publish dialog.
+[2026-02-16 20:02:20]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-16 20:02:23] Skipping (already on Medium): The Waymo World Model - A Developer's Story
+[2026-02-16 20:02:23] Processing: The world will see the truth soon - A Developer's Story
+[2026-02-16 20:02:23]   URL: https://ghost.daintytrading.com/articles/the-world-will-see-the-truth-soon/
+[2026-02-16 20:02:23]   Medium: Navigating to import page...
+[2026-02-16 20:02:27]   Medium: Typed URL: https://ghost.daintytrading.com/articles/the-world-will-see-the-truth-soon/
+[2026-02-16 20:02:29]   Medium: Clicked import button. Waiting for import...
+[2026-02-16 20:02:39]   Medium: Clicked 'See your story'.
+[2026-02-16 20:02:49]   Medium: Opened publish dialog.
+[2026-02-16 20:02:54]   Medium: Could not find topic input — skipping topics.
+[2026-02-16 20:02:55]   Medium: Could not find final publish button.
+[2026-02-16 20:02:55]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-16 20:02:58] Processing: Overrun with AI slop, cURL scraps bug bounties to ensure "intact mental health" - A Developer's Story
+[2026-02-16 20:02:58]   URL: https://ghost.daintytrading.com/articles/overrun-with-ai-slop-curl-scraps-bug-bounties-to-e/
+[2026-02-16 20:02:58]   Medium: Navigating to import page...
+[2026-02-16 20:03:02]   Medium: Typed URL: https://ghost.daintytrading.com/articles/overrun-with-ai-slop-curl-scraps-bug-bounties-to-e/
+[2026-02-16 20:03:07]   Medium: Clicked import button. Waiting for import...
+[2026-02-16 20:03:17]   Medium: Clicked 'See your story'.
+[2026-02-16 20:03:27]   Medium: Opened publish dialog.
+[2026-02-16 20:03:32]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-16 20:03:36] Done with 3 failure(s).
