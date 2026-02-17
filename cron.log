@@ -2731,3 +2731,38 @@ Call log:
 [2026-02-16 20:03:27]   Medium: Opened publish dialog.
 [2026-02-16 20:03:32]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
 [2026-02-16 20:03:36] Done with 3 failure(s).
+[2026-02-17 20:00:02] Fetching RSS feeds: 2 source(s)
+[2026-02-17 20:00:12] Found 115 posts in feed.
+[2026-02-17 20:00:12] 3 post(s) to process.
+[2026-02-17 20:00:12] Medium: 3 post(s) to import.
+[2026-02-17 20:00:27]   Medium: Found 66 published stories for dedup.
+[2026-02-17 20:00:27] Processing: Sonnet 5 release on Feb 3 - A Developer's Story
+[2026-02-17 20:00:27]   URL: https://ghost.daintytrading.com/articles/sonnet-5-release-on-feb-3/
+[2026-02-17 20:00:27]   Medium: Navigating to import page...
+[2026-02-17 20:00:31]   Medium: Typed URL: https://ghost.daintytrading.com/articles/sonnet-5-release-on-feb-3/
+[2026-02-17 20:00:33]   Medium: Clicked import button. Waiting for import...
+[2026-02-17 20:00:43]   Medium: Clicked 'See your story'.
+[2026-02-17 20:00:53]   Medium: Opened publish dialog.
+[2026-02-17 20:00:58]   Medium: Could not find topic input — skipping topics.
+[2026-02-17 20:00:59]   Medium: Could not find final publish button.
+[2026-02-17 20:00:59]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-17 20:01:02] Processing: Best AI Tools - A Developer's Story
+[2026-02-17 20:01:02]   URL: https://ghost.daintytrading.com/articles/best-ai-tools/
+[2026-02-17 20:01:02]   Medium: Navigating to import page...
+[2026-02-17 20:01:05]   Medium: Typed URL: https://ghost.daintytrading.com/articles/best-ai-tools/
+[2026-02-17 20:01:07]   Medium: Clicked import button. Waiting for import...
+[2026-02-17 20:01:17]   Medium: Clicked 'See your story'.
+[2026-02-17 20:01:27]   Medium: Opened publish dialog.
+[2026-02-17 20:01:30]   Medium: Could not find topic input — skipping topics.
+[2026-02-17 20:01:31]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-17 20:01:35] Processing: Overrun with AI slop, cURL scraps bug bounties to ensure "intact mental health" - A Developer's Story
+[2026-02-17 20:01:35]   URL: https://ghost.daintytrading.com/articles/overrun-with-ai-slop-curl-scraps-bug-bounties-to-e/
+[2026-02-17 20:01:35]   Medium: Navigating to import page...
+[2026-02-17 20:01:38]   Medium: Typed URL: https://ghost.daintytrading.com/articles/overrun-with-ai-slop-curl-scraps-bug-bounties-to-e/
+[2026-02-17 20:01:40]   Medium: Clicked import button. Waiting for import...
+[2026-02-17 20:01:50]   Medium: Clicked 'See your story'.
+[2026-02-17 20:02:00]   Medium: Opened publish dialog.
+[2026-02-17 20:02:04]   Medium: Could not find topic input — skipping topics.
+[2026-02-17 20:02:05]   Medium: Could not find final publish button.
+[2026-02-17 20:02:05]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-17 20:02:09] Done with 1 failure(s).
