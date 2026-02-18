@@ -2766,3 +2766,100 @@ Call log:
 [2026-02-17 20:02:05]   Medium: Could not find final publish button.
 [2026-02-17 20:02:05]   Medium: ✓ Import complete (screenshot saved for verification).
 [2026-02-17 20:02:09] Done with 1 failure(s).
+[2026-02-18 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-02-18 20:00:12] Found 116 posts in feed.
+[2026-02-18 20:00:12] 33 post(s) to process.
+[2026-02-18 20:00:12] Medium: 24 post(s) to import.
+[2026-02-18 20:00:26]   Medium: Found 65 published stories for dedup.
+[2026-02-18 20:00:26] Processing: Stop Scrolling! James - A Developer's Story
+[2026-02-18 20:00:26]   URL: https://signalreads.com/articles/stop-scrolling-james/
+[2026-02-18 20:00:26]   Medium: Navigating to import page...
+[2026-02-18 20:00:29]   Medium: Typed URL: https://signalreads.com/articles/stop-scrolling-james/
+[2026-02-18 20:00:34]   Medium: Clicked import button. Waiting for import...
+[2026-02-18 20:00:44]   Medium: Clicked 'See your story'.
+[2026-02-18 20:00:54]   Medium: Opened publish dialog.
+[2026-02-18 20:00:59]   Medium: Could not find topic input — skipping topics.
+[2026-02-18 20:01:00]   Medium: Could not find final publish button.
+[2026-02-18 20:01:00]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-18 20:01:03] Processing: What's going on with the lack of front page videos from the Minnesota subreddit? - A Developer's Story
+[2026-02-18 20:01:03]   URL: https://signalreads.com/articles/whats-going-on-with-the-lack-of-front-page-videos-/
+[2026-02-18 20:01:03]   Medium: Navigating to import page...
+[2026-02-18 20:01:06]   Medium: Typed URL: https://signalreads.com/articles/whats-going-on-with-the-lack-of-front-page-videos-/
+[2026-02-18 20:01:10]   Medium: Clicked import button. Waiting for import...
+[2026-02-18 20:01:20]   Medium: Clicked 'See your story'.
+[2026-02-18 20:01:30]   Medium: Opened publish dialog.
+[2026-02-18 20:01:35]   Medium: Could not find topic input — skipping topics.
+[2026-02-18 20:01:36]   Medium: Could not find final publish button.
+[2026-02-18 20:01:36]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-18 20:01:39] Processing: I Meditated Wrong for 7 Years. Then Reddit's Mindfulness Community Fixed Me. - A Developer's Story
+[2026-02-18 20:01:39]   URL: https://signalreads.com/articles/i-meditated-wrong-for-7-years-then-reddits-mindful/
+[2026-02-18 20:01:39]   Medium: Navigating to import page...
+[2026-02-18 20:01:42]   Medium: Typed URL: https://signalreads.com/articles/i-meditated-wrong-for-7-years-then-reddits-mindful/
+[2026-02-18 20:01:46]   Medium: Clicked import button. Waiting for import...
+[2026-02-18 20:01:56]   Medium: Clicked 'See your story'.
+[2026-02-18 20:02:06]   Medium: Opened publish dialog.
+[2026-02-18 20:02:10]   Medium: Could not find topic input — skipping topics.
+[2026-02-18 20:02:11]   Medium: Could not find final publish button.
+[2026-02-18 20:02:11]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-18 20:02:14] Processing: An AI Agent Just Wrote a Hit Piece About Me. I'm Not Even Mad. - A Developer's Story
+[2026-02-18 20:02:14]   URL: https://signalreads.com/articles/an-ai-agent-just-wrote-a-hit-piece-about-me-im-not/
+[2026-02-18 20:02:14]   Medium: Navigating to import page...
+[2026-02-18 20:02:17]   Medium: Typed URL: https://signalreads.com/articles/an-ai-agent-just-wrote-a-hit-piece-about-me-im-not/
+[2026-02-18 20:02:22]   Medium: Clicked import button. Waiting for import...
+[2026-02-18 20:02:32]   Medium: Clicked 'See your story'.
+[2026-02-18 20:02:42]   Medium: Opened publish dialog.
+[2026-02-18 20:02:46]   Medium: Could not find topic input — skipping topics.
+[2026-02-18 20:02:48]   Medium: Could not find final publish button.
+[2026-02-18 20:02:48]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-18 20:02:51] Processing: Kim Jong Un chooses teen daughter as heir, says Seoul - A Developer's Story
+[2026-02-18 20:02:51]   URL: https://signalreads.com/articles/kim-jong-un-chooses-teen-daughter-as-heir-says-seo/
+[2026-02-18 20:02:51]   Medium: Navigating to import page...
+[2026-02-18 20:02:54]   Medium: Typed URL: https://signalreads.com/articles/kim-jong-un-chooses-teen-daughter-as-heir-says-seo/
+[2026-02-18 20:02:57]   Medium: Clicked import button. Waiting for import...
+[2026-02-18 20:03:08]   Medium: Clicked 'See your story'.
+[2026-02-18 20:03:18]   Medium: Opened publish dialog.
+[2026-02-18 20:03:23]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-18 20:03:26] Processing: What's going on with the FAA closing down air space in El Paso, Texas for 10 days? - A Developer's Story
+[2026-02-18 20:03:26]   URL: https://signalreads.com/articles/whats-going-on-with-the-faa-closing-down-air-space/
+[2026-02-18 20:03:26]   Medium: Navigating to import page...
+[2026-02-18 20:03:29]   Medium: Typed URL: https://signalreads.com/articles/whats-going-on-with-the-faa-closing-down-air-space/
+[2026-02-18 20:03:33]   Medium: Clicked import button. Waiting for import...
+[2026-02-18 20:03:43]   Medium: Clicked 'See your story'.
+[2026-02-18 20:03:53]   Medium: Opened publish dialog.
+[2026-02-18 20:03:59]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-18 20:04:02] Skipping (already on Medium): You eventually start to realize, no job is safe. - A Developer's Story
+[2026-02-18 20:04:02] Processing: Warcraft III Peon Voice Notifications for Claude Code - A Developer's Story
+[2026-02-18 20:04:02]   URL: https://signalreads.com/articles/warcraft-iii-peon-voice-notifications-for-claude-c/
+[2026-02-18 20:04:02]   Medium: Navigating to import page...
+[2026-02-18 20:04:06]   Medium: Typed URL: https://signalreads.com/articles/warcraft-iii-peon-voice-notifications-for-claude-c/
+[2026-02-18 20:04:09]   Medium: Clicked import button. Waiting for import...
+[2026-02-18 20:04:19]   Medium: Clicked 'See your story'.
+[2026-02-18 20:04:29]   Medium: Opened publish dialog.
+[2026-02-18 20:04:34]   Medium: Could not find topic input — skipping topics.
+[2026-02-18 20:04:35]   Medium: Could not find final publish button.
+[2026-02-18 20:04:35]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-18 20:04:38] Processing: I Watched Claude Code Get Dumber in Real-Time. Here's What's Happening. - A Developer's Story
+[2026-02-18 20:04:38]   URL: https://signalreads.com/articles/i-watched-claude-code-get-dumber-in-real-time-here/
+[2026-02-18 20:04:38]   Medium: Navigating to import page...
+[2026-02-18 20:04:42]   Medium: Typed URL: https://signalreads.com/articles/i-watched-claude-code-get-dumber-in-real-time-here/
+[2026-02-18 20:04:46]   Medium: Clicked import button. Waiting for import...
+[2026-02-18 20:04:56]   Medium: Clicked 'See your story'.
+[2026-02-18 20:05:06]   Medium: Opened publish dialog.
+[2026-02-18 20:05:11]   Medium: Could not find topic input — skipping topics.
+[2026-02-18 20:05:12]   Medium: Could not find final publish button.
+[2026-02-18 20:05:12]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-18 20:05:15] Processing: Discord/Twitch/Snapchat age verification bypass - A Developer's Story
+[2026-02-18 20:05:15]   URL: https://signalreads.com/articles/discordtwitchsnapchat-age-verification-bypass/
+[2026-02-18 20:05:15]   Medium: Navigating to import page...
+[2026-02-18 20:05:19]   Medium: Typed URL: https://signalreads.com/articles/discordtwitchsnapchat-age-verification-bypass/
+[2026-02-18 20:05:23]   Medium: Clicked import button. Waiting for import...
+[2026-02-18 20:05:33]   Medium: Clicked 'See your story'.
+[2026-02-18 20:05:43]   Medium: Opened publish dialog.
+[2026-02-18 20:05:47]   Medium: Could not find topic input — skipping topics.
+[2026-02-18 20:05:48]   Medium: Could not find final publish button.
+[2026-02-18 20:05:48]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-18 20:05:51] Skipping (already on Medium): What's going on with Cuba having food and fuel shortages? - A Developer's Story
+[2026-02-18 20:05:51] Processing: I stopped trying to wake up early. I fixed my evenings instead. - A Developer's Story
+[2026-02-18 20:05:51]   URL: https://signalreads.com/articles/i-stopped-trying-to-wake-up-early-i-fixed-my-eveni/
+[2026-02-18 20:05:52]   Medium: Navigating to import page...
+[2026-02-18 20:05:55]   Medium: Typed URL: https://signalreads.com/articles/i-stopped-trying-to-wake-up-early-i-fixed-my-eveni/
