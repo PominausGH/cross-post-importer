@@ -2863,3 +2863,89 @@ Call log:
 [2026-02-18 20:05:51]   URL: https://signalreads.com/articles/i-stopped-trying-to-wake-up-early-i-fixed-my-eveni/
 [2026-02-18 20:05:52]   Medium: Navigating to import page...
 [2026-02-18 20:05:55]   Medium: Typed URL: https://signalreads.com/articles/i-stopped-trying-to-wake-up-early-i-fixed-my-eveni/
+[2026-02-18 20:05:59]   Medium: Clicked import button. Waiting for import...
+[2026-02-18 20:06:09]   Medium: Clicked 'See your story'.
+[2026-02-18 20:06:19]   Medium: Opened publish dialog.
+[2026-02-18 20:06:24]   Medium: Could not find topic input — skipping topics.
+[2026-02-18 20:06:25]   Medium: Could not find final publish button.
+[2026-02-18 20:06:25]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-18 20:06:28] Processing: GPT-5 outperforms federal judges in legal reasoning experiment - A Developer's Story
+[2026-02-18 20:06:28]   URL: https://signalreads.com/articles/gpt-5-outperforms-federal-judges-in-legal-reasonin/
+[2026-02-18 20:06:28]   Medium: Navigating to import page...
+[2026-02-18 20:06:32]   Medium: Typed URL: https://signalreads.com/articles/gpt-5-outperforms-federal-judges-in-legal-reasonin/
+[2026-02-18 20:06:36]   Medium: Clicked import button. Waiting for import...
+[2026-02-18 20:06:46]   Medium: Clicked 'See your story'.
+[2026-02-18 20:06:56]   Medium: Opened publish dialog.
+[2026-02-18 20:07:00]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-18 20:07:03] Processing: Z.ai Just Admitted What Every AI Startup Won't Say Out Loud - A Developer's Story
+[2026-02-18 20:07:03]   URL: https://signalreads.com/articles/zai-just-admitted-what-every-ai-startup-wont-say-o/
+[2026-02-18 20:07:03]   Medium: Navigating to import page...
+[2026-02-18 20:07:07]   Medium: Typed URL: https://signalreads.com/articles/zai-just-admitted-what-every-ai-startup-wont-say-o/
+[2026-02-18 20:07:10]   Medium: Clicked import button. Waiting for import...
+[2026-02-18 20:07:20]   Medium: Clicked 'See your story'.
+[2026-02-18 20:07:30]   Medium: Opened publish dialog.
+[2026-02-18 20:07:34]   Medium: Could not find topic input — skipping topics.
+[2026-02-18 20:07:35]   Medium: Could not find final publish button.
+[2026-02-18 20:07:35]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-18 20:07:38] Skipping (already on Medium): Welcome to r/Mindfulness! - A Developer's Story
+[2026-02-18 20:07:38] Processing: People in your 30s, 40s, and 50s what surprised you most about life at your age? - A Developer's Story
+[2026-02-18 20:07:38]   URL: https://signalreads.com/articles/people-in-your-30s-40s-and-50s-what-surprised-you-/
+[2026-02-18 20:07:38]   Medium: Navigating to import page...
+[2026-02-18 20:07:42]   Medium: Typed URL: https://signalreads.com/articles/people-in-your-30s-40s-and-50s-what-surprised-you-/
+[2026-02-18 20:07:45]   Medium: Clicked import button. Waiting for import...
+[2026-02-18 20:07:55]   Medium: Clicked 'See your story'.
+[2026-02-18 20:08:05]   Medium: Opened publish dialog.
+[2026-02-18 20:08:10]   Medium: Could not find topic input — skipping topics.
+[2026-02-18 20:08:11]   Medium: Could not find final publish button.
+[2026-02-18 20:08:11]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-18 20:08:14] Skipping (already on Medium): What's the deal with the DOJ press release on Epstein's death being dated the day before he died?" - A Developer's Story
+[2026-02-18 20:08:14] Skipping (already on Medium): I just needed to WORK. I don't need therapy, I don't need a girlfriend, I don't need to work on myself. I just needed to WORK. - A Developer's Story
+[2026-02-18 20:08:14] Skipping (already on Medium): Hostinger for your vps 20% off - A Developer's Story
+[2026-02-18 20:08:14] Processing: What are your thoughts on JD Vance getting booed during the opening ceremony at the Olympics? - A Developer's Story
+[2026-02-18 20:08:14]   URL: https://signalreads.com/articles/what-are-your-thoughts-on-jd-vance-getting-booed-d/
+[2026-02-18 20:08:14]   Medium: Navigating to import page...
+[2026-02-18 20:08:17]   Medium: Typed URL: https://signalreads.com/articles/what-are-your-thoughts-on-jd-vance-getting-booed-d/
+[2026-02-18 20:08:21]   Medium: Clicked import button. Waiting for import...
+[2026-02-18 20:08:31]   Medium: Clicked 'See your story'.
+[2026-02-18 20:08:41]   Medium: Opened publish dialog.
+[2026-02-18 20:08:45]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-18 20:08:48] Processing: Federal statement on Jeffrey Epstein's death dated day before he was found dead - A Developer's Story
+[2026-02-18 20:08:48]   URL: https://signalreads.com/articles/federal-statement-on-jeffrey-epsteins-death-dated-/
+[2026-02-18 20:08:48]   Medium: Navigating to import page...
+[2026-02-18 20:08:52]   Medium: Typed URL: https://signalreads.com/articles/federal-statement-on-jeffrey-epsteins-death-dated-/
+[2026-02-18 20:08:55]   Medium: Clicked import button. Waiting for import...
+[2026-02-18 20:09:05]   Medium: Clicked 'See your story'.
+[2026-02-18 20:09:15]   Medium: Opened publish dialog.
+[2026-02-18 20:09:20]   Medium: Could not find topic input — skipping topics.
+[2026-02-18 20:09:21]   Medium: Could not find final publish button.
+[2026-02-18 20:09:21]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-18 20:09:24] Skipping (already on Medium): What is up with the theories that Epstein might actually be alive? - A Developer's Story
+[2026-02-18 20:09:24] Processing: The Panini Press Gaming PC Giveaway - To enter this giveaway just leave a comment. - A Developer's Story
+[2026-02-18 20:09:24]   URL: https://signalreads.com/articles/the-panini-press-gaming-pc-giveaway---to-enter-thi/
+[2026-02-18 20:09:24]   Medium: Navigating to import page...
+[2026-02-18 20:09:27]   Medium: Typed URL: https://signalreads.com/articles/the-panini-press-gaming-pc-giveaway---to-enter-thi/
+[2026-02-18 20:09:31]   Medium: Clicked import button. Waiting for import...
+[2026-02-18 20:09:41]   Medium: Clicked 'See your story'.
+[2026-02-18 20:09:51]   Medium: Opened publish dialog.
+[2026-02-18 20:09:54]   Medium: Could not find topic input — skipping topics.
+[2026-02-18 20:09:55]   Medium: Could not find final publish button.
+[2026-02-18 20:09:55]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-18 20:09:58] Processing: New rule: AI generated posts and comments are not allowed - A Developer's Story
+[2026-02-18 20:09:58]   URL: https://signalreads.com/articles/new-rule-ai-generated-posts-and-comments-are-not-a/
+[2026-02-18 20:09:59]   Medium: Navigating to import page...
+[2026-02-18 20:10:02]   Medium: Typed URL: https://signalreads.com/articles/new-rule-ai-generated-posts-and-comments-are-not-a/
+[2026-02-18 20:10:06]   Medium: Clicked import button. Waiting for import...
+[2026-02-18 20:10:16]   Medium: Clicked 'See your story'.
+[2026-02-18 20:10:26]   Medium: Opened publish dialog.
+[2026-02-18 20:10:31]   Medium: Could not find topic input — skipping topics.
+[2026-02-18 20:10:32]   Medium: Could not find final publish button.
+[2026-02-18 20:10:32]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-18 20:10:35] Substack: 33 post(s) in feed — checking for duplicates...
+[2026-02-18 20:11:00]   Substack: Found 131 published posts for dedup.
+[2026-02-18 20:11:00]   Skipping (already on Substack): What's going on with the lack of front page videos from the Minnesota subreddit? - A Developer's Story
+[2026-02-18 20:11:00]   Skipping (already on Substack): I Meditated Wrong for 7 Years. Then Reddit's Mindfulness Community Fixed Me. - A Developer's Story
+[2026-02-18 20:11:00]   Skipping (already on Substack): An AI Agent Just Wrote a Hit Piece About Me. I'm Not Even Mad. - A Developer's Story
+[2026-02-18 20:11:00]   Skipping (already on Substack): Kim Jong Un chooses teen daughter as heir, says Seoul - A Developer's Story
+[2026-02-18 20:11:00]   Skipping (already on Substack): What's going on with the FAA closing down air space in El Paso, Texas for 10 days? - A Developer's Story
+[2026-02-18 20:11:00]   Skipping (already on Substack): Slop pull request is rejected, so slop author instructs slop AI agent to write a slop blog post criticising it as unfair - A Developer's Story
+[2026-02-18 20:11:00]   Skipping (already on Substack): You eventually start to realize, no job is safe. - A Developer's Story
