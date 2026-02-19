@@ -2980,3 +2980,80 @@ Call log:
 [2026-02-18 20:11:07]   Substack: Clicked 'Get started' — waiting for feed to load...
 [2026-02-18 20:11:37]   Substack: ✗ Feed loaded but 'Import' button never appeared.
 [2026-02-18 20:11:37] Done with 5 failure(s).
+[2026-02-19 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-02-19 20:00:11] Found 117 posts in feed.
+[2026-02-19 20:00:11] 6 post(s) to process.
+[2026-02-19 20:00:11] Medium: 5 post(s) to import.
+[2026-02-19 20:00:26]   Medium: Found 65 published stories for dedup.
+[2026-02-19 20:00:26] Processing: [COMP] handstand to crow - A Developer's Story
+[2026-02-19 20:00:26]   URL: https://signalreads.com/articles/comp-handstand-to-crow/
+[2026-02-19 20:00:26]   Medium: Navigating to import page...
+[2026-02-19 20:00:30]   Medium: Typed URL: https://signalreads.com/articles/comp-handstand-to-crow/
+[2026-02-19 20:00:31]   Medium: Clicked import button. Waiting for import...
+[2026-02-19 20:01:41]   Medium: 'See your story' not found — import may still be processing.
+[2026-02-19 20:01:44] Processing: Kim Jong Un chooses teen daughter as heir, says Seoul - A Developer's Story
+[2026-02-19 20:01:44]   URL: https://signalreads.com/articles/kim-jong-un-chooses-teen-daughter-as-heir-says-seo/
+[2026-02-19 20:01:44]   Medium: Navigating to import page...
+[2026-02-19 20:01:48]   Medium: Typed URL: https://signalreads.com/articles/kim-jong-un-chooses-teen-daughter-as-heir-says-seo/
+[2026-02-19 20:01:49]   Medium: Clicked import button. Waiting for import...
+[2026-02-19 20:01:59]   Medium: Clicked 'See your story'.
+[2026-02-19 20:02:09]   Medium: Opened publish dialog.
+[2026-02-19 20:02:14]   Medium: Could not find topic input — skipping topics.
+[2026-02-19 20:02:15]   Medium: Could not find final publish button.
+[2026-02-19 20:02:15]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-19 20:02:18] Processing: What's going on with the FAA closing down air space in El Paso, Texas for 10 days? - A Developer's Story
+[2026-02-19 20:02:18]   URL: https://signalreads.com/articles/whats-going-on-with-the-faa-closing-down-air-space/
+[2026-02-19 20:02:18]   Medium: Navigating to import page...
+[2026-02-19 20:02:22]   Medium: Typed URL: https://signalreads.com/articles/whats-going-on-with-the-faa-closing-down-air-space/
+[2026-02-19 20:02:23]   Medium: Clicked import button. Waiting for import...
+[2026-02-19 20:02:33]   Medium: Clicked 'See your story'.
+[2026-02-19 20:02:43]   Medium: Opened publish dialog.
+[2026-02-19 20:02:48]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-19 20:02:52] Processing: GPT-5 outperforms federal judges in legal reasoning experiment - A Developer's Story
+[2026-02-19 20:02:52]   URL: https://signalreads.com/articles/gpt-5-outperforms-federal-judges-in-legal-reasonin/
+[2026-02-19 20:02:52]   Medium: Navigating to import page...
+[2026-02-19 20:02:55]   Medium: Typed URL: https://signalreads.com/articles/gpt-5-outperforms-federal-judges-in-legal-reasonin/
+[2026-02-19 20:02:56]   Medium: Clicked import button. Waiting for import...
+[2026-02-19 20:03:06]   Medium: Clicked 'See your story'.
+[2026-02-19 20:03:16]   Medium: Opened publish dialog.
+[2026-02-19 20:03:20]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-19 20:03:24] Processing: What are your thoughts on JD Vance getting booed during the opening ceremony at the Olympics? - A Developer's Story
+[2026-02-19 20:03:24]   URL: https://signalreads.com/articles/what-are-your-thoughts-on-jd-vance-getting-booed-d/
+[2026-02-19 20:03:24]   Medium: Navigating to import page...
+[2026-02-19 20:03:27]   Medium: Typed URL: https://signalreads.com/articles/what-are-your-thoughts-on-jd-vance-getting-booed-d/
+[2026-02-19 20:03:28]   Medium: Clicked import button. Waiting for import...
+[2026-02-19 20:03:38]   Medium: Clicked 'See your story'.
+[2026-02-19 20:03:48]   Medium: Opened publish dialog.
+[2026-02-19 20:03:53]   Medium: Could not find topic input — skipping topics.
+[2026-02-19 20:03:54]   Medium: Could not find final publish button.
+[2026-02-19 20:03:54]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-19 20:03:57] Substack: 2 post(s) in feed — checking for duplicates...
+[2026-02-19 20:04:27]   Substack: Found 131 published posts for dedup.
+[2026-02-19 20:04:27]   Substack: 2 genuinely new post(s) — importing via RSS...
+[2026-02-19 20:04:27]   Substack: Navigating to import page...
+[2026-02-19 20:04:32]   Substack: Pasted site URL: https://ghost.daintytrading.com/feed.xml
+[2026-02-19 20:04:34]   Substack: Clicked 'Get started' — waiting for feed to load...
+[2026-02-19 20:04:56]   Substack: Clicked 'Import' button.
+[2026-02-19 20:04:56]   Substack: Ownership dialog appeared.
+[2026-02-19 20:04:57]   Substack: Ticked ownership checkbox.
+[2026-02-19 20:04:59]   Substack: Clicked 'Next'.
+[2026-02-19 20:05:19]   Substack: ✓ Import initiated (screenshot saved for verification).
+[2026-02-19 20:05:19]   Substack: Sharing 2 post(s) to social platforms...
+[2026-02-19 20:05:41]   Substack: Found 148 posts in dashboard.
+[2026-02-19 20:05:41]     Share: [COMP] handstand to crow - A Developer's Story...
+[2026-02-19 20:05:43]     Share text: New read: "[COMP] handstand to crow" — a deep dive into tech. Worth your time....
+[2026-02-19 20:06:05]     Share: Set text for Twitter (36 chars)
+[2026-02-19 20:06:10]     Share: ✓ Shared to Twitter
+[2026-02-19 20:06:20]     Share: ✓ Shared to Facebook
+[2026-02-19 20:06:27]     Share: Set text for LinkedIn (78 chars)
+[2026-02-19 20:06:32]     Share: ✓ Shared to LinkedIn
+[2026-02-19 20:06:40]     Share: ✓ Posted Substack Note
+[2026-02-19 20:06:42]     Share: Stop Scrolling! James - A Developer's Story...
+[2026-02-19 20:06:43]     Share text: If tech is your thing, this one's for you: "Stop Scrolling! James"...
+[2026-02-19 20:07:05]     Share: Set text for Twitter (36 chars)
+[2026-02-19 20:07:10]     Share: ✓ Shared to Twitter
+[2026-02-19 20:07:20]     Share: ✓ Shared to Facebook
+[2026-02-19 20:07:26]     Share: Set text for LinkedIn (66 chars)
+[2026-02-19 20:07:31]     Share: ✓ Shared to LinkedIn
+[2026-02-19 20:07:38]     Share: ✓ Posted Substack Note
+[2026-02-19 20:07:40] Done with 2 failure(s).
