@@ -3057,3 +3057,27 @@ Call log:
 [2026-02-19 20:07:31]     Share: ✓ Shared to LinkedIn
 [2026-02-19 20:07:38]     Share: ✓ Posted Substack Note
 [2026-02-19 20:07:40] Done with 2 failure(s).
+[2026-02-20 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-02-20 20:00:09] Found 117 posts in feed.
+[2026-02-20 20:00:09] 2 post(s) to process.
+[2026-02-20 20:00:09] Medium: 2 post(s) to import.
+[2026-02-20 20:00:23]   Medium: Found 65 published stories for dedup.
+[2026-02-20 20:00:23] Processing: What's going on with the FAA closing down air space in El Paso, Texas for 10 days? - A Developer's Story
+[2026-02-20 20:00:23]   URL: https://signalreads.com/articles/whats-going-on-with-the-faa-closing-down-air-space/
+[2026-02-20 20:00:23]   Medium: Navigating to import page...
+[2026-02-20 20:00:27]   Medium: Typed URL: https://signalreads.com/articles/whats-going-on-with-the-faa-closing-down-air-space/
+[2026-02-20 20:00:32]   Medium: Clicked import button. Waiting for import...
+[2026-02-20 20:00:42]   Medium: Clicked 'See your story'.
+[2026-02-20 20:00:53]   Medium: Opened publish dialog.
+[2026-02-20 20:00:58]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-20 20:01:01] Processing: GPT-5 outperforms federal judges in legal reasoning experiment - A Developer's Story
+[2026-02-20 20:01:01]   URL: https://signalreads.com/articles/gpt-5-outperforms-federal-judges-in-legal-reasonin/
+[2026-02-20 20:01:01]   Medium: Navigating to import page...
+[2026-02-20 20:01:05]   Medium: Typed URL: https://signalreads.com/articles/gpt-5-outperforms-federal-judges-in-legal-reasonin/
+[2026-02-20 20:01:10]   Medium: Clicked import button. Waiting for import...
+[2026-02-20 20:01:20]   Medium: Clicked 'See your story'.
+[2026-02-20 20:01:30]   Medium: Opened publish dialog.
+[2026-02-20 20:01:35]   Medium: Could not find topic input — skipping topics.
+[2026-02-20 20:01:36]   Medium: Could not find final publish button.
+[2026-02-20 20:01:36]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-20 20:01:39] Done with 1 failure(s).
