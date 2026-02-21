@@ -3081,3 +3081,52 @@ Call log:
 [2026-02-20 20:01:36]   Medium: Could not find final publish button.
 [2026-02-20 20:01:36]   Medium: ✓ Import complete (screenshot saved for verification).
 [2026-02-20 20:01:39] Done with 1 failure(s).
+[2026-02-21 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-02-21 20:00:13] Found 118 posts in feed.
+[2026-02-21 20:00:13] 3 post(s) to process.
+[2026-02-21 20:00:13] Medium: 3 post(s) to import.
+[2026-02-21 20:00:28]   Medium: Found 66 published stories for dedup.
+[2026-02-21 20:00:28] Processing: DeepSeek V4 release soon - A Developer's Story
+[2026-02-21 20:00:28]   URL: https://signalreads.com/articles/deepseek-v4-release-soon/
+[2026-02-21 20:00:28]   Medium: Navigating to import page...
+[2026-02-21 20:00:31]   Medium: Typed URL: https://signalreads.com/articles/deepseek-v4-release-soon/
+[2026-02-21 20:00:34]   Medium: Clicked import button. Waiting for import...
+[2026-02-21 20:00:44]   Medium: Clicked 'See your story'.
+[2026-02-21 20:00:55]   Medium: Opened publish dialog.
+[2026-02-21 20:01:00]   Medium: Could not find topic input — skipping topics.
+[2026-02-21 20:01:01]   Medium: Could not find final publish button.
+[2026-02-21 20:01:01]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-21 20:01:04] Processing: Tailscale Peer Relays is now generally available - A Developer's Story
+[2026-02-21 20:01:04]   URL: https://signalreads.com/articles/tailscale-peer-relays-is-now-generally-available/
+[2026-02-21 20:01:04]   Medium: Navigating to import page...
+[2026-02-21 20:01:07]   Medium: Typed URL: https://signalreads.com/articles/tailscale-peer-relays-is-now-generally-available/
+[2026-02-21 20:01:11]   Medium: Clicked import button. Waiting for import...
+[2026-02-21 20:01:21]   Medium: Clicked 'See your story'.
+[2026-02-21 20:01:31]   Medium: Opened publish dialog.
+[2026-02-21 20:01:35]   Medium: Could not find topic input — skipping topics.
+[2026-02-21 20:01:36]   Medium: Could not find final publish button.
+[2026-02-21 20:01:36]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-21 20:01:40] Processing: What's going on with the FAA closing down air space in El Paso, Texas for 10 days? - A Developer's Story
+[2026-02-21 20:01:40]   URL: https://signalreads.com/articles/whats-going-on-with-the-faa-closing-down-air-space/
+[2026-02-21 20:01:40]   Medium: Navigating to import page...
+[2026-02-21 20:01:43]   Medium: Typed URL: https://signalreads.com/articles/whats-going-on-with-the-faa-closing-down-air-space/
+[2026-02-21 20:01:46]   Medium: Clicked import button. Waiting for import...
+[2026-02-21 20:01:56]   Medium: Clicked 'See your story'.
+[2026-02-21 20:02:06]   Medium: Opened publish dialog.
+[2026-02-21 20:02:12]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-21 20:02:15] Substack: 2 post(s) in feed — checking for duplicates...
+[2026-02-21 20:02:43]   Substack: Found 152 published posts for dedup.
+[2026-02-21 20:02:43]   Substack: 2 genuinely new post(s) — importing via RSS...
+[2026-02-21 20:02:43]   Substack: Navigating to import page...
+[2026-02-21 20:02:48]   Substack: Pasted site URL: https://ghost.daintytrading.com/feed.xml
+[2026-02-21 20:02:50]   Substack: Clicked 'Get started' — waiting for feed to load...
+[2026-02-21 20:03:10]   Substack: Clicked 'Import' button.
+[2026-02-21 20:03:10]   Substack: Ownership dialog appeared.
+[2026-02-21 20:03:10]   Substack: Ticked ownership checkbox.
+[2026-02-21 20:03:12]   Substack: Clicked 'Next'.
+[2026-02-21 20:03:32]   Substack: ✓ Import initiated (screenshot saved for verification).
+[2026-02-21 20:03:32]   Substack: Sharing 2 post(s) to social platforms...
+[2026-02-21 20:03:56]   Substack: Found 153 posts in dashboard.
+[2026-02-21 20:03:56]     Share: Could not find post: DeepSeek V4 release soon - A Developer's Story
+[2026-02-21 20:03:56]     Share: Could not find post: Tailscale Peer Relays is now generally available - A Develop
+[2026-02-21 20:03:57] Done with 1 failure(s).
