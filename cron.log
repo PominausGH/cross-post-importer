@@ -3130,3 +3130,50 @@ Call log:
 [2026-02-21 20:03:56]     Share: Could not find post: DeepSeek V4 release soon - A Developer's Story
 [2026-02-21 20:03:56]     Share: Could not find post: Tailscale Peer Relays is now generally available - A Develop
 [2026-02-21 20:03:57] Done with 1 failure(s).
+[2026-02-22 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-02-22 20:00:10] Found 119 posts in feed.
+[2026-02-22 20:00:10] 2 post(s) to process.
+[2026-02-22 20:00:10] Medium: 2 post(s) to import.
+[2026-02-22 20:00:24]   Medium: Found 66 published stories for dedup.
+[2026-02-22 20:00:24] Processing: I Verified LinkedIn. - A Developer's Story
+[2026-02-22 20:00:24]   URL: https://signalreads.com/articles/i-verified-linkedin/
+[2026-02-22 20:00:24]   Medium: Navigating to import page...
+[2026-02-22 20:00:27]   Medium: Typed URL: https://signalreads.com/articles/i-verified-linkedin/
+[2026-02-22 20:00:32]   Medium: Clicked import button. Waiting for import...
+[2026-02-22 20:00:42]   Medium: Clicked 'See your story'.
+[2026-02-22 20:00:52]   Medium: Opened publish dialog.
+[2026-02-22 20:00:57]   Medium: Could not find topic input — skipping topics.
+[2026-02-22 20:00:58]   Medium: Could not find final publish button.
+[2026-02-22 20:00:58]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-22 20:01:01] Processing: What's going on with the FAA closing down air space in El Paso, Texas for 10 days? - A Developer's Story
+[2026-02-22 20:01:01]   URL: https://signalreads.com/articles/whats-going-on-with-the-faa-closing-down-air-space/
+[2026-02-22 20:01:01]   Medium: Navigating to import page...
+[2026-02-22 20:01:04]   Medium: Typed URL: https://signalreads.com/articles/whats-going-on-with-the-faa-closing-down-air-space/
+[2026-02-22 20:01:06]   Medium: Clicked import button. Waiting for import...
+[2026-02-22 20:01:16]   Medium: Clicked 'See your story'.
+[2026-02-22 20:01:26]   Medium: Opened publish dialog.
+[2026-02-22 20:01:31]   Medium: Could not find topic input — skipping topics.
+[2026-02-22 20:01:32]   Medium: Could not find final publish button.
+[2026-02-22 20:01:33]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-22 20:01:36] Substack: 1 post(s) in feed — checking for duplicates...
+[2026-02-22 20:02:04]   Substack: Found 153 published posts for dedup.
+[2026-02-22 20:02:04]   Substack: 1 genuinely new post(s) — importing via RSS...
+[2026-02-22 20:02:04]   Substack: Navigating to import page...
+[2026-02-22 20:02:08]   Substack: Pasted site URL: https://ghost.daintytrading.com/feed.xml
+[2026-02-22 20:02:10]   Substack: Clicked 'Get started' — waiting for feed to load...
+[2026-02-22 20:02:26]   Substack: Clicked 'Import' button.
+[2026-02-22 20:02:26]   Substack: Ownership dialog appeared.
+[2026-02-22 20:02:27]   Substack: Ticked ownership checkbox.
+[2026-02-22 20:02:29]   Substack: Clicked 'Next'.
+[2026-02-22 20:02:49]   Substack: ✓ Import initiated (screenshot saved for verification).
+[2026-02-22 20:02:49]   Substack: Sharing 1 post(s) to social platforms...
+[2026-02-22 20:03:14]   Substack: Found 155 posts in dashboard.
+[2026-02-22 20:03:14]     Share: I Verified LinkedIn. - A Developer's Story...
+[2026-02-22 20:03:15]     Share text: New article dropped: "I Verified LinkedIn." — let me know what you think...
+[2026-02-22 20:03:37]     Share: Set text for Twitter (35 chars)
+[2026-02-22 20:03:42]     Share: ✓ Shared to Twitter
+[2026-02-22 20:03:52]     Share: ✓ Shared to Facebook
+[2026-02-22 20:03:59]     Share: Set text for LinkedIn (72 chars)
+[2026-02-22 20:04:04]     Share: ✓ Shared to LinkedIn
+[2026-02-22 20:04:11]     Share: ✓ Posted Substack Note
+[2026-02-22 20:04:13] Done.
