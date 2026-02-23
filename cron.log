@@ -3177,3 +3177,103 @@ Call log:
 [2026-02-22 20:04:04]     Share: ✓ Shared to LinkedIn
 [2026-02-22 20:04:11]     Share: ✓ Posted Substack Note
 [2026-02-22 20:04:13] Done.
+[2026-02-23 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-02-23 20:00:11] Found 129 posts in feed.
+[2026-02-23 20:00:11] 10 post(s) to process.
+[2026-02-23 20:00:11] Medium: 10 post(s) to import.
+[2026-02-23 20:00:37]   Medium: Found 77 published stories for dedup.
+[2026-02-23 20:00:37] Processing: I built Timeframe, our family e-paper dashboard
+[2026-02-23 20:00:37]   URL: https://signalreads.com/articles/i-built-timeframe-our-family-e-paper-dashboard/
+[2026-02-23 20:00:37]   Medium: Navigating to import page...
+[2026-02-23 20:00:41]   Medium: Typed URL: https://signalreads.com/articles/i-built-timeframe-our-family-e-paper-dashboard/
+[2026-02-23 20:00:43]   Medium: Clicked import button. Waiting for import...
+[2026-02-23 20:00:53]   Medium: Clicked 'See your story'.
+[2026-02-23 20:01:03]   Medium: Opened publish dialog.
+[2026-02-23 20:01:08]   Medium: Could not find topic input — skipping topics.
+[2026-02-23 20:01:09]   Medium: Could not find final publish button.
+[2026-02-23 20:01:09]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-23 20:01:13] Processing: not cool - A Developer's Story
+[2026-02-23 20:01:13]   URL: https://signalreads.com/articles/not-cool/
+[2026-02-23 20:01:13]   Medium: Navigating to import page...
+[2026-02-23 20:01:16]   Medium: Typed URL: https://signalreads.com/articles/not-cool/
+[2026-02-23 20:01:19]   Medium: Clicked import button. Waiting for import...
+[2026-02-23 20:01:29]   Medium: Clicked 'See your story'.
+[2026-02-23 20:01:39]   Medium: Opened publish dialog.
+[2026-02-23 20:01:43]   Medium: Could not find topic input — skipping topics.
+[2026-02-23 20:01:44]   Medium: Could not find final publish button.
+[2026-02-23 20:01:45]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-23 20:01:48] Processing: Kitten TTS V0.8: The 25MB SOTA Model Redefining Local AI & Voice Synthesis
+[2026-02-23 20:01:48]   URL: https://signalreads.com/articles/kitten-tts-v08-is-out-new-sota-super-tiny-tts-mode/
+[2026-02-23 20:01:48]   Medium: Navigating to import page...
+[2026-02-23 20:01:52]   Medium: Typed URL: https://signalreads.com/articles/kitten-tts-v08-is-out-new-sota-super-tiny-tts-mode/
+[2026-02-23 20:01:55]   Medium: Clicked import button. Waiting for import...
+[2026-02-23 20:02:05]   Medium: Clicked 'See your story'.
+[2026-02-23 20:02:15]   Medium: Opened publish dialog.
+[2026-02-23 20:02:19]   Medium: Could not find topic input — skipping topics.
+[2026-02-23 20:02:20]   Medium: Could not find final publish button.
+[2026-02-23 20:02:20]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-23 20:02:23] Processing: AI Steals My Job? How I Used ChatGPT, Claude, & Gemini to 3x My Productivity - A Developer's Story
+[2026-02-23 20:02:23]   URL: https://signalreads.com/articles/if-i-dont-steal-your-home-someone-else-will-steal-/
+[2026-02-23 20:02:23]   Medium: Navigating to import page...
+[2026-02-23 20:02:27]   Medium: Typed URL: https://signalreads.com/articles/if-i-dont-steal-your-home-someone-else-will-steal-/
+[2026-02-23 20:02:30]   Medium: Clicked import button. Waiting for import...
+[2026-02-23 20:02:40]   Medium: Clicked 'See your story'.
+[2026-02-23 20:02:51]   Medium: Opened publish dialog.
+[2026-02-23 20:02:54]   Medium: Could not find topic input — skipping topics.
+[2026-02-23 20:02:55]   Medium: Could not find final publish button.
+[2026-02-23 20:02:55]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-23 20:02:58] Processing: Europe's Multi-Trillion Euro Payment Market Sees New Competition for Visa and Mastercard - A Developer's Story
+[2026-02-23 20:02:58]   URL: https://signalreads.com/articles/europes-24t-breakup-with-visa-and-mastercard-has-b/
+[2026-02-23 20:02:58]   Medium: Navigating to import page...
+[2026-02-23 20:03:02]   Medium: Typed URL: https://signalreads.com/articles/europes-24t-breakup-with-visa-and-mastercard-has-b/
+[2026-02-23 20:03:05]   Medium: Clicked import button. Waiting for import...
+[2026-02-23 20:03:15]   Medium: Clicked 'See your story'.
+[2026-02-23 20:03:26]   Medium: Opened publish dialog.
+[2026-02-23 20:03:30]   Medium: Could not find topic input — skipping topics.
+[2026-02-23 20:03:31]   Medium: Could not find final publish button.
+[2026-02-23 20:03:31]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-23 20:03:34] Processing: Claws: The Essential Orchestration Layer for Reliable LLM Agents - A Developer's Story
+[2026-02-23 20:03:34]   URL: https://signalreads.com/articles/claws-are-now-a-new-layer-on-top-of-llm-agents/
+[2026-02-23 20:03:34]   Medium: Navigating to import page...
+[2026-02-23 20:03:38]   Medium: Typed URL: https://signalreads.com/articles/claws-are-now-a-new-layer-on-top-of-llm-agents/
+[2026-02-23 20:03:41]   Medium: Clicked import button. Waiting for import...
+[2026-02-23 20:03:51]   Medium: Clicked 'See your story'.
+[2026-02-23 20:04:01]   Medium: Opened publish dialog.
+[2026-02-23 20:04:05]   Medium: Could not find topic input — skipping topics.
+[2026-02-23 20:04:06]   Medium: Could not find final publish button.
+[2026-02-23 20:04:06]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-23 20:04:09] Processing: I tried the trend and got This. What the f**k. - A Developer's Story
+[2026-02-23 20:04:09]   URL: https://signalreads.com/articles/i-tried-the-trend-and-got-this-what-the-fk/
+[2026-02-23 20:04:09]   Medium: Navigating to import page...
+[2026-02-23 20:04:13]   Medium: Typed URL: https://signalreads.com/articles/i-tried-the-trend-and-got-this-what-the-fk/
+[2026-02-23 20:04:16]   Medium: Clicked import button. Waiting for import...
+[2026-02-23 20:04:26]   Medium: Clicked 'See your story'.
+[2026-02-23 20:04:36]   Medium: Opened publish dialog.
+[2026-02-23 20:04:39]   Medium: Could not find topic input — skipping topics.
+[2026-02-23 20:04:40]   Medium: Could not find final publish button.
+[2026-02-23 20:04:40]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-23 20:04:43] Processing: Getting anything I ever wanted stripped the joy away from me - A Developer's Story
+[2026-02-23 20:04:43]   URL: https://signalreads.com/articles/getting-anything-i-ever-wanted-stripped-the-joy-aw/
+[2026-02-23 20:04:43]   Medium: Navigating to import page...
+[2026-02-23 20:04:47]   Medium: Typed URL: https://signalreads.com/articles/getting-anything-i-ever-wanted-stripped-the-joy-aw/
+[2026-02-23 20:04:51]   Medium: Clicked import button. Waiting for import...
+[2026-02-23 20:05:01]   Medium: Clicked 'See your story'.
+[2026-02-23 20:05:11]   Medium: Opened publish dialog.
+[2026-02-23 20:05:15]   Medium: Could not find topic input — skipping topics.
+[2026-02-23 20:05:16]   Medium: Could not find final publish button.
+[2026-02-23 20:05:16]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-23 20:05:19] Processing: Anyone feel everything has changed over the last two weeks? - A Developer's Story
+[2026-02-23 20:05:19]   URL: https://signalreads.com/articles/anyone-feel-everything-has-changed-over-the-last-t/
+[2026-02-23 20:05:19]   Medium: Navigating to import page...
+[2026-02-23 20:05:22]   Medium: Typed URL: https://signalreads.com/articles/anyone-feel-everything-has-changed-over-the-last-t/
+[2026-02-23 20:05:25]   Medium: Clicked import button. Waiting for import...
+[2026-02-23 20:05:35]   Medium: Clicked 'See your story'.
+[2026-02-23 20:05:46]   Medium: Opened publish dialog.
+[2026-02-23 20:05:49]   Medium: Could not find topic input — skipping topics.
+[2026-02-23 20:05:50]   Medium: Could not find final publish button.
+[2026-02-23 20:05:50]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-23 20:05:53] Processing: AI Videos: Increasingly Difficult to Distinguish From Reality - A Developer's Story
+[2026-02-23 20:05:53]   URL: https://signalreads.com/articles/ai-videos-are-now-impossible-to-tell-they-arenot-r/
+[2026-02-23 20:05:53]   Medium: Navigating to import page...
+[2026-02-23 20:05:57]   Medium: Typed URL: https://signalreads.com/articles/ai-videos-are-now-impossible-to-tell-they-arenot-r/
+[2026-02-23 20:06:01]   Medium: Clicked import button. Waiting for import...
