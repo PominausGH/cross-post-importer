@@ -3277,3 +3277,101 @@ Call log:
 [2026-02-23 20:05:53]   Medium: Navigating to import page...
 [2026-02-23 20:05:57]   Medium: Typed URL: https://signalreads.com/articles/ai-videos-are-now-impossible-to-tell-they-arenot-r/
 [2026-02-23 20:06:01]   Medium: Clicked import button. Waiting for import...
+[2026-02-23 20:06:11]   Medium: Clicked 'See your story'.
+[2026-02-23 20:06:21]   Medium: Opened publish dialog.
+[2026-02-23 20:06:25]   Medium: Could not find topic input — skipping topics.
+[2026-02-23 20:06:26]   Medium: Could not find final publish button.
+[2026-02-23 20:06:26]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-23 20:06:29] Substack: 10 post(s) in feed — checking for duplicates...
+[2026-02-23 20:06:57]   Substack: Found 154 published posts for dedup.
+[2026-02-23 20:06:57]   Substack: 10 genuinely new post(s) — importing via RSS...
+[2026-02-23 20:06:58]   Substack: Navigating to import page...
+[2026-02-23 20:07:02]   Substack: Pasted site URL: https://ghost.daintytrading.com/feed.xml
+[2026-02-23 20:07:04]   Substack: Clicked 'Get started' — waiting for feed to load...
+[2026-02-23 20:07:19]   Substack: Clicked 'Import' button.
+[2026-02-23 20:07:19]   Substack: Ownership dialog appeared.
+[2026-02-23 20:07:19]   Substack: Ticked ownership checkbox.
+[2026-02-23 20:07:21]   Substack: Clicked 'Next'.
+[2026-02-23 20:07:41]   Substack: ✓ Import initiated (screenshot saved for verification).
+[2026-02-23 20:07:41]   Substack: Sharing 10 post(s) to social platforms...
+[2026-02-23 20:08:06]   Substack: Found 165 posts in dashboard.
+[2026-02-23 20:08:06]     Share: I built Timeframe, our family e-paper dashboard...
+[2026-02-23 20:08:08]     Share text: "I built Timeframe, our family e-paper dashboard" — fresh take on tech. Give it ...
+[2026-02-23 20:08:59]     Share: Twitter popup didn't open
+[2026-02-23 20:09:09]     Share: ✓ Shared to Facebook
+[2026-02-23 20:09:15]     Share: Set text for LinkedIn (87 chars)
+[2026-02-23 20:09:20]     Share: ✓ Shared to LinkedIn
+[2026-02-23 20:09:27]     Share: ✓ Posted Substack Note
+[2026-02-23 20:09:29]     Share: not cool - A Developer's Story...
+[2026-02-23 20:09:31]     Share text: Just published: "not cool" — thoughts welcome!...
+[2026-02-23 20:09:52]     Share: Set text for Twitter (8 chars)
+[2026-02-23 20:09:57]     Share: ✓ Shared to Twitter
+[2026-02-23 20:10:06]     Share: ✓ Shared to Facebook
+[2026-02-23 20:10:13]     Share: Set text for LinkedIn (46 chars)
+[2026-02-23 20:10:18]     Share: ✓ Shared to LinkedIn
+[2026-02-23 20:10:25]     Share: ✓ Posted Substack Note
+[2026-02-23 20:10:27]     Share: Kitten TTS V0.8: The 25MB SOTA Model Redefining Local AI & V...
+[2026-02-23 20:10:28]     Share text: New read: "Kitten TTS V0.8: The 25MB SOTA Model Redefining Local AI & Voice Synt...
+[2026-02-23 20:10:51]     Share: Set text for Twitter (65 chars)
+[2026-02-23 20:10:56]     Share: ✓ Shared to Twitter
+[2026-02-23 20:11:06]     Share: ✓ Shared to Facebook
+[2026-02-23 20:11:12]     Share: Set text for LinkedIn (128 chars)
+[2026-02-23 20:11:17]     Share: ✓ Shared to LinkedIn
+[2026-02-23 20:11:25]     Share: ✓ Posted Substack Note
+[2026-02-23 20:11:27]     Share: AI Steals My Job? How I Used ChatGPT, Claude, & Gemini to 3x...
+[2026-02-23 20:11:28]     Share text: If tech is your thing, this one's for you: "AI Steals My Job? How I Used ChatGPT...
+[2026-02-23 20:11:51]     Share: Set text for Twitter (50 chars)
+[2026-02-23 20:11:56]     Share: ✓ Shared to Twitter
+[2026-02-23 20:12:05]     Share: ✓ Shared to Facebook
+[2026-02-23 20:12:12]     Share: Set text for LinkedIn (121 chars)
+[2026-02-23 20:12:17]     Share: ✓ Shared to LinkedIn
+[2026-02-23 20:12:24]     Share: ✓ Posted Substack Note
+[2026-02-23 20:12:26]     Share: Europe's Multi-Trillion Euro Payment Market Sees New Competi...
+[2026-02-23 20:12:27]     Share text: Wrote about tech: "Europe's Multi-Trillion Euro Payment Market Sees New Competit...
+[2026-02-23 20:12:49]     Share: Set text for Twitter (51 chars)
+[2026-02-23 20:12:54]     Share: ✓ Shared to Twitter
+[2026-02-23 20:13:04]     Share: ✓ Shared to Facebook
+[2026-02-23 20:13:10]     Share: Set text for LinkedIn (124 chars)
+[2026-02-23 20:13:15]     Share: ✓ Shared to LinkedIn
+[2026-02-23 20:13:23]     Share: ✓ Posted Substack Note
+[2026-02-23 20:13:25]     Share: Claws: The Essential Orchestration Layer for Reliable LLM Ag...
+[2026-02-23 20:13:27]     Share text: "Claws: The Essential Orchestration Layer for Reliable LLM Agents" — fresh take ...
+[2026-02-23 20:13:50]     Share: Set text for Twitter (62 chars)
+[2026-02-23 20:13:55]     Share: ✓ Shared to Twitter
+[2026-02-23 20:14:04]     Share: ✓ Shared to Facebook
+[2026-02-23 20:14:10]     Share: Set text for LinkedIn (104 chars)
+[2026-02-23 20:14:15]     Share: ✓ Shared to LinkedIn
+[2026-02-23 20:14:23]     Share: ✓ Posted Substack Note
+[2026-02-23 20:14:25]     Share: I tried the trend and got This. What the f**k. - A Developer...
+[2026-02-23 20:14:27]     Share text: Wrote about tech: "I tried the trend and got This. What the f**k." — check it ou...
+[2026-02-23 20:14:49]     Share: Set text for Twitter (51 chars)
+[2026-02-23 20:14:54]     Share: ✓ Shared to Twitter
+[2026-02-23 20:15:04]     Share: ✓ Shared to Facebook
+[2026-02-23 20:15:10]     Share: Set text for LinkedIn (82 chars)
+[2026-02-23 20:15:15]     Share: ✓ Shared to LinkedIn
+[2026-02-23 20:15:22]     Share: ✓ Posted Substack Note
+[2026-02-23 20:15:24]     Share: Getting anything I ever wanted stripped the joy away from me...
+[2026-02-23 20:15:26]     Share text: "Getting anything I ever wanted stripped the joy away from me" — fresh take on t...
+[2026-02-23 20:15:49]     Share: Set text for Twitter (50 chars)
+[2026-02-23 20:15:54]     Share: ✓ Shared to Twitter
+[2026-02-23 20:16:03]     Share: ✓ Shared to Facebook
+[2026-02-23 20:16:09]     Share: Set text for LinkedIn (100 chars)
+[2026-02-23 20:16:14]     Share: ✓ Shared to LinkedIn
+[2026-02-23 20:16:22]     Share: ✓ Posted Substack Note
+[2026-02-23 20:16:24]     Share: Anyone feel everything has changed over the last two weeks? ...
+[2026-02-23 20:16:25]     Share text: Just published: "Anyone feel everything has changed over the last two weeks?" — ...
+[2026-02-23 20:16:48]     Share: Set text for Twitter (66 chars)
+[2026-02-23 20:16:53]     Share: ✓ Shared to Twitter
+[2026-02-23 20:17:02]     Share: ✓ Shared to Facebook
+[2026-02-23 20:17:09]     Share: Set text for LinkedIn (97 chars)
+[2026-02-23 20:17:14]     Share: ✓ Shared to LinkedIn
+[2026-02-23 20:17:21]     Share: ✓ Posted Substack Note
+[2026-02-23 20:17:23]     Share: AI Videos: Increasingly Difficult to Distinguish From Realit...
+[2026-02-23 20:17:24]     Share text: "AI Videos: Increasingly Difficult to Distinguish From Reality" — fresh take on ...
+[2026-02-23 20:17:47]     Share: Set text for Twitter (66 chars)
+[2026-02-23 20:17:52]     Share: ✓ Shared to Twitter
+[2026-02-23 20:18:01]     Share: ✓ Shared to Facebook
+[2026-02-23 20:18:07]     Share: Set text for LinkedIn (101 chars)
+[2026-02-23 20:18:12]     Share: ✓ Shared to LinkedIn
+[2026-02-23 20:18:20]     Share: ✓ Posted Substack Note
+[2026-02-23 20:18:22] Done.
