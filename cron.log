@@ -3375,3 +3375,101 @@ Call log:
 [2026-02-23 20:18:12]     Share: ✓ Shared to LinkedIn
 [2026-02-23 20:18:20]     Share: ✓ Posted Substack Note
 [2026-02-23 20:18:22] Done.
+[2026-02-24 20:00:02] Fetching RSS feeds: 2 source(s)
+[2026-02-24 20:00:18] Found 134 posts in feed.
+[2026-02-24 20:00:18] 5 post(s) to process.
+[2026-02-24 20:00:18] Medium: 5 post(s) to import.
+[2026-02-24 20:00:37]   Medium: Found 82 published stories for dedup.
+[2026-02-24 20:00:37] Processing: Why are you still paying for this? #2
+[2026-02-24 20:00:37]   URL: https://signalreads.com/articles/why-are-you-still-paying-for-this-2/
+[2026-02-24 20:00:37]   Medium: Navigating to import page...
+[2026-02-24 20:00:41]   Medium: Typed URL: https://signalreads.com/articles/why-are-you-still-paying-for-this-2/
+[2026-02-24 20:00:46]   Medium: Clicked import button. Waiting for import...
+[2026-02-24 20:00:56]   Medium: Clicked 'See your story'.
+[2026-02-24 20:01:06]   Medium: Opened publish dialog.
+[2026-02-24 20:01:12]   Medium: Could not find topic input — skipping topics.
+[2026-02-24 20:01:13]   Medium: Could not find final publish button.
+[2026-02-24 20:01:13]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-24 20:01:16] Processing: Stop Sizing Tickets: The $50 Billion Lie Destroying Software Teams
+[2026-02-24 20:01:16]   URL: https://signalreads.com/articles/sizing-chaos/
+[2026-02-24 20:01:16]   Medium: Navigating to import page...
+[2026-02-24 20:01:19]   Medium: Typed URL: https://signalreads.com/articles/sizing-chaos/
+[2026-02-24 20:01:21]   Medium: Clicked import button. Waiting for import...
+[2026-02-24 20:02:31]   Medium: 'See your story' not found — import may still be processing.
+[2026-02-24 20:02:34] Processing: Poison Fountain: An Anti-AI Weapon - A Developer's Story
+[2026-02-24 20:02:34]   URL: https://signalreads.com/articles/poison-fountain-an-anti-ai-weapon/
+[2026-02-24 20:02:34]   Medium: Navigating to import page...
+[2026-02-24 20:02:38]   Medium: Typed URL: https://signalreads.com/articles/poison-fountain-an-anti-ai-weapon/
+[2026-02-24 20:02:42]   Medium: Clicked import button. Waiting for import...
+[2026-02-24 20:02:52]   Medium: Clicked 'See your story'.
+[2026-02-24 20:03:02]   Medium: Opened publish dialog.
+[2026-02-24 20:03:07]   Medium: Could not find topic input — skipping topics.
+[2026-02-24 20:03:08]   Medium: Could not find final publish button.
+[2026-02-24 20:03:08]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-24 20:03:11] Processing: OpenAI executive who opposed 'Adult Mode' fired for sexual discrimination - A Developer's Story
+[2026-02-24 20:03:11]   URL: https://signalreads.com/articles/openai-executive-who-opposed-adult-mode-fired-for-/
+[2026-02-24 20:03:11]   Medium: Navigating to import page...
+[2026-02-24 20:03:14]   Medium: Typed URL: https://signalreads.com/articles/openai-executive-who-opposed-adult-mode-fired-for-/
+[2026-02-24 20:03:18]   Medium: Clicked import button. Waiting for import...
+[2026-02-24 20:03:29]   Medium: Clicked 'See your story'.
+[2026-02-24 20:03:39]   Medium: Opened publish dialog.
+[2026-02-24 20:03:42]   Medium: Could not find topic input — skipping topics.
+[2026-02-24 20:03:43]   Medium: Could not find final publish button.
+[2026-02-24 20:03:43]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-24 20:03:46] Processing: Godot Engine Drowning in AI Slop: The Crisis of AI Code Contributions in Open Source
+[2026-02-24 20:03:46]   URL: https://signalreads.com/articles/open-source-game-engine-godot-is-drowning-in-ai-sl/
+[2026-02-24 20:03:46]   Medium: Navigating to import page...
+[2026-02-24 20:03:50]   Medium: Typed URL: https://signalreads.com/articles/open-source-game-engine-godot-is-drowning-in-ai-sl/
+[2026-02-24 20:03:53]   Medium: Clicked import button. Waiting for import...
+[2026-02-24 20:04:03]   Medium: Clicked 'See your story'.
+[2026-02-24 20:04:13]   Medium: Opened publish dialog.
+[2026-02-24 20:04:17]   Medium: Could not find topic input — skipping topics.
+[2026-02-24 20:04:18]   Medium: Could not find final publish button.
+[2026-02-24 20:04:18]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-24 20:04:21] Substack: 5 post(s) in feed — checking for duplicates...
+[2026-02-24 20:04:49]   Substack: Found 164 published posts for dedup.
+[2026-02-24 20:04:49]   Substack: 5 genuinely new post(s) — importing via RSS...
+[2026-02-24 20:04:49]   Substack: Navigating to import page...
+[2026-02-24 20:04:53]   Substack: Pasted site URL: https://ghost.daintytrading.com/feed.xml
+[2026-02-24 20:04:55]   Substack: Clicked 'Get started' — waiting for feed to load...
+[2026-02-24 20:05:19]   Substack: Clicked 'Import' button.
+[2026-02-24 20:05:19]   Substack: Ownership dialog appeared.
+[2026-02-24 20:05:19]   Substack: Ticked ownership checkbox.
+[2026-02-24 20:05:21]   Substack: Clicked 'Next'.
+[2026-02-24 20:05:41]   Substack: ✓ Import initiated (screenshot saved for verification).
+[2026-02-24 20:05:41]   Substack: Sharing 5 post(s) to social platforms...
+[2026-02-24 20:06:06]   Substack: Found 169 posts in dashboard.
+[2026-02-24 20:06:06]     Share: Why are you still paying for this? #2...
+[2026-02-24 20:06:08]     Share text: New article dropped: "Why are you still paying for this? #2" — let me know what ...
+[2026-02-24 20:06:31]     Share: Set text for Twitter (52 chars)
+[2026-02-24 20:06:36]     Share: ✓ Shared to Twitter
+[2026-02-24 20:06:45]     Share: ✓ Shared to Facebook
+[2026-02-24 20:06:51]     Share: Set text for LinkedIn (89 chars)
+[2026-02-24 20:06:57]     Share: ✓ Shared to LinkedIn
+[2026-02-24 20:07:04]     Share: ✓ Posted Substack Note
+[2026-02-24 20:07:06]     Share: Could not find post: Stop Sizing Tickets: The $50 Billion Lie Destroying Software
+[2026-02-24 20:07:06]     Share: Poison Fountain: An Anti-AI Weapon - A Developer's Story...
+[2026-02-24 20:07:06]     Share text: Hot off the press: "Poison Fountain: An Anti-AI Weapon" — tech and then some....
+[2026-02-24 20:07:28]     Share: Set text for Twitter (34 chars)
+[2026-02-24 20:07:33]     Share: ✓ Shared to Twitter
+[2026-02-24 20:07:43]     Share: ✓ Shared to Facebook
+[2026-02-24 20:07:49]     Share: Set text for LinkedIn (77 chars)
+[2026-02-24 20:07:54]     Share: ✓ Shared to LinkedIn
+[2026-02-24 20:08:02]     Share: ✓ Posted Substack Note
+[2026-02-24 20:08:04]     Share: OpenAI executive who opposed 'Adult Mode' fired for sexual d...
+[2026-02-24 20:08:04]     Share text: Just published: "OpenAI executive who opposed 'Adult Mode' fired for sexual disc...
+[2026-02-24 20:08:26]     Share: Set text for Twitter (50 chars)
+[2026-02-24 20:08:31]     Share: ✓ Shared to Twitter
+[2026-02-24 20:08:41]     Share: ✓ Shared to Facebook
+[2026-02-24 20:08:47]     Share: Set text for LinkedIn (111 chars)
+[2026-02-24 20:08:52]     Share: ✓ Shared to LinkedIn
+[2026-02-24 20:09:00]     Share: ✓ Posted Substack Note
+[2026-02-24 20:09:02]     Share: Godot Engine Drowning in AI Slop: The Crisis of AI Code Cont...
+[2026-02-24 20:09:03]     Share text: "Godot Engine Drowning in AI Slop: The Crisis of AI Code Contributions in Open S...
+[2026-02-24 20:09:26]     Share: Set text for Twitter (55 chars)
+[2026-02-24 20:09:31]     Share: ✓ Shared to Twitter
+[2026-02-24 20:09:40]     Share: ✓ Shared to Facebook
+[2026-02-24 20:09:46]     Share: Set text for LinkedIn (122 chars)
+[2026-02-24 20:09:51]     Share: ✓ Shared to LinkedIn
+[2026-02-24 20:09:59]     Share: ✓ Posted Substack Note
+[2026-02-24 20:10:01] Done.
