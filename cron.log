@@ -3473,3 +3473,44 @@ Call log:
 [2026-02-24 20:09:51]     Share: ✓ Shared to LinkedIn
 [2026-02-24 20:09:59]     Share: ✓ Posted Substack Note
 [2026-02-24 20:10:01] Done.
+[2026-02-25 20:00:02] Fetching RSS feeds: 2 source(s)
+[2026-02-25 20:00:12] Found 137 posts in feed.
+[2026-02-25 20:00:12] 2 post(s) to process.
+[2026-02-25 20:00:12] Medium: 2 post(s) to import.
+[2026-02-25 20:00:28]   Medium: Found 84 published stories for dedup.
+[2026-02-25 20:00:28] Processing: The Singularity will occur on a Tuesday - A Developer's Story
+[2026-02-25 20:00:28]   URL: https://signalreads.com/articles/the-singularity-will-occur-on-a-tuesday/
+[2026-02-25 20:00:28]   Medium: Navigating to import page...
+[2026-02-25 20:00:31]   Medium: Typed URL: https://signalreads.com/articles/the-singularity-will-occur-on-a-tuesday/
+[2026-02-25 20:00:34]   Medium: Clicked import button. Waiting for import...
+[2026-02-25 20:00:44]   Medium: Clicked 'See your story'.
+[2026-02-25 20:00:55]   Medium: Opened publish dialog.
+[2026-02-25 20:00:59]   Medium: Could not find topic input — skipping topics.
+[2026-02-25 20:01:00]   Medium: Could not find final publish button.
+[2026-02-25 20:01:00]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-25 20:01:03] Processing: Officials Claim Drone Incursion Led to Shutdown of El Paso Airport - A Developer's Story
+[2026-02-25 20:01:03]   URL: https://signalreads.com/articles/officials-claim-drone-incursion-led-to-shutdown-of-viral_medium_ai/
+[2026-02-25 20:01:03]   Medium: Navigating to import page...
+[2026-02-25 20:01:07]   Medium: Typed URL: https://signalreads.com/articles/officials-claim-drone-incursion-led-to-shutdown-of-viral_medium_ai/
+[2026-02-25 20:01:11]   Medium: Clicked import button. Waiting for import...
+[2026-02-25 20:01:21]   Medium: Clicked 'See your story'.
+[2026-02-25 20:01:31]   Medium: Opened publish dialog.
+[2026-02-25 20:01:36]   Medium: Could not find topic input — skipping topics.
+[2026-02-25 20:01:37]   Medium: Could not find final publish button.
+[2026-02-25 20:01:37]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-25 20:01:40] Substack: 2 post(s) in feed — checking for duplicates...
+[2026-02-25 20:02:08]   Substack: Found 168 published posts for dedup.
+[2026-02-25 20:02:08]   Substack: 2 genuinely new post(s) — importing via RSS...
+[2026-02-25 20:02:08]   Substack: Navigating to import page...
+[2026-02-25 20:02:12]   Substack: Pasted site URL: https://ghost.daintytrading.com/feed.xml
+[2026-02-25 20:02:14]   Substack: Clicked 'Get started' — waiting for feed to load...
+[2026-02-25 20:02:31]   Substack: Clicked 'Import' button.
+[2026-02-25 20:02:31]   Substack: Ownership dialog appeared.
+[2026-02-25 20:02:32]   Substack: Ticked ownership checkbox.
+[2026-02-25 20:02:34]   Substack: Clicked 'Next'.
+[2026-02-25 20:02:54]   Substack: ✓ Import initiated (screenshot saved for verification).
+[2026-02-25 20:02:54]   Substack: Sharing 2 post(s) to social platforms...
+[2026-02-25 20:03:18]   Substack: Found 169 posts in dashboard.
+[2026-02-25 20:03:18]     Share: Could not find post: The Singularity will occur on a Tuesday - A Developer's Stor
+[2026-02-25 20:03:18]     Share: Could not find post: Officials Claim Drone Incursion Led to Shutdown of El Paso A
+[2026-02-25 20:03:18] Done.
