@@ -3514,3 +3514,102 @@ Call log:
 [2026-02-25 20:03:18]     Share: Could not find post: The Singularity will occur on a Tuesday - A Developer's Stor
 [2026-02-25 20:03:18]     Share: Could not find post: Officials Claim Drone Incursion Led to Shutdown of El Paso A
 [2026-02-25 20:03:18] Done.
+[2026-02-26 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-02-26 20:00:13] Found 147 posts in feed.
+[2026-02-26 20:00:13] 10 post(s) to process.
+[2026-02-26 20:00:13] Medium: 8 post(s) to import.
+[2026-02-26 20:00:32]   Medium: Found 89 published stories for dedup.
+[2026-02-26 20:00:32] Processing: Stop Eating Like the Clemson Tigers. This Shocking Burger Secret Is Quietly Destroying You
+[2026-02-26 20:00:32]   URL: https://signalreads.com/articles/stop-eating-like-team-usa-this-shocking-burger-sec/
+[2026-02-26 20:00:32]   Medium: Navigating to import page...
+[2026-02-26 20:00:36]   Medium: Typed URL: https://signalreads.com/articles/stop-eating-like-team-usa-this-shocking-burger-sec/
+[2026-02-26 20:00:39]   Medium: Clicked import button. Waiting for import...
+[2026-02-26 20:00:50]   Medium: Clicked 'See your story'.
+[2026-02-26 20:01:00]   Medium: Opened publish dialog.
+[2026-02-26 20:01:05]   Medium: Could not find topic input — skipping topics.
+[2026-02-26 20:01:06]   Medium: Could not find final publish button.
+[2026-02-26 20:01:06]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-26 20:01:09] Processing: I Watched Every Tucker vs Huckabee Clip. The Results Are Quietly Destroying Me.
+[2026-02-26 20:01:09]   URL: https://signalreads.com/articles/i-watched-every-tucker-vs-huckabee-clip-the-result/
+[2026-02-26 20:01:09]   Medium: Navigating to import page...
+[2026-02-26 20:01:12]   Medium: Typed URL: https://signalreads.com/articles/i-watched-every-tucker-vs-huckabee-clip-the-result/
+[2026-02-26 20:01:16]   Medium: Clicked import button. Waiting for import...
+[2026-02-26 20:01:26]   Medium: Clicked 'See your story'.
+[2026-02-26 20:01:36]   Medium: Opened publish dialog.
+[2026-02-26 20:01:40]   Medium: Could not find topic input — skipping topics.
+[2026-02-26 20:01:41]   Medium: Could not find final publish button.
+[2026-02-26 20:01:41]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-26 20:01:44] Processing: Nobody Talks About These 5 Habits. They Actually Saved My 20s. I’m Turning 30.
+[2026-02-26 20:01:44]   URL: https://signalreads.com/articles/nobody-talks-about-these-5-habits-they-actually-sa/
+[2026-02-26 20:01:44]   Medium: Navigating to import page...
+[2026-02-26 20:01:47]   Medium: Typed URL: https://signalreads.com/articles/nobody-talks-about-these-5-habits-they-actually-sa/
+[2026-02-26 20:01:50]   Medium: Clicked import button. Waiting for import...
+[2026-02-26 20:02:00]   Medium: Clicked 'See your story'.
+[2026-02-26 20:02:10]   Medium: Opened publish dialog.
+[2026-02-26 20:02:14]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-26 20:02:17] Processing: LLMs Just Ended Online Privacy Forever. Nobody Is Talking About This.
+[2026-02-26 20:02:17]   URL: https://signalreads.com/articles/llms-just-ended-online-privacy-forever-nobody-is-t/
+[2026-02-26 20:02:17]   Medium: Navigating to import page...
+[2026-02-26 20:02:21]   Medium: Typed URL: https://signalreads.com/articles/llms-just-ended-online-privacy-forever-nobody-is-t/
+[2026-02-26 20:02:24]   Medium: Clicked import button. Waiting for import...
+[2026-02-26 20:02:34]   Medium: Clicked 'See your story'.
+[2026-02-26 20:02:44]   Medium: Opened publish dialog.
+[2026-02-26 20:02:48]   Medium: Could not find topic input — skipping topics.
+[2026-02-26 20:02:49]   Medium: Could not find final publish button.
+[2026-02-26 20:02:49]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-26 20:02:52] Processing: STOP! Your Google API Keys Are Actually Dangerous. Gemini Changed The Rules.
+[2026-02-26 20:02:52]   URL: https://signalreads.com/articles/stop-your-google-api-keys-are-actually-dangerous-g/
+[2026-02-26 20:02:52]   Medium: Navigating to import page...
+[2026-02-26 20:02:55]   Medium: Typed URL: https://signalreads.com/articles/stop-your-google-api-keys-are-actually-dangerous-g/
+[2026-02-26 20:02:59]   Medium: Clicked import button. Waiting for import...
+[2026-02-26 20:03:09]   Medium: Clicked 'See your story'.
+[2026-02-26 20:03:19]   Medium: Opened publish dialog.
+[2026-02-26 20:03:24]   Medium: Could not find topic input — skipping topics.
+[2026-02-26 20:03:25]   Medium: Could not find final publish button.
+[2026-02-26 20:03:25]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-26 20:03:28] Processing: Your Code Is Actually Broken. 21 Shocking Lies Programmers Believe About Time
+[2026-02-26 20:03:28]   URL: https://signalreads.com/articles/your-code-is-actually-broken-21-shocking-lies-prog/
+[2026-02-26 20:03:28]   Medium: Navigating to import page...
+[2026-02-26 20:03:32]   Medium: Typed URL: https://signalreads.com/articles/your-code-is-actually-broken-21-shocking-lies-prog/
+[2026-02-26 20:03:36]   Medium: Clicked import button. Waiting for import...
+[2026-02-26 20:03:46]   Medium: Clicked 'See your story'.
+[2026-02-26 20:03:56]   Medium: Opened publish dialog.
+[2026-02-26 20:04:01]   Medium: Could not find topic input — skipping topics.
+[2026-02-26 20:04:02]   Medium: Could not find final publish button.
+[2026-02-26 20:04:02]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-26 20:04:05] Processing: America's AI Brain Drain: Why Our Top Scientists are Packing Their Bags - A Developer's Story
+[2026-02-26 20:04:05]   URL: https://signalreads.com/articles/were-no-longer-attracting-top-talent-the-brain-dra/
+[2026-02-26 20:04:05]   Medium: Navigating to import page...
+[2026-02-26 20:04:08]   Medium: Typed URL: https://signalreads.com/articles/were-no-longer-attracting-top-talent-the-brain-dra/
+[2026-02-26 20:04:12]   Medium: Clicked import button. Waiting for import...
+[2026-02-26 20:04:22]   Medium: Clicked 'See your story'.
+[2026-02-26 20:04:32]   Medium: Opened publish dialog.
+[2026-02-26 20:04:36]   Medium: Could not find topic input — skipping topics.
+[2026-02-26 20:04:37]   Medium: Could not find final publish button.
+[2026-02-26 20:04:37]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-26 20:04:40] Processing: I Ditched ChatGPT 5 for Claude 4.6: A Brutal 3-Week Developer Experiment
+[2026-02-26 20:04:40]   URL: https://signalreads.com/articles/welp-i-didnt-know-what-to-expect/
+[2026-02-26 20:04:40]   Medium: Navigating to import page...
+[2026-02-26 20:04:43]   Medium: Typed URL: https://signalreads.com/articles/welp-i-didnt-know-what-to-expect/
+[2026-02-26 20:04:47]   Medium: Clicked import button. Waiting for import...
+[2026-02-26 20:04:57]   Medium: Clicked 'See your story'.
+[2026-02-26 20:05:07]   Medium: Opened publish dialog.
+[2026-02-26 20:05:11]   Medium: Could not find topic input — skipping topics.
+[2026-02-26 20:05:12]   Medium: Could not find final publish button.
+[2026-02-26 20:05:12]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-26 20:05:15] Substack: 10 post(s) in feed — checking for duplicates...
+[2026-02-26 20:05:43]   Substack: Found 153 published posts for dedup.
+[2026-02-26 20:05:43]   Skipping (already on Substack): What's going on with the lack of front page videos from the Minnesota subreddit? - A Developer's Story
+[2026-02-26 20:05:43]   Skipping (already on Substack): What's going on with the FAA closing down air space in El Paso, Texas for 10 days? - A Developer's Story
+[2026-02-26 20:05:43]   Substack: 8 genuinely new post(s) — importing via RSS...
+[2026-02-26 20:05:43]   Substack: Navigating to import page...
+[2026-02-26 20:05:48]   Substack: Pasted site URL: https://ghost.daintytrading.com/feed.xml
+[2026-02-26 20:05:50]   Substack: Clicked 'Get started' — waiting for feed to load...
+[2026-02-26 20:06:06]   Substack: Clicked 'Import' button.
+[2026-02-26 20:06:06]   Substack: Ownership dialog appeared.
+[2026-02-26 20:06:07]   Substack: Ticked ownership checkbox.
+[2026-02-26 20:06:09]   Substack: Clicked 'Next'.
+[2026-02-26 20:06:29]   Substack: ✓ Import initiated (screenshot saved for verification).
+[2026-02-26 20:06:29]   Substack: Sharing 8 post(s) to social platforms...
+[2026-02-26 20:06:54]   Substack: Found 168 posts in dashboard.
+[2026-02-26 20:06:54]     Share: Stop Eating Like the Clemson Tigers. This Shocking Burger Se...
