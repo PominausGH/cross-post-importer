@@ -3675,3 +3675,103 @@ Call log:
 [2026-02-26 20:15:03]     Share: ✓ Shared to LinkedIn
 [2026-02-26 20:15:11]     Share: ✓ Posted Substack Note
 [2026-02-26 20:15:13] Done with 1 failure(s).
+[2026-02-27 20:00:02] Fetching RSS feeds: 2 source(s)
+[2026-02-27 20:00:16] Found 153 posts in feed.
+[2026-02-27 20:00:16] 9 post(s) to process.
+[2026-02-27 20:00:16] Medium: 9 post(s) to import.
+[2026-02-27 20:00:32]   Medium: Found 89 published stories for dedup.
+[2026-02-27 20:00:32] Processing: I Studied the 5 'Evilest' Faces in My Country. The Proof Is Actually Shocking.
+[2026-02-27 20:00:32]   URL: https://signalreads.com/articles/i-studied-the-5-evilest-faces-in-my-country-the-pr/
+[2026-02-27 20:00:32]   Medium: Navigating to import page...
+[2026-02-27 20:00:35]   Medium: Typed URL: https://signalreads.com/articles/i-studied-the-5-evilest-faces-in-my-country-the-pr/
+[2026-02-27 20:00:39]   Medium: Clicked import button. Waiting for import...
+[2026-02-27 20:00:49]   Medium: Clicked 'See your story'.
+[2026-02-27 20:00:59]   Medium: Opened publish dialog.
+[2026-02-27 20:01:05]   Medium: Could not find topic input — skipping topics.
+[2026-02-27 20:01:06]   Medium: Could not find final publish button.
+[2026-02-27 20:01:06]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-27 20:01:09] Processing: I Studied Both Presidents for 30 Days. The Results Are Actually Shocking.
+[2026-02-27 20:01:09]   URL: https://signalreads.com/articles/i-studied-both-presidents-for-30-days-the-results-/
+[2026-02-27 20:01:09]   Medium: Navigating to import page...
+[2026-02-27 20:01:12]   Medium: Typed URL: https://signalreads.com/articles/i-studied-both-presidents-for-30-days-the-results-/
+[2026-02-27 20:01:16]   Medium: Clicked import button. Waiting for import...
+[2026-02-27 20:01:26]   Medium: Clicked 'See your story'.
+[2026-02-27 20:01:36]   Medium: Opened publish dialog.
+[2026-02-27 20:01:41]   Medium: Could not find topic input — skipping topics.
+[2026-02-27 20:01:42]   Medium: Could not find final publish button.
+[2026-02-27 20:01:42]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-27 20:01:45] Processing: I Quit Q-Anon Cold Turkey. Here’s What Actually Happened to My Brain.
+[2026-02-27 20:01:45]   URL: https://signalreads.com/articles/i-quit-q-anon-cold-turkey-heres-what-actually-happ/
+[2026-02-27 20:01:45]   Medium: Navigating to import page...
+[2026-02-27 20:01:48]   Medium: Typed URL: https://signalreads.com/articles/i-quit-q-anon-cold-turkey-heres-what-actually-happ/
+[2026-02-27 20:01:53]   Medium: Clicked import button. Waiting for import...
+[2026-02-27 20:02:03]   Medium: Clicked 'See your story'.
+[2026-02-27 20:02:13]   Medium: Opened publish dialog.
+[2026-02-27 20:02:18]   Medium: Could not find topic input — skipping topics.
+[2026-02-27 20:02:19]   Medium: Could not find final publish button.
+[2026-02-27 20:02:19]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-27 20:02:22] Processing: Google Just Quietly Killed Midjourney. Nano Banana 2 Is Actually Insane.
+[2026-02-27 20:02:22]   URL: https://signalreads.com/articles/google-just-quietly-killed-midjourney-nano-banana-/
+[2026-02-27 20:02:22]   Medium: Navigating to import page...
+[2026-02-27 20:02:26]   Medium: Typed URL: https://signalreads.com/articles/google-just-quietly-killed-midjourney-nano-banana-/
+[2026-02-27 20:02:30]   Medium: Clicked import button. Waiting for import...
+[2026-02-27 20:02:40]   Medium: Clicked 'See your story'.
+[2026-02-27 20:02:50]   Medium: Opened publish dialog.
+[2026-02-27 20:02:54]   Medium: Could not find topic input — skipping topics.
+[2026-02-27 20:02:55]   Medium: Could not find final publish button.
+[2026-02-27 20:02:55]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-27 20:02:58] Processing: Reddit just killed r/all. Here is the secret fix they don’t want you to find.
+[2026-02-27 20:02:58]   URL: https://signalreads.com/articles/reddit-just-killed-rall-here-is-the-secret-fix-the/
+[2026-02-27 20:02:58]   Medium: Navigating to import page...
+[2026-02-27 20:03:01]   Medium: Typed URL: https://signalreads.com/articles/reddit-just-killed-rall-here-is-the-secret-fix-the/
+[2026-02-27 20:03:03]   Medium: Clicked import button. Waiting for import...
+[2026-02-27 20:03:13]   Medium: Clicked 'See your story'.
+[2026-02-27 20:03:23]   Medium: Opened publish dialog.
+[2026-02-27 20:03:28]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-02-27 20:03:31] Processing: I Tested Midjourney vs A Hammer. The Results Are Actually Shocking.
+[2026-02-27 20:03:31]   URL: https://signalreads.com/articles/i-tested-midjourney-vs-a-hammer-the-results-are-ac/
+[2026-02-27 20:03:31]   Medium: Navigating to import page...
+[2026-02-27 20:03:34]   Medium: Typed URL: https://signalreads.com/articles/i-tested-midjourney-vs-a-hammer-the-results-are-ac/
+[2026-02-27 20:03:37]   Medium: Clicked import button. Waiting for import...
+[2026-02-27 20:03:47]   Medium: Clicked 'See your story'.
+[2026-02-27 20:03:57]   Medium: Opened publish dialog.
+[2026-02-27 20:04:02]   Medium: Could not find topic input — skipping topics.
+[2026-02-27 20:04:03]   Medium: Could not find final publish button.
+[2026-02-27 20:04:03]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-27 20:04:06] Processing: Elon Musk Just Revealed the 2030 Secret Sam Altman Is Quietly Hiding.
+[2026-02-27 20:04:06]   URL: https://signalreads.com/articles/elon-musk-just-revealed-the-2030-secret-sam-altman/
+[2026-02-27 20:04:06]   Medium: Navigating to import page...
+[2026-02-27 20:04:10]   Medium: Typed URL: https://signalreads.com/articles/elon-musk-just-revealed-the-2030-secret-sam-altman/
+[2026-02-27 20:04:13]   Medium: Clicked import button. Waiting for import...
+[2026-02-27 20:04:23]   Medium: Clicked 'See your story'.
+[2026-02-27 20:04:33]   Medium: Opened publish dialog.
+[2026-02-27 20:04:36]   Medium: Could not find topic input — skipping topics.
+[2026-02-27 20:04:37]   Medium: Could not find final publish button.
+[2026-02-27 20:04:37]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-27 20:04:40] Processing: Everyone Is Wrong About Claude. The Pentagon Just Proved Why.
+[2026-02-27 20:04:40]   URL: https://signalreads.com/articles/everyone-is-wrong-about-claude-the-pentagon-just-p/
+[2026-02-27 20:04:40]   Medium: Navigating to import page...
+[2026-02-27 20:04:44]   Medium: Typed URL: https://signalreads.com/articles/everyone-is-wrong-about-claude-the-pentagon-just-p/
+[2026-02-27 20:04:47]   Medium: Clicked import button. Waiting for import...
+[2026-02-27 20:04:57]   Medium: Clicked 'See your story'.
+[2026-02-27 20:05:07]   Medium: Opened publish dialog.
+[2026-02-27 20:05:12]   Medium: Could not find topic input — skipping topics.
+[2026-02-27 20:05:13]   Medium: Could not find final publish button.
+[2026-02-27 20:05:13]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-27 20:05:16] Processing: Nobody Talks About These 5 Habits. They Actually Saved My 20s. I’m Turning 30.
+[2026-02-27 20:05:16]   URL: https://signalreads.com/articles/nobody-talks-about-these-5-habits-they-actually-sa/
+[2026-02-27 20:05:16]   Medium: Navigating to import page...
+[2026-02-27 20:05:20]   Medium: Typed URL: https://signalreads.com/articles/nobody-talks-about-these-5-habits-they-actually-sa/
+[2026-02-27 20:05:22]   Medium: Clicked import button. Waiting for import...
+[2026-02-27 20:05:32]   Medium: Clicked 'See your story'.
+[2026-02-27 20:05:42]   Medium: Opened publish dialog.
+[2026-02-27 20:05:47]   Medium: Could not find topic input — skipping topics.
+[2026-02-27 20:05:48]   Medium: Could not find final publish button.
+[2026-02-27 20:05:48]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-27 20:05:51] Substack: 8 post(s) in feed — checking for duplicates...
+[2026-02-27 20:06:23]   Substack: Found 177 published posts for dedup.
+[2026-02-27 20:06:23]   Substack: 8 genuinely new post(s) — importing via RSS...
+[2026-02-27 20:06:23]   Substack: Navigating to import page...
+[2026-02-27 20:06:27]   Substack: Pasted site URL: https://ghost.daintytrading.com/feed.xml
+[2026-02-27 20:06:29]   Substack: Clicked 'Get started' — waiting for feed to load...
+[2026-02-27 20:06:58]   Substack: Clicked 'Import' button.
