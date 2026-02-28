@@ -3845,3 +3845,61 @@ Call log:
 [2026-02-27 20:16:00]     Share: ✓ Shared to LinkedIn
 [2026-02-27 20:16:07]     Share: ✓ Posted Substack Note
 [2026-02-27 20:16:09] Done with 1 failure(s).
+[2026-02-28 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-02-28 20:00:07] Found 157 posts in feed.
+[2026-02-28 20:00:07] 5 post(s) to process.
+[2026-02-28 20:00:07] Medium: 5 post(s) to import.
+[2026-02-28 20:00:25]   Medium: Found 98 published stories for dedup.
+[2026-02-28 20:00:25] Processing: I Guarded Churchill’s Statue for 24 Hours. The Results Are Shocking Proof.
+[2026-02-28 20:00:25]   URL: https://signalreads.com/articles/i-guarded-churchills-statue-for-24-hours-the-resul/
+[2026-02-28 20:00:25]   Medium: Navigating to import page...
+[2026-02-28 20:00:28]   Medium: Typed URL: https://signalreads.com/articles/i-guarded-churchills-statue-for-24-hours-the-resul/
+[2026-02-28 20:00:32]   Medium: Clicked import button. Waiting for import...
+[2026-02-28 20:00:42]   Medium: Clicked 'See your story'.
+[2026-02-28 20:00:52]   Medium: Opened publish dialog.
+[2026-02-28 20:00:57]   Medium: Could not find topic input — skipping topics.
+[2026-02-28 20:00:58]   Medium: Could not find final publish button.
+[2026-02-28 20:00:58]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-28 20:01:01] Processing: I Ate Enough Ravioli for 4 People. The 24-Hour Result is Actually Shocking.
+[2026-02-28 20:01:01]   URL: https://signalreads.com/articles/i-ate-enough-ravioli-for-4-people-the-24-hour-resu/
+[2026-02-28 20:01:01]   Medium: Navigating to import page...
+[2026-02-28 20:01:04]   Medium: Typed URL: https://signalreads.com/articles/i-ate-enough-ravioli-for-4-people-the-24-hour-resu/
+[2026-02-28 20:01:10]   Medium: Clicked import button. Waiting for import...
+[2026-02-28 20:01:20]   Medium: Clicked 'See your story'.
+[2026-02-28 20:01:30]   Medium: Opened publish dialog.
+[2026-02-28 20:01:33]   Medium: Could not find topic input — skipping topics.
+[2026-02-28 20:01:34]   Medium: Could not find final publish button.
+[2026-02-28 20:01:34]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-28 20:01:37] Processing: OpenAI Just Signed a Secret Pentagon Deal. Why Is Nobody Talking About It?
+[2026-02-28 20:01:37]   URL: https://signalreads.com/articles/openai-just-signed-a-secret-pentagon-deal-why-is-n/
+[2026-02-28 20:01:37]   Medium: Navigating to import page...
+[2026-02-28 20:01:41]   Medium: Typed URL: https://signalreads.com/articles/openai-just-signed-a-secret-pentagon-deal-why-is-n/
+[2026-02-28 20:01:45]   Medium: Clicked import button. Waiting for import...
+[2026-02-28 20:01:55]   Medium: Clicked 'See your story'.
+[2026-02-28 20:02:05]   Medium: Opened publish dialog.
+[2026-02-28 20:02:09]   Medium: Could not find topic input — skipping topics.
+[2026-02-28 20:02:10]   Medium: Could not find final publish button.
+[2026-02-28 20:02:10]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-28 20:02:13] Processing: OpenAI Just Changed Everything. Why This $730B Valuation Is Actually Terrifying.
+[2026-02-28 20:02:13]   URL: https://signalreads.com/articles/openai-just-changed-everything-why-this-730b-valua/
+[2026-02-28 20:02:13]   Medium: Navigating to import page...
+[2026-02-28 20:02:17]   Medium: Typed URL: https://signalreads.com/articles/openai-just-changed-everything-why-this-730b-valua/
+[2026-02-28 20:02:20]   Medium: Clicked import button. Waiting for import...
+[2026-02-28 20:02:30]   Medium: Clicked 'See your story'.
+[2026-02-28 20:02:40]   Medium: Opened publish dialog.
+[2026-02-28 20:02:46]   Medium: Could not find topic input — skipping topics.
+[2026-02-28 20:02:47]   Medium: Could not find final publish button.
+[2026-02-28 20:02:47]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-02-28 20:02:50] Skipping (already on Medium): Reddit just killed r/all. Here is the secret fix they don’t want you to find.
+[2026-02-28 20:02:51] Substack: 4 post(s) in feed — checking for duplicates...
+[2026-02-28 20:02:55]   Substack: Could not fetch published posts for dedup: Page.goto: net::ERR_ADDRESS_UNREACHABLE at https://pominaus.substack.com/publish/posts/published
+Call log:
+  - navigating to "https://pominaus.substack.com/publish/posts/published", waiting until "networkidle"
+
+[2026-02-28 20:02:55]   Substack: 4 genuinely new post(s) — importing via RSS...
+[2026-02-28 20:02:55]   Substack: Navigating to import page...
+[2026-02-28 20:03:00]   Substack: ✗ Error: Page.goto: net::ERR_ADDRESS_UNREACHABLE at https://pominaus.substack.com/publish/import
+Call log:
+  - navigating to "https://pominaus.substack.com/publish/import", waiting until "networkidle"
+
+[2026-02-28 20:03:00] Done with 1 failure(s).
