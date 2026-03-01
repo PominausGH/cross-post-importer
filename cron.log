@@ -3903,3 +3903,58 @@ Call log:
   - navigating to "https://pominaus.substack.com/publish/import", waiting until "networkidle"
 
 [2026-02-28 20:03:00] Done with 1 failure(s).
+[2026-03-01 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-03-01 20:00:12] Found 161 posts in feed.
+[2026-03-01 20:00:12] 8 post(s) to process.
+[2026-03-01 20:00:12] Medium: 4 post(s) to import.
+[2026-03-01 20:00:32]   Medium: Found 141 published stories for dedup.
+[2026-03-01 20:00:32] Processing: I Got This Shocking Message From My 3rd Grader’s Teacher. Nobody Is Prepared.
+[2026-03-01 20:00:32]   URL: https://signalreads.com/articles/i-got-this-shocking-message-from-my-3rd-graders-te/
+[2026-03-01 20:00:32]   Medium: Navigating to import page...
+[2026-03-01 20:00:36]   Medium: Typed URL: https://signalreads.com/articles/i-got-this-shocking-message-from-my-3rd-graders-te/
+[2026-03-01 20:00:40]   Medium: Clicked import button. Waiting for import...
+[2026-03-01 20:00:50]   Medium: Clicked 'See your story'.
+[2026-03-01 20:01:00]   Medium: Opened publish dialog.
+[2026-03-01 20:01:05]   Medium: Could not find topic input — skipping topics.
+[2026-03-01 20:01:06]   Medium: Could not find final publish button.
+[2026-03-01 20:01:06]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-01 20:01:09] Processing: Anthropic Just Got Labeled a "Risk." The Shocking Reason Nobody Is Telling You.
+[2026-03-01 20:01:09]   URL: https://signalreads.com/articles/anthropic-just-got-labeled-a-risk-the-shocking-rea/
+[2026-03-01 20:01:09]   Medium: Navigating to import page...
+[2026-03-01 20:01:12]   Medium: Typed URL: https://signalreads.com/articles/anthropic-just-got-labeled-a-risk-the-shocking-rea/
+[2026-03-01 20:01:16]   Medium: Clicked import button. Waiting for import...
+[2026-03-01 20:01:26]   Medium: Clicked 'See your story'.
+[2026-03-01 20:01:36]   Medium: Opened publish dialog.
+[2026-03-01 20:01:41]   Medium: Could not find topic input — skipping topics.
+[2026-03-01 20:01:42]   Medium: Could not find final publish button.
+[2026-03-01 20:01:42]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-01 20:01:45] Processing: OpenAI Just Quietly Sold Out. Why Investors Are Actually Celebrating.
+[2026-03-01 20:01:45]   URL: https://signalreads.com/articles/openai-just-quietly-sold-out-why-investors-are-act/
+[2026-03-01 20:01:45]   Medium: Navigating to import page...
+[2026-03-01 20:01:48]   Medium: Typed URL: https://signalreads.com/articles/openai-just-quietly-sold-out-why-investors-are-act/
+[2026-03-01 20:01:53]   Medium: Clicked import button. Waiting for import...
+[2026-03-01 20:02:03]   Medium: Clicked 'See your story'.
+[2026-03-01 20:02:13]   Medium: Opened publish dialog.
+[2026-03-01 20:02:17]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-01 20:02:20] Processing: Stop Using Cloud APIs. This WebGPU Secret Actually Made Servers Obsolete.
+[2026-03-01 20:02:20]   URL: https://signalreads.com/articles/stop-using-cloud-apis-this-webgpu-secret-actually-/
+[2026-03-01 20:02:20]   Medium: Navigating to import page...
+[2026-03-01 20:02:24]   Medium: Typed URL: https://signalreads.com/articles/stop-using-cloud-apis-this-webgpu-secret-actually-/
+[2026-03-01 20:02:27]   Medium: Clicked import button. Waiting for import...
+[2026-03-01 20:02:37]   Medium: Clicked 'See your story'.
+[2026-03-01 20:02:47]   Medium: Opened publish dialog.
+[2026-03-01 20:02:52]   Medium: Could not find topic input — skipping topics.
+[2026-03-01 20:02:53]   Medium: Could not find final publish button.
+[2026-03-01 20:02:53]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-01 20:02:56] Substack: 8 post(s) in feed — checking for duplicates...
+[2026-03-01 20:03:27]   Substack: Could not fetch published posts for dedup: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://pominaus.substack.com/publish/posts/published", waiting until "networkidle"
+
+[2026-03-01 20:03:27]   Substack: 8 genuinely new post(s) — importing via RSS...
+[2026-03-01 20:03:27]   Substack: Navigating to import page...
+[2026-03-01 20:03:57]   Substack: ✗ Error: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://pominaus.substack.com/publish/import", waiting until "networkidle"
+
+[2026-03-01 20:03:57] Done with 2 failure(s).
