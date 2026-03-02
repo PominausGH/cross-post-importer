@@ -3958,3 +3958,62 @@ Call log:
   - navigating to "https://pominaus.substack.com/publish/import", waiting until "networkidle"
 
 [2026-03-01 20:03:57] Done with 2 failure(s).
+[2026-03-02 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-03-02 20:00:09] Found 165 posts in feed.
+[2026-03-02 20:00:09] 12 post(s) to process.
+[2026-03-02 20:00:09] Medium: 5 post(s) to import.
+[2026-03-02 20:00:30]   Medium: Found 139 published stories for dedup.
+[2026-03-02 20:00:30] Processing: I Tried the 10 vs 55 Year Old Routine. The Results Are Actually Shocking Proof.
+[2026-03-02 20:00:30]   URL: https://signalreads.com/articles/i-tried-the-10-vs-55-year-old-routine-the-results-/
+[2026-03-02 20:00:30]   Medium: Navigating to import page...
+[2026-03-02 20:00:34]   Medium: Typed URL: https://signalreads.com/articles/i-tried-the-10-vs-55-year-old-routine-the-results-/
+[2026-03-02 20:00:39]   Medium: Clicked import button. Waiting for import...
+[2026-03-02 20:00:49]   Medium: Clicked 'See your story'.
+[2026-03-02 20:00:59]   Medium: Opened publish dialog.
+[2026-03-02 20:01:03]   Medium: Could not find topic input — skipping topics.
+[2026-03-02 20:01:04]   Medium: Could not find final publish button.
+[2026-03-02 20:01:04]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-02 20:01:07] Processing: I Tracked Jim Carrey for 24 Hours. The Proof is Actually Shocking.
+[2026-03-02 20:01:07]   URL: https://signalreads.com/articles/i-tracked-jim-carrey-for-24-hours-the-proof-is-act/
+[2026-03-02 20:01:07]   Medium: Navigating to import page...
+[2026-03-02 20:01:12]   Medium: Typed URL: https://signalreads.com/articles/i-tracked-jim-carrey-for-24-hours-the-proof-is-act/
+[2026-03-02 20:01:16]   Medium: Clicked import button. Waiting for import...
+[2026-03-02 20:01:26]   Medium: Clicked 'See your story'.
+[2026-03-02 20:01:36]   Medium: Opened publish dialog.
+[2026-03-02 20:01:40]   Medium: Could not find topic input — skipping topics.
+[2026-03-02 20:01:41]   Medium: Could not find final publish button.
+[2026-03-02 20:01:41]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-02 20:01:44] Processing: WebMCP Just Changed AI Forever. Nobody Is Talking About This Secret Preview.
+[2026-03-02 20:01:44]   URL: https://signalreads.com/articles/webmcp-just-changed-ai-forever-nobody-is-talking-a/
+[2026-03-02 20:01:44]   Medium: Navigating to import page...
+[2026-03-02 20:01:47]   Medium: Typed URL: https://signalreads.com/articles/webmcp-just-changed-ai-forever-nobody-is-talking-a/
+[2026-03-02 20:01:51]   Medium: Clicked import button. Waiting for import...
+[2026-03-02 20:02:01]   Medium: Clicked 'See your story'.
+[2026-03-02 20:02:11]   Medium: Opened publish dialog.
+[2026-03-02 20:02:16]   Medium: Could not find topic input — skipping topics.
+[2026-03-02 20:02:17]   Medium: Could not find final publish button.
+[2026-03-02 20:02:17]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-02 20:02:20] Processing: Stop Using GPT-4o. Qwen 3.5 Small Actually Just Changed Everything.
+[2026-03-02 20:02:20]   URL: https://signalreads.com/articles/stop-using-gpt-4o-qwen-35-small-actually-just-chan/
+[2026-03-02 20:02:20]   Medium: Navigating to import page...
+[2026-03-02 20:02:23]   Medium: Typed URL: https://signalreads.com/articles/stop-using-gpt-4o-qwen-35-small-actually-just-chan/
+[2026-03-02 20:02:28]   Medium: Clicked import button. Waiting for import...
+[2026-03-02 20:02:38]   Medium: Clicked 'See your story'.
+[2026-03-02 20:02:48]   Medium: Opened publish dialog.
+[2026-03-02 20:02:52]   Medium: Could not find topic input — skipping topics.
+[2026-03-02 20:02:53]   Medium: Could not find final publish button.
+[2026-03-02 20:02:53]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-02 20:02:56] Processing: OpenAI Just Quietly Sold Out. Why Investors Are Actually Celebrating.
+[2026-03-02 20:02:56]   URL: https://signalreads.com/articles/openai-just-quietly-sold-out-why-investors-are-act/
+[2026-03-02 20:02:56]   Medium: Navigating to import page...
+[2026-03-02 20:02:59]   Medium: Typed URL: https://signalreads.com/articles/openai-just-quietly-sold-out-why-investors-are-act/
+[2026-03-02 20:03:02]   Medium: Clicked import button. Waiting for import...
+[2026-03-02 20:03:12]   Medium: Clicked 'See your story'.
+[2026-03-02 20:03:22]   Medium: Opened publish dialog.
+[2026-03-02 20:03:28]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-02 20:03:31] Substack: 12 post(s) in feed — checking for duplicates...
+[2026-03-02 20:03:40]   Substack: Found 0 published posts for dedup.
+[2026-03-02 20:03:40]   Substack: 12 genuinely new post(s) — importing via RSS...
+[2026-03-02 20:03:40]   Substack: Navigating to import page...
+[2026-03-02 20:03:44]   Substack: ✗ Not logged in. Run with --login first.
+[2026-03-02 20:03:45] Done with 2 failure(s).
