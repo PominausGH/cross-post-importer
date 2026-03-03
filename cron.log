@@ -4017,3 +4017,31 @@ Call log:
 [2026-03-02 20:03:40]   Substack: Navigating to import page...
 [2026-03-02 20:03:44]   Substack: ✗ Not logged in. Run with --login first.
 [2026-03-02 20:03:45] Done with 2 failure(s).
+[2026-03-03 20:00:02] Fetching RSS feeds: 2 source(s)
+[2026-03-03 20:00:08] Found 167 posts in feed.
+[2026-03-03 20:00:08] 14 post(s) to process.
+[2026-03-03 20:00:08] Medium: 3 post(s) to import.
+[2026-03-03 20:00:28]   Medium: Found 142 published stories for dedup.
+[2026-03-03 20:00:28] Processing: Stop Buying the iPad Pro. The M4 Air Is Actually Better.
+[2026-03-03 20:00:28]   URL: https://signalreads.com/articles/stop-buying-the-ipad-pro-the-m4-air-is-actually-be/
+[2026-03-03 20:00:29]   Medium: Navigating to import page...
+[2026-03-03 20:00:33]   Medium: Typed URL: https://signalreads.com/articles/stop-buying-the-ipad-pro-the-m4-air-is-actually-be/
+[2026-03-03 20:00:34]   Medium: Clicked import button. Waiting for import...
+[2026-03-03 20:01:44]   Medium: 'See your story' not found — import may still be processing.
+[2026-03-03 20:01:47] Processing: Stop Using AWS. A Missile Just Actually Proved Your Data Is NOT Safe.
+[2026-03-03 20:01:47]   URL: https://signalreads.com/articles/stop-using-aws-a-missile-just-actually-proved-your/
+[2026-03-03 20:01:47]   Medium: Navigating to import page...
+[2026-03-03 20:01:51]   Medium: Typed URL: https://signalreads.com/articles/stop-using-aws-a-missile-just-actually-proved-your/
+[2026-03-03 20:01:55]   Medium: Clicked import button. Waiting for import...
+[2026-03-03 20:02:05]   Medium: Clicked 'See your story'.
+[2026-03-03 20:02:15]   Medium: Opened publish dialog.
+[2026-03-03 20:02:19]   Medium: Could not find topic input — skipping topics.
+[2026-03-03 20:02:20]   Medium: Could not find final publish button.
+[2026-03-03 20:02:20]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-03 20:02:23] Skipping (already on Medium): OpenAI Just Quietly Sold Out. Why Investors Are Actually Celebrating.
+[2026-03-03 20:02:23] Substack: 14 post(s) in feed — checking for duplicates...
+[2026-03-03 20:02:32]   Substack: Found 0 published posts for dedup.
+[2026-03-03 20:02:32]   Substack: 14 genuinely new post(s) — importing via RSS...
+[2026-03-03 20:02:32]   Substack: Navigating to import page...
+[2026-03-03 20:02:37]   Substack: ✗ Not logged in. Run with --login first.
+[2026-03-03 20:02:37] Done with 1 failure(s).
