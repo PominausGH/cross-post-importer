@@ -4045,3 +4045,38 @@ Call log:
 [2026-03-03 20:02:32]   Substack: Navigating to import page...
 [2026-03-03 20:02:37]   Substack: ✗ Not logged in. Run with --login first.
 [2026-03-03 20:02:37] Done with 1 failure(s).
+[2026-03-04 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-03-04 20:00:08] Found 169 posts in feed.
+[2026-03-04 20:00:08] 17 post(s) to process.
+[2026-03-04 20:00:08] Medium: 3 post(s) to import.
+[2026-03-04 20:00:29]   Medium: Found 144 published stories for dedup.
+[2026-03-04 20:00:29] Processing: Stop Ignoring This 'Minor' Ache. It Just Cost Me My Right One. Actually Shocking
+[2026-03-04 20:00:29]   URL: https://signalreads.com/articles/stop-ignoring-this-minor-ache-it-just-cost-me-my-r/
+[2026-03-04 20:00:29]   Medium: Navigating to import page...
+[2026-03-04 20:00:33]   Medium: Typed URL: https://signalreads.com/articles/stop-ignoring-this-minor-ache-it-just-cost-me-my-r/
+[2026-03-04 20:00:35]   Medium: Clicked import button. Waiting for import...
+[2026-03-04 20:01:45]   Medium: 'See your story' not found — import may still be processing.
+[2026-03-04 20:01:48] Processing: I Let My Brother Buy My Daughter’s First Car. The 24-Hour Result Is Shocking.
+[2026-03-04 20:01:48]   URL: https://signalreads.com/articles/i-let-my-brother-buy-my-daughters-first-car-the-24/
+[2026-03-04 20:01:48]   Medium: Navigating to import page...
+[2026-03-04 20:01:51]   Medium: Typed URL: https://signalreads.com/articles/i-let-my-brother-buy-my-daughters-first-car-the-24/
+[2026-03-04 20:01:56]   Medium: Clicked import button. Waiting for import...
+[2026-03-04 20:02:06]   Medium: Clicked 'See your story'.
+[2026-03-04 20:02:16]   Medium: Opened publish dialog.
+[2026-03-04 20:02:20]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-04 20:02:23] Processing: Claude’s Cycles Just Changed Everything. The Proof Is Actually Shocking.
+[2026-03-04 20:02:23]   URL: https://signalreads.com/articles/claudes-cycles-just-changed-everything-the-proof-i/
+[2026-03-04 20:02:23]   Medium: Navigating to import page...
+[2026-03-04 20:02:26]   Medium: Typed URL: https://signalreads.com/articles/claudes-cycles-just-changed-everything-the-proof-i/
+[2026-03-04 20:02:30]   Medium: Clicked import button. Waiting for import...
+[2026-03-04 20:02:40]   Medium: Clicked 'See your story'.
+[2026-03-04 20:02:50]   Medium: Opened publish dialog.
+[2026-03-04 20:02:55]   Medium: Could not find topic input — skipping topics.
+[2026-03-04 20:02:56]   Medium: Could not find final publish button.
+[2026-03-04 20:02:56]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-04 20:02:59] Substack: 17 post(s) in feed — checking for duplicates...
+[2026-03-04 20:03:07]   Substack: Found 0 published posts for dedup.
+[2026-03-04 20:03:07]   Substack: 17 genuinely new post(s) — importing via RSS...
+[2026-03-04 20:03:07]   Substack: Navigating to import page...
+[2026-03-04 20:03:12]   Substack: ✗ Not logged in. Run with --login first.
+[2026-03-04 20:03:12] Done with 2 failure(s).
