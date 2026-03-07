@@ -4219,3 +4219,15 @@ Call log:
 [2026-03-06 20:04:46]   Substack: Navigating to import page...
 [2026-03-06 20:04:51]   Substack: ✗ Not logged in. Run with --login first.
 [2026-03-06 20:04:51] Done with 2 failure(s).
+[2026-03-07 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-03-07 20:00:08] Found 179 posts in feed.
+[2026-03-07 20:00:08] 27 post(s) to process.
+[2026-03-07 20:00:08] Medium: 1 post(s) to import.
+[2026-03-07 20:00:30]   Medium: Found 149 published stories for dedup.
+[2026-03-07 20:00:30] Skipping (already on Medium): I Quit This $100B Industry House of Cards. The Proof is Actually Shocking.
+[2026-03-07 20:00:30] Substack: 27 post(s) in feed — checking for duplicates...
+[2026-03-07 20:00:39]   Substack: Found 0 published posts for dedup.
+[2026-03-07 20:00:39]   Substack: 27 genuinely new post(s) — importing via RSS...
+[2026-03-07 20:00:39]   Substack: Navigating to import page...
+[2026-03-07 20:00:44]   Substack: ✗ Not logged in. Run with --login first.
+[2026-03-07 20:00:44] Done with 1 failure(s).
