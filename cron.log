@@ -4249,3 +4249,15 @@ Call log:
 [2026-03-09 20:00:17]   Substack: Navigating to import page...
 [2026-03-09 20:00:22]   Substack: ✗ Not logged in. Run with --login first.
 [2026-03-09 20:00:22] Done with 1 failure(s).
+[2026-03-10 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-03-10 20:00:08] Found 178 posts in feed.
+[2026-03-10 20:00:08] 26 post(s) to process.
+[2026-03-10 20:00:08] Medium: 1 post(s) to import.
+[2026-03-10 20:00:37]   Medium: Found 155 published stories for dedup.
+[2026-03-10 20:00:37] Skipping (already on Medium): Stop Using Llama 3. Qwen3.5 Benchmark Results Are Actually Shocking.
+[2026-03-10 20:00:37] Substack: 26 post(s) in feed — checking for duplicates...
+[2026-03-10 20:00:46]   Substack: Found 0 published posts for dedup.
+[2026-03-10 20:00:46]   Substack: 26 genuinely new post(s) — importing via RSS...
+[2026-03-10 20:00:46]   Substack: Navigating to import page...
+[2026-03-10 20:00:50]   Substack: ✗ Not logged in. Run with --login first.
+[2026-03-10 20:00:50] Done with 1 failure(s).
