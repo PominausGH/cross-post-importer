@@ -4261,3 +4261,24 @@ Call log:
 [2026-03-10 20:00:46]   Substack: Navigating to import page...
 [2026-03-10 20:00:50]   Substack: ✗ Not logged in. Run with --login first.
 [2026-03-10 20:00:50] Done with 1 failure(s).
+[2026-03-11 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-03-11 20:00:06] Found 178 posts in feed.
+[2026-03-11 20:00:06] 27 post(s) to process.
+[2026-03-11 20:00:06] Medium: 1 post(s) to import.
+[2026-03-11 20:00:33]   Medium: Found 155 published stories for dedup.
+[2026-03-11 20:00:33] Processing: Stop Using Null. The Billion Dollar Mistake Is Giving Us A Stark Warning.
+[2026-03-11 20:00:33]   URL: https://signalreads.com/articles/stop-using-null-the-billion-dollar-mistake-just-le/
+[2026-03-11 20:00:33]   Medium: Navigating to import page...
+[2026-03-11 20:00:38]   Medium: Typed URL: https://signalreads.com/articles/stop-using-null-the-billion-dollar-mistake-just-le/
+[2026-03-11 20:00:43]   Medium: Clicked import button. Waiting for import...
+[2026-03-11 20:00:53]   Medium: Clicked 'See your story'.
+[2026-03-11 20:01:03]   Medium: Opened publish dialog.
+[2026-03-11 20:01:07]   Medium: Could not find topic input — skipping topics.
+[2026-03-11 20:01:08]   Medium: Could not find final publish button.
+[2026-03-11 20:01:08]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-11 20:01:11] Substack: 27 post(s) in feed — checking for duplicates...
+[2026-03-11 20:01:20]   Substack: Found 0 published posts for dedup.
+[2026-03-11 20:01:20]   Substack: 27 genuinely new post(s) — importing via RSS...
+[2026-03-11 20:01:20]   Substack: Navigating to import page...
+[2026-03-11 20:01:25]   Substack: ✗ Not logged in. Run with --login first.
+[2026-03-11 20:01:25] Done with 1 failure(s).
