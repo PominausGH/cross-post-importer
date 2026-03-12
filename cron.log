@@ -4282,3 +4282,76 @@ Call log:
 [2026-03-11 20:01:20]   Substack: Navigating to import page...
 [2026-03-11 20:01:25]   Substack: ✗ Not logged in. Run with --login first.
 [2026-03-11 20:01:25] Done with 1 failure(s).
+[2026-03-12 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-03-12 20:00:10] Found 200 posts in feed.
+[2026-03-12 20:00:10] 56 post(s) to process.
+[2026-03-12 20:00:10] Medium: 30 post(s) to import.
+[2026-03-12 20:00:41]   Medium: Found 186 published stories for dedup.
+[2026-03-12 20:00:41] Skipping (already on Medium): Stop Feeling Lazy. This Shocking DNA Proof Is Why You Actually Need to Nap.
+[2026-03-12 20:00:41] Skipping (already on Medium): AI Just Got 10x Faster. This sin() Secret Was Actually Hiding in Plain Sight.
+[2026-03-12 20:00:41] Skipping (already on Medium): AI Just Decoded the 5,200 Peruvian Holes. The Proof Is Actually Shocking.
+[2026-03-12 20:00:41] Skipping (already on Medium): I Emailed Gmail from a 1989 Computer. The Results Are Actually Shocking.
+[2026-03-12 20:00:41] Skipping (already on Medium): OpenAI Quietly Dropped GPT-5.4. The Proof Is Actually Shocking.
+[2026-03-12 20:00:41] Skipping (already on Medium): I Tracked The 12 Hormuz Mines for 24 Hours. The Proof Is Actually Shocking.
+[2026-03-12 20:00:41] Skipping (already on Medium): Nobody Talks About the 'Never Zero' Risk. The Proof is Actually Shocking.
+[2026-03-12 20:00:41] Skipping (already on Medium): Nobody Talks About This 1-Second Mistake. The Proof You Don't Belong Is Shocking
+[2026-03-12 20:00:41] Processing: I Tried Rubio's Oversized Shoes for 24 Hours. The Proof Is Actually Shocking.
+[2026-03-12 20:00:41]   URL: https://signalreads.com/articles/i-tried-rubios-oversized-shoes-for-24-hours-the-pr/
+[2026-03-12 20:00:42]   Medium: Navigating to import page...
+[2026-03-12 20:00:45]   Medium: Typed URL: https://signalreads.com/articles/i-tried-rubios-oversized-shoes-for-24-hours-the-pr/
+[2026-03-12 20:00:46]   Medium: Clicked import button. Waiting for import...
+[2026-03-12 20:00:56]   Medium: Clicked 'See your story'.
+[2026-03-12 20:01:06]   Medium: Opened publish dialog.
+[2026-03-12 20:01:10]   Medium: Could not find topic input — skipping topics.
+[2026-03-12 20:01:11]   Medium: Could not find final publish button.
+[2026-03-12 20:01:11]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-12 20:01:14] Skipping (already on Medium): I Asked the DEI Expert for a Definition. The Proof is Actually Shocking.
+[2026-03-12 20:01:14] Skipping (already on Medium): Stop Waking Up Early. It's Quietly Destroying Your Brain. (Shocking Proof)
+[2026-03-12 20:01:14] Skipping (already on Medium): I Quit This "Joke" Timeline Cold Turkey. The Shocking Proof It Saved My Brain.
+[2026-03-12 20:01:14] Skipping (already on Medium): I Tracked This Politician for 30 Days. The Proof is Actually Shocking.
+[2026-03-12 20:01:14] Skipping (already on Medium): I Tracked the Pentagon’s $93B Steak & Crab Spree. The Results Are Shocking.
+[2026-03-12 20:01:14] Skipping (already on Medium): I Tried Thiccboiyoga for 30 Days. The Results are Actually Shocking.
+[2026-03-12 20:01:14] Processing: I Meditated Wrong for 5 Years. This 2-Minute Secret Actually Fixed My Brain.
+[2026-03-12 20:01:14]   URL: https://signalreads.com/articles/i-meditated-wrong-for-5-years-this-2-minute-secret/
+[2026-03-12 20:01:14]   Medium: Navigating to import page...
+[2026-03-12 20:01:18]   Medium: Typed URL: https://signalreads.com/articles/i-meditated-wrong-for-5-years-this-2-minute-secret/
+[2026-03-12 20:01:22]   Medium: Clicked import button. Waiting for import...
+[2026-03-12 20:01:33]   Medium: Clicked 'See your story'.
+[2026-03-12 20:01:43]   Medium: Opened publish dialog.
+[2026-03-12 20:01:47]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-12 20:01:50] Skipping (already on Medium): Stop Following Atomic Habits. It’s Quietly Keeping You Stuck in 2026.
+[2026-03-12 20:01:50] Skipping (already on Medium): OpenClaw Just Broke The Internet. Stop Paying For AI Agents. Here Is The Proof.
+[2026-03-12 20:01:50] Skipping (already on Medium): An AI Bot Just Interviewed Me For A Job. The Results Are Actually Terrifying.
+[2026-03-12 20:01:50] Skipping (already on Medium): Britain Just Deleted 700 Years of Nobles. The Secret Proof Is Actually Shocking.
+[2026-03-12 20:01:50] Processing: We Hacked McKinsey’s AI. What We Found Is Actually Terrifying. Nobody Is Safe.
+[2026-03-12 20:01:50]   URL: https://signalreads.com/articles/we-hacked-mckinseys-ai-what-we-found-is-actually-t/
+[2026-03-12 20:01:50]   Medium: Navigating to import page...
+[2026-03-12 20:01:53]   Medium: Typed URL: https://signalreads.com/articles/we-hacked-mckinseys-ai-what-we-found-is-actually-t/
+[2026-03-12 20:01:55]   Medium: Clicked import button. Waiting for import...
+[2026-03-12 20:02:05]   Medium: Clicked 'See your story'.
+[2026-03-12 20:02:15]   Medium: Opened publish dialog.
+[2026-03-12 20:02:18]   Medium: Could not find topic input — skipping topics.
+[2026-03-12 20:02:19]   Medium: Could not find final publish button.
+[2026-03-12 20:02:19]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-12 20:02:22] Skipping (already on Medium): ChatGPT Just Quietly Justified War. The Proof Is Actually Shocking.
+[2026-03-12 20:02:22] Skipping (already on Medium): Stop Browsing. ChatGPT Just Revealed the 2026 Internet Secret. It’s Over.
+[2026-03-12 20:02:22] Skipping (already on Medium): Stop Buying GPUs. M5 Max Benchmarks Are Actually Shocking. Here’s Proof.
+[2026-03-12 20:02:22] Skipping (already on Medium): The FBI Just Quietly Warned California. Nobody Is Actually Prepared for This.
+[2026-03-12 20:02:22] Skipping (already on Medium): Stop Wearing Graphic Tees. This 1-Shirt Now Carries a 2-Year Jail Sentence. Proof.
+[2026-03-12 20:02:22] Processing: Stop Using Null. The Genius Who Created It Has A Warning We're Still Ignoring.
+[2026-03-12 20:02:22]   URL: https://signalreads.com/articles/stop-using-null-the-genius-who-created-it-just-lef/
+[2026-03-12 20:02:22]   Medium: Navigating to import page...
+[2026-03-12 20:02:26]   Medium: Typed URL: https://signalreads.com/articles/stop-using-null-the-genius-who-created-it-just-lef/
+[2026-03-12 20:02:27]   Medium: Clicked import button. Waiting for import...
+[2026-03-12 20:02:37]   Medium: Clicked 'See your story'.
+[2026-03-12 20:02:47]   Medium: Opened publish dialog.
+[2026-03-12 20:02:51]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-12 20:02:54] Skipping (already on Medium): Stop This 'Quiet' Money Fixation. It’s Actually Destroying Every Millennial Dad.
+[2026-03-12 20:02:54] Skipping (already on Medium): I Tried the 'Cat Pic' Cure for 24 Hours. The Results are Actually Shocking.
+[2026-03-12 20:02:54] Skipping (already on Medium): E-Voting Just Failed. 2,048 Ballots Vanished. Nobody Is Talking About It.
+[2026-03-12 20:02:55] Substack: 56 post(s) in feed — checking for duplicates...
+[2026-03-12 20:03:03]   Substack: Found 0 published posts for dedup.
+[2026-03-12 20:03:03]   Substack: 56 genuinely new post(s) — importing via RSS...
+[2026-03-12 20:03:03]   Substack: Navigating to import page...
+[2026-03-12 20:03:08]   Substack: ✗ Not logged in. Run with --login first.
+[2026-03-12 20:03:08] Done with 3 failure(s).
