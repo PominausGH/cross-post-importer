@@ -4663,3 +4663,20 @@ Call log:
 [2026-03-15 20:05:50]   Medium: Clicked import button. Waiting for import...
 [2026-03-15 20:06:00]   Medium: Clicked 'See your story'.
 [2026-03-15 20:06:10]   Medium: Opened publish dialog.
+[2026-03-15 20:06:14]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-15 20:06:17] Processing: Atlassian Just Quietly Replaced 1,600 People. It’s Worse Than You Think.
+[2026-03-15 20:06:17]   URL: https://signalreads.com/articles/atlassian-just-quietly-replaced-1600-people-its-wo/
+[2026-03-15 20:06:17]   Medium: Navigating to import page...
+[2026-03-15 20:06:20]   Medium: Typed URL: https://signalreads.com/articles/atlassian-just-quietly-replaced-1600-people-its-wo/
+[2026-03-15 20:06:23]   Medium: Clicked import button. Waiting for import...
+[2026-03-15 20:06:33]   Medium: Clicked 'See your story'.
+[2026-03-15 20:06:43]   Medium: Opened publish dialog.
+[2026-03-15 20:06:46]   Medium: Could not find topic input — skipping topics.
+[2026-03-15 20:06:47]   Medium: Could not find final publish button.
+[2026-03-15 20:06:48]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-15 20:06:51] Substack: 80 post(s) in feed — checking for duplicates...
+[2026-03-15 20:06:59]   Substack: Found 0 published posts for dedup.
+[2026-03-15 20:06:59]   Substack: 80 genuinely new post(s) — importing via RSS...
+[2026-03-15 20:06:59]   Substack: Navigating to import page...
+[2026-03-15 20:07:03]   Substack: ✗ Not logged in. Run with --login first.
+[2026-03-15 20:07:03] Done with 4 failure(s).
