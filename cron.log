@@ -4355,3 +4355,213 @@ Call log:
 [2026-03-12 20:03:03]   Substack: Navigating to import page...
 [2026-03-12 20:03:08]   Substack: ✗ Not logged in. Run with --login first.
 [2026-03-12 20:03:08] Done with 3 failure(s).
+[2026-03-13 20:00:02] Fetching RSS feeds: 2 source(s)
+[2026-03-13 20:00:06] Found 207 posts in feed.
+[2026-03-13 20:00:06] 63 post(s) to process.
+[2026-03-13 20:00:06] Medium: 9 post(s) to import.
+[2026-03-13 20:00:30]   Medium: Found 186 published stories for dedup.
+[2026-03-13 20:00:30] Processing: I Tracked This DOGE Bro for 24 Hours. The DEI Secret Is Actually Uncomfortable
+[2026-03-13 20:00:30]   URL: https://signalreads.com/articles/i-tracked-this-doge-bro-for-24-hours-the-dei-secre/
+[2026-03-13 20:00:30]   Medium: Navigating to import page...
+[2026-03-13 20:00:34]   Medium: Typed URL: https://signalreads.com/articles/i-tracked-this-doge-bro-for-24-hours-the-dei-secre/
+[2026-03-13 20:00:41]   Medium: Clicked import button. Waiting for import...
+[2026-03-13 20:01:51]   Medium: 'See your story' not found — import may still be processing.
+[2026-03-13 20:01:54] Processing: Nobody Saw Cornyn’s SAVE Act Secret Coming. It’s Actually Worse Than You Think
+[2026-03-13 20:01:54]   URL: https://signalreads.com/articles/nobody-saw-cornyns-save-act-secret-coming-its-actu/
+[2026-03-13 20:01:54]   Medium: Navigating to import page...
+[2026-03-13 20:01:58]   Medium: Typed URL: https://signalreads.com/articles/nobody-saw-cornyns-save-act-secret-coming-its-actu/
+[2026-03-13 20:02:03]   Medium: Clicked import button. Waiting for import...
+[2026-03-13 20:02:13]   Medium: Clicked 'See your story'.
+[2026-03-13 20:02:23]   Medium: Opened publish dialog.
+[2026-03-13 20:02:27]   Medium: Could not find topic input — skipping topics.
+[2026-03-13 20:02:28]   Medium: Could not find final publish button.
+[2026-03-13 20:02:28]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-13 20:02:31] Processing: I Tracked DOGE for 30 Days. Here’s the Uncomfortable Truth Nobody Tells You.
+[2026-03-13 20:02:31]   URL: https://signalreads.com/articles/i-tracked-doge-for-30-days-heres-the-uncomfortable/
+[2026-03-13 20:02:31]   Medium: Navigating to import page...
+[2026-03-13 20:02:35]   Medium: Typed URL: https://signalreads.com/articles/i-tracked-doge-for-30-days-heres-the-uncomfortable/
+[2026-03-13 20:02:39]   Medium: Clicked import button. Waiting for import...
+[2026-03-13 20:02:49]   Medium: Clicked 'See your story'.
+[2026-03-13 20:03:00]   Medium: Opened publish dialog.
+[2026-03-13 20:03:03]   Medium: Could not find topic input — skipping topics.
+[2026-03-13 20:03:04]   Medium: Could not find final publish button.
+[2026-03-13 20:03:04]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-13 20:03:07] Processing: Stop Using ChatGPT. OpenAI is Actually in Trouble. It's Worse Than You Think.
+[2026-03-13 20:03:07]   URL: https://signalreads.com/articles/stop-using-chatgpt-openai-is-actually-in-trouble-i/
+[2026-03-13 20:03:07]   Medium: Navigating to import page...
+[2026-03-13 20:03:10]   Medium: Typed URL: https://signalreads.com/articles/stop-using-chatgpt-openai-is-actually-in-trouble-i/
+[2026-03-13 20:03:14]   Medium: Clicked import button. Waiting for import...
+[2026-03-13 20:03:24]   Medium: Clicked 'See your story'.
+[2026-03-13 20:03:34]   Medium: Opened publish dialog.
+[2026-03-13 20:03:38]   Medium: Could not find topic input — skipping topics.
+[2026-03-13 20:03:39]   Medium: Could not find final publish button.
+[2026-03-13 20:03:39]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-13 20:03:42] Processing: AI Just Put an Innocent Woman in Jail. It’s Worse Than You Think.
+[2026-03-13 20:03:42]   URL: https://signalreads.com/articles/ai-just-put-an-innocent-woman-in-jail-its-worse-th/
+[2026-03-13 20:03:42]   Medium: Navigating to import page...
+[2026-03-13 20:03:45]   Medium: Typed URL: https://signalreads.com/articles/ai-just-put-an-innocent-woman-in-jail-its-worse-th/
+[2026-03-13 20:03:49]   Medium: Clicked import button. Waiting for import...
+[2026-03-13 20:03:59]   Medium: Clicked 'See your story'.
+[2026-03-13 20:04:09]   Medium: Opened publish dialog.
+[2026-03-13 20:04:13]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-13 20:04:17] Processing: Stop Using Raw Data Exports. Malus Just Quietly Proved Why.
+[2026-03-13 20:04:17]   URL: https://signalreads.com/articles/stop-using-raw-data-exports-malus-just-quietly-pro/
+[2026-03-13 20:04:17]   Medium: Navigating to import page...
+[2026-03-13 20:04:21]   Medium: Typed URL: https://signalreads.com/articles/stop-using-raw-data-exports-malus-just-quietly-pro/
+[2026-03-13 20:04:24]   Medium: Clicked import button. Waiting for import...
+[2026-03-13 20:04:34]   Medium: Clicked 'See your story'.
+[2026-03-13 20:04:44]   Medium: Opened publish dialog.
+[2026-03-13 20:04:47]   Medium: Could not find topic input — skipping topics.
+[2026-03-13 20:04:48]   Medium: Could not find final publish button.
+[2026-03-13 20:04:48]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-13 20:04:51] Processing: OpenClaw Just Changed Everything. Nobody Is Talking About This Secret. Proof.
+[2026-03-13 20:04:51]   URL: https://signalreads.com/articles/openclaw-just-changed-everything-nobody-is-talking/
+[2026-03-13 20:04:51]   Medium: Navigating to import page...
+[2026-03-13 20:04:55]   Medium: Typed URL: https://signalreads.com/articles/openclaw-just-changed-everything-nobody-is-talking/
+[2026-03-13 20:04:58]   Medium: Clicked import button. Waiting for import...
+[2026-03-13 20:05:08]   Medium: Clicked 'See your story'.
+[2026-03-13 20:05:19]   Medium: Opened publish dialog.
+[2026-03-13 20:05:22]   Medium: Could not find topic input — skipping topics.
+[2026-03-13 20:05:23]   Medium: Could not find final publish button.
+[2026-03-13 20:05:23]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-13 20:05:26] Processing: I Meditated Wrong for 5 Years. This 2-Minute Secret Actually Fixed My Brain.
+[2026-03-13 20:05:26]   URL: https://signalreads.com/articles/i-meditated-wrong-for-5-years-this-2-minute-secret/
+[2026-03-13 20:05:26]   Medium: Navigating to import page...
+[2026-03-13 20:05:30]   Medium: Typed URL: https://signalreads.com/articles/i-meditated-wrong-for-5-years-this-2-minute-secret/
+[2026-03-13 20:05:34]   Medium: Clicked import button. Waiting for import...
+[2026-03-13 20:05:44]   Medium: Clicked 'See your story'.
+[2026-03-13 20:05:54]   Medium: Opened publish dialog.
+[2026-03-13 20:05:57]   Medium: Could not find topic input — skipping topics.
+[2026-03-13 20:05:58]   Medium: Could not find final publish button.
+[2026-03-13 20:05:58]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-13 20:06:01] Processing: Stop Using Null. The Genius Who Created It Has A Warning We're Still Ignoring.
+[2026-03-13 20:06:01]   URL: https://signalreads.com/articles/stop-using-null-the-genius-who-created-it-just-lef/
+[2026-03-13 20:06:01]   Medium: Navigating to import page...
+[2026-03-13 20:06:04]   Medium: Typed URL: https://signalreads.com/articles/stop-using-null-the-genius-who-created-it-just-lef/
+[2026-03-13 20:06:07]   Medium: Clicked import button. Waiting for import...
+[2026-03-13 20:06:17]   Medium: Clicked 'See your story'.
+[2026-03-13 20:06:28]   Medium: Opened publish dialog.
+[2026-03-13 20:06:31]   Medium: Could not find topic input — skipping topics.
+[2026-03-13 20:06:32]   Medium: Could not find final publish button.
+[2026-03-13 20:06:32]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-13 20:06:35] Substack: 63 post(s) in feed — checking for duplicates...
+[2026-03-13 20:06:44]   Substack: Found 0 published posts for dedup.
+[2026-03-13 20:06:44]   Substack: 63 genuinely new post(s) — importing via RSS...
+[2026-03-13 20:06:44]   Substack: Navigating to import page...
+[2026-03-13 20:06:48]   Substack: ✗ Not logged in. Run with --login first.
+[2026-03-13 20:06:48] Done with 2 failure(s).
+[2026-03-14 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-03-14 20:00:08] Found 216 posts in feed.
+[2026-03-14 20:00:08] 72 post(s) to process.
+[2026-03-14 20:00:08] Medium: 11 post(s) to import.
+[2026-03-14 20:00:37]   Medium: Found 186 published stories for dedup.
+[2026-03-14 20:00:37] Processing: Nobody Talks About This Secret Way To Own John Avon’s "The Art of John Avon" Series
+[2026-03-14 20:00:37]   URL: https://signalreads.com/articles/nobody-talks-about-this-secret-way-to-own-john-avo/
+[2026-03-14 20:00:37]   Medium: Navigating to import page...
+[2026-03-14 20:00:40]   Medium: Typed URL: https://signalreads.com/articles/nobody-talks-about-this-secret-way-to-own-john-avo/
+[2026-03-14 20:00:44]   Medium: Clicked import button. Waiting for import...
+[2026-03-14 20:00:54]   Medium: Clicked 'See your story'.
+[2026-03-14 20:01:04]   Medium: Opened publish dialog.
+[2026-03-14 20:01:08]   Medium: Could not find topic input — skipping topics.
+[2026-03-14 20:01:09]   Medium: Could not find final publish button.
+[2026-03-14 20:01:09]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-14 20:01:12] Processing: Nobody Talks About the 6-Year COVID Secret. It’s Not What You Think.
+[2026-03-14 20:01:12]   URL: https://signalreads.com/articles/nobody-talks-about-the-6-year-covid-secret-its-not/
+[2026-03-14 20:01:12]   Medium: Navigating to import page...
+[2026-03-14 20:01:15]   Medium: Typed URL: https://signalreads.com/articles/nobody-talks-about-the-6-year-covid-secret-its-not/
+[2026-03-14 20:01:20]   Medium: Clicked import button. Waiting for import...
+[2026-03-14 20:01:30]   Medium: Clicked 'See your story'.
+[2026-03-14 20:01:40]   Medium: Opened publish dialog.
+[2026-03-14 20:01:44]   Medium: Could not find topic input — skipping topics.
+[2026-03-14 20:01:45]   Medium: Could not find final publish button.
+[2026-03-14 20:01:45]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-14 20:01:48] Processing: Stop Ignoring DOGE. It’s Quietly Changing Your Life. I Wasn’t Ready For This
+[2026-03-14 20:01:48]   URL: https://signalreads.com/articles/stop-ignoring-doge-its-quietly-changing-your-life-/
+[2026-03-14 20:01:48]   Medium: Navigating to import page...
+[2026-03-14 20:01:51]   Medium: Typed URL: https://signalreads.com/articles/stop-ignoring-doge-its-quietly-changing-your-life-/
+[2026-03-14 20:01:55]   Medium: Clicked import button. Waiting for import...
+[2026-03-14 20:02:05]   Medium: Clicked 'See your story'.
+[2026-03-14 20:02:15]   Medium: Opened publish dialog.
+[2026-03-14 20:02:19]   Medium: Could not find topic input — skipping topics.
+[2026-03-14 20:02:20]   Medium: Could not find final publish button.
+[2026-03-14 20:02:20]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-14 20:02:23] Processing: Nobody Talks About the Kharg Island Secret. It’s Actually Worse Than You Think
+[2026-03-14 20:02:23]   URL: https://signalreads.com/articles/nobody-talks-about-the-kharg-island-secret-its-act/
+[2026-03-14 20:02:23]   Medium: Navigating to import page...
+[2026-03-14 20:02:26]   Medium: Typed URL: https://signalreads.com/articles/nobody-talks-about-the-kharg-island-secret-its-act/
+[2026-03-14 20:02:31]   Medium: Clicked import button. Waiting for import...
+[2026-03-14 20:02:41]   Medium: Clicked 'See your story'.
+[2026-03-14 20:02:51]   Medium: Opened publish dialog.
+[2026-03-14 20:02:54]   Medium: Could not find topic input — skipping topics.
+[2026-03-14 20:02:55]   Medium: Could not find final publish button.
+[2026-03-14 20:02:55]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-14 20:02:58] Processing: Qatar Quietly Just Put AI on a 2-Week Clock. It’s Worse Than You Think.
+[2026-03-14 20:02:58]   URL: https://signalreads.com/articles/qatar-quietly-just-put-ai-on-a-2-week-clock-its-wo/
+[2026-03-14 20:02:58]   Medium: Navigating to import page...
+[2026-03-14 20:03:02]   Medium: Typed URL: https://signalreads.com/articles/qatar-quietly-just-put-ai-on-a-2-week-clock-its-wo/
+[2026-03-14 20:03:04]   Medium: Clicked import button. Waiting for import...
+[2026-03-14 20:03:14]   Medium: Clicked 'See your story'.
+[2026-03-14 20:03:25]   Medium: Opened publish dialog.
+[2026-03-14 20:03:28]   Medium: Could not find topic input — skipping topics.
+[2026-03-14 20:03:29]   Medium: Could not find final publish button.
+[2026-03-14 20:03:29]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-14 20:03:32] Processing: Stop Paying for ChatGPT. This Local AI Secret Is Actually Better.
+[2026-03-14 20:03:32]   URL: https://signalreads.com/articles/stop-paying-for-chatgpt-this-local-ai-secret-is-ac/
+[2026-03-14 20:03:32]   Medium: Navigating to import page...
+[2026-03-14 20:03:35]   Medium: Typed URL: https://signalreads.com/articles/stop-paying-for-chatgpt-this-local-ai-secret-is-ac/
+[2026-03-14 20:03:39]   Medium: Clicked import button. Waiting for import...
+[2026-03-14 20:03:49]   Medium: Clicked 'See your story'.
+[2026-03-14 20:03:59]   Medium: Opened publish dialog.
+[2026-03-14 20:04:03]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-14 20:04:06] Processing: I Tested the 'Boy Who Slays' ChatGPT Prompt. I Wasn't Ready For This.
+[2026-03-14 20:04:06]   URL: https://signalreads.com/articles/i-tested-the-boy-who-slays-chatgpt-prompt-i-wasnt-/
+[2026-03-14 20:04:06]   Medium: Navigating to import page...
+[2026-03-14 20:04:09]   Medium: Typed URL: https://signalreads.com/articles/i-tested-the-boy-who-slays-chatgpt-prompt-i-wasnt-/
+[2026-03-14 20:04:13]   Medium: Clicked import button. Waiting for import...
+[2026-03-14 20:04:23]   Medium: Clicked 'See your story'.
+[2026-03-14 20:04:33]   Medium: Opened publish dialog.
+[2026-03-14 20:04:37]   Medium: Could not find topic input — skipping topics.
+[2026-03-14 20:04:38]   Medium: Could not find final publish button.
+[2026-03-14 20:04:38]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-14 20:04:41] Processing: This Local AI Just Exposed My Worst Coding Habits. I Wasn't Ready For This.
+[2026-03-14 20:04:41]   URL: https://signalreads.com/articles/this-local-ai-just-exposed-my-worst-coding-habits-/
+[2026-03-14 20:04:41]   Medium: Navigating to import page...
+[2026-03-14 20:04:44]   Medium: Typed URL: https://signalreads.com/articles/this-local-ai-just-exposed-my-worst-coding-habits-/
+[2026-03-14 20:04:47]   Medium: Clicked import button. Waiting for import...
+[2026-03-14 20:04:57]   Medium: Clicked 'See your story'.
+[2026-03-14 20:05:07]   Medium: Opened publish dialog.
+[2026-03-14 20:05:10]   Medium: Could not find topic input — skipping topics.
+[2026-03-14 20:05:11]   Medium: Could not find final publish button.
+[2026-03-14 20:05:11]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-14 20:05:14] Processing: Stop Buying RTX 4090s. M5 Max Just Proved Why. LLM Benchmarks Are Shocking.
+[2026-03-14 20:05:14]   URL: https://signalreads.com/articles/stop-buying-rtx-4090s-m5-max-just-proved-why-llm-b/
+[2026-03-14 20:05:14]   Medium: Navigating to import page...
+[2026-03-14 20:05:17]   Medium: Typed URL: https://signalreads.com/articles/stop-buying-rtx-4090s-m5-max-just-proved-why-llm-b/
+[2026-03-14 20:05:21]   Medium: Clicked import button. Waiting for import...
+[2026-03-14 20:05:31]   Medium: Clicked 'See your story'.
+[2026-03-14 20:05:41]   Medium: Opened publish dialog.
+[2026-03-14 20:05:45]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-14 20:05:48] Processing: Atlassian Just Quietly Replaced 1,600 People. It’s Worse Than You Think.
+[2026-03-14 20:05:48]   URL: https://signalreads.com/articles/atlassian-just-quietly-replaced-1600-people-its-wo/
+[2026-03-14 20:05:48]   Medium: Navigating to import page...
+[2026-03-14 20:05:52]   Medium: Typed URL: https://signalreads.com/articles/atlassian-just-quietly-replaced-1600-people-its-wo/
+[2026-03-14 20:05:54]   Medium: Clicked import button. Waiting for import...
+[2026-03-14 20:06:04]   Medium: Clicked 'See your story'.
+[2026-03-14 20:06:15]   Medium: Opened publish dialog.
+[2026-03-14 20:06:18]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-14 20:06:21] Processing: AI Just Put an Innocent Woman in Jail. It’s Worse Than You Think.
+[2026-03-14 20:06:21]   URL: https://signalreads.com/articles/ai-just-put-an-innocent-woman-in-jail-its-worse-th/
+[2026-03-14 20:06:21]   Medium: Navigating to import page...
+[2026-03-14 20:06:25]   Medium: Typed URL: https://signalreads.com/articles/ai-just-put-an-innocent-woman-in-jail-its-worse-th/
+[2026-03-14 20:06:27]   Medium: Clicked import button. Waiting for import...
+[2026-03-14 20:06:37]   Medium: Clicked 'See your story'.
+[2026-03-14 20:06:48]   Medium: Opened publish dialog.
+[2026-03-14 20:06:51]   Medium: Could not find topic input — skipping topics.
+[2026-03-14 20:06:52]   Medium: Could not find final publish button.
+[2026-03-14 20:06:52]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-14 20:06:55] Substack: 72 post(s) in feed — checking for duplicates...
+[2026-03-14 20:07:04]   Substack: Found 0 published posts for dedup.
+[2026-03-14 20:07:04]   Substack: 72 genuinely new post(s) — importing via RSS...
+[2026-03-14 20:07:04]   Substack: Navigating to import page...
+[2026-03-14 20:07:08]   Substack: ✗ Not logged in. Run with --login first.
+[2026-03-14 20:07:08] Done with 4 failure(s).
