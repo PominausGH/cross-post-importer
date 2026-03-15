@@ -4565,3 +4565,101 @@ Call log:
 [2026-03-14 20:07:04]   Substack: Navigating to import page...
 [2026-03-14 20:07:08]   Substack: ✗ Not logged in. Run with --login first.
 [2026-03-14 20:07:08] Done with 4 failure(s).
+[2026-03-15 20:00:02] Fetching RSS feeds: 2 source(s)
+[2026-03-15 20:00:08] Found 224 posts in feed.
+[2026-03-15 20:00:08] 80 post(s) to process.
+[2026-03-15 20:00:08] Medium: 11 post(s) to import.
+[2026-03-15 20:00:33]   Medium: Found 186 published stories for dedup.
+[2026-03-15 20:00:33] Processing: Nobody Talks About This 5-Minute Fix for Feeling Behind in Life
+[2026-03-15 20:00:33]   URL: https://signalreads.com/articles/nobody-talks-about-this-5-minute-fix-for-feeling-b/
+[2026-03-15 20:00:33]   Medium: Navigating to import page...
+[2026-03-15 20:00:37]   Medium: Typed URL: https://signalreads.com/articles/nobody-talks-about-this-5-minute-fix-for-feeling-b/
+[2026-03-15 20:00:41]   Medium: Clicked import button. Waiting for import...
+[2026-03-15 20:00:51]   Medium: Clicked 'See your story'.
+[2026-03-15 20:01:01]   Medium: Opened publish dialog.
+[2026-03-15 20:01:05]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-15 20:01:08] Processing: Stop Saying Non-Parents Aren’t Tired. This Unexpected Truth Changes Everything
+[2026-03-15 20:01:08]   URL: https://signalreads.com/articles/stop-saying-non-parents-arent-tired-this-unexpecte/
+[2026-03-15 20:01:08]   Medium: Navigating to import page...
+[2026-03-15 20:01:11]   Medium: Typed URL: https://signalreads.com/articles/stop-saying-non-parents-arent-tired-this-unexpecte/
+[2026-03-15 20:01:14]   Medium: Clicked import button. Waiting for import...
+[2026-03-15 20:01:24]   Medium: Clicked 'See your story'.
+[2026-03-15 20:01:34]   Medium: Opened publish dialog.
+[2026-03-15 20:01:38]   Medium: Could not find topic input — skipping topics.
+[2026-03-15 20:01:39]   Medium: Could not find final publish button.
+[2026-03-15 20:01:39]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-15 20:01:42] Processing: Nobody Talks About the Banned DOGE Videos. The Secret Backup is Actually Out
+[2026-03-15 20:01:42]   URL: https://signalreads.com/articles/nobody-talks-about-the-banned-doge-videos-the-secr/
+[2026-03-15 20:01:42]   Medium: Navigating to import page...
+[2026-03-15 20:01:45]   Medium: Typed URL: https://signalreads.com/articles/nobody-talks-about-the-banned-doge-videos-the-secr/
+[2026-03-15 20:01:48]   Medium: Clicked import button. Waiting for import...
+[2026-03-15 20:01:58]   Medium: Clicked 'See your story'.
+[2026-03-15 20:02:08]   Medium: Opened publish dialog.
+[2026-03-15 20:02:12]   Medium: Could not find topic input — skipping topics.
+[2026-03-15 20:02:13]   Medium: Could not find final publish button.
+[2026-03-15 20:02:13]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-15 20:02:16] Processing: Airbus Just Quietly Replaced Human Pilots. It’s Worse Than You Think.
+[2026-03-15 20:02:16]   URL: https://signalreads.com/articles/airbus-just-quietly-replaced-human-pilots-its-wors/
+[2026-03-15 20:02:16]   Medium: Navigating to import page...
+[2026-03-15 20:02:19]   Medium: Typed URL: https://signalreads.com/articles/airbus-just-quietly-replaced-human-pilots-its-wors/
+[2026-03-15 20:02:22]   Medium: Clicked import button. Waiting for import...
+[2026-03-15 20:02:32]   Medium: Clicked 'See your story'.
+[2026-03-15 20:02:42]   Medium: Opened publish dialog.
+[2026-03-15 20:02:46]   Medium: Could not find topic input — skipping topics.
+[2026-03-15 20:02:47]   Medium: Could not find final publish button.
+[2026-03-15 20:02:47]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-15 20:02:50] Processing: Apple Just Quietly Quit AI. It’s Not What You Think.
+[2026-03-15 20:02:50]   URL: https://signalreads.com/articles/apple-just-quietly-quit-ai-its-not-what-you-think/
+[2026-03-15 20:02:50]   Medium: Navigating to import page...
+[2026-03-15 20:02:53]   Medium: Typed URL: https://signalreads.com/articles/apple-just-quietly-quit-ai-its-not-what-you-think/
+[2026-03-15 20:02:58]   Medium: Clicked import button. Waiting for import...
+[2026-03-15 20:03:08]   Medium: Clicked 'See your story'.
+[2026-03-15 20:03:18]   Medium: Opened publish dialog.
+[2026-03-15 20:03:22]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-15 20:03:25] Processing: Claude Is 3 Today. 96% Of Devs Are Quietly Switching. I Wasn't Ready For This.
+[2026-03-15 20:03:25]   URL: https://signalreads.com/articles/claude-is-3-today-96-of-devs-are-quietly-switching/
+[2026-03-15 20:03:25]   Medium: Navigating to import page...
+[2026-03-15 20:03:28]   Medium: Typed URL: https://signalreads.com/articles/claude-is-3-today-96-of-devs-are-quietly-switching/
+[2026-03-15 20:03:33]   Medium: Clicked import button. Waiting for import...
+[2026-03-15 20:03:43]   Medium: Clicked 'See your story'.
+[2026-03-15 20:03:53]   Medium: Opened publish dialog.
+[2026-03-15 20:03:57]   Medium: Could not find topic input — skipping topics.
+[2026-03-15 20:03:58]   Medium: Could not find final publish button.
+[2026-03-15 20:03:58]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-15 20:04:01] Processing: ChatGPT Just Actually Named My 12-Year Condition. I Wasn’t Ready For This.
+[2026-03-15 20:04:01]   URL: https://signalreads.com/articles/chatgpt-just-actually-named-my-12-year-condition-i/
+[2026-03-15 20:04:01]   Medium: Navigating to import page...
+[2026-03-15 20:04:04]   Medium: Typed URL: https://signalreads.com/articles/chatgpt-just-actually-named-my-12-year-condition-i/
+[2026-03-15 20:04:08]   Medium: Clicked import button. Waiting for import...
+[2026-03-15 20:04:18]   Medium: Clicked 'See your story'.
+[2026-03-15 20:04:28]   Medium: Opened publish dialog.
+[2026-03-15 20:04:32]   Medium: Could not find topic input — skipping topics.
+[2026-03-15 20:04:33]   Medium: Could not find final publish button.
+[2026-03-15 20:04:33]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-15 20:04:36] Processing: 96% of WebDevs Use LinkedIn Wrong. This Secret Actually Changes Everything.
+[2026-03-15 20:04:36]   URL: https://signalreads.com/articles/96-of-webdevs-use-linkedin-wrong-this-secret-actua/
+[2026-03-15 20:04:36]   Medium: Navigating to import page...
+[2026-03-15 20:04:39]   Medium: Typed URL: https://signalreads.com/articles/96-of-webdevs-use-linkedin-wrong-this-secret-actua/
+[2026-03-15 20:04:43]   Medium: Clicked import button. Waiting for import...
+[2026-03-15 20:04:53]   Medium: Clicked 'See your story'.
+[2026-03-15 20:05:03]   Medium: Opened publish dialog.
+[2026-03-15 20:05:06]   Medium: Could not find topic input — skipping topics.
+[2026-03-15 20:05:07]   Medium: Could not find final publish button.
+[2026-03-15 20:05:07]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-15 20:05:10] Processing: Stop Paying for ChatGPT. This Local AI Secret Is Actually Better.
+[2026-03-15 20:05:10]   URL: https://signalreads.com/articles/stop-paying-for-chatgpt-this-local-ai-secret-is-ac/
+[2026-03-15 20:05:10]   Medium: Navigating to import page...
+[2026-03-15 20:05:14]   Medium: Typed URL: https://signalreads.com/articles/stop-paying-for-chatgpt-this-local-ai-secret-is-ac/
+[2026-03-15 20:05:16]   Medium: Clicked import button. Waiting for import...
+[2026-03-15 20:05:26]   Medium: Clicked 'See your story'.
+[2026-03-15 20:05:36]   Medium: Opened publish dialog.
+[2026-03-15 20:05:40]   Medium: Could not find topic input — skipping topics.
+[2026-03-15 20:05:41]   Medium: Could not find final publish button.
+[2026-03-15 20:05:41]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-15 20:05:44] Processing: Stop Buying RTX 4090s. M5 Max Just Proved Why. LLM Benchmarks Are Shocking.
+[2026-03-15 20:05:44]   URL: https://signalreads.com/articles/stop-buying-rtx-4090s-m5-max-just-proved-why-llm-b/
+[2026-03-15 20:05:44]   Medium: Navigating to import page...
+[2026-03-15 20:05:47]   Medium: Typed URL: https://signalreads.com/articles/stop-buying-rtx-4090s-m5-max-just-proved-why-llm-b/
+[2026-03-15 20:05:50]   Medium: Clicked import button. Waiting for import...
+[2026-03-15 20:06:00]   Medium: Clicked 'See your story'.
+[2026-03-15 20:06:10]   Medium: Opened publish dialog.
