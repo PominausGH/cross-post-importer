@@ -4759,3 +4759,86 @@ Call log:
 [2026-03-16 20:04:50]   Substack: Navigating to import page...
 [2026-03-16 20:04:54]   Substack: ✗ Not logged in. Run with --login first.
 [2026-03-16 20:04:54] Done with 4 failure(s).
+[2026-03-17 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-03-17 20:00:09] Found 237 posts in feed.
+[2026-03-17 20:00:09] 93 post(s) to process.
+[2026-03-17 20:00:09] Medium: 9 post(s) to import.
+[2026-03-17 20:00:35]   Medium: Found 206 published stories for dedup.
+[2026-03-17 20:00:35] Processing: I Fell Through My Ceiling. This 15-Minute Secret Fix Actually Changes Everything
+[2026-03-17 20:00:35]   URL: https://signalreads.com/articles/i-fell-through-my-ceiling-this-15-minute-secret-fi/
+[2026-03-17 20:00:35]   Medium: Navigating to import page...
+[2026-03-17 20:00:39]   Medium: Typed URL: https://signalreads.com/articles/i-fell-through-my-ceiling-this-15-minute-secret-fi/
+[2026-03-17 20:00:44]   Medium: Clicked import button. Waiting for import...
+[2026-03-17 20:00:54]   Medium: Clicked 'See your story'.
+[2026-03-17 20:01:04]   Medium: Opened publish dialog.
+[2026-03-17 20:01:07]   Medium: Could not find topic input — skipping topics.
+[2026-03-17 20:01:09]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-17 20:01:12] Processing: I watched 100 confident people. This 2-second habit is actually uncomfortable.
+[2026-03-17 20:01:12]   URL: https://signalreads.com/articles/i-watched-100-confident-people-this-2-second-habit/
+[2026-03-17 20:01:12]   Medium: Navigating to import page...
+[2026-03-17 20:01:16]   Medium: Typed URL: https://signalreads.com/articles/i-watched-100-confident-people-this-2-second-habit/
+[2026-03-17 20:01:20]   Medium: Clicked import button. Waiting for import...
+[2026-03-17 20:01:30]   Medium: Clicked 'See your story'.
+[2026-03-17 20:01:40]   Medium: Opened publish dialog.
+[2026-03-17 20:01:44]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-17 20:01:47] Processing: Starlink Mini Just Quietly Killed My Fiber Backup. This Changes Everything.
+[2026-03-17 20:01:47]   URL: https://signalreads.com/articles/starlink-mini-just-quietly-killed-my-fiber-backup-/
+[2026-03-17 20:01:47]   Medium: Navigating to import page...
+[2026-03-17 20:01:50]   Medium: Typed URL: https://signalreads.com/articles/starlink-mini-just-quietly-killed-my-fiber-backup-/
+[2026-03-17 20:01:53]   Medium: Clicked import button. Waiting for import...
+[2026-03-17 20:02:03]   Medium: Clicked 'See your story'.
+[2026-03-17 20:02:13]   Medium: Opened publish dialog.
+[2026-03-17 20:02:16]   Medium: Could not find topic input — skipping topics.
+[2026-03-17 20:02:17]   Medium: Could not find final publish button.
+[2026-03-17 20:02:18]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-17 20:02:21] Processing: 99% of ChatGPT Prompts Are Actually Garbage. Stop. It’s Not What You Think.
+[2026-03-17 20:02:21]   URL: https://signalreads.com/articles/99-of-chatgpt-prompts-are-actually-garbage-stop-it/
+[2026-03-17 20:02:21]   Medium: Navigating to import page...
+[2026-03-17 20:02:24]   Medium: Typed URL: https://signalreads.com/articles/99-of-chatgpt-prompts-are-actually-garbage-stop-it/
+[2026-03-17 20:02:28]   Medium: Clicked import button. Waiting for import...
+[2026-03-17 20:02:38]   Medium: Clicked 'See your story'.
+[2026-03-17 20:02:48]   Medium: Opened publish dialog.
+[2026-03-17 20:02:52]   Medium: Could not find topic input — skipping topics.
+[2026-03-17 20:02:53]   Medium: Could not find final publish button.
+[2026-03-17 20:02:53]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-17 20:02:56] Processing: Stop Fearing Vibe Coders. This Uncomfortable AI Truth Changes Everything.
+[2026-03-17 20:02:56]   URL: https://signalreads.com/articles/stop-fearing-vibe-coders-this-uncomfortable-ai-tru/
+[2026-03-17 20:02:56]   Medium: Navigating to import page...
+[2026-03-17 20:02:59]   Medium: Typed URL: https://signalreads.com/articles/stop-fearing-vibe-coders-this-uncomfortable-ai-tru/
+[2026-03-17 20:03:04]   Medium: Clicked import button. Waiting for import...
+[2026-03-17 20:03:14]   Medium: Clicked 'See your story'.
+[2026-03-17 20:03:24]   Medium: Opened publish dialog.
+[2026-03-17 20:03:27]   Medium: Could not find topic input — skipping topics.
+[2026-03-17 20:03:28]   Medium: Could not find final publish button.
+[2026-03-17 20:03:28]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-17 20:03:31] Processing: I leaked the Iran missile secret. Polymarket gamblers actually want me dead.
+[2026-03-17 20:03:31]   URL: https://signalreads.com/articles/i-leaked-the-iran-missile-secret-polymarket-gamble/
+[2026-03-17 20:03:31]   Medium: Navigating to import page...
+[2026-03-17 20:03:34]   Medium: Typed URL: https://signalreads.com/articles/i-leaked-the-iran-missile-secret-polymarket-gamble/
+[2026-03-17 20:03:38]   Medium: Clicked import button. Waiting for import...
+[2026-03-17 20:03:48]   Medium: Clicked 'See your story'.
+[2026-03-17 20:03:58]   Medium: Opened publish dialog.
+[2026-03-17 20:04:02]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-17 20:04:05] Processing: Nobody Talks About The Thiel-Vance Secret. I Wasn't Ready For This
+[2026-03-17 20:04:05]   URL: https://signalreads.com/articles/nobody-talks-about-the-thiel-vance-secret-i-wasnt-/
+[2026-03-17 20:04:05]   Medium: Navigating to import page...
+[2026-03-17 20:04:09]   Medium: Typed URL: https://signalreads.com/articles/nobody-talks-about-the-thiel-vance-secret-i-wasnt-/
+[2026-03-17 20:04:12]   Medium: Clicked import button. Waiting for import...
+[2026-03-17 20:04:23]   Medium: Clicked 'See your story'.
+[2026-03-17 20:04:33]   Medium: Opened publish dialog.
+[2026-03-17 20:04:36]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-17 20:04:39] Processing: Stop Hiding Your Phone. This Unexpected Procrastination Fix Changes Everything.
+[2026-03-17 20:04:39]   URL: https://signalreads.com/articles/stop-hiding-your-phone-this-unexpected-procrastina/
+[2026-03-17 20:04:40]   Medium: Navigating to import page...
+[2026-03-17 20:04:43]   Medium: Typed URL: https://signalreads.com/articles/stop-hiding-your-phone-this-unexpected-procrastina/
+[2026-03-17 20:04:46]   Medium: Clicked import button. Waiting for import...
+[2026-03-17 20:04:56]   Medium: Clicked 'See your story'.
+[2026-03-17 20:05:06]   Medium: Opened publish dialog.
+[2026-03-17 20:05:10]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-17 20:05:13] Skipping (already on Medium): I Tested ChatGPT for 30 Days in 2026. I Wasn't Ready For This.
+[2026-03-17 20:05:13] Substack: 93 post(s) in feed — checking for duplicates...
+[2026-03-17 20:05:21]   Substack: Found 0 published posts for dedup.
+[2026-03-17 20:05:21]   Substack: 93 genuinely new post(s) — importing via RSS...
+[2026-03-17 20:05:21]   Substack: Navigating to import page...
+[2026-03-17 20:05:26]   Substack: ✗ Not logged in. Run with --login first.
+[2026-03-17 20:05:26] Done with 6 failure(s).
