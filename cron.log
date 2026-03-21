@@ -5139,3 +5139,102 @@ Call log:
 [2026-03-20 20:05:19]   Substack: Navigating to import page...
 [2026-03-20 20:05:24]   Substack: ✗ Not logged in. Run with --login first.
 [2026-03-20 20:05:24] Done with 5 failure(s).
+[2026-03-21 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-03-21 20:00:05] Found 261 posts in feed.
+[2026-03-21 20:00:05] 117 post(s) to process.
+[2026-03-21 20:00:05] Medium: 10 post(s) to import.
+[2026-03-21 20:00:32]   Medium: Found 207 published stories for dedup.
+[2026-03-21 20:00:32] Processing: I Quietly Baited a Tailgater for 5 Miles. It’s Not What You Think.
+[2026-03-21 20:00:32]   URL: https://signalreads.com/articles/i-quietly-baited-a-tailgater-for-5-miles-its-not-w/
+[2026-03-21 20:00:32]   Medium: Navigating to import page...
+[2026-03-21 20:00:35]   Medium: Typed URL: https://signalreads.com/articles/i-quietly-baited-a-tailgater-for-5-miles-its-not-w/
+[2026-03-21 20:00:39]   Medium: Clicked import button. Waiting for import...
+[2026-03-21 20:00:49]   Medium: Clicked 'See your story'.
+[2026-03-21 20:00:59]   Medium: Opened publish dialog.
+[2026-03-21 20:01:03]   Medium: Could not find topic input — skipping topics.
+[2026-03-21 20:01:04]   Medium: Could not find final publish button.
+[2026-03-21 20:01:04]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-21 20:01:07] Processing: Stop Procrastinating. My Dad’s Secret 2-Minute Rule Actually Changes Everything
+[2026-03-21 20:01:07]   URL: https://signalreads.com/articles/stop-procrastinating-my-dads-secret-2-minute-rule-/
+[2026-03-21 20:01:07]   Medium: Navigating to import page...
+[2026-03-21 20:01:11]   Medium: Typed URL: https://signalreads.com/articles/stop-procrastinating-my-dads-secret-2-minute-rule-/
+[2026-03-21 20:01:14]   Medium: Clicked import button. Waiting for import...
+[2026-03-21 20:01:24]   Medium: Clicked 'See your story'.
+[2026-03-21 20:01:34]   Medium: Opened publish dialog.
+[2026-03-21 20:01:38]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-21 20:01:41] Processing: A Fitness App Actually Tracked a Nuclear Warship. It's Worse Than You Think.
+[2026-03-21 20:01:41]   URL: https://signalreads.com/articles/a-fitness-app-actually-tracked-a-nuclear-warship-i/
+[2026-03-21 20:01:41]   Medium: Navigating to import page...
+[2026-03-21 20:01:45]   Medium: Typed URL: https://signalreads.com/articles/a-fitness-app-actually-tracked-a-nuclear-warship-i/
+[2026-03-21 20:01:48]   Medium: Clicked import button. Waiting for import...
+[2026-03-21 20:01:58]   Medium: Clicked 'See your story'.
+[2026-03-21 20:02:08]   Medium: Opened publish dialog.
+[2026-03-21 20:02:11]   Medium: Could not find topic input — skipping topics.
+[2026-03-21 20:02:12]   Medium: Could not find final publish button.
+[2026-03-21 20:02:12]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-21 20:02:15] Processing: Stop Using ChatGPT’s Default Voice. It’s Quietly Making You Sound Identical.
+[2026-03-21 20:02:15]   URL: https://signalreads.com/articles/stop-using-chatgpts-default-voice-its-quietly-maki/
+[2026-03-21 20:02:15]   Medium: Navigating to import page...
+[2026-03-21 20:02:18]   Medium: Typed URL: https://signalreads.com/articles/stop-using-chatgpts-default-voice-its-quietly-maki/
+[2026-03-21 20:02:21]   Medium: Clicked import button. Waiting for import...
+[2026-03-21 20:02:31]   Medium: Clicked 'See your story'.
+[2026-03-21 20:02:41]   Medium: Opened publish dialog.
+[2026-03-21 20:02:44]   Medium: Could not find topic input — skipping topics.
+[2026-03-21 20:02:45]   Medium: Could not find final publish button.
+[2026-03-21 20:02:45]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-21 20:02:48] Processing: ArXiv Just Quietly Quit Cornell. This Changes Everything.
+[2026-03-21 20:02:48]   URL: https://signalreads.com/articles/arxiv-just-quietly-quit-cornell-this-changes-every/
+[2026-03-21 20:02:48]   Medium: Navigating to import page...
+[2026-03-21 20:02:52]   Medium: Typed URL: https://signalreads.com/articles/arxiv-just-quietly-quit-cornell-this-changes-every/
+[2026-03-21 20:02:55]   Medium: Clicked import button. Waiting for import...
+[2026-03-21 20:03:05]   Medium: Clicked 'See your story'.
+[2026-03-21 20:03:15]   Medium: Opened publish dialog.
+[2026-03-21 20:03:19]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-21 20:03:22] Processing: Nobody Talks About This Uncomfortable Japan Secret. It’s Worse Than You Think.
+[2026-03-21 20:03:22]   URL: https://signalreads.com/articles/nobody-talks-about-this-uncomfortable-japan-secret/
+[2026-03-21 20:03:22]   Medium: Navigating to import page...
+[2026-03-21 20:03:25]   Medium: Typed URL: https://signalreads.com/articles/nobody-talks-about-this-uncomfortable-japan-secret/
+[2026-03-21 20:03:28]   Medium: Clicked import button. Waiting for import...
+[2026-03-21 20:03:38]   Medium: Clicked 'See your story'.
+[2026-03-21 20:03:48]   Medium: Opened publish dialog.
+[2026-03-21 20:03:52]   Medium: Could not find topic input — skipping topics.
+[2026-03-21 20:03:53]   Medium: Could not find final publish button.
+[2026-03-21 20:03:53]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-21 20:03:56] Processing: Nobody Talks About My Dad’s 2-Minute Secret to Stop Procrastinating Forever
+[2026-03-21 20:03:56]   URL: https://signalreads.com/articles/nobody-talks-about-my-dads-2-minute-secret-to-stop/
+[2026-03-21 20:03:56]   Medium: Navigating to import page...
+[2026-03-21 20:04:00]   Medium: Typed URL: https://signalreads.com/articles/nobody-talks-about-my-dads-2-minute-secret-to-stop/
+[2026-03-21 20:04:03]   Medium: Clicked import button. Waiting for import...
+[2026-03-21 20:04:13]   Medium: Clicked 'See your story'.
+[2026-03-21 20:04:23]   Medium: Opened publish dialog.
+[2026-03-21 20:04:27]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-21 20:04:30] Processing: Google Quietly Just Killed Android Sideloading. It’s Worse Than You Think
+[2026-03-21 20:04:30]   URL: https://signalreads.com/articles/google-quietly-just-killed-android-sideloading-its/
+[2026-03-21 20:04:30]   Medium: Navigating to import page...
+[2026-03-21 20:04:34]   Medium: Typed URL: https://signalreads.com/articles/google-quietly-just-killed-android-sideloading-its/
+[2026-03-21 20:04:39]   Medium: Clicked import button. Waiting for import...
+[2026-03-21 20:04:49]   Medium: Clicked 'See your story'.
+[2026-03-21 20:04:59]   Medium: Opened publish dialog.
+[2026-03-21 20:05:03]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-21 20:05:06] Processing: Stop Using AI Like It's 2023. This 2026 Secret Is Worse Than You Think.
+[2026-03-21 20:05:06]   URL: https://signalreads.com/articles/stop-using-ai-like-its-2023-this-2026-secret-is-wo/
+[2026-03-21 20:05:06]   Medium: Navigating to import page...
+[2026-03-21 20:05:10]   Medium: Typed URL: https://signalreads.com/articles/stop-using-ai-like-its-2023-this-2026-secret-is-wo/
+[2026-03-21 20:05:13]   Medium: Clicked import button. Waiting for import...
+[2026-03-21 20:05:23]   Medium: Clicked 'See your story'.
+[2026-03-21 20:05:33]   Medium: Opened publish dialog.
+[2026-03-21 20:05:37]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-21 20:05:40] Processing: I leaked the Iran missile secret. Polymarket gamblers actually want me dead.
+[2026-03-21 20:05:40]   URL: https://signalreads.com/articles/i-leaked-the-iran-missile-secret-polymarket-gamble/
+[2026-03-21 20:05:40]   Medium: Navigating to import page...
+[2026-03-21 20:05:43]   Medium: Typed URL: https://signalreads.com/articles/i-leaked-the-iran-missile-secret-polymarket-gamble/
+[2026-03-21 20:05:46]   Medium: Clicked import button. Waiting for import...
+[2026-03-21 20:05:56]   Medium: Clicked 'See your story'.
+[2026-03-21 20:06:06]   Medium: Opened publish dialog.
+[2026-03-21 20:06:10]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-21 20:06:13] Substack: 117 post(s) in feed — checking for duplicates...
+[2026-03-21 20:06:22]   Substack: Found 0 published posts for dedup.
+[2026-03-21 20:06:22]   Substack: 117 genuinely new post(s) — importing via RSS...
+[2026-03-21 20:06:22]   Substack: Navigating to import page...
+[2026-03-21 20:06:26]   Substack: ✗ Not logged in. Run with --login first.
+[2026-03-21 20:06:26] Done with 7 failure(s).
