@@ -5334,3 +5334,17 @@ Call log:
 [2026-03-22 20:06:13]   Medium: Could not find topic input — skipping topics.
 [2026-03-22 20:06:14]   Medium: Could not find final publish button.
 [2026-03-22 20:06:14]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-22 20:06:17] Processing: I leaked the Iran missile secret. Polymarket gamblers actually want me dead.
+[2026-03-22 20:06:17]   URL: https://signalreads.com/articles/i-leaked-the-iran-missile-secret-polymarket-gamble/
+[2026-03-22 20:06:17]   Medium: Navigating to import page...
+[2026-03-22 20:06:21]   Medium: Typed URL: https://signalreads.com/articles/i-leaked-the-iran-missile-secret-polymarket-gamble/
+[2026-03-22 20:06:24]   Medium: Clicked import button. Waiting for import...
+[2026-03-22 20:06:34]   Medium: Clicked 'See your story'.
+[2026-03-22 20:06:44]   Medium: Opened publish dialog.
+[2026-03-22 20:06:48]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-22 20:06:51] Substack: 123 post(s) in feed — checking for duplicates...
+[2026-03-22 20:07:00]   Substack: Found 0 published posts for dedup.
+[2026-03-22 20:07:00]   Substack: 123 genuinely new post(s) — importing via RSS...
+[2026-03-22 20:07:00]   Substack: Navigating to import page...
+[2026-03-22 20:07:04]   Substack: ✗ Not logged in. Run with --login first.
+[2026-03-22 20:07:04] Done with 7 failure(s).
