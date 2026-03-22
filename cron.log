@@ -5238,3 +5238,99 @@ Call log:
 [2026-03-21 20:06:22]   Substack: Navigating to import page...
 [2026-03-21 20:06:26]   Substack: ✗ Not logged in. Run with --login first.
 [2026-03-21 20:06:26] Done with 7 failure(s).
+[2026-03-22 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-03-22 20:00:06] Found 267 posts in feed.
+[2026-03-22 20:00:06] 123 post(s) to process.
+[2026-03-22 20:00:06] Medium: 12 post(s) to import.
+[2026-03-22 20:00:32]   Medium: Found 207 published stories for dedup.
+[2026-03-22 20:00:32] Skipping (already on Medium): Nobody Talks About This 5-Second Fix For Connection. I Wasn’t Ready For This.
+[2026-03-22 20:00:32] Processing: The Bachelorette Secret Nobody Talks About: It’s Actually Worse Than You Think
+[2026-03-22 20:00:32]   URL: https://signalreads.com/articles/the-bachelorette-secret-nobody-talks-about-its-act/
+[2026-03-22 20:00:32]   Medium: Navigating to import page...
+[2026-03-22 20:00:36]   Medium: Typed URL: https://signalreads.com/articles/the-bachelorette-secret-nobody-talks-about-its-act/
+[2026-03-22 20:00:40]   Medium: Clicked import button. Waiting for import...
+[2026-03-22 20:00:50]   Medium: Clicked 'See your story'.
+[2026-03-22 20:01:00]   Medium: Opened publish dialog.
+[2026-03-22 20:01:04]   Medium: Could not find topic input — skipping topics.
+[2026-03-22 20:01:05]   Medium: Could not find final publish button.
+[2026-03-22 20:01:05]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-22 20:01:08] Processing: Stop Assuming GOP Voters Will Show Up. It’s Worse Than You Think.
+[2026-03-22 20:01:08]   URL: https://signalreads.com/articles/stop-assuming-gop-voters-will-show-up-its-worse-th/
+[2026-03-22 20:01:08]   Medium: Navigating to import page...
+[2026-03-22 20:01:12]   Medium: Typed URL: https://signalreads.com/articles/stop-assuming-gop-voters-will-show-up-its-worse-th/
+[2026-03-22 20:01:16]   Medium: Clicked import button. Waiting for import...
+[2026-03-22 20:01:26]   Medium: Clicked 'See your story'.
+[2026-03-22 20:01:36]   Medium: Opened publish dialog.
+[2026-03-22 20:01:40]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-22 20:01:43] Processing: Nobody Talks About This 6-Month Brain Fog Secret. It’s Not What You Think.
+[2026-03-22 20:01:43]   URL: https://signalreads.com/articles/nobody-talks-about-this-6-month-brain-fog-secret-i/
+[2026-03-22 20:01:43]   Medium: Navigating to import page...
+[2026-03-22 20:01:47]   Medium: Typed URL: https://signalreads.com/articles/nobody-talks-about-this-6-month-brain-fog-secret-i/
+[2026-03-22 20:01:50]   Medium: Clicked import button. Waiting for import...
+[2026-03-22 20:02:00]   Medium: Clicked 'See your story'.
+[2026-03-22 20:02:10]   Medium: Opened publish dialog.
+[2026-03-22 20:02:14]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-22 20:02:17] Processing: Stop Using DLSS Wrong. This 60-Second Secret Actually Changes Everything
+[2026-03-22 20:02:17]   URL: https://signalreads.com/articles/stop-using-dlss-wrong-this-60-second-secret-actual/
+[2026-03-22 20:02:17]   Medium: Navigating to import page...
+[2026-03-22 20:02:20]   Medium: Typed URL: https://signalreads.com/articles/stop-using-dlss-wrong-this-60-second-secret-actual/
+[2026-03-22 20:02:24]   Medium: Clicked import button. Waiting for import...
+[2026-03-22 20:02:34]   Medium: Clicked 'See your story'.
+[2026-03-22 20:02:44]   Medium: Opened publish dialog.
+[2026-03-22 20:02:48]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-22 20:02:51] Processing: ChatGPT Quietly Solved the Sea Horse Mystery. It’s Not What You Think.
+[2026-03-22 20:02:51]   URL: https://signalreads.com/articles/chatgpt-quietly-solved-the-sea-horse-mystery-its-n/
+[2026-03-22 20:02:51]   Medium: Navigating to import page...
+[2026-03-22 20:02:55]   Medium: Typed URL: https://signalreads.com/articles/chatgpt-quietly-solved-the-sea-horse-mystery-its-n/
+[2026-03-22 20:02:58]   Medium: Clicked import button. Waiting for import...
+[2026-03-22 20:03:08]   Medium: Clicked 'See your story'.
+[2026-03-22 20:03:18]   Medium: Opened publish dialog.
+[2026-03-22 20:03:22]   Medium: Could not find topic input — skipping topics.
+[2026-03-22 20:03:23]   Medium: Could not find final publish button.
+[2026-03-22 20:03:23]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-22 20:03:26] Processing: Stop Using Local LLMs. This New Drama Proves You’ve Been Doing It Wrong.
+[2026-03-22 20:03:26]   URL: https://signalreads.com/articles/stop-using-local-llms-this-new-drama-proves-youve-/
+[2026-03-22 20:03:26]   Medium: Navigating to import page...
+[2026-03-22 20:03:29]   Medium: Typed URL: https://signalreads.com/articles/stop-using-local-llms-this-new-drama-proves-youve-/
+[2026-03-22 20:03:32]   Medium: Clicked import button. Waiting for import...
+[2026-03-22 20:03:42]   Medium: Clicked 'See your story'.
+[2026-03-22 20:03:52]   Medium: Opened publish dialog.
+[2026-03-22 20:03:56]   Medium: Could not find topic input — skipping topics.
+[2026-03-22 20:03:57]   Medium: Could not find final publish button.
+[2026-03-22 20:03:57]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-22 20:04:00] Processing: Stop Procrastinating. My Dad’s Secret 2-Minute Rule Actually Changes Everything
+[2026-03-22 20:04:00]   URL: https://signalreads.com/articles/stop-procrastinating-my-dads-secret-2-minute-rule-/
+[2026-03-22 20:04:00]   Medium: Navigating to import page...
+[2026-03-22 20:04:03]   Medium: Typed URL: https://signalreads.com/articles/stop-procrastinating-my-dads-secret-2-minute-rule-/
+[2026-03-22 20:04:06]   Medium: Clicked import button. Waiting for import...
+[2026-03-22 20:04:16]   Medium: Clicked 'See your story'.
+[2026-03-22 20:04:26]   Medium: Opened publish dialog.
+[2026-03-22 20:04:30]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-22 20:04:33] Processing: ArXiv Just Quietly Quit Cornell. This Changes Everything.
+[2026-03-22 20:04:33]   URL: https://signalreads.com/articles/arxiv-just-quietly-quit-cornell-this-changes-every/
+[2026-03-22 20:04:33]   Medium: Navigating to import page...
+[2026-03-22 20:04:36]   Medium: Typed URL: https://signalreads.com/articles/arxiv-just-quietly-quit-cornell-this-changes-every/
+[2026-03-22 20:04:41]   Medium: Clicked import button. Waiting for import...
+[2026-03-22 20:04:51]   Medium: Clicked 'See your story'.
+[2026-03-22 20:05:01]   Medium: Opened publish dialog.
+[2026-03-22 20:05:05]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-22 20:05:08] Processing: Google Quietly Just Killed Android Sideloading. It’s Worse Than You Think
+[2026-03-22 20:05:08]   URL: https://signalreads.com/articles/google-quietly-just-killed-android-sideloading-its/
+[2026-03-22 20:05:08]   Medium: Navigating to import page...
+[2026-03-22 20:05:12]   Medium: Typed URL: https://signalreads.com/articles/google-quietly-just-killed-android-sideloading-its/
+[2026-03-22 20:05:15]   Medium: Clicked import button. Waiting for import...
+[2026-03-22 20:05:25]   Medium: Clicked 'See your story'.
+[2026-03-22 20:05:35]   Medium: Opened publish dialog.
+[2026-03-22 20:05:38]   Medium: Could not find topic input — skipping topics.
+[2026-03-22 20:05:39]   Medium: Could not find final publish button.
+[2026-03-22 20:05:40]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-22 20:05:43] Processing: Stop Using AI Like It's 2023. This 2026 Secret Is Worse Than You Think.
+[2026-03-22 20:05:43]   URL: https://signalreads.com/articles/stop-using-ai-like-its-2023-this-2026-secret-is-wo/
+[2026-03-22 20:05:43]   Medium: Navigating to import page...
+[2026-03-22 20:05:46]   Medium: Typed URL: https://signalreads.com/articles/stop-using-ai-like-its-2023-this-2026-secret-is-wo/
+[2026-03-22 20:05:49]   Medium: Clicked import button. Waiting for import...
+[2026-03-22 20:05:59]   Medium: Clicked 'See your story'.
+[2026-03-22 20:06:09]   Medium: Opened publish dialog.
+[2026-03-22 20:06:13]   Medium: Could not find topic input — skipping topics.
+[2026-03-22 20:06:14]   Medium: Could not find final publish button.
+[2026-03-22 20:06:14]   Medium: ✓ Import complete (screenshot saved for verification).
