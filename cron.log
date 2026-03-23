@@ -5445,3 +5445,40 @@ Call log:
 [2026-03-23 20:05:50]   Medium: Navigating to import page...
 [2026-03-23 20:05:53]   Medium: Typed URL: https://signalreads.com/articles/stop-using-dlss-wrong-this-60-second-secret-actual/
 [2026-03-23 20:05:56]   Medium: Clicked import button. Waiting for import...
+[2026-03-23 20:06:06]   Medium: Clicked 'See your story'.
+[2026-03-23 20:06:16]   Medium: Opened publish dialog.
+[2026-03-23 20:06:19]   Medium: Could not find topic input — skipping topics.
+[2026-03-23 20:06:20]   Medium: Could not find final publish button.
+[2026-03-23 20:06:20]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-23 20:06:23] Processing: Stop Procrastinating. My Dad’s Secret 2-Minute Rule Actually Changes Everything
+[2026-03-23 20:06:23]   URL: https://signalreads.com/articles/stop-procrastinating-my-dads-secret-2-minute-rule-/
+[2026-03-23 20:06:23]   Medium: Navigating to import page...
+[2026-03-23 20:06:26]   Medium: Typed URL: https://signalreads.com/articles/stop-procrastinating-my-dads-secret-2-minute-rule-/
+[2026-03-23 20:06:29]   Medium: Clicked import button. Waiting for import...
+[2026-03-23 20:06:39]   Medium: Clicked 'See your story'.
+[2026-03-23 20:06:49]   Medium: Opened publish dialog.
+[2026-03-23 20:06:53]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-23 20:06:56] Processing: ArXiv Just Quietly Quit Cornell. This Changes Everything.
+[2026-03-23 20:06:56]   URL: https://signalreads.com/articles/arxiv-just-quietly-quit-cornell-this-changes-every/
+[2026-03-23 20:06:56]   Medium: Navigating to import page...
+[2026-03-23 20:07:00]   Medium: Typed URL: https://signalreads.com/articles/arxiv-just-quietly-quit-cornell-this-changes-every/
+[2026-03-23 20:07:03]   Medium: Clicked import button. Waiting for import...
+[2026-03-23 20:07:13]   Medium: Clicked 'See your story'.
+[2026-03-23 20:07:23]   Medium: Opened publish dialog.
+[2026-03-23 20:07:26]   Medium: Could not find topic input — skipping topics.
+[2026-03-23 20:07:27]   Medium: Could not find final publish button.
+[2026-03-23 20:07:27]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-23 20:07:30] Processing: I leaked the Iran missile secret. Polymarket gamblers actually want me dead.
+[2026-03-23 20:07:30]   URL: https://signalreads.com/articles/i-leaked-the-iran-missile-secret-polymarket-gamble/
+[2026-03-23 20:07:30]   Medium: Navigating to import page...
+[2026-03-23 20:07:33]   Medium: Typed URL: https://signalreads.com/articles/i-leaked-the-iran-missile-secret-polymarket-gamble/
+[2026-03-23 20:07:37]   Medium: Clicked import button. Waiting for import...
+[2026-03-23 20:07:47]   Medium: Clicked 'See your story'.
+[2026-03-23 20:07:57]   Medium: Opened publish dialog.
+[2026-03-23 20:08:00]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-23 20:08:04] Substack: 130 post(s) in feed — checking for duplicates...
+[2026-03-23 20:08:12]   Substack: Found 0 published posts for dedup.
+[2026-03-23 20:08:12]   Substack: 130 genuinely new post(s) — importing via RSS...
+[2026-03-23 20:08:12]   Substack: Navigating to import page...
+[2026-03-23 20:08:16]   Substack: ✗ Not logged in. Run with --login first.
+[2026-03-23 20:08:16] Done with 5 failure(s).
