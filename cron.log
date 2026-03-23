@@ -5348,3 +5348,100 @@ Call log:
 [2026-03-22 20:07:00]   Substack: Navigating to import page...
 [2026-03-22 20:07:04]   Substack: ✗ Not logged in. Run with --login first.
 [2026-03-22 20:07:04] Done with 7 failure(s).
+[2026-03-23 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-03-23 20:00:10] Found 274 posts in feed.
+[2026-03-23 20:00:10] 130 post(s) to process.
+[2026-03-23 20:00:10] Medium: 14 post(s) to import.
+[2026-03-23 20:00:41]   Medium: Found 207 published stories for dedup.
+[2026-03-23 20:00:41] Processing: I Spent 48 Hours Tracking the California Secret. Nobody Saw This Coming.
+[2026-03-23 20:00:41]   URL: https://signalreads.com/articles/i-spent-48-hours-tracking-the-california-secret-no/
+[2026-03-23 20:00:41]   Medium: Navigating to import page...
+[2026-03-23 20:00:44]   Medium: Typed URL: https://signalreads.com/articles/i-spent-48-hours-tracking-the-california-secret-no/
+[2026-03-23 20:00:48]   Medium: Clicked import button. Waiting for import...
+[2026-03-23 20:00:58]   Medium: Clicked 'See your story'.
+[2026-03-23 20:01:08]   Medium: Opened publish dialog.
+[2026-03-23 20:01:12]   Medium: Could not find topic input — skipping topics.
+[2026-03-23 20:01:13]   Medium: Could not find final publish button.
+[2026-03-23 20:01:13]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-23 20:01:16] Skipping (already on Medium): Nobody Talks About This 5-Minute TSA Shutdown Secret. It Changes Everything.
+[2026-03-23 20:01:16] Processing: 3 Reasons GOP Voters are Quietly Quitting. It’s Worse Than You Think.
+[2026-03-23 20:01:16]   URL: https://signalreads.com/articles/3-reasons-gop-voters-are-quietly-quitting-its-wors/
+[2026-03-23 20:01:16]   Medium: Navigating to import page...
+[2026-03-23 20:01:19]   Medium: Typed URL: https://signalreads.com/articles/3-reasons-gop-voters-are-quietly-quitting-its-wors/
+[2026-03-23 20:01:23]   Medium: Clicked import button. Waiting for import...
+[2026-03-23 20:01:33]   Medium: Clicked 'See your story'.
+[2026-03-23 20:01:43]   Medium: Opened publish dialog.
+[2026-03-23 20:01:47]   Medium: Could not find topic input — skipping topics.
+[2026-03-23 20:01:48]   Medium: Could not find final publish button.
+[2026-03-23 20:01:48]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-23 20:01:51] Processing: Stop Giving Big Tech Your ID. This Secret OS Actually Changed Everything.
+[2026-03-23 20:01:51]   URL: https://signalreads.com/articles/stop-giving-big-tech-your-id-this-secret-os-actual/
+[2026-03-23 20:01:51]   Medium: Navigating to import page...
+[2026-03-23 20:01:54]   Medium: Typed URL: https://signalreads.com/articles/stop-giving-big-tech-your-id-this-secret-os-actual/
+[2026-03-23 20:01:57]   Medium: Clicked import button. Waiting for import...
+[2026-03-23 20:02:07]   Medium: Clicked 'See your story'.
+[2026-03-23 20:02:18]   Medium: Opened publish dialog.
+[2026-03-23 20:02:21]   Medium: Could not find topic input — skipping topics.
+[2026-03-23 20:02:22]   Medium: Could not find final publish button.
+[2026-03-23 20:02:22]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-23 20:02:25] Processing: I Asked ChatGPT for an Image that Will Never Go Viral. I Wasn't Ready For This
+[2026-03-23 20:02:25]   URL: https://signalreads.com/articles/i-asked-chatgpt-for-an-image-that-will-never-go-vi/
+[2026-03-23 20:02:25]   Medium: Navigating to import page...
+[2026-03-23 20:02:29]   Medium: Typed URL: https://signalreads.com/articles/i-asked-chatgpt-for-an-image-that-will-never-go-vi/
+[2026-03-23 20:02:32]   Medium: Clicked import button. Waiting for import...
+[2026-03-23 20:02:42]   Medium: Clicked 'See your story'.
+[2026-03-23 20:02:52]   Medium: Opened publish dialog.
+[2026-03-23 20:02:56]   Medium: Could not find topic input — skipping topics.
+[2026-03-23 20:02:57]   Medium: Could not find final publish button.
+[2026-03-23 20:02:57]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-23 20:03:00] Processing: Stop Using OpenAI. Alibaba Just Quietly Proved Why. This Changes Everything.
+[2026-03-23 20:03:00]   URL: https://signalreads.com/articles/stop-using-openai-alibaba-just-quietly-proved-why-/
+[2026-03-23 20:03:00]   Medium: Navigating to import page...
+[2026-03-23 20:03:03]   Medium: Typed URL: https://signalreads.com/articles/stop-using-openai-alibaba-just-quietly-proved-why-/
+[2026-03-23 20:03:06]   Medium: Clicked import button. Waiting for import...
+[2026-03-23 20:03:16]   Medium: Clicked 'See your story'.
+[2026-03-23 20:03:26]   Medium: Opened publish dialog.
+[2026-03-23 20:03:29]   Medium: Could not find topic input — skipping topics.
+[2026-03-23 20:03:30]   Medium: Could not find final publish button.
+[2026-03-23 20:03:30]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-23 20:03:33] Processing: I Stored 2 Bytes Inside My Logitech Mouse. I Wasn't Ready For This.
+[2026-03-23 20:03:33]   URL: https://signalreads.com/articles/i-stored-2-bytes-inside-my-logitech-mouse-i-wasnt-/
+[2026-03-23 20:03:33]   Medium: Navigating to import page...
+[2026-03-23 20:03:37]   Medium: Typed URL: https://signalreads.com/articles/i-stored-2-bytes-inside-my-logitech-mouse-i-wasnt-/
+[2026-03-23 20:03:40]   Medium: Clicked import button. Waiting for import...
+[2026-03-23 20:03:50]   Medium: Clicked 'See your story'.
+[2026-03-23 20:04:00]   Medium: Opened publish dialog.
+[2026-03-23 20:04:04]   Medium: Could not find topic input — skipping topics.
+[2026-03-23 20:04:05]   Medium: Could not find final publish button.
+[2026-03-23 20:04:05]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-23 20:04:08] Processing: Stop Using ChatGPT. This Secret Is Quietly Eating Your Tokens. Fix It Now.
+[2026-03-23 20:04:08]   URL: https://signalreads.com/articles/stop-using-chatgpt-this-secret-is-quietly-eating-y/
+[2026-03-23 20:04:08]   Medium: Navigating to import page...
+[2026-03-23 20:04:11]   Medium: Typed URL: https://signalreads.com/articles/stop-using-chatgpt-this-secret-is-quietly-eating-y/
+[2026-03-23 20:04:14]   Medium: Clicked import button. Waiting for import...
+[2026-03-23 20:04:24]   Medium: Clicked 'See your story'.
+[2026-03-23 20:04:34]   Medium: Opened publish dialog.
+[2026-03-23 20:04:38]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-23 20:04:41] Processing: Stop Assuming GOP Voters Will Show Up. It’s Worse Than You Think.
+[2026-03-23 20:04:41]   URL: https://signalreads.com/articles/stop-assuming-gop-voters-will-show-up-its-worse-th/
+[2026-03-23 20:04:41]   Medium: Navigating to import page...
+[2026-03-23 20:04:45]   Medium: Typed URL: https://signalreads.com/articles/stop-assuming-gop-voters-will-show-up-its-worse-th/
+[2026-03-23 20:04:48]   Medium: Clicked import button. Waiting for import...
+[2026-03-23 20:04:58]   Medium: Clicked 'See your story'.
+[2026-03-23 20:05:08]   Medium: Opened publish dialog.
+[2026-03-23 20:05:11]   Medium: Could not find topic input — skipping topics.
+[2026-03-23 20:05:12]   Medium: Could not find final publish button.
+[2026-03-23 20:05:13]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-23 20:05:16] Processing: Nobody Talks About This 6-Month Brain Fog Secret. It’s Not What You Think.
+[2026-03-23 20:05:16]   URL: https://signalreads.com/articles/nobody-talks-about-this-6-month-brain-fog-secret-i/
+[2026-03-23 20:05:16]   Medium: Navigating to import page...
+[2026-03-23 20:05:19]   Medium: Typed URL: https://signalreads.com/articles/nobody-talks-about-this-6-month-brain-fog-secret-i/
+[2026-03-23 20:05:22]   Medium: Clicked import button. Waiting for import...
+[2026-03-23 20:05:32]   Medium: Clicked 'See your story'.
+[2026-03-23 20:05:42]   Medium: Opened publish dialog.
+[2026-03-23 20:05:46]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-23 20:05:50] Processing: Stop Using DLSS Wrong. This 60-Second Secret Actually Changes Everything
+[2026-03-23 20:05:50]   URL: https://signalreads.com/articles/stop-using-dlss-wrong-this-60-second-secret-actual/
+[2026-03-23 20:05:50]   Medium: Navigating to import page...
+[2026-03-23 20:05:53]   Medium: Typed URL: https://signalreads.com/articles/stop-using-dlss-wrong-this-60-second-secret-actual/
+[2026-03-23 20:05:56]   Medium: Clicked import button. Waiting for import...
