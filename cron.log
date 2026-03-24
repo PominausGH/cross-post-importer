@@ -5482,3 +5482,101 @@ Call log:
 [2026-03-23 20:08:12]   Substack: Navigating to import page...
 [2026-03-23 20:08:16]   Substack: ✗ Not logged in. Run with --login first.
 [2026-03-23 20:08:16] Done with 5 failure(s).
+[2026-03-24 20:00:02] Fetching RSS feeds: 2 source(s)
+[2026-03-24 20:00:10] Found 280 posts in feed.
+[2026-03-24 20:00:10] 136 post(s) to process.
+[2026-03-24 20:00:10] Medium: 10 post(s) to import.
+[2026-03-24 20:00:35]   Medium: Found 207 published stories for dedup.
+[2026-03-24 20:00:35] Processing: I Quit "Bed Rotting" Cold Turkey. I Wasn't Ready For This.
+[2026-03-24 20:00:35]   URL: https://signalreads.com/articles/i-quit-bed-rotting-cold-turkey-i-wasnt-ready-for-t/
+[2026-03-24 20:00:35]   Medium: Navigating to import page...
+[2026-03-24 20:00:39]   Medium: Typed URL: https://signalreads.com/articles/i-quit-bed-rotting-cold-turkey-i-wasnt-ready-for-t/
+[2026-03-24 20:00:44]   Medium: Clicked import button. Waiting for import...
+[2026-03-24 20:00:54]   Medium: Clicked 'See your story'.
+[2026-03-24 20:01:04]   Medium: Opened publish dialog.
+[2026-03-24 20:01:07]   Medium: Could not find topic input — skipping topics.
+[2026-03-24 20:01:08]   Medium: Could not find final publish button.
+[2026-03-24 20:01:08]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-24 20:01:11] Processing: I Lost Everything in 24 Hours. Here’s What Nobody Tells You.
+[2026-03-24 20:01:11]   URL: https://signalreads.com/articles/i-lost-everything-in-24-hours-heres-what-nobody-te/
+[2026-03-24 20:01:11]   Medium: Navigating to import page...
+[2026-03-24 20:01:15]   Medium: Typed URL: https://signalreads.com/articles/i-lost-everything-in-24-hours-heres-what-nobody-te/
+[2026-03-24 20:01:18]   Medium: Clicked import button. Waiting for import...
+[2026-03-24 20:01:28]   Medium: Clicked 'See your story'.
+[2026-03-24 20:01:38]   Medium: Opened publish dialog.
+[2026-03-24 20:01:42]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-24 20:01:45] Processing: I Tested Claude’s New Update For 7 Days. I’m Actually Uncomfortable.
+[2026-03-24 20:01:45]   URL: https://signalreads.com/articles/i-tested-claudes-new-update-for-7-days-im-actually/
+[2026-03-24 20:01:45]   Medium: Navigating to import page...
+[2026-03-24 20:01:49]   Medium: Typed URL: https://signalreads.com/articles/i-tested-claudes-new-update-for-7-days-im-actually/
+[2026-03-24 20:01:52]   Medium: Clicked import button. Waiting for import...
+[2026-03-24 20:02:02]   Medium: Clicked 'See your story'.
+[2026-03-24 20:02:12]   Medium: Opened publish dialog.
+[2026-03-24 20:02:15]   Medium: Could not find topic input — skipping topics.
+[2026-03-24 20:02:16]   Medium: Could not find final publish button.
+[2026-03-24 20:02:16]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-24 20:02:19] Processing: Everyone Is Wrong About 3rd World Gaming. ChatGPT Just Proved Why.
+[2026-03-24 20:02:19]   URL: https://signalreads.com/articles/everyone-is-wrong-about-3rd-world-gaming-chatgpt-j/
+[2026-03-24 20:02:19]   Medium: Navigating to import page...
+[2026-03-24 20:02:23]   Medium: Typed URL: https://signalreads.com/articles/everyone-is-wrong-about-3rd-world-gaming-chatgpt-j/
+[2026-03-24 20:02:25]   Medium: Clicked import button. Waiting for import...
+[2026-03-24 20:02:35]   Medium: Clicked 'See your story'.
+[2026-03-24 20:02:45]   Medium: Opened publish dialog.
+[2026-03-24 20:02:48]   Medium: Could not find topic input — skipping topics.
+[2026-03-24 20:02:49]   Medium: Could not find final publish button.
+[2026-03-24 20:02:49]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-24 20:02:52] Processing: Everyone Is Wrong About The Tech Market. This 15% Surge Changes Everything.
+[2026-03-24 20:02:52]   URL: https://signalreads.com/articles/everyone-is-wrong-about-the-tech-market-this-15-su/
+[2026-03-24 20:02:52]   Medium: Navigating to import page...
+[2026-03-24 20:02:55]   Medium: Typed URL: https://signalreads.com/articles/everyone-is-wrong-about-the-tech-market-this-15-su/
+[2026-03-24 20:02:58]   Medium: Clicked import button. Waiting for import...
+[2026-03-24 20:03:08]   Medium: Clicked 'See your story'.
+[2026-03-24 20:03:18]   Medium: Opened publish dialog.
+[2026-03-24 20:03:21]   Medium: Could not find topic input — skipping topics.
+[2026-03-24 20:03:22]   Medium: Could not find final publish button.
+[2026-03-24 20:03:22]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-24 20:03:25] Processing: Stop Keeping ChatGPT "Just In Case." Claude 3.7 Sonnet Actually Just Proved Why.
+[2026-03-24 20:03:25]   URL: https://signalreads.com/articles/stop-keeping-chatgpt-just-in-case-claude-35-actual/
+[2026-03-24 20:03:25]   Medium: Navigating to import page...
+[2026-03-24 20:03:29]   Medium: Typed URL: https://signalreads.com/articles/stop-keeping-chatgpt-just-in-case-claude-35-actual/
+[2026-03-24 20:03:32]   Medium: Clicked import button. Waiting for import...
+[2026-03-24 20:03:42]   Medium: Clicked 'See your story'.
+[2026-03-24 20:03:52]   Medium: Opened publish dialog.
+[2026-03-24 20:03:56]   Medium: Could not find topic input — skipping topics.
+[2026-03-24 20:03:57]   Medium: Could not find final publish button.
+[2026-03-24 20:03:57]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-24 20:04:00] Processing: Stop Using ChatGPT. This Secret Is Quietly Eating Your Tokens. Fix It Now.
+[2026-03-24 20:04:00]   URL: https://signalreads.com/articles/stop-using-chatgpt-this-secret-is-quietly-eating-y/
+[2026-03-24 20:04:00]   Medium: Navigating to import page...
+[2026-03-24 20:04:03]   Medium: Typed URL: https://signalreads.com/articles/stop-using-chatgpt-this-secret-is-quietly-eating-y/
+[2026-03-24 20:04:05]   Medium: Clicked import button. Waiting for import...
+[2026-03-24 20:04:15]   Medium: Clicked 'See your story'.
+[2026-03-24 20:04:25]   Medium: Opened publish dialog.
+[2026-03-24 20:04:28]   Medium: Could not find topic input — skipping topics.
+[2026-03-24 20:04:29]   Medium: Could not find final publish button.
+[2026-03-24 20:04:29]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-24 20:04:32] Processing: Nobody Talks About This 6-Month Brain Fog Secret. It’s Not What You Think.
+[2026-03-24 20:04:32]   URL: https://signalreads.com/articles/nobody-talks-about-this-6-month-brain-fog-secret-i/
+[2026-03-24 20:04:32]   Medium: Navigating to import page...
+[2026-03-24 20:04:35]   Medium: Typed URL: https://signalreads.com/articles/nobody-talks-about-this-6-month-brain-fog-secret-i/
+[2026-03-24 20:04:37]   Medium: Clicked import button. Waiting for import...
+[2026-03-24 20:04:47]   Medium: Clicked 'See your story'.
+[2026-03-24 20:04:57]   Medium: Opened publish dialog.
+[2026-03-24 20:05:00]   Medium: Could not find topic input — skipping topics.
+[2026-03-24 20:05:01]   Medium: Could not find final publish button.
+[2026-03-24 20:05:01]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-24 20:05:04] Processing: Stop Procrastinating. My Dad’s Secret 2-Minute Rule Actually Changes Everything
+[2026-03-24 20:05:04]   URL: https://signalreads.com/articles/stop-procrastinating-my-dads-secret-2-minute-rule-/
+[2026-03-24 20:05:04]   Medium: Navigating to import page...
+[2026-03-24 20:05:08]   Medium: Typed URL: https://signalreads.com/articles/stop-procrastinating-my-dads-secret-2-minute-rule-/
+[2026-03-24 20:05:09]   Medium: Clicked import button. Waiting for import...
+[2026-03-24 20:05:19]   Medium: Clicked 'See your story'.
+[2026-03-24 20:05:29]   Medium: Opened publish dialog.
+[2026-03-24 20:05:33]   Medium: Could not find topic input — skipping topics.
+[2026-03-24 20:05:34]   Medium: Could not find final publish button.
+[2026-03-24 20:05:34]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-24 20:05:37] Processing: I leaked the Iran missile secret. Polymarket gamblers actually want me dead.
+[2026-03-24 20:05:37]   URL: https://signalreads.com/articles/i-leaked-the-iran-missile-secret-polymarket-gamble/
+[2026-03-24 20:05:37]   Medium: Navigating to import page...
+[2026-03-24 20:05:40]   Medium: Typed URL: https://signalreads.com/articles/i-leaked-the-iran-missile-secret-polymarket-gamble/
+[2026-03-24 20:05:42]   Medium: Clicked import button. Waiting for import...
