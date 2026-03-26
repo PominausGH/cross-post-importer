@@ -5770,3 +5770,29 @@ Call log:
 [2026-03-26 20:05:53]   Medium: Typed URL: https://signalreads.com/articles/im-actually-done-with-webdev-after-12-years-its-no/
 [2026-03-26 20:05:56]   Medium: Clicked import button. Waiting for import...
 [2026-03-26 20:06:06]   Medium: Clicked 'See your story'.
+[2026-03-26 20:06:16]   Medium: Opened publish dialog.
+[2026-03-26 20:06:19]   Medium: Could not find topic input — skipping topics.
+[2026-03-26 20:06:21]   Medium: Could not find final publish button.
+[2026-03-26 20:06:21]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-26 20:06:24] Processing: Apple Just Quietly Put a 400B LLM in Your Pocket. This Changes Everything.
+[2026-03-26 20:06:24]   URL: https://signalreads.com/articles/apple-just-quietly-put-a-400b-llm-in-your-pocket-t/
+[2026-03-26 20:06:24]   Medium: Navigating to import page...
+[2026-03-26 20:06:27]   Medium: Typed URL: https://signalreads.com/articles/apple-just-quietly-put-a-400b-llm-in-your-pocket-t/
+[2026-03-26 20:06:31]   Medium: Clicked import button. Waiting for import...
+[2026-03-26 20:06:41]   Medium: Clicked 'See your story'.
+[2026-03-26 20:06:51]   Medium: Opened publish dialog.
+[2026-03-26 20:06:55]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-26 20:06:58] Processing: I Lost Everything in 24 Hours. Here’s What Nobody Tells You.
+[2026-03-26 20:06:58]   URL: https://signalreads.com/articles/i-lost-everything-in-24-hours-heres-what-nobody-te/
+[2026-03-26 20:06:58]   Medium: Navigating to import page...
+[2026-03-26 20:07:01]   Medium: Typed URL: https://signalreads.com/articles/i-lost-everything-in-24-hours-heres-what-nobody-te/
+[2026-03-26 20:07:05]   Medium: Clicked import button. Waiting for import...
+[2026-03-26 20:07:15]   Medium: Clicked 'See your story'.
+[2026-03-26 20:07:25]   Medium: Opened publish dialog.
+[2026-03-26 20:07:29]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-26 20:07:32] Substack: 151 post(s) in feed — checking for duplicates...
+[2026-03-26 20:07:41]   Substack: Found 0 published posts for dedup.
+[2026-03-26 20:07:41]   Substack: 151 genuinely new post(s) — importing via RSS...
+[2026-03-26 20:07:41]   Substack: Navigating to import page...
+[2026-03-26 20:07:45]   Substack: ✗ Not logged in. Run with --login first.
+[2026-03-26 20:07:45] Done with 7 failure(s).
