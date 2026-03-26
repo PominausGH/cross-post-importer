@@ -5674,3 +5674,99 @@ Call log:
 [2026-03-25 20:05:27]   Substack: Navigating to import page...
 [2026-03-25 20:05:31]   Substack: ✗ Not logged in. Run with --login first.
 [2026-03-25 20:05:31] Done with 6 failure(s).
+[2026-03-26 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-03-26 20:00:08] Found 295 posts in feed.
+[2026-03-26 20:00:08] 151 post(s) to process.
+[2026-03-26 20:00:08] Medium: 13 post(s) to import.
+[2026-03-26 20:00:34]   Medium: Found 207 published stories for dedup.
+[2026-03-26 20:00:34] Skipping (already on Medium): Nobody Talks About This 1-Minute Iran Market Secret. It’s Not What You Think.
+[2026-03-26 20:00:34] Processing: I Tried Pike Pressing for 30 Days. Here's Why You've Been Doing It Wrong.
+[2026-03-26 20:00:34]   URL: https://signalreads.com/articles/i-tried-pike-pressing-for-30-days-heres-why-youve-/
+[2026-03-26 20:00:34]   Medium: Navigating to import page...
+[2026-03-26 20:00:38]   Medium: Typed URL: https://signalreads.com/articles/i-tried-pike-pressing-for-30-days-heres-why-youve-/
+[2026-03-26 20:00:42]   Medium: Clicked import button. Waiting for import...
+[2026-03-26 20:00:52]   Medium: Clicked 'See your story'.
+[2026-03-26 20:01:02]   Medium: Opened publish dialog.
+[2026-03-26 20:01:06]   Medium: Could not find topic input — skipping topics.
+[2026-03-26 20:01:07]   Medium: Could not find final publish button.
+[2026-03-26 20:01:07]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-26 20:01:10] Processing: Stop Ignoring This One Sign. It’s Quietly Fixing My Mental Health.
+[2026-03-26 20:01:10]   URL: https://signalreads.com/articles/stop-ignoring-this-one-sign-its-quietly-fixing-my-/
+[2026-03-26 20:01:10]   Medium: Navigating to import page...
+[2026-03-26 20:01:13]   Medium: Typed URL: https://signalreads.com/articles/stop-ignoring-this-one-sign-its-quietly-fixing-my-/
+[2026-03-26 20:01:19]   Medium: Clicked import button. Waiting for import...
+[2026-03-26 20:01:29]   Medium: Clicked 'See your story'.
+[2026-03-26 20:01:39]   Medium: Opened publish dialog.
+[2026-03-26 20:01:43]   Medium: Could not find topic input — skipping topics.
+[2026-03-26 20:01:44]   Medium: Could not find final publish button.
+[2026-03-26 20:01:44]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-26 20:01:47] Processing: Stop Calling Yourself Lazy. You’re Quietly Depressed. It’s Not What You Think.
+[2026-03-26 20:01:47]   URL: https://signalreads.com/articles/stop-calling-yourself-lazy-youre-quietly-depressed/
+[2026-03-26 20:01:47]   Medium: Navigating to import page...
+[2026-03-26 20:01:50]   Medium: Typed URL: https://signalreads.com/articles/stop-calling-yourself-lazy-youre-quietly-depressed/
+[2026-03-26 20:01:54]   Medium: Clicked import button. Waiting for import...
+[2026-03-26 20:02:04]   Medium: Clicked 'See your story'.
+[2026-03-26 20:02:14]   Medium: Opened publish dialog.
+[2026-03-26 20:02:18]   Medium: Could not find topic input — skipping topics.
+[2026-03-26 20:02:19]   Medium: Could not find final publish button.
+[2026-03-26 20:02:19]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-26 20:02:22] Processing: I Tested Every DLSS Mode in 60 Seconds. You’ve Actually Been Doing It Wrong
+[2026-03-26 20:02:22]   URL: https://signalreads.com/articles/i-tested-every-dlss-mode-in-60-seconds-youve-actua/
+[2026-03-26 20:02:22]   Medium: Navigating to import page...
+[2026-03-26 20:02:25]   Medium: Typed URL: https://signalreads.com/articles/i-tested-every-dlss-mode-in-60-seconds-youve-actua/
+[2026-03-26 20:02:29]   Medium: Clicked import button. Waiting for import...
+[2026-03-26 20:02:39]   Medium: Clicked 'See your story'.
+[2026-03-26 20:02:49]   Medium: Opened publish dialog.
+[2026-03-26 20:02:52]   Medium: Could not find topic input — skipping topics.
+[2026-03-26 20:02:53]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-26 20:02:56] Processing: I Replaced Hollywood’s AI With My Astrophotography. This Changes Everything.
+[2026-03-26 20:02:56]   URL: https://signalreads.com/articles/i-replaced-hollywoods-ai-with-my-astrophotography-/
+[2026-03-26 20:02:56]   Medium: Navigating to import page...
+[2026-03-26 20:03:00]   Medium: Typed URL: https://signalreads.com/articles/i-replaced-hollywoods-ai-with-my-astrophotography-/
+[2026-03-26 20:03:03]   Medium: Clicked import button. Waiting for import...
+[2026-03-26 20:03:13]   Medium: Clicked 'See your story'.
+[2026-03-26 20:03:23]   Medium: Opened publish dialog.
+[2026-03-26 20:03:27]   Medium: Could not find topic input — skipping topics.
+[2026-03-26 20:03:28]   Medium: Could not find final publish button.
+[2026-03-26 20:03:28]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-26 20:03:31] Processing: The EU Is Quietly Scanning Your Private Photos. It’s Worse Than You Think.
+[2026-03-26 20:03:31]   URL: https://signalreads.com/articles/the-eu-is-quietly-scanning-your-private-photos-its/
+[2026-03-26 20:03:31]   Medium: Navigating to import page...
+[2026-03-26 20:03:35]   Medium: Typed URL: https://signalreads.com/articles/the-eu-is-quietly-scanning-your-private-photos-its/
+[2026-03-26 20:03:38]   Medium: Clicked import button. Waiting for import...
+[2026-03-26 20:03:49]   Medium: Clicked 'See your story'.
+[2026-03-26 20:03:59]   Medium: Opened publish dialog.
+[2026-03-26 20:04:03]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-26 20:04:06] Processing: Stop Using LM Studio. It’s Actually Worse Than You Think.
+[2026-03-26 20:04:06]   URL: https://signalreads.com/articles/stop-using-lm-studio-its-actually-worse-than-you-t/
+[2026-03-26 20:04:06]   Medium: Navigating to import page...
+[2026-03-26 20:04:09]   Medium: Typed URL: https://signalreads.com/articles/stop-using-lm-studio-its-actually-worse-than-you-t/
+[2026-03-26 20:04:13]   Medium: Clicked import button. Waiting for import...
+[2026-03-26 20:04:23]   Medium: Clicked 'See your story'.
+[2026-03-26 20:04:33]   Medium: Opened publish dialog.
+[2026-03-26 20:04:37]   Medium: Could not find topic input — skipping topics.
+[2026-03-26 20:04:38]   Medium: Could not find final publish button.
+[2026-03-26 20:04:38]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-26 20:04:41] Processing: I Saw These 'Teen' ICE Agents at LGA. It’s Actually Worse Than You Think
+[2026-03-26 20:04:41]   URL: https://signalreads.com/articles/i-saw-these-teen-ice-agents-at-lga-its-actually-wo/
+[2026-03-26 20:04:41]   Medium: Navigating to import page...
+[2026-03-26 20:04:44]   Medium: Typed URL: https://signalreads.com/articles/i-saw-these-teen-ice-agents-at-lga-its-actually-wo/
+[2026-03-26 20:04:47]   Medium: Clicked import button. Waiting for import...
+[2026-03-26 20:04:57]   Medium: Clicked 'See your story'.
+[2026-03-26 20:05:07]   Medium: Opened publish dialog.
+[2026-03-26 20:05:12]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-26 20:05:15] Processing: I Watched This 65-Day Transformation. I Wasn't Ready For This.
+[2026-03-26 20:05:15]   URL: https://signalreads.com/articles/i-watched-this-65-day-transformation-i-wasnt-ready/
+[2026-03-26 20:05:15]   Medium: Navigating to import page...
+[2026-03-26 20:05:18]   Medium: Typed URL: https://signalreads.com/articles/i-watched-this-65-day-transformation-i-wasnt-ready/
+[2026-03-26 20:05:22]   Medium: Clicked import button. Waiting for import...
+[2026-03-26 20:05:32]   Medium: Clicked 'See your story'.
+[2026-03-26 20:05:42]   Medium: Opened publish dialog.
+[2026-03-26 20:05:45]   Medium: Could not find topic input — skipping topics.
+[2026-03-26 20:05:46]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-26 20:05:49] Processing: I’m Actually Done With Webdev After 12 Years. It’s Not What You Think.
+[2026-03-26 20:05:49]   URL: https://signalreads.com/articles/im-actually-done-with-webdev-after-12-years-its-no/
+[2026-03-26 20:05:49]   Medium: Navigating to import page...
+[2026-03-26 20:05:53]   Medium: Typed URL: https://signalreads.com/articles/im-actually-done-with-webdev-after-12-years-its-no/
+[2026-03-26 20:05:56]   Medium: Clicked import button. Waiting for import...
+[2026-03-26 20:06:06]   Medium: Clicked 'See your story'.
