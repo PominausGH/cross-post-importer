@@ -5925,3 +5925,101 @@ Call log:
 [2026-03-27 20:08:09]   Substack: Navigating to import page...
 [2026-03-27 20:08:13]   Substack: ✗ Not logged in. Run with --login first.
 [2026-03-27 20:08:13] Done with 7 failure(s).
+[2026-03-28 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-03-28 20:00:10] Found 312 posts in feed.
+[2026-03-28 20:00:10] 168 post(s) to process.
+[2026-03-28 20:00:10] Medium: 16 post(s) to import.
+[2026-03-28 20:00:35]   Medium: Found 207 published stories for dedup.
+[2026-03-28 20:00:35] Processing: Trump’s Iran Secret Is Actually Market Manipulation. It’s Not What You Think.
+[2026-03-28 20:00:35]   URL: https://signalreads.com/articles/trumps-iran-secret-is-actually-market-manipulation/
+[2026-03-28 20:00:35]   Medium: Navigating to import page...
+[2026-03-28 20:00:39]   Medium: Typed URL: https://signalreads.com/articles/trumps-iran-secret-is-actually-market-manipulation/
+[2026-03-28 20:00:43]   Medium: Clicked import button. Waiting for import...
+[2026-03-28 20:00:53]   Medium: Clicked 'See your story'.
+[2026-03-28 20:01:03]   Medium: Opened publish dialog.
+[2026-03-28 20:01:07]   Medium: Could not find topic input — skipping topics.
+[2026-03-28 20:01:08]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-28 20:01:11] Processing: Stop Ignoring the White House’s Cryptic Videos. This Actually Changes Everything
+[2026-03-28 20:01:11]   URL: https://signalreads.com/articles/stop-ignoring-the-white-houses-cryptic-videos-this/
+[2026-03-28 20:01:11]   Medium: Navigating to import page...
+[2026-03-28 20:01:15]   Medium: Typed URL: https://signalreads.com/articles/stop-ignoring-the-white-houses-cryptic-videos-this/
+[2026-03-28 20:01:19]   Medium: Clicked import button. Waiting for import...
+[2026-03-28 20:01:29]   Medium: Clicked 'See your story'.
+[2026-03-28 20:01:39]   Medium: Opened publish dialog.
+[2026-03-28 20:01:42]   Medium: Could not find topic input — skipping topics.
+[2026-03-28 20:01:43]   Medium: Could not find final publish button.
+[2026-03-28 20:01:43]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-28 20:01:46] Processing: Nobody Actually Has Energy After Work. It’s Not What You Think
+[2026-03-28 20:01:46]   URL: https://signalreads.com/articles/nobody-actually-has-energy-after-work-its-not-what/
+[2026-03-28 20:01:46]   Medium: Navigating to import page...
+[2026-03-28 20:01:50]   Medium: Typed URL: https://signalreads.com/articles/nobody-actually-has-energy-after-work-its-not-what/
+[2026-03-28 20:01:54]   Medium: Clicked import button. Waiting for import...
+[2026-03-28 20:02:04]   Medium: Clicked 'See your story'.
+[2026-03-28 20:02:14]   Medium: Opened publish dialog.
+[2026-03-28 20:02:18]   Medium: Could not find topic input — skipping topics.
+[2026-03-28 20:02:19]   Medium: Could not find final publish button.
+[2026-03-28 20:02:19]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-28 20:02:22] Processing: AGI Just Quietly Arrived. It’s More Unexpected Than You Think.
+[2026-03-28 20:02:22]   URL: https://signalreads.com/articles/agi-just-quietly-arrived-its-more-unexpected-than-/
+[2026-03-28 20:02:22]   Medium: Navigating to import page...
+[2026-03-28 20:02:45]   Medium: ✗ Could not find URL input field.
+[2026-03-28 20:02:48] Processing: Claude Just Quietly Changed Your Session Limits. It’s Worse Than You Think.
+[2026-03-28 20:02:48]   URL: https://signalreads.com/articles/claude-just-quietly-changed-your-session-limits-it/
+[2026-03-28 20:02:48]   Medium: Navigating to import page...
+[2026-03-28 20:02:51]   Medium: Typed URL: https://signalreads.com/articles/claude-just-quietly-changed-your-session-limits-it/
+[2026-03-28 20:02:54]   Medium: Clicked import button. Waiting for import...
+[2026-03-28 20:03:04]   Medium: Clicked 'See your story'.
+[2026-03-28 20:03:14]   Medium: Opened publish dialog.
+[2026-03-28 20:03:17]   Medium: Could not find topic input — skipping topics.
+[2026-03-28 20:03:18]   Medium: Could not find final publish button.
+[2026-03-28 20:03:18]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-28 20:03:21] Processing: I Watched a Drunk Guy Phone ChatGPT. I Wasn’t Ready For This.
+[2026-03-28 20:03:21]   URL: https://signalreads.com/articles/i-watched-a-drunk-guy-phone-chatgpt-i-wasnt-ready-/
+[2026-03-28 20:03:22]   Medium: Navigating to import page...
+[2026-03-28 20:03:25]   Medium: Typed URL: https://signalreads.com/articles/i-watched-a-drunk-guy-phone-chatgpt-i-wasnt-ready-/
+[2026-03-28 20:03:28]   Medium: Clicked import button. Waiting for import...
+[2026-03-28 20:03:38]   Medium: Clicked 'See your story'.
+[2026-03-28 20:03:48]   Medium: Opened publish dialog.
+[2026-03-28 20:03:52]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-28 20:03:55] Processing: Microsoft Engineers Are Quietly Fighting This. It’s Worse Than You Think.
+[2026-03-28 20:03:55]   URL: https://signalreads.com/articles/microsoft-engineers-are-quietly-fighting-this-its-/
+[2026-03-28 20:03:55]   Medium: Navigating to import page...
+[2026-03-28 20:03:58]   Medium: Typed URL: https://signalreads.com/articles/microsoft-engineers-are-quietly-fighting-this-its-/
+[2026-03-28 20:04:00]   Medium: Clicked import button. Waiting for import...
+[2026-03-28 20:04:10]   Medium: Clicked 'See your story'.
+[2026-03-28 20:04:20]   Medium: Opened publish dialog.
+[2026-03-28 20:04:24]   Medium: Could not find topic input — skipping topics.
+[2026-03-28 20:04:25]   Medium: Could not find final publish button.
+[2026-03-28 20:04:25]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-28 20:04:28] Processing: Stop Using ElevenLabs. Mistral Just Proved Why This Changes Everything.
+[2026-03-28 20:04:28]   URL: https://signalreads.com/articles/stop-using-elevenlabs-mistral-just-proved-why-this/
+[2026-03-28 20:04:28]   Medium: Navigating to import page...
+[2026-03-28 20:04:31]   Medium: Typed URL: https://signalreads.com/articles/stop-using-elevenlabs-mistral-just-proved-why-this/
+[2026-03-28 20:04:34]   Medium: Clicked import button. Waiting for import...
+[2026-03-28 20:04:44]   Medium: Clicked 'See your story'.
+[2026-03-28 20:04:54]   Medium: Opened publish dialog.
+[2026-03-28 20:04:57]   Medium: Could not find topic input — skipping topics.
+[2026-03-28 20:04:58]   Medium: Could not find final publish button.
+[2026-03-28 20:04:58]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-28 20:05:01] Processing: Stop Buying Nvidia. Intel’s 32GB GPU Actually Changes Everything.
+[2026-03-28 20:05:01]   URL: https://signalreads.com/articles/stop-buying-nvidia-intels-cheap-32gb-gpu-actually-/
+[2026-03-28 20:05:01]   Medium: Navigating to import page...
+[2026-03-28 20:05:05]   Medium: Typed URL: https://signalreads.com/articles/stop-buying-nvidia-intels-cheap-32gb-gpu-actually-/
+[2026-03-28 20:05:07]   Medium: Clicked import button. Waiting for import...
+[2026-03-28 20:05:17]   Medium: Clicked 'See your story'.
+[2026-03-28 20:05:27]   Medium: Opened publish dialog.
+[2026-03-28 20:05:31]   Medium: Could not find topic input — skipping topics.
+[2026-03-28 20:05:32]   Medium: Could not find final publish button.
+[2026-03-28 20:05:32]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-28 20:05:35] Processing: AGI is Actually Here: Why Infrastructure is Now Officially Self-Architecting
+[2026-03-28 20:05:35]   URL: https://signalreads.com/articles/agi-is-actually-here-this-2026-secret-just-changed/
+[2026-03-28 20:05:35]   Medium: Navigating to import page...
+[2026-03-28 20:05:38]   Medium: Typed URL: https://signalreads.com/articles/agi-is-actually-here-this-2026-secret-just-changed/
+[2026-03-28 20:05:42]   Medium: Clicked import button. Waiting for import...
+[2026-03-28 20:05:52]   Medium: Clicked 'See your story'.
+[2026-03-28 20:06:02]   Medium: Opened publish dialog.
+[2026-03-28 20:06:05]   Medium: Could not find topic input — skipping topics.
+[2026-03-28 20:06:06]   Medium: Could not find final publish button.
+[2026-03-28 20:06:06]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-28 20:06:09] Processing: I Actually Tried to Reconcile MAGA and the Bible. I Wasn’t Ready For This.
+[2026-03-28 20:06:09]   URL: https://signalreads.com/articles/i-actually-tried-to-reconcile-maga-and-the-bible-i/
