@@ -6023,3 +6023,61 @@ Call log:
 [2026-03-28 20:06:06]   Medium: ✓ Import complete (screenshot saved for verification).
 [2026-03-28 20:06:09] Processing: I Actually Tried to Reconcile MAGA and the Bible. I Wasn’t Ready For This.
 [2026-03-28 20:06:09]   URL: https://signalreads.com/articles/i-actually-tried-to-reconcile-maga-and-the-bible-i/
+[2026-03-28 20:06:09]   Medium: Navigating to import page...
+[2026-03-28 20:06:13]   Medium: Typed URL: https://signalreads.com/articles/i-actually-tried-to-reconcile-maga-and-the-bible-i/
+[2026-03-28 20:06:16]   Medium: Clicked import button. Waiting for import...
+[2026-03-28 20:06:26]   Medium: Clicked 'See your story'.
+[2026-03-28 20:06:36]   Medium: Opened publish dialog.
+[2026-03-28 20:06:39]   Medium: Could not find topic input — skipping topics.
+[2026-03-28 20:06:41]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-28 20:06:44] Processing: I Tested Every DLSS Mode in 60 Seconds. You’ve Actually Been Doing It Wrong
+[2026-03-28 20:06:44]   URL: https://signalreads.com/articles/i-tested-every-dlss-mode-in-60-seconds-youve-actua/
+[2026-03-28 20:06:44]   Medium: Navigating to import page...
+[2026-03-28 20:06:47]   Medium: Typed URL: https://signalreads.com/articles/i-tested-every-dlss-mode-in-60-seconds-youve-actua/
+[2026-03-28 20:06:51]   Medium: Clicked import button. Waiting for import...
+[2026-03-28 20:07:02]   Medium: Clicked 'See your story'.
+[2026-03-28 20:07:12]   Medium: Opened publish dialog.
+[2026-03-28 20:07:15]   Medium: Could not find topic input — skipping topics.
+[2026-03-28 20:07:16]   Medium: Could not find final publish button.
+[2026-03-28 20:07:16]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-28 20:07:19] Processing: The EU Is Quietly Scanning Your Private Photos. It’s Worse Than You Think.
+[2026-03-28 20:07:19]   URL: https://signalreads.com/articles/the-eu-is-quietly-scanning-your-private-photos-its/
+[2026-03-28 20:07:19]   Medium: Navigating to import page...
+[2026-03-28 20:07:22]   Medium: Typed URL: https://signalreads.com/articles/the-eu-is-quietly-scanning-your-private-photos-its/
+[2026-03-28 20:07:25]   Medium: Clicked import button. Waiting for import...
+[2026-03-28 20:07:35]   Medium: Clicked 'See your story'.
+[2026-03-28 20:07:45]   Medium: Opened publish dialog.
+[2026-03-28 20:07:49]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-28 20:07:52] Processing: I Saw These 'Teen' ICE Agents at LGA. It’s Actually Worse Than You Think
+[2026-03-28 20:07:52]   URL: https://signalreads.com/articles/i-saw-these-teen-ice-agents-at-lga-its-actually-wo/
+[2026-03-28 20:07:52]   Medium: Navigating to import page...
+[2026-03-28 20:07:56]   Medium: Typed URL: https://signalreads.com/articles/i-saw-these-teen-ice-agents-at-lga-its-actually-wo/
+[2026-03-28 20:08:00]   Medium: Clicked import button. Waiting for import...
+[2026-03-28 20:08:10]   Medium: Clicked 'See your story'.
+[2026-03-28 20:08:20]   Medium: Opened publish dialog.
+[2026-03-28 20:08:24]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-28 20:08:27] Processing: Apple Just Quietly Put a 400B LLM in Your Pocket. This Changes Everything.
+[2026-03-28 20:08:27]   URL: https://signalreads.com/articles/apple-just-quietly-put-a-400b-llm-in-your-pocket-t/
+[2026-03-28 20:08:27]   Medium: Navigating to import page...
+[2026-03-28 20:08:31]   Medium: Typed URL: https://signalreads.com/articles/apple-just-quietly-put-a-400b-llm-in-your-pocket-t/
+[2026-03-28 20:08:34]   Medium: Clicked import button. Waiting for import...
+[2026-03-28 20:08:44]   Medium: Clicked 'See your story'.
+[2026-03-28 20:08:54]   Medium: Opened publish dialog.
+[2026-03-28 20:08:58]   Medium: Could not find topic input — skipping topics.
+[2026-03-28 20:08:59]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-28 20:09:02] Processing: I Lost Everything in 24 Hours. Here’s What Nobody Tells You.
+[2026-03-28 20:09:02]   URL: https://signalreads.com/articles/i-lost-everything-in-24-hours-heres-what-nobody-te/
+[2026-03-28 20:09:02]   Medium: Navigating to import page...
+[2026-03-28 20:09:05]   Medium: Typed URL: https://signalreads.com/articles/i-lost-everything-in-24-hours-heres-what-nobody-te/
+[2026-03-28 20:09:09]   Medium: Clicked import button. Waiting for import...
+[2026-03-28 20:09:19]   Medium: Clicked 'See your story'.
+[2026-03-28 20:09:29]   Medium: Opened publish dialog.
+[2026-03-28 20:09:32]   Medium: Could not find topic input — skipping topics.
+[2026-03-28 20:09:33]   Medium: Could not find final publish button.
+[2026-03-28 20:09:33]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-28 20:09:36] Substack: 168 post(s) in feed — checking for duplicates...
+[2026-03-28 20:09:45]   Substack: Found 0 published posts for dedup.
+[2026-03-28 20:09:45]   Substack: 168 genuinely new post(s) — importing via RSS...
+[2026-03-28 20:09:45]   Substack: Navigating to import page...
+[2026-03-28 20:09:49]   Substack: ✗ Not logged in. Run with --login first.
+[2026-03-28 20:09:50] Done with 8 failure(s).
