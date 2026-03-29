@@ -6178,3 +6178,31 @@ Call log:
 [2026-03-29 20:06:56]   Medium: ✓ Import complete (screenshot saved for verification).
 [2026-03-29 20:06:59] Processing: The EU Is Quietly Scanning Your Private Photos. It’s Worse Than You Think.
 [2026-03-29 20:06:59]   URL: https://signalreads.com/articles/the-eu-is-quietly-scanning-your-private-photos-its/
+[2026-03-29 20:06:59]   Medium: Navigating to import page...
+[2026-03-29 20:07:02]   Medium: Typed URL: https://signalreads.com/articles/the-eu-is-quietly-scanning-your-private-photos-its/
+[2026-03-29 20:07:04]   Medium: Clicked import button. Waiting for import...
+[2026-03-29 20:07:14]   Medium: Clicked 'See your story'.
+[2026-03-29 20:07:24]   Medium: Opened publish dialog.
+[2026-03-29 20:07:28]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-29 20:07:31] Processing: I Saw These 'Teen' ICE Agents at LGA. It’s Actually Worse Than You Think
+[2026-03-29 20:07:31]   URL: https://signalreads.com/articles/i-saw-these-teen-ice-agents-at-lga-its-actually-wo/
+[2026-03-29 20:07:31]   Medium: Navigating to import page...
+[2026-03-29 20:07:35]   Medium: Typed URL: https://signalreads.com/articles/i-saw-these-teen-ice-agents-at-lga-its-actually-wo/
+[2026-03-29 20:07:36]   Medium: Clicked import button. Waiting for import...
+[2026-03-29 20:07:47]   Medium: Clicked 'See your story'.
+[2026-03-29 20:07:57]   Medium: Opened publish dialog.
+[2026-03-29 20:08:01]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-29 20:08:04] Processing: Apple Just Quietly Put a 400B LLM in Your Pocket. This Changes Everything.
+[2026-03-29 20:08:04]   URL: https://signalreads.com/articles/apple-just-quietly-put-a-400b-llm-in-your-pocket-t/
+[2026-03-29 20:08:04]   Medium: Navigating to import page...
+[2026-03-29 20:08:07]   Medium: Typed URL: https://signalreads.com/articles/apple-just-quietly-put-a-400b-llm-in-your-pocket-t/
+[2026-03-29 20:08:09]   Medium: Clicked import button. Waiting for import...
+[2026-03-29 20:08:19]   Medium: Clicked 'See your story'.
+[2026-03-29 20:08:29]   Medium: Opened publish dialog.
+[2026-03-29 20:08:33]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-29 20:08:36] Substack: 174 post(s) in feed — checking for duplicates...
+[2026-03-29 20:08:45]   Substack: Found 0 published posts for dedup.
+[2026-03-29 20:08:45]   Substack: 174 genuinely new post(s) — importing via RSS...
+[2026-03-29 20:08:45]   Substack: Navigating to import page...
+[2026-03-29 20:08:49]   Substack: ✗ Not logged in. Run with --login first.
+[2026-03-29 20:08:49] Done with 7 failure(s).
