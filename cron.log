@@ -6206,3 +6206,100 @@ Call log:
 [2026-03-29 20:08:45]   Substack: Navigating to import page...
 [2026-03-29 20:08:49]   Substack: ✗ Not logged in. Run with --login first.
 [2026-03-29 20:08:49] Done with 7 failure(s).
+[2026-03-30 20:00:02] Fetching RSS feeds: 2 source(s)
+[2026-03-30 20:00:11] Found 324 posts in feed.
+[2026-03-30 20:00:11] 180 post(s) to process.
+[2026-03-30 20:00:11] Medium: 12 post(s) to import.
+[2026-03-30 20:00:37]   Medium: Found 207 published stories for dedup.
+[2026-03-30 20:00:37] Processing: I Quit Alcohol for 3 Whole Years. The Uncomfortable Truth Nobody Tells You.
+[2026-03-30 20:00:37]   URL: https://signalreads.com/articles/i-quit-alcohol-for-3-whole-years-the-uncomfortable/
+[2026-03-30 20:00:37]   Medium: Navigating to import page...
+[2026-03-30 20:00:41]   Medium: Typed URL: https://signalreads.com/articles/i-quit-alcohol-for-3-whole-years-the-uncomfortable/
+[2026-03-30 20:00:45]   Medium: Clicked import button. Waiting for import...
+[2026-03-30 20:00:55]   Medium: Clicked 'See your story'.
+[2026-03-30 20:01:06]   Medium: Opened publish dialog.
+[2026-03-30 20:01:09]   Medium: Could not find topic input — skipping topics.
+[2026-03-30 20:01:10]   Medium: Could not find final publish button.
+[2026-03-30 20:01:10]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-30 20:01:13] Processing: Linus Just Quietly Quit AI After 48 Hours. Nobody Saw This Coming.
+[2026-03-30 20:01:13]   URL: https://signalreads.com/articles/linus-just-quietly-quit-ai-after-48-hours-nobody-s/
+[2026-03-30 20:01:13]   Medium: Navigating to import page...
+[2026-03-30 20:01:17]   Medium: Typed URL: https://signalreads.com/articles/linus-just-quietly-quit-ai-after-48-hours-nobody-s/
+[2026-03-30 20:01:21]   Medium: Clicked import button. Waiting for import...
+[2026-03-30 20:01:31]   Medium: Clicked 'See your story'.
+[2026-03-30 20:01:41]   Medium: Opened publish dialog.
+[2026-03-30 20:01:45]   Medium: Could not find topic input — skipping topics.
+[2026-03-30 20:01:46]   Medium: Could not find final publish button.
+[2026-03-30 20:01:46]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-30 20:01:49] Processing: ChatGPT Is Actually Reading Your React State. It’s Worse Than You Think.
+[2026-03-30 20:01:49]   URL: https://signalreads.com/articles/chatgpt-is-actually-reading-your-react-state-its-w/
+[2026-03-30 20:01:49]   Medium: Navigating to import page...
+[2026-03-30 20:01:52]   Medium: Typed URL: https://signalreads.com/articles/chatgpt-is-actually-reading-your-react-state-its-w/
+[2026-03-30 20:01:57]   Medium: Clicked import button. Waiting for import...
+[2026-03-30 20:02:07]   Medium: Clicked 'See your story'.
+[2026-03-30 20:02:17]   Medium: Opened publish dialog.
+[2026-03-30 20:02:20]   Medium: Could not find topic input — skipping topics.
+[2026-03-30 20:02:21]   Medium: Could not find final publish button.
+[2026-03-30 20:02:21]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-30 20:02:25] Processing: 99% of Devs Over-Engineer This. Microsoft.com 2001 Just Proved It
+[2026-03-30 20:02:25]   URL: https://signalreads.com/articles/99-of-devs-over-engineer-this-microsoftcom-2001-ju/
+[2026-03-30 20:02:25]   Medium: Navigating to import page...
+[2026-03-30 20:02:28]   Medium: Typed URL: https://signalreads.com/articles/99-of-devs-over-engineer-this-microsoftcom-2001-ju/
+[2026-03-30 20:02:31]   Medium: Clicked import button. Waiting for import...
+[2026-03-30 20:02:41]   Medium: Clicked 'See your story'.
+[2026-03-30 20:02:52]   Medium: Opened publish dialog.
+[2026-03-30 20:02:56]   Medium: Could not find topic input — skipping topics.
+[2026-03-30 20:02:57]   Medium: Could not find final publish button.
+[2026-03-30 20:02:57]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-30 20:03:00] Processing: Stop Using LinkedIn Tabs. 2.4 GB RAM for Two? It’s Worse Than You Think.
+[2026-03-30 20:03:00]   URL: https://signalreads.com/articles/stop-using-linkedin-tabs-24-gb-ram-for-two-its-wor/
+[2026-03-30 20:03:00]   Medium: Navigating to import page...
+[2026-03-30 20:03:03]   Medium: Typed URL: https://signalreads.com/articles/stop-using-linkedin-tabs-24-gb-ram-for-two-its-wor/
+[2026-03-30 20:03:07]   Medium: Clicked import button. Waiting for import...
+[2026-03-30 20:03:17]   Medium: Clicked 'See your story'.
+[2026-03-30 20:03:27]   Medium: Opened publish dialog.
+[2026-03-30 20:03:31]   Medium: Could not find topic input — skipping topics.
+[2026-03-30 20:03:32]   Medium: Could not find final publish button.
+[2026-03-30 20:03:32]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-30 20:03:35] Processing: Stop Using 4-Bit GGUF. TurboQuant Just Proved Why. It's Not What You Think.
+[2026-03-30 20:03:35]   URL: https://signalreads.com/articles/stop-using-4-bit-gguf-turboquant-just-proved-why-i/
+[2026-03-30 20:03:35]   Medium: Navigating to import page...
+[2026-03-30 20:03:38]   Medium: Typed URL: https://signalreads.com/articles/stop-using-4-bit-gguf-turboquant-just-proved-why-i/
+[2026-03-30 20:03:41]   Medium: Clicked import button. Waiting for import...
+[2026-03-30 20:03:51]   Medium: Clicked 'See your story'.
+[2026-03-30 20:04:01]   Medium: Opened publish dialog.
+[2026-03-30 20:04:04]   Medium: Could not find topic input — skipping topics.
+[2026-03-30 20:04:05]   Medium: Could not find final publish button.
+[2026-03-30 20:04:06]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-30 20:04:09] Processing: Nobody Talks About These Secret White House Posts. It’s Worse Than You Think.
+[2026-03-30 20:04:09]   URL: https://signalreads.com/articles/nobody-talks-about-these-secret-white-house-posts-/
+[2026-03-30 20:04:09]   Medium: Navigating to import page...
+[2026-03-30 20:04:12]   Medium: Typed URL: https://signalreads.com/articles/nobody-talks-about-these-secret-white-house-posts-/
+[2026-03-30 20:04:15]   Medium: Clicked import button. Waiting for import...
+[2026-03-30 20:04:25]   Medium: Clicked 'See your story'.
+[2026-03-30 20:04:35]   Medium: Opened publish dialog.
+[2026-03-30 20:04:39]   Medium: Could not find topic input — skipping topics.
+[2026-03-30 20:04:40]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-30 20:04:43] Processing: I Quit Aging for 30 Days. Here's What Nobody Actually Tells You.
+[2026-03-30 20:04:43]   URL: https://signalreads.com/articles/i-quit-aging-for-30-days-heres-what-nobody-actuall/
+[2026-03-30 20:04:43]   Medium: Navigating to import page...
+[2026-03-30 20:04:47]   Medium: Typed URL: https://signalreads.com/articles/i-quit-aging-for-30-days-heres-what-nobody-actuall/
+[2026-03-30 20:04:51]   Medium: Clicked import button. Waiting for import...
+[2026-03-30 20:05:01]   Medium: Clicked 'See your story'.
+[2026-03-30 20:05:11]   Medium: Opened publish dialog.
+[2026-03-30 20:05:15]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-30 20:05:19] Processing: I Watched a Drunk Guy Phone ChatGPT. I Wasn’t Ready For This.
+[2026-03-30 20:05:19]   URL: https://signalreads.com/articles/i-watched-a-drunk-guy-phone-chatgpt-i-wasnt-ready-/
+[2026-03-30 20:05:19]   Medium: Navigating to import page...
+[2026-03-30 20:05:22]   Medium: Typed URL: https://signalreads.com/articles/i-watched-a-drunk-guy-phone-chatgpt-i-wasnt-ready-/
+[2026-03-30 20:05:23]   Medium: Clicked import button. Waiting for import...
+[2026-03-30 20:05:33]   Medium: Clicked 'See your story'.
+[2026-03-30 20:05:43]   Medium: Opened publish dialog.
+[2026-03-30 20:05:47]   Medium: Could not find topic input — skipping topics.
+[2026-03-30 20:05:48]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-30 20:05:52] Processing: The EU Is Quietly Scanning Your Private Photos. It’s Worse Than You Think.
+[2026-03-30 20:05:52]   URL: https://signalreads.com/articles/the-eu-is-quietly-scanning-your-private-photos-its/
+[2026-03-30 20:05:52]   Medium: Navigating to import page...
+[2026-03-30 20:05:55]   Medium: Typed URL: https://signalreads.com/articles/the-eu-is-quietly-scanning-your-private-photos-its/
+[2026-03-30 20:05:59]   Medium: Clicked import button. Waiting for import...
+[2026-03-30 20:06:09]   Medium: Clicked 'See your story'.
