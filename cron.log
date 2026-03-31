@@ -6329,3 +6329,101 @@ Call log:
 [2026-03-30 20:07:46]   Substack: Navigating to import page...
 [2026-03-30 20:07:50]   Substack: ✗ Not logged in. Run with --login first.
 [2026-03-30 20:07:50] Done with 7 failure(s).
+[2026-03-31 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-03-31 20:00:11] Found 334 posts in feed.
+[2026-03-31 20:00:11] 190 post(s) to process.
+[2026-03-31 20:00:11] Medium: 16 post(s) to import.
+[2026-03-31 20:00:36]   Medium: Found 207 published stories for dedup.
+[2026-03-31 20:00:36] Processing: I Secretly Watched My Husband Load The Dishwasher. It’s Worse Than You Think.
+[2026-03-31 20:00:36]   URL: https://signalreads.com/articles/i-secretly-watched-my-husband-load-the-dishwasher-/
+[2026-03-31 20:00:36]   Medium: Navigating to import page...
+[2026-03-31 20:00:40]   Medium: Typed URL: https://signalreads.com/articles/i-secretly-watched-my-husband-load-the-dishwasher-/
+[2026-03-31 20:00:42]   Medium: Clicked import button. Waiting for import...
+[2026-03-31 20:01:52]   Medium: 'See your story' not found — import may still be processing.
+[2026-03-31 20:01:55] Processing: Nobody Talks About The Epstein Files. This Trump-Iran Secret Changes Everything
+[2026-03-31 20:01:55]   URL: https://signalreads.com/articles/nobody-talks-about-the-epstein-files-this-trump-ir/
+[2026-03-31 20:01:55]   Medium: Navigating to import page...
+[2026-03-31 20:01:59]   Medium: Typed URL: https://signalreads.com/articles/nobody-talks-about-the-epstein-files-this-trump-ir/
+[2026-03-31 20:02:03]   Medium: Clicked import button. Waiting for import...
+[2026-03-31 20:02:13]   Medium: Clicked 'See your story'.
+[2026-03-31 20:02:23]   Medium: Opened publish dialog.
+[2026-03-31 20:02:27]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-03-31 20:02:30] Processing: I Overheard This Uncomfortable Gym Secret. It's Not What You Think.
+[2026-03-31 20:02:30]   URL: https://signalreads.com/articles/i-overheard-this-uncomfortable-gym-secret-its-not-/
+[2026-03-31 20:02:30]   Medium: Navigating to import page...
+[2026-03-31 20:02:35]   Medium: Typed URL: https://signalreads.com/articles/i-overheard-this-uncomfortable-gym-secret-its-not-/
+[2026-03-31 20:02:37]   Medium: Clicked import button. Waiting for import...
+[2026-03-31 20:02:47]   Medium: Clicked 'See your story'.
+[2026-03-31 20:02:57]   Medium: Opened publish dialog.
+[2026-03-31 20:03:01]   Medium: Could not find topic input — skipping topics.
+[2026-03-31 20:03:02]   Medium: Could not find final publish button.
+[2026-03-31 20:03:02]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-31 20:03:05] Processing: The Airline Killed My PC. This AI Secret Replaced It. Nobody Saw This Coming
+[2026-03-31 20:03:05]   URL: https://signalreads.com/articles/the-airline-killed-my-pc-this-ai-secret-replaced-i/
+[2026-03-31 20:03:05]   Medium: Navigating to import page...
+[2026-03-31 20:03:09]   Medium: Typed URL: https://signalreads.com/articles/the-airline-killed-my-pc-this-ai-secret-replaced-i/
+[2026-03-31 20:03:13]   Medium: Clicked import button. Waiting for import...
+[2026-03-31 20:03:23]   Medium: Clicked 'See your story'.
+[2026-03-31 20:03:33]   Medium: Opened publish dialog.
+[2026-03-31 20:03:36]   Medium: Could not find topic input — skipping topics.
+[2026-03-31 20:03:37]   Medium: Could not find final publish button.
+[2026-03-31 20:03:37]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-31 20:03:40] Processing: Stop Using ChatGPT. Agentic Workflows Prove This AI Secret Is Actually Better.
+[2026-03-31 20:03:40]   URL: https://signalreads.com/articles/stop-using-chatgpt-linus-just-proved-this-ai-secre/
+[2026-03-31 20:03:40]   Medium: Navigating to import page...
+[2026-03-31 20:03:45]   Medium: Typed URL: https://signalreads.com/articles/stop-using-chatgpt-linus-just-proved-this-ai-secre/
+[2026-03-31 20:03:48]   Medium: Clicked import button. Waiting for import...
+[2026-03-31 20:03:58]   Medium: Clicked 'See your story'.
+[2026-03-31 20:04:08]   Medium: Opened publish dialog.
+[2026-03-31 20:04:12]   Medium: Could not find topic input — skipping topics.
+[2026-03-31 20:04:13]   Medium: Could not find final publish button.
+[2026-03-31 20:04:13]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-31 20:04:16] Processing: I Asked ChatGPT to Write an Imagine Dragons Hit. Nobody Saw This Coming.
+[2026-03-31 20:04:16]   URL: https://signalreads.com/articles/i-asked-chatgpt-to-write-an-imagine-dragons-hit-no/
+[2026-03-31 20:04:16]   Medium: Navigating to import page...
+[2026-03-31 20:04:20]   Medium: Typed URL: https://signalreads.com/articles/i-asked-chatgpt-to-write-an-imagine-dragons-hit-no/
+[2026-03-31 20:04:24]   Medium: Clicked import button. Waiting for import...
+[2026-03-31 20:04:34]   Medium: Clicked 'See your story'.
+[2026-03-31 20:04:44]   Medium: Opened publish dialog.
+[2026-03-31 20:04:47]   Medium: Could not find topic input — skipping topics.
+[2026-03-31 20:04:48]   Medium: Could not find final publish button.
+[2026-03-31 20:04:48]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-31 20:04:51] Processing: Stop Using Realtors. This 5-Day ChatGPT Secret Changes Everything
+[2026-03-31 20:04:51]   URL: https://signalreads.com/articles/stop-using-realtors-this-5-day-chatgpt-secret-chan/
+[2026-03-31 20:04:51]   Medium: Navigating to import page...
+[2026-03-31 20:04:55]   Medium: Typed URL: https://signalreads.com/articles/stop-using-realtors-this-5-day-chatgpt-secret-chan/
+[2026-03-31 20:04:59]   Medium: Clicked import button. Waiting for import...
+[2026-03-31 20:05:09]   Medium: Clicked 'See your story'.
+[2026-03-31 20:05:19]   Medium: Opened publish dialog.
+[2026-03-31 20:05:22]   Medium: Could not find topic input — skipping topics.
+[2026-03-31 20:05:23]   Medium: Could not find final publish button.
+[2026-03-31 20:05:23]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-31 20:05:26] Processing: 99% of Snapchat Bots Are Now Exposed. It’s Worse Than You Think.
+[2026-03-31 20:05:26]   URL: https://signalreads.com/articles/99-of-snapchat-bots-are-now-exposed-its-worse-than/
+[2026-03-31 20:05:26]   Medium: Navigating to import page...
+[2026-03-31 20:05:31]   Medium: Typed URL: https://signalreads.com/articles/99-of-snapchat-bots-are-now-exposed-its-worse-than/
+[2026-03-31 20:05:34]   Medium: Clicked import button. Waiting for import...
+[2026-03-31 20:05:44]   Medium: Clicked 'See your story'.
+[2026-03-31 20:05:54]   Medium: Opened publish dialog.
+[2026-03-31 20:05:58]   Medium: Could not find topic input — skipping topics.
+[2026-03-31 20:05:59]   Medium: Could not find final publish button.
+[2026-03-31 20:05:59]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-31 20:06:02] Processing: I Tried Joel Embiid’s 70-Point Routine. The Results Are Actually Shocking.
+[2026-03-31 20:06:02]   URL: https://signalreads.com/articles/i-tried-bam-adebayos-83-point-routine-the-results-/
+[2026-03-31 20:06:02]   Medium: Navigating to import page...
+[2026-03-31 20:06:05]   Medium: Typed URL: https://signalreads.com/articles/i-tried-bam-adebayos-83-point-routine-the-results-/
+[2026-03-31 20:06:10]   Medium: Clicked import button. Waiting for import...
+[2026-03-31 20:06:20]   Medium: Clicked 'See your story'.
+[2026-03-31 20:06:30]   Medium: Opened publish dialog.
+[2026-03-31 20:06:33]   Medium: Could not find topic input — skipping topics.
+[2026-03-31 20:06:34]   Medium: Could not find final publish button.
+[2026-03-31 20:06:34]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-03-31 20:06:37] Processing: I Decompiled the White House App. It’s Not What You Think.
+[2026-03-31 20:06:37]   URL: https://signalreads.com/articles/i-decompiled-the-white-house-app-its-not-what-you-/
+[2026-03-31 20:06:37]   Medium: Navigating to import page...
+[2026-03-31 20:06:41]   Medium: Typed URL: https://signalreads.com/articles/i-decompiled-the-white-house-app-its-not-what-you-/
+[2026-03-31 20:06:44]   Medium: Clicked import button. Waiting for import...
+[2026-03-31 20:06:54]   Medium: Clicked 'See your story'.
+[2026-03-31 20:07:04]   Medium: Opened publish dialog.
+[2026-03-31 20:07:08]   Medium: Could not find topic input — skipping topics.
+[2026-03-31 20:07:09]   Medium: Could not find final publish button.
