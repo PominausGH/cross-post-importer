@@ -6487,3 +6487,100 @@ Call log:
 [2026-03-31 20:10:48]   Substack: Navigating to import page...
 [2026-03-31 20:10:53]   Substack: ✗ Not logged in. Run with --login first.
 [2026-03-31 20:10:53] Done with 6 failure(s).
+[2026-04-01 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-04-01 20:00:06] Found 340 posts in feed.
+[2026-04-01 20:00:06] 196 post(s) to process.
+[2026-04-01 20:00:06] Medium: 11 post(s) to import.
+[2026-04-01 20:00:32]   Medium: Found 207 published stories for dedup.
+[2026-04-01 20:00:32] Processing: 99% of people have their alignment wrong. This secret changes everything.
+[2026-04-01 20:00:32]   URL: https://signalreads.com/articles/99-of-people-have-their-alignment-wrong-this-secre/
+[2026-04-01 20:00:32]   Medium: Navigating to import page...
+[2026-04-01 20:00:36]   Medium: Typed URL: https://signalreads.com/articles/99-of-people-have-their-alignment-wrong-this-secre/
+[2026-04-01 20:00:37]   Medium: Clicked import button. Waiting for import...
+[2026-04-01 20:01:47]   Medium: 'See your story' not found — import may still be processing.
+[2026-04-01 20:01:50] Processing: I Found the Secret Epstein-Iran Link. It's Actually Worse Than You Think.
+[2026-04-01 20:01:50]   URL: https://signalreads.com/articles/i-found-the-secret-epstein-iran-link-its-actually-/
+[2026-04-01 20:01:50]   Medium: Navigating to import page...
+[2026-04-01 20:01:54]   Medium: Typed URL: https://signalreads.com/articles/i-found-the-secret-epstein-iran-link-its-actually-/
+[2026-04-01 20:01:59]   Medium: Clicked import button. Waiting for import...
+[2026-04-01 20:02:09]   Medium: Clicked 'See your story'.
+[2026-04-01 20:02:19]   Medium: Opened publish dialog.
+[2026-04-01 20:02:23]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-01 20:02:26] Processing: I asked ChatGPT for a 2004 flip phone photo. It’s actually uncomfortable.
+[2026-04-01 20:02:26]   URL: https://signalreads.com/articles/i-asked-chatgpt-for-a-2004-flip-phone-photo-its-ac/
+[2026-04-01 20:02:26]   Medium: Navigating to import page...
+[2026-04-01 20:02:30]   Medium: Typed URL: https://signalreads.com/articles/i-asked-chatgpt-for-a-2004-flip-phone-photo-its-ac/
+[2026-04-01 20:02:33]   Medium: Clicked import button. Waiting for import...
+[2026-04-01 20:02:43]   Medium: Clicked 'See your story'.
+[2026-04-01 20:02:53]   Medium: Opened publish dialog.
+[2026-04-01 20:02:57]   Medium: Could not find topic input — skipping topics.
+[2026-04-01 20:02:58]   Medium: Could not find final publish button.
+[2026-04-01 20:02:58]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-01 20:03:01] Processing: Nobody Realized This One Dev Quietly Fixed Local LLMs. This Changes Everything.
+[2026-04-01 20:03:01]   URL: https://signalreads.com/articles/nobody-realized-this-one-dev-quietly-fixed-local-l/
+[2026-04-01 20:03:01]   Medium: Navigating to import page...
+[2026-04-01 20:03:05]   Medium: Typed URL: https://signalreads.com/articles/nobody-realized-this-one-dev-quietly-fixed-local-l/
+[2026-04-01 20:03:08]   Medium: Clicked import button. Waiting for import...
+[2026-04-01 20:03:18]   Medium: Clicked 'See your story'.
+[2026-04-01 20:03:28]   Medium: Opened publish dialog.
+[2026-04-01 20:03:31]   Medium: Could not find topic input — skipping topics.
+[2026-04-01 20:03:32]   Medium: Could not find final publish button.
+[2026-04-01 20:03:32]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-01 20:03:35] Processing: Stop Using Axios. This NPM Secret Is Actually Worse Than You Think.
+[2026-04-01 20:03:35]   URL: https://signalreads.com/articles/stop-using-axios-this-npm-secret-is-actually-worse/
+[2026-04-01 20:03:35]   Medium: Navigating to import page...
+[2026-04-01 20:03:39]   Medium: Typed URL: https://signalreads.com/articles/stop-using-axios-this-npm-secret-is-actually-worse/
+[2026-04-01 20:03:42]   Medium: Clicked import button. Waiting for import...
+[2026-04-01 20:03:52]   Medium: Clicked 'See your story'.
+[2026-04-01 20:04:02]   Medium: Opened publish dialog.
+[2026-04-01 20:04:06]   Medium: Could not find topic input — skipping topics.
+[2026-04-01 20:04:07]   Medium: Could not find final publish button.
+[2026-04-01 20:04:07]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-01 20:04:10] Processing: Stop Being Public. The "Dark Forest" Secret Is Worse Than You Think.
+[2026-04-01 20:04:10]   URL: https://signalreads.com/articles/stop-being-public-the-dark-forest-secret-is-worse-/
+[2026-04-01 20:04:10]   Medium: Navigating to import page...
+[2026-04-01 20:04:13]   Medium: Typed URL: https://signalreads.com/articles/stop-being-public-the-dark-forest-secret-is-worse-/
+[2026-04-01 20:04:16]   Medium: Clicked import button. Waiting for import...
+[2026-04-01 20:04:27]   Medium: Clicked 'See your story'.
+[2026-04-01 20:04:37]   Medium: Opened publish dialog.
+[2026-04-01 20:04:41]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-01 20:04:44] Processing: Nobody Talks About The Epstein Files. This Trump-Iran Secret Changes Everything
+[2026-04-01 20:04:44]   URL: https://signalreads.com/articles/nobody-talks-about-the-epstein-files-this-trump-ir/
+[2026-04-01 20:04:44]   Medium: Navigating to import page...
+[2026-04-01 20:04:48]   Medium: Typed URL: https://signalreads.com/articles/nobody-talks-about-the-epstein-files-this-trump-ir/
+[2026-04-01 20:04:51]   Medium: Clicked import button. Waiting for import...
+[2026-04-01 20:05:01]   Medium: Clicked 'See your story'.
+[2026-04-01 20:05:11]   Medium: Opened publish dialog.
+[2026-04-01 20:05:14]   Medium: Could not find topic input — skipping topics.
+[2026-04-01 20:05:16]   Medium: Could not find final publish button.
+[2026-04-01 20:05:16]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-01 20:05:19] Processing: I Quit Aging for 30 Days. Here's What Nobody Actually Tells You.
+[2026-04-01 20:05:19]   URL: https://signalreads.com/articles/i-quit-aging-for-30-days-heres-what-nobody-actuall/
+[2026-04-01 20:05:19]   Medium: Navigating to import page...
+[2026-04-01 20:05:23]   Medium: Typed URL: https://signalreads.com/articles/i-quit-aging-for-30-days-heres-what-nobody-actuall/
+[2026-04-01 20:05:24]   Medium: Clicked import button. Waiting for import...
+[2026-04-01 20:05:34]   Medium: Clicked 'See your story'.
+[2026-04-01 20:05:44]   Medium: Opened publish dialog.
+[2026-04-01 20:05:47]   Medium: Could not find topic input — skipping topics.
+[2026-04-01 20:05:49]   Medium: Could not find final publish button.
+[2026-04-01 20:05:49]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-01 20:05:52] Processing: I Watched a Drunk Guy Phone ChatGPT. I Wasn’t Ready For This.
+[2026-04-01 20:05:52]   URL: https://signalreads.com/articles/i-watched-a-drunk-guy-phone-chatgpt-i-wasnt-ready-/
+[2026-04-01 20:05:52]   Medium: Navigating to import page...
+[2026-04-01 20:05:56]   Medium: Typed URL: https://signalreads.com/articles/i-watched-a-drunk-guy-phone-chatgpt-i-wasnt-ready-/
+[2026-04-01 20:05:57]   Medium: Clicked import button. Waiting for import...
+[2026-04-01 20:06:08]   Medium: Clicked 'See your story'.
+[2026-04-01 20:06:18]   Medium: Opened publish dialog.
+[2026-04-01 20:06:22]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-01 20:06:25] Processing: The EU Is Quietly Scanning Your Private Photos. It’s Worse Than You Think.
+[2026-04-01 20:06:25]   URL: https://signalreads.com/articles/the-eu-is-quietly-scanning-your-private-photos-its/
+[2026-04-01 20:06:25]   Medium: Navigating to import page...
+[2026-04-01 20:06:29]   Medium: Typed URL: https://signalreads.com/articles/the-eu-is-quietly-scanning-your-private-photos-its/
+[2026-04-01 20:06:30]   Medium: Clicked import button. Waiting for import...
+[2026-04-01 20:06:40]   Medium: Clicked 'See your story'.
+[2026-04-01 20:06:50]   Medium: Opened publish dialog.
+[2026-04-01 20:06:54]   Medium: Could not find topic input — skipping topics.
+[2026-04-01 20:06:55]   Medium: Could not find final publish button.
+[2026-04-01 20:06:55]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-01 20:06:58] Processing: Apple Just Quietly Put a 400B LLM in Your Pocket. This Changes Everything.
+[2026-04-01 20:06:58]   URL: https://signalreads.com/articles/apple-just-quietly-put-a-400b-llm-in-your-pocket-t/
