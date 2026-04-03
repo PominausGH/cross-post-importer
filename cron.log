@@ -6701,3 +6701,92 @@ Call log:
 [2026-04-02 20:07:46]   Substack: Navigating to import page...
 [2026-04-02 20:07:51]   Substack: ✗ Not logged in. Run with --login first.
 [2026-04-02 20:07:51] Done with 7 failure(s).
+[2026-04-03 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-04-03 20:00:08] Found 350 posts in feed.
+[2026-04-03 20:00:08] 206 post(s) to process.
+[2026-04-03 20:00:08] Medium: 9 post(s) to import.
+[2026-04-03 20:00:34]   Medium: Found 207 published stories for dedup.
+[2026-04-03 20:00:34] Processing: Nobody Talks About This -17 Point Secret. It’s Worse Than You Think.
+[2026-04-03 20:00:34]   URL: https://signalreads.com/articles/nobody-talks-about-this--17-point-secret-its-worse/
+[2026-04-03 20:00:34]   Medium: Navigating to import page...
+[2026-04-03 20:00:38]   Medium: Typed URL: https://signalreads.com/articles/nobody-talks-about-this--17-point-secret-its-worse/
+[2026-04-03 20:00:39]   Medium: Clicked import button. Waiting for import...
+[2026-04-03 20:01:49]   Medium: 'See your story' not found — import may still be processing.
+[2026-04-03 20:01:52] Processing: What If Linus Just Quietly Dropped Tech? This AI Secret Changes Everything.
+[2026-04-03 20:01:52]   URL: https://signalreads.com/articles/linus-just-quietly-dropped-tech-again-this-ai-secr/
+[2026-04-03 20:01:52]   Medium: Navigating to import page...
+[2026-04-03 20:01:56]   Medium: Typed URL: https://signalreads.com/articles/linus-just-quietly-dropped-tech-again-this-ai-secr/
+[2026-04-03 20:02:01]   Medium: Clicked import button. Waiting for import...
+[2026-04-03 20:02:11]   Medium: Clicked 'See your story'.
+[2026-04-03 20:02:21]   Medium: Opened publish dialog.
+[2026-04-03 20:02:25]   Medium: Could not find topic input — skipping topics.
+[2026-04-03 20:02:26]   Medium: Could not find final publish button.
+[2026-04-03 20:02:26]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-03 20:02:29] Processing: Stop Using Screens. Sweden Just Actually Proved Why.
+[2026-04-03 20:02:29]   URL: https://signalreads.com/articles/stop-using-screens-sweden-just-actually-proved-why/
+[2026-04-03 20:02:29]   Medium: Navigating to import page...
+[2026-04-03 20:02:33]   Medium: Typed URL: https://signalreads.com/articles/stop-using-screens-sweden-just-actually-proved-why/
+[2026-04-03 20:02:38]   Medium: Clicked import button. Waiting for import...
+[2026-04-03 20:02:48]   Medium: Clicked 'See your story'.
+[2026-04-03 20:02:58]   Medium: Opened publish dialog.
+[2026-04-03 20:03:02]   Medium: Could not find topic input — skipping topics.
+[2026-04-03 20:03:03]   Medium: Could not find final publish button.
+[2026-04-03 20:03:03]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-03 20:03:06] Processing: I Actually Saw Artemis II From 35,000 Feet. Nobody Saw This Coming.
+[2026-04-03 20:03:06]   URL: https://signalreads.com/articles/i-actually-saw-artemis-ii-from-35000-feet-nobody-s/
+[2026-04-03 20:03:06]   Medium: Navigating to import page...
+[2026-04-03 20:03:10]   Medium: Typed URL: https://signalreads.com/articles/i-actually-saw-artemis-ii-from-35000-feet-nobody-s/
+[2026-04-03 20:03:14]   Medium: Clicked import button. Waiting for import...
+[2026-04-03 20:03:24]   Medium: Clicked 'See your story'.
+[2026-04-03 20:03:34]   Medium: Opened publish dialog.
+[2026-04-03 20:03:37]   Medium: Could not find topic input — skipping topics.
+[2026-04-03 20:03:38]   Medium: Could not find final publish button.
+[2026-04-03 20:03:38]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-03 20:03:41] Processing: Stop Writing Code. "Vibe Coding" Actually Just Replaced Your Entire Career.
+[2026-04-03 20:03:41]   URL: https://signalreads.com/articles/stop-writing-code-vibe-coding-actually-just-replac/
+[2026-04-03 20:03:41]   Medium: Navigating to import page...
+[2026-04-03 20:03:45]   Medium: Typed URL: https://signalreads.com/articles/stop-writing-code-vibe-coding-actually-just-replac/
+[2026-04-03 20:03:48]   Medium: Clicked import button. Waiting for import...
+[2026-04-03 20:03:58]   Medium: Clicked 'See your story'.
+[2026-04-03 20:04:08]   Medium: Opened publish dialog.
+[2026-04-03 20:04:12]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-03 20:04:15] Processing: The Army Raised the Age to 42. It’s Not What You Think.
+[2026-04-03 20:04:15]   URL: https://signalreads.com/articles/the-army-just-quietly-raised-the-age-to-42-its-not/
+[2026-04-03 20:04:15]   Medium: Navigating to import page...
+[2026-04-03 20:04:19]   Medium: Typed URL: https://signalreads.com/articles/the-army-just-quietly-raised-the-age-to-42-its-not/
+[2026-04-03 20:04:21]   Medium: Clicked import button. Waiting for import...
+[2026-04-03 20:04:31]   Medium: Clicked 'See your story'.
+[2026-04-03 20:04:41]   Medium: Opened publish dialog.
+[2026-04-03 20:04:45]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-03 20:04:48] Processing: I Found the Secret Epstein-Iran Link. It's Actually Worse Than You Think.
+[2026-04-03 20:04:48]   URL: https://signalreads.com/articles/i-found-the-secret-epstein-iran-link-its-actually-/
+[2026-04-03 20:04:48]   Medium: Navigating to import page...
+[2026-04-03 20:04:52]   Medium: Typed URL: https://signalreads.com/articles/i-found-the-secret-epstein-iran-link-its-actually-/
+[2026-04-03 20:04:53]   Medium: Clicked import button. Waiting for import...
+[2026-04-03 20:05:03]   Medium: Clicked 'See your story'.
+[2026-04-03 20:05:13]   Medium: Opened publish dialog.
+[2026-04-03 20:05:17]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-03 20:05:20] Processing: Stop Being Public. The "Dark Forest" Secret Is Worse Than You Think.
+[2026-04-03 20:05:20]   URL: https://signalreads.com/articles/stop-being-public-the-dark-forest-secret-is-worse-/
+[2026-04-03 20:05:20]   Medium: Navigating to import page...
+[2026-04-03 20:05:24]   Medium: Typed URL: https://signalreads.com/articles/stop-being-public-the-dark-forest-secret-is-worse-/
+[2026-04-03 20:05:26]   Medium: Clicked import button. Waiting for import...
+[2026-04-03 20:05:36]   Medium: Clicked 'See your story'.
+[2026-04-03 20:05:46]   Medium: Opened publish dialog.
+[2026-04-03 20:05:49]   Medium: Could not find topic input — skipping topics.
+[2026-04-03 20:05:50]   Medium: Could not find final publish button.
+[2026-04-03 20:05:51]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-03 20:05:54] Processing: Apple Just Quietly Put a 400B LLM in Your Pocket. This Changes Everything.
+[2026-04-03 20:05:54]   URL: https://signalreads.com/articles/apple-just-quietly-put-a-400b-llm-in-your-pocket-t/
+[2026-04-03 20:05:54]   Medium: Navigating to import page...
+[2026-04-03 20:05:57]   Medium: Typed URL: https://signalreads.com/articles/apple-just-quietly-put-a-400b-llm-in-your-pocket-t/
+[2026-04-03 20:05:59]   Medium: Clicked import button. Waiting for import...
+[2026-04-03 20:06:09]   Medium: Clicked 'See your story'.
+[2026-04-03 20:06:19]   Medium: Opened publish dialog.
+[2026-04-03 20:06:23]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-03 20:06:26] Substack: 206 post(s) in feed — checking for duplicates...
+[2026-04-03 20:06:35]   Substack: Found 0 published posts for dedup.
+[2026-04-03 20:06:35]   Substack: 206 genuinely new post(s) — importing via RSS...
+[2026-04-03 20:06:35]   Substack: Navigating to import page...
+[2026-04-03 20:06:39]   Substack: ✗ Not logged in. Run with --login first.
+[2026-04-03 20:06:39] Done with 5 failure(s).
