@@ -6790,3 +6790,100 @@ Call log:
 [2026-04-03 20:06:35]   Substack: Navigating to import page...
 [2026-04-03 20:06:39]   Substack: ✗ Not logged in. Run with --login first.
 [2026-04-03 20:06:39] Done with 5 failure(s).
+[2026-04-04 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-04-04 20:00:07] Found 360 posts in feed.
+[2026-04-04 20:00:07] 216 post(s) to process.
+[2026-04-04 20:00:07] Medium: 14 post(s) to import.
+[2026-04-04 20:00:28]   Medium: Found 1 published stories for dedup.
+[2026-04-04 20:00:28] Processing: Stop Ignoring This 1-Minute Convo. It’s Actually A Massive Red Flag.
+[2026-04-04 20:00:28]   URL: https://signalreads.com/articles/stop-ignoring-this-1-minute-convo-its-actually-a-m/
+[2026-04-04 20:00:28]   Medium: Navigating to import page...
+[2026-04-04 20:00:32]   Medium: Typed URL: https://signalreads.com/articles/stop-ignoring-this-1-minute-convo-its-actually-a-m/
+[2026-04-04 20:00:36]   Medium: Clicked import button. Waiting for import...
+[2026-04-04 20:00:46]   Medium: Clicked 'See your story'.
+[2026-04-04 20:00:56]   Medium: Opened publish dialog.
+[2026-04-04 20:01:00]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-04 20:01:03] Processing: I Quit This Billion-Dollar Brand Forever. It’s Actually Worse Than You Think.
+[2026-04-04 20:01:03]   URL: https://signalreads.com/articles/i-quit-this-billion-dollar-brand-forever-its-actua/
+[2026-04-04 20:01:03]   Medium: Navigating to import page...
+[2026-04-04 20:01:06]   Medium: Typed URL: https://signalreads.com/articles/i-quit-this-billion-dollar-brand-forever-its-actua/
+[2026-04-04 20:01:09]   Medium: Clicked import button. Waiting for import...
+[2026-04-04 20:01:19]   Medium: Clicked 'See your story'.
+[2026-04-04 20:01:29]   Medium: Opened publish dialog.
+[2026-04-04 20:01:33]   Medium: Could not find topic input — skipping topics.
+[2026-04-04 20:01:34]   Medium: Could not find final publish button.
+[2026-04-04 20:01:34]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-04 20:01:37] Processing: Stop Waiting for Help. This Quiet Priority Secret Actually Changes Everything
+[2026-04-04 20:01:37]   URL: https://signalreads.com/articles/stop-waiting-for-help-this-quiet-priority-secret-a/
+[2026-04-04 20:01:37]   Medium: Navigating to import page...
+[2026-04-04 20:01:40]   Medium: Typed URL: https://signalreads.com/articles/stop-waiting-for-help-this-quiet-priority-secret-a/
+[2026-04-04 20:01:44]   Medium: Clicked import button. Waiting for import...
+[2026-04-04 20:01:54]   Medium: Clicked 'See your story'.
+[2026-04-04 20:02:04]   Medium: Opened publish dialog.
+[2026-04-04 20:02:08]   Medium: Could not find topic input — skipping topics.
+[2026-04-04 20:02:09]   Medium: Could not find final publish button.
+[2026-04-04 20:02:09]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-04 20:02:12] Processing: Anthropic Just Leaked Claude’s Secret Code. It’s Actually Worse Than You Think.
+[2026-04-04 20:02:12]   URL: https://signalreads.com/articles/anthropic-just-leaked-claudes-secret-code-its-actu/
+[2026-04-04 20:02:12]   Medium: Navigating to import page...
+[2026-04-04 20:02:15]   Medium: Typed URL: https://signalreads.com/articles/anthropic-just-leaked-claudes-secret-code-its-actu/
+[2026-04-04 20:02:19]   Medium: Clicked import button. Waiting for import...
+[2026-04-04 20:02:29]   Medium: Clicked 'See your story'.
+[2026-04-04 20:02:39]   Medium: Opened publish dialog.
+[2026-04-04 20:02:42]   Medium: Could not find topic input — skipping topics.
+[2026-04-04 20:02:43]   Medium: Could not find final publish button.
+[2026-04-04 20:02:43]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-04 20:02:46] Processing: Adobe Just Quietly Rewrote My Hosts File. It’s Actually Worse Than You Think
+[2026-04-04 20:02:46]   URL: https://signalreads.com/articles/adobe-just-quietly-rewrote-my-hosts-file-its-actua/
+[2026-04-04 20:02:46]   Medium: Navigating to import page...
+[2026-04-04 20:02:50]   Medium: Typed URL: https://signalreads.com/articles/adobe-just-quietly-rewrote-my-hosts-file-its-actua/
+[2026-04-04 20:02:54]   Medium: Clicked import button. Waiting for import...
+[2026-04-04 20:03:04]   Medium: Clicked 'See your story'.
+[2026-04-04 20:03:14]   Medium: Opened publish dialog.
+[2026-04-04 20:03:18]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-04 20:03:21] Processing: Microsoft Just Quietly Vaporized $1 Trillion. It’s Worse Than You Think.
+[2026-04-04 20:03:21]   URL: https://signalreads.com/articles/microsoft-just-quietly-vaporized-1-trillion-its-wo/
+[2026-04-04 20:03:21]   Medium: Navigating to import page...
+[2026-04-04 20:03:25]   Medium: Typed URL: https://signalreads.com/articles/microsoft-just-quietly-vaporized-1-trillion-its-wo/
+[2026-04-04 20:03:29]   Medium: Clicked import button. Waiting for import...
+[2026-04-04 20:03:39]   Medium: Clicked 'See your story'.
+[2026-04-04 20:03:49]   Medium: Opened publish dialog.
+[2026-04-04 20:03:53]   Medium: Could not find topic input — skipping topics.
+[2026-04-04 20:03:54]   Medium: Could not find final publish button.
+[2026-04-04 20:03:54]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-04 20:03:57] Processing: 99% of Devs Just Lost Their Secret AI Weapon. It’s Worse Than You Think.
+[2026-04-04 20:03:57]   URL: https://signalreads.com/articles/99-of-devs-just-lost-their-secret-ai-weapon-its-wo/
+[2026-04-04 20:03:57]   Medium: Navigating to import page...
+[2026-04-04 20:04:00]   Medium: Typed URL: https://signalreads.com/articles/99-of-devs-just-lost-their-secret-ai-weapon-its-wo/
+[2026-04-04 20:04:04]   Medium: Clicked import button. Waiting for import...
+[2026-04-04 20:04:15]   Medium: Clicked 'See your story'.
+[2026-04-04 20:04:25]   Medium: Opened publish dialog.
+[2026-04-04 20:04:29]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-04 20:04:32] Processing: I Swapped My Bed for a 'Magic Rug' for 7 Days. I Wasn’t Ready For This.
+[2026-04-04 20:04:32]   URL: https://signalreads.com/articles/i-swapped-my-bed-for-a-magic-rug-for-7-days-i-wasn/
+[2026-04-04 20:04:32]   Medium: Navigating to import page...
+[2026-04-04 20:04:35]   Medium: Typed URL: https://signalreads.com/articles/i-swapped-my-bed-for-a-magic-rug-for-7-days-i-wasn/
+[2026-04-04 20:04:39]   Medium: Clicked import button. Waiting for import...
+[2026-04-04 20:04:49]   Medium: Clicked 'See your story'.
+[2026-04-04 20:04:59]   Medium: Opened publish dialog.
+[2026-04-04 20:05:02]   Medium: Could not find topic input — skipping topics.
+[2026-04-04 20:05:03]   Medium: Could not find final publish button.
+[2026-04-04 20:05:03]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-04 20:05:06] Processing: I Asked 1,000 Strangers if My Haircut Is Actually Ugly. I Wasn't Ready For This
+[2026-04-04 20:05:06]   URL: https://signalreads.com/articles/i-asked-1000-strangers-if-my-haircut-is-actually-u/
+[2026-04-04 20:05:06]   Medium: Navigating to import page...
+[2026-04-04 20:05:09]   Medium: Typed URL: https://signalreads.com/articles/i-asked-1000-strangers-if-my-haircut-is-actually-u/
+[2026-04-04 20:05:12]   Medium: Clicked import button. Waiting for import...
+[2026-04-04 20:05:23]   Medium: Clicked 'See your story'.
+[2026-04-04 20:05:33]   Medium: Opened publish dialog.
+[2026-04-04 20:05:36]   Medium: Could not find topic input — skipping topics.
+[2026-04-04 20:05:37]   Medium: Could not find final publish button.
+[2026-04-04 20:05:37]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-04 20:05:40] Processing: I Forgot Her Birthday. Now I Have 24 Hours To Sign This. Nobody Saw This Coming
+[2026-04-04 20:05:40]   URL: https://signalreads.com/articles/i-forgot-her-birthday-now-i-have-24-hours-to-sign-/
+[2026-04-04 20:05:40]   Medium: Navigating to import page...
+[2026-04-04 20:05:43]   Medium: Typed URL: https://signalreads.com/articles/i-forgot-her-birthday-now-i-have-24-hours-to-sign-/
+[2026-04-04 20:05:46]   Medium: Clicked import button. Waiting for import...
+[2026-04-04 20:05:56]   Medium: Clicked 'See your story'.
+[2026-04-04 20:06:06]   Medium: Opened publish dialog.
+[2026-04-04 20:06:10]   Medium: Could not find topic input — skipping topics.
