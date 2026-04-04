@@ -6887,3 +6887,49 @@ Call log:
 [2026-04-04 20:05:56]   Medium: Clicked 'See your story'.
 [2026-04-04 20:06:06]   Medium: Opened publish dialog.
 [2026-04-04 20:06:10]   Medium: Could not find topic input — skipping topics.
+[2026-04-04 20:06:11]   Medium: Could not find final publish button.
+[2026-04-04 20:06:11]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-04 20:06:14] Processing: Stop Writing Code. "Vibe Coding" Actually Just Replaced Your Entire Career.
+[2026-04-04 20:06:14]   URL: https://signalreads.com/articles/stop-writing-code-vibe-coding-actually-just-replac/
+[2026-04-04 20:06:14]   Medium: Navigating to import page...
+[2026-04-04 20:06:17]   Medium: Typed URL: https://signalreads.com/articles/stop-writing-code-vibe-coding-actually-just-replac/
+[2026-04-04 20:06:20]   Medium: Clicked import button. Waiting for import...
+[2026-04-04 20:06:30]   Medium: Clicked 'See your story'.
+[2026-04-04 20:06:40]   Medium: Opened publish dialog.
+[2026-04-04 20:06:44]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-04 20:06:47] Processing: The Army Raised the Age to 42. It’s Not What You Think.
+[2026-04-04 20:06:47]   URL: https://signalreads.com/articles/the-army-just-quietly-raised-the-age-to-42-its-not/
+[2026-04-04 20:06:47]   Medium: Navigating to import page...
+[2026-04-04 20:06:50]   Medium: Typed URL: https://signalreads.com/articles/the-army-just-quietly-raised-the-age-to-42-its-not/
+[2026-04-04 20:06:54]   Medium: Clicked import button. Waiting for import...
+[2026-04-04 20:07:04]   Medium: Clicked 'See your story'.
+[2026-04-04 20:07:14]   Medium: Opened publish dialog.
+[2026-04-04 20:07:17]   Medium: Could not find topic input — skipping topics.
+[2026-04-04 20:07:18]   Medium: Could not find final publish button.
+[2026-04-04 20:07:18]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-04 20:07:21] Processing: I Found the Secret Epstein-Iran Link. It's Actually Worse Than You Think.
+[2026-04-04 20:07:21]   URL: https://signalreads.com/articles/i-found-the-secret-epstein-iran-link-its-actually-/
+[2026-04-04 20:07:21]   Medium: Navigating to import page...
+[2026-04-04 20:07:25]   Medium: Typed URL: https://signalreads.com/articles/i-found-the-secret-epstein-iran-link-its-actually-/
+[2026-04-04 20:07:29]   Medium: Clicked import button. Waiting for import...
+[2026-04-04 20:07:39]   Medium: Clicked 'See your story'.
+[2026-04-04 20:07:49]   Medium: Opened publish dialog.
+[2026-04-04 20:07:52]   Medium: Could not find topic input — skipping topics.
+[2026-04-04 20:07:53]   Medium: Could not find final publish button.
+[2026-04-04 20:07:53]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-04 20:07:56] Processing: Apple Just Quietly Put a 400B LLM in Your Pocket. This Changes Everything.
+[2026-04-04 20:07:56]   URL: https://signalreads.com/articles/apple-just-quietly-put-a-400b-llm-in-your-pocket-t/
+[2026-04-04 20:07:56]   Medium: Navigating to import page...
+[2026-04-04 20:08:00]   Medium: Typed URL: https://signalreads.com/articles/apple-just-quietly-put-a-400b-llm-in-your-pocket-t/
+[2026-04-04 20:08:03]   Medium: Clicked import button. Waiting for import...
+[2026-04-04 20:08:13]   Medium: Clicked 'See your story'.
+[2026-04-04 20:08:23]   Medium: Opened publish dialog.
+[2026-04-04 20:08:27]   Medium: Could not find topic input — skipping topics.
+[2026-04-04 20:08:28]   Medium: Could not find final publish button.
+[2026-04-04 20:08:28]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-04 20:08:31] Substack: 216 post(s) in feed — checking for duplicates...
+[2026-04-04 20:08:40]   Substack: Found 0 published posts for dedup.
+[2026-04-04 20:08:40]   Substack: 216 genuinely new post(s) — importing via RSS...
+[2026-04-04 20:08:40]   Substack: Navigating to import page...
+[2026-04-04 20:08:44]   Substack: ✗ Not logged in. Run with --login first.
+[2026-04-04 20:08:44] Done with 5 failure(s).
