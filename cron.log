@@ -6933,3 +6933,102 @@ Call log:
 [2026-04-04 20:08:40]   Substack: Navigating to import page...
 [2026-04-04 20:08:44]   Substack: ✗ Not logged in. Run with --login first.
 [2026-04-04 20:08:44] Done with 5 failure(s).
+[2026-04-05 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-04-05 20:00:05] Found 367 posts in feed.
+[2026-04-05 20:00:05] 223 post(s) to process.
+[2026-04-05 20:00:05] Medium: 12 post(s) to import.
+[2026-04-05 20:00:31]   Medium: Found 207 published stories for dedup.
+[2026-04-05 20:00:31] Processing: Your Driveway Isn't Actually Yours. The HOA Secret Nobody Tells You.
+[2026-04-05 20:00:31]   URL: https://signalreads.com/articles/your-driveway-isnt-actually-yours-the-hoa-secret-n/
+[2026-04-05 20:00:31]   Medium: Navigating to import page...
+[2026-04-05 20:00:34]   Medium: Typed URL: https://signalreads.com/articles/your-driveway-isnt-actually-yours-the-hoa-secret-n/
+[2026-04-05 20:00:40]   Medium: Clicked import button. Waiting for import...
+[2026-04-05 20:00:50]   Medium: Clicked 'See your story'.
+[2026-04-05 20:01:00]   Medium: Opened publish dialog.
+[2026-04-05 20:01:03]   Medium: Could not find topic input — skipping topics.
+[2026-04-05 20:01:04]   Medium: Could not find final publish button.
+[2026-04-05 20:01:04]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-05 20:01:07] Processing: I Lost 3 Years of Work in 3 Seconds This Morning. I Wasn't Ready For This.
+[2026-04-05 20:01:07]   URL: https://signalreads.com/articles/i-lost-3-years-of-work-in-3-seconds-this-morning-i/
+[2026-04-05 20:01:07]   Medium: Navigating to import page...
+[2026-04-05 20:01:11]   Medium: Typed URL: https://signalreads.com/articles/i-lost-3-years-of-work-in-3-seconds-this-morning-i/
+[2026-04-05 20:01:13]   Medium: Clicked import button. Waiting for import...
+[2026-04-05 20:01:23]   Medium: Clicked 'See your story'.
+[2026-04-05 20:01:33]   Medium: Opened publish dialog.
+[2026-04-05 20:01:37]   Medium: Could not find topic input — skipping topics.
+[2026-04-05 20:01:38]   Medium: Could not find final publish button.
+[2026-04-05 20:01:38]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-05 20:01:41] Processing: A Snake Actually Left a Penny at My Door. I Wasn't Ready For This.
+[2026-04-05 20:01:41]   URL: https://signalreads.com/articles/a-snake-actually-left-a-penny-at-my-door-i-wasnt-r/
+[2026-04-05 20:01:41]   Medium: Navigating to import page...
+[2026-04-05 20:01:44]   Medium: Typed URL: https://signalreads.com/articles/a-snake-actually-left-a-penny-at-my-door-i-wasnt-r/
+[2026-04-05 20:01:48]   Medium: Clicked import button. Waiting for import...
+[2026-04-05 20:01:58]   Medium: Clicked 'See your story'.
+[2026-04-05 20:02:08]   Medium: Opened publish dialog.
+[2026-04-05 20:02:12]   Medium: Could not find topic input — skipping topics.
+[2026-04-05 20:02:13]   Medium: Could not find final publish button.
+[2026-04-05 20:02:13]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-05 20:02:16] Processing: I Ignored This Secret Pain for 24 Hours. It’s Actually Worse Than You Think
+[2026-04-05 20:02:16]   URL: https://signalreads.com/articles/i-ignored-this-secret-pain-for-24-hours-its-actual/
+[2026-04-05 20:02:16]   Medium: Navigating to import page...
+[2026-04-05 20:02:19]   Medium: Typed URL: https://signalreads.com/articles/i-ignored-this-secret-pain-for-24-hours-its-actual/
+[2026-04-05 20:02:23]   Medium: Clicked import button. Waiting for import...
+[2026-04-05 20:02:33]   Medium: Clicked 'See your story'.
+[2026-04-05 20:02:43]   Medium: Opened publish dialog.
+[2026-04-05 20:02:46]   Medium: Could not find topic input — skipping topics.
+[2026-04-05 20:02:47]   Medium: Could not find final publish button.
+[2026-04-05 20:02:47]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-05 20:02:50] Processing: How many products does Microsoft have named 'Copilot'?
+[2026-04-05 20:02:50]   URL: https://signalreads.com/articles/how-many-products-does-microsoft-have-named-copilo/
+[2026-04-05 20:02:50]   Medium: Navigating to import page...
+[2026-04-05 20:02:54]   Medium: Typed URL: https://signalreads.com/articles/how-many-products-does-microsoft-have-named-copilo/
+[2026-04-05 20:02:57]   Medium: Clicked import button. Waiting for import...
+[2026-04-05 20:03:07]   Medium: Clicked 'See your story'.
+[2026-04-05 20:03:17]   Medium: Opened publish dialog.
+[2026-04-05 20:03:20]   Medium: Could not find topic input — skipping topics.
+[2026-04-05 20:03:21]   Medium: Could not find final publish button.
+[2026-04-05 20:03:22]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-05 20:03:25] Processing: Stop Using ChatGPT. This 'Bruh' Moment Actually Changes Everything.
+[2026-04-05 20:03:25]   URL: https://signalreads.com/articles/stop-using-chatgpt-this-bruh-moment-actually-chang/
+[2026-04-05 20:03:25]   Medium: Navigating to import page...
+[2026-04-05 20:03:28]   Medium: Typed URL: https://signalreads.com/articles/stop-using-chatgpt-this-bruh-moment-actually-chang/
+[2026-04-05 20:03:31]   Medium: Clicked import button. Waiting for import...
+[2026-04-05 20:03:41]   Medium: Clicked 'See your story'.
+[2026-04-05 20:03:51]   Medium: Opened publish dialog.
+[2026-04-05 20:03:55]   Medium: Could not find topic input — skipping topics.
+[2026-04-05 20:03:56]   Medium: Could not find final publish button.
+[2026-04-05 20:03:56]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-05 20:03:59] Processing: Stop Wasting ChatGPT Credits. This Simple Text Secret Changes Everything.
+[2026-04-05 20:03:59]   URL: https://signalreads.com/articles/stop-wasting-chatgpt-credits-this-simple-text-secr/
+[2026-04-05 20:03:59]   Medium: Navigating to import page...
+[2026-04-05 20:04:02]   Medium: Typed URL: https://signalreads.com/articles/stop-wasting-chatgpt-credits-this-simple-text-secr/
+[2026-04-05 20:04:04]   Medium: Clicked import button. Waiting for import...
+[2026-04-05 20:04:14]   Medium: Clicked 'See your story'.
+[2026-04-05 20:04:24]   Medium: Opened publish dialog.
+[2026-04-05 20:04:28]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-05 20:04:31] Processing: LinkedIn Extension Scanning: How Your Browser Fingerprint Impacts Your Career
+[2026-04-05 20:04:31]   URL: https://signalreads.com/articles/linkedin-is-quietly-searching-your-extensions-its-/
+[2026-04-05 20:04:31]   Medium: Navigating to import page...
+[2026-04-05 20:04:34]   Medium: Typed URL: https://signalreads.com/articles/linkedin-is-quietly-searching-your-extensions-its-/
+[2026-04-05 20:04:37]   Medium: Clicked import button. Waiting for import...
+[2026-04-05 20:04:47]   Medium: Clicked 'See your story'.
+[2026-04-05 20:04:57]   Medium: Opened publish dialog.
+[2026-04-05 20:05:00]   Medium: Could not find topic input — skipping topics.
+[2026-04-05 20:05:01]   Medium: Could not find final publish button.
+[2026-04-05 20:05:01]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-05 20:05:04] Processing: Stop Ignoring This 1-Minute Convo. It’s Actually A Massive Red Flag.
+[2026-04-05 20:05:04]   URL: https://signalreads.com/articles/stop-ignoring-this-1-minute-convo-its-actually-a-m/
+[2026-04-05 20:05:04]   Medium: Navigating to import page...
+[2026-04-05 20:05:08]   Medium: Typed URL: https://signalreads.com/articles/stop-ignoring-this-1-minute-convo-its-actually-a-m/
+[2026-04-05 20:05:11]   Medium: Clicked import button. Waiting for import...
+[2026-04-05 20:05:21]   Medium: Clicked 'See your story'.
+[2026-04-05 20:05:31]   Medium: Opened publish dialog.
+[2026-04-05 20:05:35]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-05 20:05:38] Processing: Adobe Just Quietly Rewrote My Hosts File. It’s Actually Worse Than You Think
+[2026-04-05 20:05:38]   URL: https://signalreads.com/articles/adobe-just-quietly-rewrote-my-hosts-file-its-actua/
+[2026-04-05 20:05:38]   Medium: Navigating to import page...
+[2026-04-05 20:05:42]   Medium: Typed URL: https://signalreads.com/articles/adobe-just-quietly-rewrote-my-hosts-file-its-actua/
+[2026-04-05 20:05:45]   Medium: Clicked import button. Waiting for import...
+[2026-04-05 20:05:55]   Medium: Clicked 'See your story'.
+[2026-04-05 20:06:05]   Medium: Opened publish dialog.
+[2026-04-05 20:06:09]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
