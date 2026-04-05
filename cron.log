@@ -7032,3 +7032,27 @@ Call log:
 [2026-04-05 20:05:55]   Medium: Clicked 'See your story'.
 [2026-04-05 20:06:05]   Medium: Opened publish dialog.
 [2026-04-05 20:06:09]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-05 20:06:13] Processing: 99% of Devs Just Lost Their Secret AI Weapon. It’s Worse Than You Think.
+[2026-04-05 20:06:13]   URL: https://signalreads.com/articles/99-of-devs-just-lost-their-secret-ai-weapon-its-wo/
+[2026-04-05 20:06:13]   Medium: Navigating to import page...
+[2026-04-05 20:06:16]   Medium: Typed URL: https://signalreads.com/articles/99-of-devs-just-lost-their-secret-ai-weapon-its-wo/
+[2026-04-05 20:06:19]   Medium: Clicked import button. Waiting for import...
+[2026-04-05 20:06:29]   Medium: Clicked 'See your story'.
+[2026-04-05 20:06:39]   Medium: Opened publish dialog.
+[2026-04-05 20:06:43]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-05 20:06:46] Processing: Stop Writing Code. "Vibe Coding" Actually Just Replaced Your Entire Career.
+[2026-04-05 20:06:46]   URL: https://signalreads.com/articles/stop-writing-code-vibe-coding-actually-just-replac/
+[2026-04-05 20:06:47]   Medium: Navigating to import page...
+[2026-04-05 20:06:50]   Medium: Typed URL: https://signalreads.com/articles/stop-writing-code-vibe-coding-actually-just-replac/
+[2026-04-05 20:06:53]   Medium: Clicked import button. Waiting for import...
+[2026-04-05 20:07:03]   Medium: Clicked 'See your story'.
+[2026-04-05 20:07:13]   Medium: Opened publish dialog.
+[2026-04-05 20:07:17]   Medium: Could not find topic input — skipping topics.
+[2026-04-05 20:07:18]   Medium: Could not find final publish button.
+[2026-04-05 20:07:18]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-05 20:07:21] Substack: 223 post(s) in feed — checking for duplicates...
+[2026-04-05 20:07:29]   Substack: Found 0 published posts for dedup.
+[2026-04-05 20:07:29]   Substack: 223 genuinely new post(s) — importing via RSS...
+[2026-04-05 20:07:29]   Substack: Navigating to import page...
+[2026-04-05 20:07:34]   Substack: ✗ Not logged in. Run with --login first.
+[2026-04-05 20:07:34] Done with 5 failure(s).
