@@ -7177,3 +7177,101 @@ Call log:
 [2026-04-06 20:07:50]   Substack: Navigating to import page...
 [2026-04-06 20:07:54]   Substack: ✗ Not logged in. Run with --login first.
 [2026-04-06 20:07:54] Done with 6 failure(s).
+[2026-04-07 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-04-07 20:00:08] Found 382 posts in feed.
+[2026-04-07 20:00:08] 238 post(s) to process.
+[2026-04-07 20:00:08] Medium: 12 post(s) to import.
+[2026-04-07 20:00:24]   Medium: Found 100 published stories for dedup.
+[2026-04-07 20:00:24] Processing: I Quit Scrolling for This 10-Minute Morning Secret. I Wasn't Ready For This.
+[2026-04-07 20:00:24]   URL: https://signalreads.com/articles/i-quit-scrolling-for-this-10-minute-morning-secret/
+[2026-04-07 20:00:24]   Medium: Navigating to import page...
+[2026-04-07 20:00:28]   Medium: Typed URL: https://signalreads.com/articles/i-quit-scrolling-for-this-10-minute-morning-secret/
+[2026-04-07 20:00:32]   Medium: Clicked import button. Waiting for import...
+[2026-04-07 20:00:42]   Medium: Clicked 'See your story'.
+[2026-04-07 20:00:52]   Medium: Opened publish dialog.
+[2026-04-07 20:00:55]   Medium: Could not find topic input — skipping topics.
+[2026-04-07 20:00:57]   Medium: Could not find final publish button.
+[2026-04-07 20:00:57]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-07 20:01:00] Processing: I Made Breakfast for 3 Months. Nobody Tells You What It Actually Does.
+[2026-04-07 20:01:00]   URL: https://signalreads.com/articles/i-made-breakfast-for-3-months-nobody-tells-you-wha/
+[2026-04-07 20:01:00]   Medium: Navigating to import page...
+[2026-04-07 20:01:03]   Medium: Typed URL: https://signalreads.com/articles/i-made-breakfast-for-3-months-nobody-tells-you-wha/
+[2026-04-07 20:01:08]   Medium: Clicked import button. Waiting for import...
+[2026-04-07 20:01:18]   Medium: Clicked 'See your story'.
+[2026-04-07 20:01:28]   Medium: Opened publish dialog.
+[2026-04-07 20:01:33]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-07 20:01:36] Processing: I Quit This Secret Habit Cold Turkey. I Wasn't Ready For This.
+[2026-04-07 20:01:36]   URL: https://signalreads.com/articles/i-quit-this-secret-habit-cold-turkey-i-wasnt-ready/
+[2026-04-07 20:01:36]   Medium: Navigating to import page...
+[2026-04-07 20:01:39]   Medium: Typed URL: https://signalreads.com/articles/i-quit-this-secret-habit-cold-turkey-i-wasnt-ready/
+[2026-04-07 20:01:43]   Medium: Clicked import button. Waiting for import...
+[2026-04-07 20:01:53]   Medium: Clicked 'See your story'.
+[2026-04-07 20:02:04]   Medium: Opened publish dialog.
+[2026-04-07 20:02:07]   Medium: Could not find topic input — skipping topics.
+[2026-04-07 20:02:08]   Medium: Could not find final publish button.
+[2026-04-07 20:02:08]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-07 20:02:11] Processing: Stop Using Claude Code. The Feb Update Is Actually Worse Than You Think
+[2026-04-07 20:02:11]   URL: https://signalreads.com/articles/stop-using-claude-code-the-feb-update-is-actually-/
+[2026-04-07 20:02:11]   Medium: Navigating to import page...
+[2026-04-07 20:02:15]   Medium: Typed URL: https://signalreads.com/articles/stop-using-claude-code-the-feb-update-is-actually-/
+[2026-04-07 20:02:21]   Medium: Clicked import button. Waiting for import...
+[2026-04-07 20:03:31]   Medium: 'See your story' not found — import may still be processing.
+[2026-04-07 20:03:34] Processing: Stop Using ChatGPT. Bernie Sanders Just Exposed Why It’s Worse Than You Think.
+[2026-04-07 20:03:34]   URL: https://signalreads.com/articles/stop-using-chatgpt-bernie-sanders-just-exposed-why/
+[2026-04-07 20:03:34]   Medium: Navigating to import page...
+[2026-04-07 20:03:38]   Medium: Typed URL: https://signalreads.com/articles/stop-using-chatgpt-bernie-sanders-just-exposed-why/
+[2026-04-07 20:03:42]   Medium: Clicked import button. Waiting for import...
+[2026-04-07 20:03:52]   Medium: Clicked 'See your story'.
+[2026-04-07 20:04:02]   Medium: Opened publish dialog.
+[2026-04-07 20:04:06]   Medium: Could not find topic input — skipping topics.
+[2026-04-07 20:04:07]   Medium: Could not find final publish button.
+[2026-04-07 20:04:07]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-07 20:04:10] Processing: Stop Using AI to Code. This New Ban Proves You've Been Doing It Wrong.
+[2026-04-07 20:04:10]   URL: https://signalreads.com/articles/stop-using-ai-to-code-this-new-ban-proves-youve-be/
+[2026-04-07 20:04:10]   Medium: Navigating to import page...
+[2026-04-07 20:04:14]   Medium: Typed URL: https://signalreads.com/articles/stop-using-ai-to-code-this-new-ban-proves-youve-be/
+[2026-04-07 20:04:17]   Medium: Clicked import button. Waiting for import...
+[2026-04-07 20:04:27]   Medium: Clicked 'See your story'.
+[2026-04-07 20:04:37]   Medium: Opened publish dialog.
+[2026-04-07 20:04:41]   Medium: Could not find topic input — skipping topics.
+[2026-04-07 20:04:42]   Medium: Could not find final publish button.
+[2026-04-07 20:04:42]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-07 20:04:45] Processing: Stop Trusting Sam Altman. This Rust Secret Is Worse Than You Think.
+[2026-04-07 20:04:45]   URL: https://signalreads.com/articles/stop-trusting-sam-altman-this-rust-secret-is-worse/
+[2026-04-07 20:04:45]   Medium: Navigating to import page...
+[2026-04-07 20:04:49]   Medium: Typed URL: https://signalreads.com/articles/stop-trusting-sam-altman-this-rust-secret-is-worse/
+[2026-04-07 20:04:53]   Medium: Clicked import button. Waiting for import...
+[2026-04-07 20:05:03]   Medium: Clicked 'See your story'.
+[2026-04-07 20:05:13]   Medium: Opened publish dialog.
+[2026-04-07 20:05:17]   Medium: Could not find topic input — skipping topics.
+[2026-04-07 20:05:18]   Medium: Could not find final publish button.
+[2026-04-07 20:05:18]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-07 20:05:21] Processing: Stop Ignoring the Strait Warning. It’s Actually Worse Than You Think.
+[2026-04-07 20:05:21]   URL: https://signalreads.com/articles/stop-ignoring-the-strait-warning-its-actually-wors/
+[2026-04-07 20:05:21]   Medium: Navigating to import page...
+[2026-04-07 20:05:24]   Medium: Typed URL: https://signalreads.com/articles/stop-ignoring-the-strait-warning-its-actually-wors/
+[2026-04-07 20:05:28]   Medium: Clicked import button. Waiting for import...
+[2026-04-07 20:05:38]   Medium: Clicked 'See your story'.
+[2026-04-07 20:05:48]   Medium: Opened publish dialog.
+[2026-04-07 20:05:51]   Medium: Could not find topic input — skipping topics.
+[2026-04-07 20:05:53]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-07 20:05:56] Processing: Nobody Talks About Trump’s Unexpected 4-Word Post. It's Not What You Think
+[2026-04-07 20:05:56]   URL: https://signalreads.com/articles/nobody-talks-about-trumps-unexpected-4-word-post-i/
+[2026-04-07 20:05:56]   Medium: Navigating to import page...
+[2026-04-07 20:05:59]   Medium: Typed URL: https://signalreads.com/articles/nobody-talks-about-trumps-unexpected-4-word-post-i/
+[2026-04-07 20:06:03]   Medium: Clicked import button. Waiting for import...
+[2026-04-07 20:06:13]   Medium: Clicked 'See your story'.
+[2026-04-07 20:06:23]   Medium: Opened publish dialog.
+[2026-04-07 20:06:26]   Medium: Could not find topic input — skipping topics.
+[2026-04-07 20:06:27]   Medium: Could not find final publish button.
+[2026-04-07 20:06:27]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-07 20:06:30] Processing: Stop Wasting ChatGPT Credits. This Simple Text Secret Changes Everything.
+[2026-04-07 20:06:30]   URL: https://signalreads.com/articles/stop-wasting-chatgpt-credits-this-simple-text-secr/
+[2026-04-07 20:06:30]   Medium: Navigating to import page...
+[2026-04-07 20:06:35]   Medium: Typed URL: https://signalreads.com/articles/stop-wasting-chatgpt-credits-this-simple-text-secr/
+[2026-04-07 20:06:38]   Medium: Clicked import button. Waiting for import...
+[2026-04-07 20:06:48]   Medium: Clicked 'See your story'.
+[2026-04-07 20:06:58]   Medium: Opened publish dialog.
+[2026-04-07 20:07:01]   Medium: Could not find topic input — skipping topics.
+[2026-04-07 20:07:03]   Medium: Could not find final publish button.
+[2026-04-07 20:07:03]   Medium: ✓ Import complete (screenshot saved for verification).
