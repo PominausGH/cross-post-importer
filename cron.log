@@ -7275,3 +7275,27 @@ Call log:
 [2026-04-07 20:07:01]   Medium: Could not find topic input — skipping topics.
 [2026-04-07 20:07:03]   Medium: Could not find final publish button.
 [2026-04-07 20:07:03]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-07 20:07:06] Processing: Adobe Just Quietly Rewrote My Hosts File. It’s Actually Worse Than You Think
+[2026-04-07 20:07:06]   URL: https://signalreads.com/articles/adobe-just-quietly-rewrote-my-hosts-file-its-actua/
+[2026-04-07 20:07:06]   Medium: Navigating to import page...
+[2026-04-07 20:07:09]   Medium: Typed URL: https://signalreads.com/articles/adobe-just-quietly-rewrote-my-hosts-file-its-actua/
+[2026-04-07 20:07:12]   Medium: Clicked import button. Waiting for import...
+[2026-04-07 20:07:22]   Medium: Clicked 'See your story'.
+[2026-04-07 20:07:32]   Medium: Opened publish dialog.
+[2026-04-07 20:07:37]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-07 20:07:40] Processing: 99% of Devs Just Lost Their Secret AI Weapon. It’s Worse Than You Think.
+[2026-04-07 20:07:40]   URL: https://signalreads.com/articles/99-of-devs-just-lost-their-secret-ai-weapon-its-wo/
+[2026-04-07 20:07:40]   Medium: Navigating to import page...
+[2026-04-07 20:07:43]   Medium: Typed URL: https://signalreads.com/articles/99-of-devs-just-lost-their-secret-ai-weapon-its-wo/
+[2026-04-07 20:07:46]   Medium: Clicked import button. Waiting for import...
+[2026-04-07 20:07:57]   Medium: Clicked 'See your story'.
+[2026-04-07 20:08:07]   Medium: Opened publish dialog.
+[2026-04-07 20:08:10]   Medium: Could not find topic input — skipping topics.
+[2026-04-07 20:08:11]   Medium: Could not find final publish button.
+[2026-04-07 20:08:11]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-07 20:08:14] Substack: 238 post(s) in feed — checking for duplicates...
+[2026-04-07 20:08:23]   Substack: Found 0 published posts for dedup.
+[2026-04-07 20:08:23]   Substack: 238 genuinely new post(s) — importing via RSS...
+[2026-04-07 20:08:23]   Substack: Navigating to import page...
+[2026-04-07 20:08:27]   Substack: ✗ Not logged in. Run with --login first.
+[2026-04-07 20:08:27] Done with 4 failure(s).
