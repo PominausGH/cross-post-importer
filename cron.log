@@ -7299,3 +7299,78 @@ Call log:
 [2026-04-07 20:08:23]   Substack: Navigating to import page...
 [2026-04-07 20:08:27]   Substack: ✗ Not logged in. Run with --login first.
 [2026-04-07 20:08:27] Done with 4 failure(s).
+[2026-04-08 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-04-08 20:00:06] Found 385 posts in feed.
+[2026-04-08 20:00:06] 241 post(s) to process.
+[2026-04-08 20:00:06] Medium: 7 post(s) to import.
+[2026-04-08 20:00:31]   Medium: Found 207 published stories for dedup.
+[2026-04-08 20:00:31] Processing: I Challenged Firefighters To A Water Fight. I Wasn't Ready For This.
+[2026-04-08 20:00:31]   URL: https://signalreads.com/articles/i-challenged-firefighters-to-a-water-fight-i-wasnt/
+[2026-04-08 20:00:31]   Medium: Navigating to import page...
+[2026-04-08 20:00:35]   Medium: Typed URL: https://signalreads.com/articles/i-challenged-firefighters-to-a-water-fight-i-wasnt/
+[2026-04-08 20:00:39]   Medium: Clicked import button. Waiting for import...
+[2026-04-08 20:00:49]   Medium: Clicked 'See your story'.
+[2026-04-08 20:00:59]   Medium: Opened publish dialog.
+[2026-04-08 20:01:03]   Medium: Could not find topic input — skipping topics.
+[2026-04-08 20:01:04]   Medium: Could not find final publish button.
+[2026-04-08 20:01:04]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-08 20:01:07] Processing: I Joined the Ahvaz Human Chain for 24 Hours. I Wasn't Ready For This.
+[2026-04-08 20:01:07]   URL: https://signalreads.com/articles/i-joined-the-ahvaz-human-chain-for-24-hours-i-wasn/
+[2026-04-08 20:01:07]   Medium: Navigating to import page...
+[2026-04-08 20:01:10]   Medium: Typed URL: https://signalreads.com/articles/i-joined-the-ahvaz-human-chain-for-24-hours-i-wasn/
+[2026-04-08 20:01:16]   Medium: Clicked import button. Waiting for import...
+[2026-04-08 20:01:26]   Medium: Clicked 'See your story'.
+[2026-04-08 20:01:36]   Medium: Opened publish dialog.
+[2026-04-08 20:01:40]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-08 20:01:43] Processing: Nobody Talks About Trump's Secret Iran Deal. It Actually Changes Everything
+[2026-04-08 20:01:43]   URL: https://signalreads.com/articles/nobody-talks-about-trumps-secret-iran-deal-it-actu/
+[2026-04-08 20:01:43]   Medium: Navigating to import page...
+[2026-04-08 20:01:46]   Medium: Typed URL: https://signalreads.com/articles/nobody-talks-about-trumps-secret-iran-deal-it-actu/
+[2026-04-08 20:01:51]   Medium: Clicked import button. Waiting for import...
+[2026-04-08 20:02:01]   Medium: Clicked 'See your story'.
+[2026-04-08 20:02:11]   Medium: Opened publish dialog.
+[2026-04-08 20:02:14]   Medium: Could not find topic input — skipping topics.
+[2026-04-08 20:02:15]   Medium: Could not find final publish button.
+[2026-04-08 20:02:15]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-08 20:02:18] Processing: Claude Code Just Gained a Physical Body. I Wasn't Ready For This.
+[2026-04-08 20:02:18]   URL: https://signalreads.com/articles/claude-code-just-gained-a-physical-body-i-wasnt-re/
+[2026-04-08 20:02:18]   Medium: Navigating to import page...
+[2026-04-08 20:02:21]   Medium: Typed URL: https://signalreads.com/articles/claude-code-just-gained-a-physical-body-i-wasnt-re/
+[2026-04-08 20:02:25]   Medium: Clicked import button. Waiting for import...
+[2026-04-08 20:02:35]   Medium: Clicked 'See your story'.
+[2026-04-08 20:02:45]   Medium: Opened publish dialog.
+[2026-04-08 20:02:48]   Medium: Could not find topic input — skipping topics.
+[2026-04-08 20:02:49]   Medium: Could not find final publish button.
+[2026-04-08 20:02:49]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-08 20:02:52] Processing: I Made Breakfast for 3 Months. Nobody Tells You What It Actually Does.
+[2026-04-08 20:02:52]   URL: https://signalreads.com/articles/i-made-breakfast-for-3-months-nobody-tells-you-wha/
+[2026-04-08 20:02:52]   Medium: Navigating to import page...
+[2026-04-08 20:02:55]   Medium: Typed URL: https://signalreads.com/articles/i-made-breakfast-for-3-months-nobody-tells-you-wha/
+[2026-04-08 20:02:58]   Medium: Clicked import button. Waiting for import...
+[2026-04-08 20:03:08]   Medium: Clicked 'See your story'.
+[2026-04-08 20:03:18]   Medium: Opened publish dialog.
+[2026-04-08 20:03:22]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-08 20:03:25] Processing: Stop Ignoring the Strait Warning. It’s Actually Worse Than You Think.
+[2026-04-08 20:03:25]   URL: https://signalreads.com/articles/stop-ignoring-the-strait-warning-its-actually-wors/
+[2026-04-08 20:03:25]   Medium: Navigating to import page...
+[2026-04-08 20:03:29]   Medium: Typed URL: https://signalreads.com/articles/stop-ignoring-the-strait-warning-its-actually-wors/
+[2026-04-08 20:03:30]   Medium: Clicked import button. Waiting for import...
+[2026-04-08 20:03:40]   Medium: Clicked 'See your story'.
+[2026-04-08 20:03:50]   Medium: Opened publish dialog.
+[2026-04-08 20:03:54]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-08 20:03:57] Processing: Adobe Just Quietly Rewrote My Hosts File. It’s Actually Worse Than You Think
+[2026-04-08 20:03:57]   URL: https://signalreads.com/articles/adobe-just-quietly-rewrote-my-hosts-file-its-actua/
+[2026-04-08 20:03:57]   Medium: Navigating to import page...
+[2026-04-08 20:04:00]   Medium: Typed URL: https://signalreads.com/articles/adobe-just-quietly-rewrote-my-hosts-file-its-actua/
+[2026-04-08 20:04:02]   Medium: Clicked import button. Waiting for import...
+[2026-04-08 20:04:12]   Medium: Clicked 'See your story'.
+[2026-04-08 20:04:22]   Medium: Opened publish dialog.
+[2026-04-08 20:04:25]   Medium: Could not find topic input — skipping topics.
+[2026-04-08 20:04:26]   Medium: Could not find final publish button.
+[2026-04-08 20:04:26]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-08 20:04:29] Substack: 241 post(s) in feed — checking for duplicates...
+[2026-04-08 20:04:38]   Substack: Found 0 published posts for dedup.
+[2026-04-08 20:04:38]   Substack: 241 genuinely new post(s) — importing via RSS...
+[2026-04-08 20:04:38]   Substack: Navigating to import page...
+[2026-04-08 20:04:43]   Substack: ✗ Not logged in. Run with --login first.
+[2026-04-08 20:04:43] Done with 4 failure(s).
