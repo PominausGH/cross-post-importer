@@ -7470,3 +7470,86 @@ Call log:
 [2026-04-09 20:06:26]   Substack: Navigating to import page...
 [2026-04-09 20:06:30]   Substack: ✗ Not logged in. Run with --login first.
 [2026-04-09 20:06:30] Done with 2 failure(s).
+[2026-04-10 20:00:02] Fetching RSS feeds: 2 source(s)
+[2026-04-10 20:00:08] Found 398 posts in feed.
+[2026-04-10 20:00:08] 254 post(s) to process.
+[2026-04-10 20:00:08] Medium: 8 post(s) to import.
+[2026-04-10 20:00:34]   Medium: Found 207 published stories for dedup.
+[2026-04-10 20:00:34] Processing: Stop Trying to Be Memorialized for All Time. It’s Worse Than You Think.
+[2026-04-10 20:00:34]   URL: https://signalreads.com/articles/stop-trying-to-be-memorialized-for-all-time-its-wo/
+[2026-04-10 20:00:34]   Medium: Navigating to import page...
+[2026-04-10 20:00:38]   Medium: Typed URL: https://signalreads.com/articles/stop-trying-to-be-memorialized-for-all-time-its-wo/
+[2026-04-10 20:00:42]   Medium: Clicked import button. Waiting for import...
+[2026-04-10 20:00:53]   Medium: Clicked 'See your story'.
+[2026-04-10 20:01:03]   Medium: Opened publish dialog.
+[2026-04-10 20:01:07]   Medium: Could not find topic input — skipping topics.
+[2026-04-10 20:01:08]   Medium: Could not find final publish button.
+[2026-04-10 20:01:08]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-10 20:01:11] Processing: I Quit Ubers for 100 Days. My 6-Mile Walk Home Actually Changed Everything.
+[2026-04-10 20:01:11]   URL: https://signalreads.com/articles/i-quit-ubers-for-100-days-my-6-mile-walk-home-actu/
+[2026-04-10 20:01:11]   Medium: Navigating to import page...
+[2026-04-10 20:01:15]   Medium: Typed URL: https://signalreads.com/articles/i-quit-ubers-for-100-days-my-6-mile-walk-home-actu/
+[2026-04-10 20:01:18]   Medium: Clicked import button. Waiting for import...
+[2026-04-10 20:01:28]   Medium: Clicked 'See your story'.
+[2026-04-10 20:01:38]   Medium: Opened publish dialog.
+[2026-04-10 20:01:41]   Medium: Could not find topic input — skipping topics.
+[2026-04-10 20:01:42]   Medium: Could not find final publish button.
+[2026-04-10 20:01:42]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-10 20:01:45] Processing: Stop Ignoring Trump’s New Iran Deal. It’s Actually Quietly Changing Everything.
+[2026-04-10 20:01:45]   URL: https://signalreads.com/articles/stop-ignoring-trumps-new-iran-deal-its-actually-qu/
+[2026-04-10 20:01:45]   Medium: Navigating to import page...
+[2026-04-10 20:01:49]   Medium: Typed URL: https://signalreads.com/articles/stop-ignoring-trumps-new-iran-deal-its-actually-qu/
+[2026-04-10 20:01:53]   Medium: Clicked import button. Waiting for import...
+[2026-04-10 20:02:03]   Medium: Clicked 'See your story'.
+[2026-04-10 20:02:13]   Medium: Opened publish dialog.
+[2026-04-10 20:02:17]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-10 20:02:20] Processing: Lex Actually Used AI To Survive Training With Khabib. Nobody Saw This Coming.
+[2026-04-10 20:02:20]   URL: https://signalreads.com/articles/lex-actually-used-ai-to-survive-training-with-khab/
+[2026-04-10 20:02:20]   Medium: Navigating to import page...
+[2026-04-10 20:02:23]   Medium: Typed URL: https://signalreads.com/articles/lex-actually-used-ai-to-survive-training-with-khab/
+[2026-04-10 20:02:26]   Medium: Clicked import button. Waiting for import...
+[2026-04-10 20:02:36]   Medium: Clicked 'See your story'.
+[2026-04-10 20:02:46]   Medium: Opened publish dialog.
+[2026-04-10 20:02:50]   Medium: Could not find topic input — skipping topics.
+[2026-04-10 20:02:51]   Medium: Could not find final publish button.
+[2026-04-10 20:02:51]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-10 20:02:54] Processing: Claude’s Mythos Just Quietly Found The One Piece. Nobody Saw This Coming.
+[2026-04-10 20:02:54]   URL: https://signalreads.com/articles/claudes-mythos-just-quietly-found-the-one-piece-no/
+[2026-04-10 20:02:54]   Medium: Navigating to import page...
+[2026-04-10 20:02:57]   Medium: Typed URL: https://signalreads.com/articles/claudes-mythos-just-quietly-found-the-one-piece-no/
+[2026-04-10 20:03:02]   Medium: Clicked import button. Waiting for import...
+[2026-04-10 20:03:12]   Medium: Clicked 'See your story'.
+[2026-04-10 20:03:22]   Medium: Opened publish dialog.
+[2026-04-10 20:03:25]   Medium: Could not find topic input — skipping topics.
+[2026-04-10 20:03:26]   Medium: Could not find final publish button.
+[2026-04-10 20:03:26]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-10 20:03:29] Processing: 99% of devs are done with non-technical managers. It's worse than you think.
+[2026-04-10 20:03:29]   URL: https://signalreads.com/articles/99-of-devs-are-done-with-non-technical-managers-it/
+[2026-04-10 20:03:29]   Medium: Navigating to import page...
+[2026-04-10 20:03:32]   Medium: Typed URL: https://signalreads.com/articles/99-of-devs-are-done-with-non-technical-managers-it/
+[2026-04-10 20:03:36]   Medium: Clicked import button. Waiting for import...
+[2026-04-10 20:03:46]   Medium: Clicked 'See your story'.
+[2026-04-10 20:03:56]   Medium: Opened publish dialog.
+[2026-04-10 20:03:59]   Medium: Could not find topic input — skipping topics.
+[2026-04-10 20:04:00]   Medium: Could not find final publish button.
+[2026-04-10 20:04:00]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-10 20:04:03] Processing: US Cities Are Quietly Axing This Tech. It’s Actually Worse Than You Think.
+[2026-04-10 20:04:03]   URL: https://signalreads.com/articles/us-cities-are-quietly-axing-this-tech-its-actually/
+[2026-04-10 20:04:03]   Medium: Navigating to import page...
+[2026-04-10 20:04:07]   Medium: Typed URL: https://signalreads.com/articles/us-cities-are-quietly-axing-this-tech-its-actually/
+[2026-04-10 20:04:09]   Medium: Clicked import button. Waiting for import...
+[2026-04-10 20:05:19]   Medium: 'See your story' not found — import may still be processing.
+[2026-04-10 20:05:22] Processing: Stop Ignoring the Strait Warning. It’s Actually Worse Than You Think.
+[2026-04-10 20:05:22]   URL: https://signalreads.com/articles/stop-ignoring-the-strait-warning-its-actually-wors/
+[2026-04-10 20:05:22]   Medium: Navigating to import page...
+[2026-04-10 20:05:25]   Medium: Typed URL: https://signalreads.com/articles/stop-ignoring-the-strait-warning-its-actually-wors/
+[2026-04-10 20:05:27]   Medium: Clicked import button. Waiting for import...
+[2026-04-10 20:05:37]   Medium: Clicked 'See your story'.
+[2026-04-10 20:05:47]   Medium: Opened publish dialog.
+[2026-04-10 20:05:51]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-10 20:05:54] Substack: 254 post(s) in feed — checking for duplicates...
+[2026-04-10 20:06:03]   Substack: Found 0 published posts for dedup.
+[2026-04-10 20:06:03]   Substack: 254 genuinely new post(s) — importing via RSS...
+[2026-04-10 20:06:03]   Substack: Navigating to import page...
+[2026-04-10 20:06:07]   Substack: ✗ Not logged in. Run with --login first.
+[2026-04-10 20:06:07] Done with 3 failure(s).
