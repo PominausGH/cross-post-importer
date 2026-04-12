@@ -7631,3 +7631,97 @@ Call log:
 [2026-04-11 20:05:00]   Substack: Navigating to import page...
 [2026-04-11 20:05:05]   Substack: ✗ Not logged in. Run with --login first.
 [2026-04-11 20:05:05] Done with 3 failure(s).
+[2026-04-12 20:00:02] Fetching RSS feeds: 2 source(s)
+[2026-04-12 20:00:07] Found 410 posts in feed.
+[2026-04-12 20:00:07] 266 post(s) to process.
+[2026-04-12 20:00:07] Medium: 9 post(s) to import.
+[2026-04-12 20:00:32]   Medium: Found 207 published stories for dedup.
+[2026-04-12 20:00:32] Processing: I Quit Infinite Scrolling Cold Turkey. I Wasn’t Ready For This.
+[2026-04-12 20:00:32]   URL: https://signalreads.com/articles/i-quit-infinite-scrolling-cold-turkey-i-wasnt-read/
+[2026-04-12 20:00:32]   Medium: Navigating to import page...
+[2026-04-12 20:00:36]   Medium: Typed URL: https://signalreads.com/articles/i-quit-infinite-scrolling-cold-turkey-i-wasnt-read/
+[2026-04-12 20:00:40]   Medium: Clicked import button. Waiting for import...
+[2026-04-12 20:00:50]   Medium: Clicked 'See your story'.
+[2026-04-12 20:01:00]   Medium: Opened publish dialog.
+[2026-04-12 20:01:03]   Medium: Could not find topic input — skipping topics.
+[2026-04-12 20:01:04]   Medium: Could not find final publish button.
+[2026-04-12 20:01:04]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-12 20:01:07] Processing: I Tracked 100 GOP Pundits for 72 Hours. Nobody Saw This Coming.
+[2026-04-12 20:01:07]   URL: https://signalreads.com/articles/i-tracked-100-gop-pundits-for-72-hours-nobody-saw-/
+[2026-04-12 20:01:07]   Medium: Navigating to import page...
+[2026-04-12 20:01:11]   Medium: Typed URL: https://signalreads.com/articles/i-tracked-100-gop-pundits-for-72-hours-nobody-saw-/
+[2026-04-12 20:01:14]   Medium: Clicked import button. Waiting for import...
+[2026-04-12 20:01:24]   Medium: Clicked 'See your story'.
+[2026-04-12 20:01:35]   Medium: Opened publish dialog.
+[2026-04-12 20:01:38]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-12 20:01:42] Processing: Nobody Talks About the Uganda Chimp War. It’s Actually Worse Than You Think.
+[2026-04-12 20:01:42]   URL: https://signalreads.com/articles/nobody-talks-about-the-uganda-chimp-war-its-actual/
+[2026-04-12 20:01:42]   Medium: Navigating to import page...
+[2026-04-12 20:01:45]   Medium: Typed URL: https://signalreads.com/articles/nobody-talks-about-the-uganda-chimp-war-its-actual/
+[2026-04-12 20:01:49]   Medium: Clicked import button. Waiting for import...
+[2026-04-12 20:02:00]   Medium: Clicked 'See your story'.
+[2026-04-12 20:02:10]   Medium: Opened publish dialog.
+[2026-04-12 20:02:13]   Medium: Could not find topic input — skipping topics.
+[2026-04-12 20:02:14]   Medium: Could not find final publish button.
+[2026-04-12 20:02:14]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-12 20:02:17] Processing: Claude Mythos is Actually Too Dangerous. I Wasn’t Ready For This.
+[2026-04-12 20:02:17]   URL: https://signalreads.com/articles/claude-mythos-is-actually-too-dangerous-i-wasnt-re/
+[2026-04-12 20:02:17]   Medium: Navigating to import page...
+[2026-04-12 20:02:20]   Medium: Typed URL: https://signalreads.com/articles/claude-mythos-is-actually-too-dangerous-i-wasnt-re/
+[2026-04-12 20:02:25]   Medium: Clicked import button. Waiting for import...
+[2026-04-12 20:02:35]   Medium: Clicked 'See your story'.
+[2026-04-12 20:02:45]   Medium: Opened publish dialog.
+[2026-04-12 20:02:49]   Medium: Could not find topic input — skipping topics.
+[2026-04-12 20:02:50]   Medium: Could not find final publish button.
+[2026-04-12 20:02:50]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-12 20:02:53] Processing: I Audited 6 Months of AI PRs. It’s Actually Worse Than You Think.
+[2026-04-12 20:02:53]   URL: https://signalreads.com/articles/i-audited-6-months-of-ai-prs-its-actually-worse-th/
+[2026-04-12 20:02:53]   Medium: Navigating to import page...
+[2026-04-12 20:02:56]   Medium: Typed URL: https://signalreads.com/articles/i-audited-6-months-of-ai-prs-its-actually-worse-th/
+[2026-04-12 20:03:00]   Medium: Clicked import button. Waiting for import...
+[2026-04-12 20:03:10]   Medium: Clicked 'See your story'.
+[2026-04-12 20:03:20]   Medium: Opened publish dialog.
+[2026-04-12 20:03:23]   Medium: Could not find topic input — skipping topics.
+[2026-04-12 20:03:24]   Medium: Could not find final publish button.
+[2026-04-12 20:03:24]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-12 20:03:27] Processing: Small Models Just Quietly Exposed Mythos. It’s Worse Than You Think.
+[2026-04-12 20:03:27]   URL: https://signalreads.com/articles/small-models-just-quietly-exposed-mythos-its-worse/
+[2026-04-12 20:03:27]   Medium: Navigating to import page...
+[2026-04-12 20:03:31]   Medium: Typed URL: https://signalreads.com/articles/small-models-just-quietly-exposed-mythos-its-worse/
+[2026-04-12 20:03:35]   Medium: Clicked import button. Waiting for import...
+[2026-04-12 20:03:45]   Medium: Clicked 'See your story'.
+[2026-04-12 20:03:55]   Medium: Opened publish dialog.
+[2026-04-12 20:03:59]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-12 20:04:03] Processing: Why Iranians Are Actually Done With Greta. Nobody Saw This Coming.
+[2026-04-12 20:04:03]   URL: https://signalreads.com/articles/why-iranians-are-actually-done-with-greta-nobody-s/
+[2026-04-12 20:04:03]   Medium: Navigating to import page...
+[2026-04-12 20:04:06]   Medium: Typed URL: https://signalreads.com/articles/why-iranians-are-actually-done-with-greta-nobody-s/
+[2026-04-12 20:04:10]   Medium: Clicked import button. Waiting for import...
+[2026-04-12 20:04:20]   Medium: Clicked 'See your story'.
+[2026-04-12 20:04:30]   Medium: Opened publish dialog.
+[2026-04-12 20:04:33]   Medium: Could not find topic input — skipping topics.
+[2026-04-12 20:04:34]   Medium: Could not find final publish button.
+[2026-04-12 20:04:34]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-12 20:04:37] Processing: Artemis II Just Quietly Splashed Down. It's Not What You Think
+[2026-04-12 20:04:37]   URL: https://signalreads.com/articles/artemis-ii-just-quietly-splashed-down-its-not-what/
+[2026-04-12 20:04:37]   Medium: Navigating to import page...
+[2026-04-12 20:04:41]   Medium: Typed URL: https://signalreads.com/articles/artemis-ii-just-quietly-splashed-down-its-not-what/
+[2026-04-12 20:04:44]   Medium: Clicked import button. Waiting for import...
+[2026-04-12 20:04:54]   Medium: Clicked 'See your story'.
+[2026-04-12 20:05:04]   Medium: Opened publish dialog.
+[2026-04-12 20:05:08]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-12 20:05:11] Processing: Stop Ignoring the Strait Warning. It’s Actually Worse Than You Think.
+[2026-04-12 20:05:11]   URL: https://signalreads.com/articles/stop-ignoring-the-strait-warning-its-actually-wors/
+[2026-04-12 20:05:11]   Medium: Navigating to import page...
+[2026-04-12 20:05:15]   Medium: Typed URL: https://signalreads.com/articles/stop-ignoring-the-strait-warning-its-actually-wors/
+[2026-04-12 20:05:18]   Medium: Clicked import button. Waiting for import...
+[2026-04-12 20:05:28]   Medium: Clicked 'See your story'.
+[2026-04-12 20:05:38]   Medium: Opened publish dialog.
+[2026-04-12 20:05:41]   Medium: Could not find topic input — skipping topics.
+[2026-04-12 20:05:42]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-12 20:05:45] Substack: 266 post(s) in feed — checking for duplicates...
+[2026-04-12 20:05:54]   Substack: Found 0 published posts for dedup.
+[2026-04-12 20:05:54]   Substack: 266 genuinely new post(s) — importing via RSS...
+[2026-04-12 20:05:54]   Substack: Navigating to import page...
+[2026-04-12 20:05:59]   Substack: ✗ Not logged in. Run with --login first.
+[2026-04-12 20:05:59] Done with 5 failure(s).
