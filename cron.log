@@ -7822,3 +7822,102 @@ Call log:
 [2026-04-13 20:07:09]   Substack: Navigating to import page...
 [2026-04-13 20:07:13]   Substack: ✗ Not logged in. Run with --login first.
 [2026-04-13 20:07:13] Done with 7 failure(s).
+[2026-04-14 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-04-14 20:00:07] Found 420 posts in feed.
+[2026-04-14 20:00:07] 276 post(s) to process.
+[2026-04-14 20:00:07] Medium: 10 post(s) to import.
+[2026-04-14 20:00:33]   Medium: Found 207 published stories for dedup.
+[2026-04-14 20:00:33] Processing: 99% of GenZ Just Quietly Quit the 18-42 Draft. I Wasn't Ready For This
+[2026-04-14 20:00:33]   URL: https://signalreads.com/articles/99-of-genz-just-quietly-quit-the-18-42-draft-i-was/
+[2026-04-14 20:00:33]   Medium: Navigating to import page...
+[2026-04-14 20:00:37]   Medium: Typed URL: https://signalreads.com/articles/99-of-genz-just-quietly-quit-the-18-42-draft-i-was/
+[2026-04-14 20:00:38]   Medium: Clicked import button. Waiting for import...
+[2026-04-14 20:01:48]   Medium: 'See your story' not found — import may still be processing.
+[2026-04-14 20:01:51] Processing: I Watched Justin Bieber’s Coachella Set. It’s Actually Worse Than You Think.
+[2026-04-14 20:01:51]   URL: https://signalreads.com/articles/i-watched-justin-biebers-coachella-set-its-actuall/
+[2026-04-14 20:01:51]   Medium: Navigating to import page...
+[2026-04-14 20:01:55]   Medium: Typed URL: https://signalreads.com/articles/i-watched-justin-biebers-coachella-set-its-actuall/
+[2026-04-14 20:02:00]   Medium: Clicked import button. Waiting for import...
+[2026-04-14 20:02:10]   Medium: Clicked 'See your story'.
+[2026-04-14 20:02:20]   Medium: Opened publish dialog.
+[2026-04-14 20:02:24]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-14 20:02:27] Processing: NYC Hospitals Just Banned Palantir. It’s Actually Worse Than You Think.
+[2026-04-14 20:02:27]   URL: https://signalreads.com/articles/nyc-hospitals-just-banned-palantir-its-actually-wo/
+[2026-04-14 20:02:27]   Medium: Navigating to import page...
+[2026-04-14 20:02:30]   Medium: Typed URL: https://signalreads.com/articles/nyc-hospitals-just-banned-palantir-its-actually-wo/
+[2026-04-14 20:02:35]   Medium: Clicked import button. Waiting for import...
+[2026-04-14 20:02:45]   Medium: Clicked 'See your story'.
+[2026-04-14 20:02:55]   Medium: Opened publish dialog.
+[2026-04-14 20:02:59]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-14 20:03:02] Processing: 30 WordPress Plugins Are Quietly Hacking You. It’s Worse Than You Think.
+[2026-04-14 20:03:02]   URL: https://signalreads.com/articles/30-wordpress-plugins-are-quietly-hacking-you-its-w/
+[2026-04-14 20:03:02]   Medium: Navigating to import page...
+[2026-04-14 20:03:05]   Medium: Typed URL: https://signalreads.com/articles/30-wordpress-plugins-are-quietly-hacking-you-its-w/
+[2026-04-14 20:03:10]   Medium: Clicked import button. Waiting for import...
+[2026-04-14 20:03:20]   Medium: Clicked 'See your story'.
+[2026-04-14 20:03:30]   Medium: Opened publish dialog.
+[2026-04-14 20:03:34]   Medium: Could not find topic input — skipping topics.
+[2026-04-14 20:03:35]   Medium: Could not find final publish button.
+[2026-04-14 20:03:35]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-14 20:03:38] Processing: Nobody Talks About the 4-Minute Bieber Coachella Secret. I Wasn't Ready.
+[2026-04-14 20:03:38]   URL: https://signalreads.com/articles/nobody-talks-about-the-4-minute-bieber-coachella-s/
+[2026-04-14 20:03:38]   Medium: Navigating to import page...
+[2026-04-14 20:03:41]   Medium: Typed URL: https://signalreads.com/articles/nobody-talks-about-the-4-minute-bieber-coachella-s/
+[2026-04-14 20:03:44]   Medium: Clicked import button. Waiting for import...
+[2026-04-14 20:03:54]   Medium: Clicked 'See your story'.
+[2026-04-14 20:04:04]   Medium: Opened publish dialog.
+[2026-04-14 20:04:08]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-14 20:04:11] Processing: I Tried a 5-Minute Morning Gratitude Rant. I Wasn’t Ready For This.
+[2026-04-14 20:04:11]   URL: https://signalreads.com/articles/i-tried-a-5-minute-morning-gratitude-rant-i-wasnt-/
+[2026-04-14 20:04:11]   Medium: Navigating to import page...
+[2026-04-14 20:04:15]   Medium: Typed URL: https://signalreads.com/articles/i-tried-a-5-minute-morning-gratitude-rant-i-wasnt-/
+[2026-04-14 20:04:18]   Medium: Clicked import button. Waiting for import...
+[2026-04-14 20:04:28]   Medium: Clicked 'See your story'.
+[2026-04-14 20:04:38]   Medium: Opened publish dialog.
+[2026-04-14 20:04:41]   Medium: Could not find topic input — skipping topics.
+[2026-04-14 20:04:42]   Medium: Could not find final publish button.
+[2026-04-14 20:04:42]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-14 20:04:45] Processing: Spain Just Quietly Blocked Docker For Football. It’s Not What You Think.
+[2026-04-14 20:04:45]   URL: https://signalreads.com/articles/spain-just-quietly-blocked-docker-for-football-its/
+[2026-04-14 20:04:45]   Medium: Navigating to import page...
+[2026-04-14 20:04:49]   Medium: Typed URL: https://signalreads.com/articles/spain-just-quietly-blocked-docker-for-football-its/
+[2026-04-14 20:04:52]   Medium: Clicked import button. Waiting for import...
+[2026-04-14 20:05:02]   Medium: Clicked 'See your story'.
+[2026-04-14 20:05:12]   Medium: Opened publish dialog.
+[2026-04-14 20:05:16]   Medium: Could not find topic input — skipping topics.
+[2026-04-14 20:05:17]   Medium: Could not find final publish button.
+[2026-04-14 20:05:17]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-14 20:05:20] Processing: I Tracked 100 GOP Pundits for 72 Hours. Nobody Saw This Coming.
+[2026-04-14 20:05:20]   URL: https://signalreads.com/articles/i-tracked-100-gop-pundits-for-72-hours-nobody-saw-/
+[2026-04-14 20:05:20]   Medium: Navigating to import page...
+[2026-04-14 20:05:23]   Medium: Typed URL: https://signalreads.com/articles/i-tracked-100-gop-pundits-for-72-hours-nobody-saw-/
+[2026-04-14 20:05:26]   Medium: Clicked import button. Waiting for import...
+[2026-04-14 20:05:36]   Medium: Clicked 'See your story'.
+[2026-04-14 20:05:46]   Medium: Opened publish dialog.
+[2026-04-14 20:05:49]   Medium: Could not find topic input — skipping topics.
+[2026-04-14 20:05:50]   Medium: Could not find final publish button.
+[2026-04-14 20:05:50]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-14 20:05:53] Processing: Small Models Just Quietly Exposed Mythos. It’s Worse Than You Think.
+[2026-04-14 20:05:53]   URL: https://signalreads.com/articles/small-models-just-quietly-exposed-mythos-its-worse/
+[2026-04-14 20:05:53]   Medium: Navigating to import page...
+[2026-04-14 20:05:57]   Medium: Typed URL: https://signalreads.com/articles/small-models-just-quietly-exposed-mythos-its-worse/
+[2026-04-14 20:06:00]   Medium: Clicked import button. Waiting for import...
+[2026-04-14 20:06:10]   Medium: Clicked 'See your story'.
+[2026-04-14 20:06:20]   Medium: Opened publish dialog.
+[2026-04-14 20:06:23]   Medium: Could not find topic input — skipping topics.
+[2026-04-14 20:06:24]   Medium: Could not find final publish button.
+[2026-04-14 20:06:25]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-14 20:06:28] Processing: Stop Ignoring the Strait Warning. It’s Actually Worse Than You Think.
+[2026-04-14 20:06:28]   URL: https://signalreads.com/articles/stop-ignoring-the-strait-warning-its-actually-wors/
+[2026-04-14 20:06:28]   Medium: Navigating to import page...
+[2026-04-14 20:06:31]   Medium: Typed URL: https://signalreads.com/articles/stop-ignoring-the-strait-warning-its-actually-wors/
+[2026-04-14 20:06:34]   Medium: Clicked import button. Waiting for import...
+[2026-04-14 20:06:44]   Medium: Clicked 'See your story'.
+[2026-04-14 20:06:54]   Medium: Opened publish dialog.
+[2026-04-14 20:06:58]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-14 20:07:01] Substack: 276 post(s) in feed — checking for duplicates...
+[2026-04-14 20:07:10]   Substack: Found 0 published posts for dedup.
+[2026-04-14 20:07:10]   Substack: 276 genuinely new post(s) — importing via RSS...
+[2026-04-14 20:07:10]   Substack: Navigating to import page...
+[2026-04-14 20:07:14]   Substack: ✗ Not logged in. Run with --login first.
+[2026-04-14 20:07:14] Done with 5 failure(s).
