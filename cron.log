@@ -8010,3 +8010,100 @@ Call log:
 [2026-04-15 20:06:48]   Substack: Navigating to import page...
 [2026-04-15 20:06:53]   Substack: ✗ Not logged in. Run with --login first.
 [2026-04-15 20:06:53] Done with 5 failure(s).
+[2026-04-16 20:00:02] Fetching RSS feeds: 2 source(s)
+[2026-04-16 20:00:07] Found 430 posts in feed.
+[2026-04-16 20:00:07] 286 post(s) to process.
+[2026-04-16 20:00:07] Medium: 9 post(s) to import.
+[2026-04-16 20:00:34]   Medium: Found 207 published stories for dedup.
+[2026-04-16 20:00:34] Processing: Stop chasing 8-hour days. This 5-minute secret quietly doubles your output.
+[2026-04-16 20:00:34]   URL: https://signalreads.com/articles/stop-chasing-8-hour-days-this-5-minute-secret-quie/
+[2026-04-16 20:00:34]   Medium: Navigating to import page...
+[2026-04-16 20:00:38]   Medium: Typed URL: https://signalreads.com/articles/stop-chasing-8-hour-days-this-5-minute-secret-quie/
+[2026-04-16 20:00:42]   Medium: Clicked import button. Waiting for import...
+[2026-04-16 20:00:52]   Medium: Clicked 'See your story'.
+[2026-04-16 20:01:02]   Medium: Opened publish dialog.
+[2026-04-16 20:01:06]   Medium: Could not find topic input — skipping topics.
+[2026-04-16 20:01:07]   Medium: Could not find final publish button.
+[2026-04-16 20:01:07]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-16 20:01:10] Processing: Stop Budgeting. This 5-Minute Secret Actually Fixed My Finances Forever.
+[2026-04-16 20:01:10]   URL: https://signalreads.com/articles/stop-budgeting-this-5-minute-secret-actually-fixed/
+[2026-04-16 20:01:10]   Medium: Navigating to import page...
+[2026-04-16 20:01:13]   Medium: Typed URL: https://signalreads.com/articles/stop-budgeting-this-5-minute-secret-actually-fixed/
+[2026-04-16 20:01:18]   Medium: Clicked import button. Waiting for import...
+[2026-04-16 20:01:28]   Medium: Clicked 'See your story'.
+[2026-04-16 20:01:38]   Medium: Opened publish dialog.
+[2026-04-16 20:01:41]   Medium: Could not find topic input — skipping topics.
+[2026-04-16 20:01:43]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-16 20:01:46] Processing: Stop Using Windows Like This. These 10 Secrets Quietly Changed My Whole Life.
+[2026-04-16 20:01:46]   URL: https://signalreads.com/articles/stop-using-windows-like-this-these-10-secrets-quie/
+[2026-04-16 20:01:46]   Medium: Navigating to import page...
+[2026-04-16 20:01:49]   Medium: Typed URL: https://signalreads.com/articles/stop-using-windows-like-this-these-10-secrets-quie/
+[2026-04-16 20:01:52]   Medium: Clicked import button. Waiting for import...
+[2026-04-16 20:02:02]   Medium: Clicked 'See your story'.
+[2026-04-16 20:02:13]   Medium: Opened publish dialog.
+[2026-04-16 20:02:16]   Medium: Could not find topic input — skipping topics.
+[2026-04-16 20:02:17]   Medium: Could not find final publish button.
+[2026-04-16 20:02:17]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-16 20:02:20] Processing: Google Just Quietly Ended Open Source AI. This Changes Everything.
+[2026-04-16 20:02:20]   URL: https://signalreads.com/articles/google-just-quietly-ended-open-source-ai-this-chan/
+[2026-04-16 20:02:20]   Medium: Navigating to import page...
+[2026-04-16 20:02:24]   Medium: Typed URL: https://signalreads.com/articles/google-just-quietly-ended-open-source-ai-this-chan/
+[2026-04-16 20:02:28]   Medium: Clicked import button. Waiting for import...
+[2026-04-16 20:02:38]   Medium: Clicked 'See your story'.
+[2026-04-16 20:02:49]   Medium: Opened publish dialog.
+[2026-04-16 20:02:52]   Medium: Could not find topic input — skipping topics.
+[2026-04-16 20:02:53]   Medium: Could not find final publish button.
+[2026-04-16 20:02:53]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-16 20:02:56] Processing: Stop Using VS Code. Cursor Just Proved Why. It’s Not What You Think.
+[2026-04-16 20:02:56]   URL: https://signalreads.com/articles/stop-using-vs-code-cursor-just-proved-why-its-not-/
+[2026-04-16 20:02:56]   Medium: Navigating to import page...
+[2026-04-16 20:03:00]   Medium: Typed URL: https://signalreads.com/articles/stop-using-vs-code-cursor-just-proved-why-its-not-/
+[2026-04-16 20:03:04]   Medium: Clicked import button. Waiting for import...
+[2026-04-16 20:03:14]   Medium: Clicked 'See your story'.
+[2026-04-16 20:03:24]   Medium: Opened publish dialog.
+[2026-04-16 20:03:27]   Medium: Could not find topic input — skipping topics.
+[2026-04-16 20:03:28]   Medium: Could not find final publish button.
+[2026-04-16 20:03:28]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-16 20:03:31] Processing: Stop Using ChatGPT. He Was Just Following Instructions. Nobody Saw This Coming.
+[2026-04-16 20:03:31]   URL: https://signalreads.com/articles/stop-using-chatgpt-he-was-just-following-instructi/
+[2026-04-16 20:03:31]   Medium: Navigating to import page...
+[2026-04-16 20:03:35]   Medium: Typed URL: https://signalreads.com/articles/stop-using-chatgpt-he-was-just-following-instructi/
+[2026-04-16 20:03:38]   Medium: Clicked import button. Waiting for import...
+[2026-04-16 20:03:48]   Medium: Clicked 'See your story'.
+[2026-04-16 20:03:58]   Medium: Opened publish dialog.
+[2026-04-16 20:04:01]   Medium: Could not find topic input — skipping topics.
+[2026-04-16 20:04:03]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-16 20:04:06] Processing: I Watched Justin Bieber’s Coachella Set. It’s Actually Worse Than You Think.
+[2026-04-16 20:04:06]   URL: https://signalreads.com/articles/i-watched-justin-biebers-coachella-set-its-actuall/
+[2026-04-16 20:04:06]   Medium: Navigating to import page...
+[2026-04-16 20:04:09]   Medium: Typed URL: https://signalreads.com/articles/i-watched-justin-biebers-coachella-set-its-actuall/
+[2026-04-16 20:04:12]   Medium: Clicked import button. Waiting for import...
+[2026-04-16 20:04:22]   Medium: Clicked 'See your story'.
+[2026-04-16 20:04:32]   Medium: Opened publish dialog.
+[2026-04-16 20:04:35]   Medium: Could not find topic input — skipping topics.
+[2026-04-16 20:04:36]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-16 20:04:39] Processing: NYC Hospitals Just Banned Palantir. It’s Actually Worse Than You Think.
+[2026-04-16 20:04:39]   URL: https://signalreads.com/articles/nyc-hospitals-just-banned-palantir-its-actually-wo/
+[2026-04-16 20:04:39]   Medium: Navigating to import page...
+[2026-04-16 20:04:43]   Medium: Typed URL: https://signalreads.com/articles/nyc-hospitals-just-banned-palantir-its-actually-wo/
+[2026-04-16 20:04:46]   Medium: Clicked import button. Waiting for import...
+[2026-04-16 20:04:56]   Medium: Clicked 'See your story'.
+[2026-04-16 20:05:06]   Medium: Opened publish dialog.
+[2026-04-16 20:05:10]   Medium: Could not find topic input — skipping topics.
+[2026-04-16 20:05:11]   Medium: Could not find final publish button.
+[2026-04-16 20:05:11]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-16 20:05:14] Processing: Stop Ignoring the Strait Warning. It’s Actually Worse Than You Think.
+[2026-04-16 20:05:14]   URL: https://signalreads.com/articles/stop-ignoring-the-strait-warning-its-actually-wors/
+[2026-04-16 20:05:14]   Medium: Navigating to import page...
+[2026-04-16 20:05:17]   Medium: Typed URL: https://signalreads.com/articles/stop-ignoring-the-strait-warning-its-actually-wors/
+[2026-04-16 20:05:20]   Medium: Clicked import button. Waiting for import...
+[2026-04-16 20:05:30]   Medium: Clicked 'See your story'.
+[2026-04-16 20:05:40]   Medium: Opened publish dialog.
+[2026-04-16 20:05:44]   Medium: Could not find topic input — skipping topics.
+[2026-04-16 20:05:45]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-16 20:05:48] Substack: 286 post(s) in feed — checking for duplicates...
+[2026-04-16 20:05:57]   Substack: Found 0 published posts for dedup.
+[2026-04-16 20:05:57]   Substack: 286 genuinely new post(s) — importing via RSS...
+[2026-04-16 20:05:57]   Substack: Navigating to import page...
+[2026-04-16 20:06:02]   Substack: ✗ Not logged in. Run with --login first.
+[2026-04-16 20:06:02] Done with 5 failure(s).
