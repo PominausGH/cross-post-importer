@@ -8203,3 +8203,100 @@ Call log:
 [2026-04-17 20:07:13]   Substack: Navigating to import page...
 [2026-04-17 20:07:18]   Substack: ✗ Not logged in. Run with --login first.
 [2026-04-17 20:07:18] Done with 7 failure(s).
+[2026-04-18 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-04-18 20:00:08] Found 440 posts in feed.
+[2026-04-18 20:00:08] 296 post(s) to process.
+[2026-04-18 20:00:08] Medium: 12 post(s) to import.
+[2026-04-18 20:00:34]   Medium: Found 207 published stories for dedup.
+[2026-04-18 20:00:34] Processing: Nobody Talks About These 10 Windows Apps. They Actually Change Everything.
+[2026-04-18 20:00:34]   URL: https://signalreads.com/articles/nobody-talks-about-these-10-windows-apps-they-actu/
+[2026-04-18 20:00:34]   Medium: Navigating to import page...
+[2026-04-18 20:00:38]   Medium: Typed URL: https://signalreads.com/articles/nobody-talks-about-these-10-windows-apps-they-actu/
+[2026-04-18 20:00:43]   Medium: Clicked import button. Waiting for import...
+[2026-04-18 20:00:53]   Medium: Clicked 'See your story'.
+[2026-04-18 20:01:03]   Medium: Opened publish dialog.
+[2026-04-18 20:01:07]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-18 20:01:11] Processing: Claude 4.7 Just Quietly Changed the Math. It’s Worse Than You Think.
+[2026-04-18 20:01:11]   URL: https://signalreads.com/articles/claude-47-just-quietly-changed-the-math-its-worse-/
+[2026-04-18 20:01:11]   Medium: Navigating to import page...
+[2026-04-18 20:01:15]   Medium: Typed URL: https://signalreads.com/articles/claude-47-just-quietly-changed-the-math-its-worse-/
+[2026-04-18 20:01:19]   Medium: Clicked import button. Waiting for import...
+[2026-04-18 20:01:29]   Medium: Clicked 'See your story'.
+[2026-04-18 20:01:39]   Medium: Opened publish dialog.
+[2026-04-18 20:01:43]   Medium: Could not find topic input — skipping topics.
+[2026-04-18 20:01:44]   Medium: Could not find final publish button.
+[2026-04-18 20:01:44]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-18 20:01:47] Processing: I Tested Claude Design vs Figma. One of Them Isn't Coming Back.
+[2026-04-18 20:01:47]   URL: https://signalreads.com/articles/i-tested-claude-design-vs-figma-one-of-them-isnt-c/
+[2026-04-18 20:01:47]   Medium: Navigating to import page...
+[2026-04-18 20:01:50]   Medium: Typed URL: https://signalreads.com/articles/i-tested-claude-design-vs-figma-one-of-them-isnt-c/
+[2026-04-18 20:01:55]   Medium: Clicked import button. Waiting for import...
+[2026-04-18 20:02:05]   Medium: Clicked 'See your story'.
+[2026-04-18 20:02:15]   Medium: Opened publish dialog.
+[2026-04-18 20:02:18]   Medium: Could not find topic input — skipping topics.
+[2026-04-18 20:02:19]   Medium: Could not find final publish button.
+[2026-04-18 20:02:19]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-18 20:02:22] Processing: Your Phone Is Quietly Selling Your Every Step. It’s Worse Than You Think.
+[2026-04-18 20:02:22]   URL: https://signalreads.com/articles/your-phone-is-quietly-selling-your-every-step-its-/
+[2026-04-18 20:02:22]   Medium: Navigating to import page...
+[2026-04-18 20:02:26]   Medium: Typed URL: https://signalreads.com/articles/your-phone-is-quietly-selling-your-every-step-its-/
+[2026-04-18 20:02:31]   Medium: Clicked import button. Waiting for import...
+[2026-04-18 20:02:41]   Medium: Clicked 'See your story'.
+[2026-04-18 20:02:51]   Medium: Opened publish dialog.
+[2026-04-18 20:02:54]   Medium: Could not find topic input — skipping topics.
+[2026-04-18 20:02:55]   Medium: Could not find final publish button.
+[2026-04-18 20:02:55]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-18 20:02:58] Processing: Asimov Actually Predicted AI's Final Form In 1956. This Changes Everything.
+[2026-04-18 20:02:58]   URL: https://signalreads.com/articles/asimov-actually-predicted-ais-final-form-in-1956-t/
+[2026-04-18 20:02:58]   Medium: Navigating to import page...
+[2026-04-18 20:03:02]   Medium: Typed URL: https://signalreads.com/articles/asimov-actually-predicted-ais-final-form-in-1956-t/
+[2026-04-18 20:03:06]   Medium: Clicked import button. Waiting for import...
+[2026-04-18 20:03:16]   Medium: Clicked 'See your story'.
+[2026-04-18 20:03:26]   Medium: Opened publish dialog.
+[2026-04-18 20:03:29]   Medium: Could not find topic input — skipping topics.
+[2026-04-18 20:03:30]   Medium: Could not find final publish button.
+[2026-04-18 20:03:30]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-18 20:03:33] Processing: Stop Tracking Your Money. This 4-Minute Secret Actually Changes Everything.
+[2026-04-18 20:03:33]   URL: https://signalreads.com/articles/stop-tracking-your-money-this-4-minute-secret-actu/
+[2026-04-18 20:03:33]   Medium: Navigating to import page...
+[2026-04-18 20:03:37]   Medium: Typed URL: https://signalreads.com/articles/stop-tracking-your-money-this-4-minute-secret-actu/
+[2026-04-18 20:03:42]   Medium: Clicked import button. Waiting for import...
+[2026-04-18 20:03:52]   Medium: Clicked 'See your story'.
+[2026-04-18 20:04:02]   Medium: Opened publish dialog.
+[2026-04-18 20:04:06]   Medium: Could not find topic input — skipping topics.
+[2026-04-18 20:04:07]   Medium: Could not find final publish button.
+[2026-04-18 20:04:07]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-18 20:04:10] Processing: Stop Using Windows Without These 10 Secret Apps. You've Been Doing It Wrong.
+[2026-04-18 20:04:10]   URL: https://signalreads.com/articles/stop-using-windows-without-these-10-secret-apps-yo/
+[2026-04-18 20:04:10]   Medium: Navigating to import page...
+[2026-04-18 20:04:14]   Medium: Typed URL: https://signalreads.com/articles/stop-using-windows-without-these-10-secret-apps-yo/
+[2026-04-18 20:04:17]   Medium: Clicked import button. Waiting for import...
+[2026-04-18 20:04:27]   Medium: Clicked 'See your story'.
+[2026-04-18 20:04:37]   Medium: Opened publish dialog.
+[2026-04-18 20:04:40]   Medium: Could not find topic input — skipping topics.
+[2026-04-18 20:04:41]   Medium: Could not find final publish button.
+[2026-04-18 20:04:41]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-18 20:04:44] Processing: Stop Using Google. They Quietly Handed My Data to ICE. I Wasn't Ready For This.
+[2026-04-18 20:04:44]   URL: https://signalreads.com/articles/stop-using-google-they-quietly-handed-my-data-to-i/
+[2026-04-18 20:04:44]   Medium: Navigating to import page...
+[2026-04-18 20:04:48]   Medium: Typed URL: https://signalreads.com/articles/stop-using-google-they-quietly-handed-my-data-to-i/
+[2026-04-18 20:04:51]   Medium: Clicked import button. Waiting for import...
+[2026-04-18 20:05:01]   Medium: Clicked 'See your story'.
+[2026-04-18 20:05:11]   Medium: Opened publish dialog.
+[2026-04-18 20:05:15]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-18 20:05:18] Processing: Stop Budgeting. This 5-Minute Secret Actually Fixed My Finances Forever.
+[2026-04-18 20:05:18]   URL: https://signalreads.com/articles/stop-budgeting-this-5-minute-secret-actually-fixed/
+[2026-04-18 20:05:18]   Medium: Navigating to import page...
+[2026-04-18 20:05:23]   Medium: Typed URL: https://signalreads.com/articles/stop-budgeting-this-5-minute-secret-actually-fixed/
+[2026-04-18 20:05:25]   Medium: Clicked import button. Waiting for import...
+[2026-04-18 20:05:35]   Medium: Clicked 'See your story'.
+[2026-04-18 20:05:45]   Medium: Opened publish dialog.
+[2026-04-18 20:05:50]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-18 20:05:53] Processing: Stop Using ChatGPT. He Was Just Following Instructions. Nobody Saw This Coming.
+[2026-04-18 20:05:53]   URL: https://signalreads.com/articles/stop-using-chatgpt-he-was-just-following-instructi/
+[2026-04-18 20:05:53]   Medium: Navigating to import page...
+[2026-04-18 20:05:57]   Medium: Typed URL: https://signalreads.com/articles/stop-using-chatgpt-he-was-just-following-instructi/
+[2026-04-18 20:06:01]   Medium: Clicked import button. Waiting for import...
+[2026-04-18 20:06:11]   Medium: Clicked 'See your story'.
+[2026-04-18 20:06:21]   Medium: Opened publish dialog.
+[2026-04-18 20:06:24]   Medium: Could not find topic input — skipping topics.
