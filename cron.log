@@ -8300,3 +8300,29 @@ Call log:
 [2026-04-18 20:06:11]   Medium: Clicked 'See your story'.
 [2026-04-18 20:06:21]   Medium: Opened publish dialog.
 [2026-04-18 20:06:24]   Medium: Could not find topic input — skipping topics.
+[2026-04-18 20:06:25]   Medium: Could not find final publish button.
+[2026-04-18 20:06:25]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-18 20:06:28] Processing: I Watched Justin Bieber’s Coachella Set. It’s Actually Worse Than You Think.
+[2026-04-18 20:06:28]   URL: https://signalreads.com/articles/i-watched-justin-biebers-coachella-set-its-actuall/
+[2026-04-18 20:06:28]   Medium: Navigating to import page...
+[2026-04-18 20:06:32]   Medium: Typed URL: https://signalreads.com/articles/i-watched-justin-biebers-coachella-set-its-actuall/
+[2026-04-18 20:06:35]   Medium: Clicked import button. Waiting for import...
+[2026-04-18 20:06:45]   Medium: Clicked 'See your story'.
+[2026-04-18 20:06:55]   Medium: Opened publish dialog.
+[2026-04-18 20:06:59]   Medium: Could not find topic input — skipping topics.
+[2026-04-18 20:07:00]   Medium: Could not find final publish button.
+[2026-04-18 20:07:00]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-18 20:07:03] Processing: Stop Ignoring the Strait Warning. It’s Actually Worse Than You Think.
+[2026-04-18 20:07:03]   URL: https://signalreads.com/articles/stop-ignoring-the-strait-warning-its-actually-wors/
+[2026-04-18 20:07:03]   Medium: Navigating to import page...
+[2026-04-18 20:07:07]   Medium: Typed URL: https://signalreads.com/articles/stop-ignoring-the-strait-warning-its-actually-wors/
+[2026-04-18 20:07:10]   Medium: Clicked import button. Waiting for import...
+[2026-04-18 20:07:20]   Medium: Clicked 'See your story'.
+[2026-04-18 20:07:30]   Medium: Opened publish dialog.
+[2026-04-18 20:07:34]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-18 20:07:37] Substack: 296 post(s) in feed — checking for duplicates...
+[2026-04-18 20:07:45]   Substack: Found 0 published posts for dedup.
+[2026-04-18 20:07:45]   Substack: 296 genuinely new post(s) — importing via RSS...
+[2026-04-18 20:07:45]   Substack: Navigating to import page...
+[2026-04-18 20:07:49]   Substack: ✗ Not logged in. Run with --login first.
+[2026-04-18 20:07:49] Done with 5 failure(s).
