@@ -8535,3 +8535,32 @@ Call log:
 [2026-04-21 20:03:05]   Substack: Navigating to import page...
 [2026-04-21 20:03:09]   Substack: ✗ Not logged in. Run with --login first.
 [2026-04-21 20:03:09] Done with 2 failure(s).
+[2026-04-22 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-04-22 20:00:07] Found 450 posts in feed.
+[2026-04-22 20:00:07] 306 post(s) to process.
+[2026-04-22 20:00:07] Medium: 2 post(s) to import.
+[2026-04-22 20:00:37]   Medium: Found 207 published stories for dedup.
+[2026-04-22 20:00:37] Processing: ChatGPT Images 2.0 Just Changed Everything. I Wasn't Ready For This.
+[2026-04-22 20:00:37]   URL: https://signalreads.com/articles/chatgpt-images-20-just-changed-everything-i-wasnt-/
+[2026-04-22 20:00:37]   Medium: Navigating to import page...
+[2026-04-22 20:00:41]   Medium: Typed URL: https://signalreads.com/articles/chatgpt-images-20-just-changed-everything-i-wasnt-/
+[2026-04-22 20:00:46]   Medium: Clicked import button. Waiting for import...
+[2026-04-22 20:00:56]   Medium: Clicked 'See your story'.
+[2026-04-22 20:01:06]   Medium: Opened publish dialog.
+[2026-04-22 20:01:10]   Medium: Could not find topic input — skipping topics.
+[2026-04-22 20:01:11]   Medium: Could not find final publish button.
+[2026-04-22 20:01:11]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-22 20:01:14] Processing: Vercel Just Quietly Leaked Your Secrets. It's Worse Than You Think.
+[2026-04-22 20:01:14]   URL: https://signalreads.com/articles/vercel-just-quietly-leaked-your-secrets-its-worse-/
+[2026-04-22 20:01:14]   Medium: Navigating to import page...
+[2026-04-22 20:01:18]   Medium: Typed URL: https://signalreads.com/articles/vercel-just-quietly-leaked-your-secrets-its-worse-/
+[2026-04-22 20:01:22]   Medium: Clicked import button. Waiting for import...
+[2026-04-22 20:01:32]   Medium: Clicked 'See your story'.
+[2026-04-22 20:01:42]   Medium: Opened publish dialog.
+[2026-04-22 20:01:46]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-22 20:01:49] Substack: 306 post(s) in feed — checking for duplicates...
+[2026-04-22 20:01:57]   Substack: Found 0 published posts for dedup.
+[2026-04-22 20:01:57]   Substack: 306 genuinely new post(s) — importing via RSS...
+[2026-04-22 20:01:57]   Substack: Navigating to import page...
+[2026-04-22 20:02:01]   Substack: ✗ Not logged in. Run with --login first.
+[2026-04-22 20:02:01] Done with 2 failure(s).
