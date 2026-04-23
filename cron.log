@@ -8564,3 +8564,52 @@ Call log:
 [2026-04-22 20:01:57]   Substack: Navigating to import page...
 [2026-04-22 20:02:01]   Substack: ✗ Not logged in. Run with --login first.
 [2026-04-22 20:02:01] Done with 2 failure(s).
+[2026-04-23 20:00:01] Fetching RSS feeds: 2 source(s)
+[2026-04-23 20:00:05] Found 453 posts in feed.
+[2026-04-23 20:00:05] 309 post(s) to process.
+[2026-04-23 20:00:05] Medium: 4 post(s) to import.
+[2026-04-23 20:00:28]   Medium: Found 196 published stories for dedup.
+[2026-04-23 20:00:28] Processing: Stop Using GPT-5. Qwen3.6 Just Proved 27B Is Actually All You Need.
+[2026-04-23 20:00:28]   URL: https://signalreads.com/articles/stop-using-gpt-4o-qwen36-just-proved-27b-is-actual/
+[2026-04-23 20:00:28]   Medium: Navigating to import page...
+[2026-04-23 20:00:32]   Medium: Typed URL: https://signalreads.com/articles/stop-using-gpt-4o-qwen36-just-proved-27b-is-actual/
+[2026-04-23 20:00:38]   Medium: Clicked import button. Waiting for import...
+[2026-04-23 20:00:48]   Medium: Clicked 'See your story'.
+[2026-04-23 20:00:58]   Medium: Opened publish dialog.
+[2026-04-23 20:01:02]   Medium: ✗ Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-04-23 20:01:05] Processing: Stop Buying Smart Tractors. This 50% Cheaper Secret Changes Everything
+[2026-04-23 20:01:05]   URL: https://signalreads.com/articles/stop-buying-smart-tractors-this-50-cheaper-secret-/
+[2026-04-23 20:01:05]   Medium: Navigating to import page...
+[2026-04-23 20:01:09]   Medium: Typed URL: https://signalreads.com/articles/stop-buying-smart-tractors-this-50-cheaper-secret-/
+[2026-04-23 20:01:13]   Medium: Clicked import button. Waiting for import...
+[2026-04-23 20:01:23]   Medium: Clicked 'See your story'.
+[2026-04-23 20:01:33]   Medium: Opened publish dialog.
+[2026-04-23 20:01:37]   Medium: Could not find topic input — skipping topics.
+[2026-04-23 20:01:38]   Medium: Could not find final publish button.
+[2026-04-23 20:01:38]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-23 20:01:41] Processing: Stop Buying MacBooks. Framework Just Proved Why. I Wasn't Ready For This.
+[2026-04-23 20:01:41]   URL: https://signalreads.com/articles/stop-buying-macbooks-framework-just-proved-why-i-w/
+[2026-04-23 20:01:41]   Medium: Navigating to import page...
+[2026-04-23 20:01:44]   Medium: Typed URL: https://signalreads.com/articles/stop-buying-macbooks-framework-just-proved-why-i-w/
+[2026-04-23 20:01:49]   Medium: Clicked import button. Waiting for import...
+[2026-04-23 20:01:59]   Medium: Clicked 'See your story'.
+[2026-04-23 20:02:10]   Medium: Opened publish dialog.
+[2026-04-23 20:02:13]   Medium: Could not find topic input — skipping topics.
+[2026-04-23 20:02:14]   Medium: Could not find final publish button.
+[2026-04-23 20:02:14]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-23 20:02:17] Processing: Vercel Just Quietly Leaked Your Secrets. It's Worse Than You Think.
+[2026-04-23 20:02:17]   URL: https://signalreads.com/articles/vercel-just-quietly-leaked-your-secrets-its-worse-/
+[2026-04-23 20:02:17]   Medium: Navigating to import page...
+[2026-04-23 20:02:21]   Medium: Typed URL: https://signalreads.com/articles/vercel-just-quietly-leaked-your-secrets-its-worse-/
+[2026-04-23 20:02:26]   Medium: Clicked import button. Waiting for import...
+[2026-04-23 20:02:36]   Medium: Clicked 'See your story'.
+[2026-04-23 20:02:46]   Medium: Opened publish dialog.
+[2026-04-23 20:02:49]   Medium: Could not find topic input — skipping topics.
+[2026-04-23 20:02:50]   Medium: Could not find final publish button.
+[2026-04-23 20:02:50]   Medium: ✓ Import complete (screenshot saved for verification).
+[2026-04-23 20:02:53] Substack: 309 post(s) in feed — checking for duplicates...
+[2026-04-23 20:03:02]   Substack: Found 0 published posts for dedup.
+[2026-04-23 20:03:02]   Substack: 309 genuinely new post(s) — importing via RSS...
+[2026-04-23 20:03:02]   Substack: Navigating to import page...
+[2026-04-23 20:03:06]   Substack: ✗ Not logged in. Run with --login first.
+[2026-04-23 20:03:06] Done with 2 failure(s).
